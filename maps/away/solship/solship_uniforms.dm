@@ -48,7 +48,7 @@
 	dress_gloves = /obj/item/clothing/gloves/white
 	dress_extra = list(/obj/item/clothing/head/beret/solgov/fleet/dress)
 
-decl/hierarchy/mil_uniform/fleet/com //Can only be officers
+/decl/hierarchy/mil_uniform/fleet/com //Can only be officers
 	name = "Fleet command"
 	departments = COM
 

@@ -58,7 +58,7 @@
 /obj/item/paper/solinf
 	name = "note"
 	info = {"
- <center><solcrest>
+<center><solcrest>
 <b>Центральное командование Пограничного Фронта ЛК-31 ЦПСС</b></center>
 <hr>
 Ваше судно уже два месяца не приносит никаких результатов, поэтому с сожалением сообщаем, что платы в консолях Texas-Red были реквизированы для более приоритетных объектов.
@@ -68,8 +68,8 @@
 <i>This paper has been stamped with the stamp of SCG LC-31 Central Command.</i>
 "}
 
- /obj/item/rig/military/sol
- 	name = "SCG hardsuit control module"
+/obj/item/rig/military/sol
+	name = "SCG hardsuit control module"
 	desc = "A sleek and dangerous hardsuit for active combat."
 	armor = list(
 		melee = ARMOR_MELEE_VERY_HIGH,

@@ -249,7 +249,7 @@ proc/virology_letterhead(var/report_name)
 		<center><h1><b>[report_name]</b></h1></center>
 		<center><small><i>[station_name()] Virology Lab</i></small></center>
 		<hr>
-"}
+	"}
 
 /datum/disease2/disease/proc/can_add_symptom(type)
 	for(var/datum/disease2/effect/H in effects)

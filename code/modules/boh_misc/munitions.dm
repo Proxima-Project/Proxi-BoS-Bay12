@@ -87,9 +87,9 @@
 	armor_penetration = 65 //not 100, because recoilless rifles don't have that high of a velocity
 	damage_flags = DAMAGE_FLAG_EDGE | DAMAGE_FLAG_DISPERSED | DAMAGE_FLAG_EXPLODE
 
-	on_hit(var/atom/target, var/blocked = 0)
-		explosion(target, 0, 1, 6, 12)
-		return 1
+/obj/item/projectile/bullet/rcr/on_hit(var/atom/target, var/blocked = 0)
+	explosion(target, 0, 1, 6, 12)
+	return 1
 
 /////////
 // EPP Projectile

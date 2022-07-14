@@ -870,8 +870,8 @@
 		switch(name)
 			if ("health_threshold_dead")
 				health_threshold_dead = value
-				if("revival_cloning") //vesta
-					config.revival_cloning = value
+			if("revival_cloning") //vesta
+				config.revival_cloning = value
 			if ("revival_brain_life")
 				revival_brain_life = value
 			if ("organ_health_multiplier")

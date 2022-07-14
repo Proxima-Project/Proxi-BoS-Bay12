@@ -7,7 +7,7 @@
 	display_name = "crowbar"
 	path = /obj/item/crowbar
 
-datum/gear/utility/crayonmre
+/datum/gear/utility/crayonmre
 	display_name = "Crayon MRE"
 	cost = 26
 	path = /obj/item/storage/mre/menu11

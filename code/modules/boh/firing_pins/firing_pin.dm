@@ -9,6 +9,7 @@
 	var/can_overwrite = TRUE
 
 /obj/item/firing_pin/Initialize()
+	. = ..()
 	update_icon()
 
 /obj/item/firing_pin/on_update_icon()
@@ -21,7 +22,3 @@
 
 /obj/item/firing_pin/proc/on_auth_fail(var/mob/user) //Called when authorization fails, can be used to make any number of fun effects.
 	return
-
-
-
-

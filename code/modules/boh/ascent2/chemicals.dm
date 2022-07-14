@@ -30,11 +30,10 @@
 			M.add_chemical_effect(CE_PULSE, -2)
 
 //beaker
-/obj/item/reagent_containers/glass/beaker/cryobromide
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/cryobromide, 60)
-		update_icon()
+/obj/item/reagent_containers/glass/beaker/cryobromide/New()
+	. = ..()
+	reagents.add_reagent(/datum/reagent/cryobromide, 60)
+	update_icon()
 
 /////////
 // General Healing
