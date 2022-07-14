@@ -474,7 +474,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/skrell_shotgun
 	bulk = GUN_BULK_RIFLE
 	handle_casings = CLEAR_CASINGS
-	firemodes = list()
+	init_firemodes = list()
 
 /obj/item/gun/projectile/automatic/skrell/on_update_icon()
 	..()

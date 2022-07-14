@@ -33,11 +33,11 @@
 	jam_chance = 2
 	req_access = list(access_hop)
 	authorized_modes = list(UNAUTHORIZED)
-	firemodes = list(
-		list(mode_name="semi auto",       burst=1,    fire_delay=null,    move_delay=null, use_launcher=null, one_hand_penalty=8, burst_accuracy=null, dispersion=null),
-		list(mode_name="bump fire", burst=2, fire_delay=null, move_delay=2,    one_hand_penalty=8, burst_accuracy=list(0,-1,-1),       dispersion=list(0.0, 0.6, 1.0)),
-		list(mode_name="3-round bursts", burst=3,    fire_delay=null, move_delay=6,    use_launcher=null, one_hand_penalty=9, burst_accuracy=list(0,-1,-1), dispersion=list(0.0, 0.6, 1.0)),
-		list(mode_name="fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10, burst_accuracy=null, dispersion=null)
+	init_firemodes = list(
+		list(mode_name="semi auto",       burst=1,    fire_delay=null,    move_delay=null, use_launcher=null, one_hand_penalty=8, burst_accuracy=null),
+		list(mode_name="bump fire", burst=2, fire_delay=null, move_delay=2,    one_hand_penalty=8, burst_accuracy=list(0,-1,-1)),
+		list(mode_name="3-round bursts", burst=3,    fire_delay=null, move_delay=6,    use_launcher=null, one_hand_penalty=9, burst_accuracy=list(0,-1,-1)),
+		list(mode_name="fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10, burst_accuracy=null)
 		)
 
 //sec proper
@@ -47,9 +47,9 @@
 	Because of the limited fire-rate, and how the mechanism functions, it has a much higher jam rate."
 	jam_chance = 8 //You're my little pogchamp, security.
 	req_access = list(access_brig)
-	firemodes = list(
-		list(mode_name="semi auto",       burst=1,    fire_delay=null,    move_delay=null, use_launcher=null, one_hand_penalty=8, burst_accuracy=null, dispersion=null),
-		list(mode_name="fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10, burst_accuracy=null, dispersion=null)
+	init_firemodes = list(
+		list(mode_name="semi auto",       burst=1,    fire_delay=null,    move_delay=null, use_launcher=null, one_hand_penalty=8, burst_accuracy=null),
+		list(mode_name="fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10, burst_accuracy=null)
 		)
 //loaded
 /obj/item/gun/projectile/automatic/bullpup_rifle/sec/loaded
@@ -66,8 +66,8 @@
 	max_shots = 15
 	req_access = list(access_hop)
 	authorized_modes = list(UNAUTHORIZED)
-	firemodes = list(
-		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=4, burst_accuracy=null, dispersion=null),
+	init_firemodes = list(
+		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=4, burst_accuracy=null),
 		)
 
 //SL's
@@ -75,8 +75,8 @@
 	name = "G40C carbine"
 	max_shots = 18
 	desc = "A Hephaestus Industries G40C carbine, designed to kill with concentrated energy blasts. In comparison to its slighty older cousin, this features better handling, a tuned-down powercell and dispersion lense; along with a better fire-restriction system."
-	firemodes = list(
-		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=null),
+	init_firemodes = list(
+		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=2, burst_accuracy=null),
 		)
 
 /////////
@@ -90,9 +90,9 @@
 	req_access = list(access_hop)
 	authorized_modes = list(UNAUTHORIZED)
 
-	firemodes = list(
-		list(mode_name="semi auto",       burst=1, fire_delay=null,    move_delay=null, one_hand_penalty=6, burst_accuracy=null, dispersion=null),
-		list(mode_name="3-round bursts", burst=3, fire_delay=null, move_delay=4,    one_hand_penalty=8, burst_accuracy=list(0,-1,-1),       dispersion=list(0.0, 0.6, 1.0)),
+	init_firemodes = list(
+		list(mode_name="semi auto",       burst=1, fire_delay=null,    move_delay=null, one_hand_penalty=6, burst_accuracy=null),
+		list(mode_name="3-round bursts", burst=3, fire_delay=null, move_delay=4,    one_hand_penalty=8, burst_accuracy=list(0,-1,-1)),
 		)
 
 /////////
@@ -123,9 +123,9 @@
 	req_access = list(access_hop)
 	authorized_modes = list(UNAUTHORIZED)
 	starts_loaded = 0
-	firemodes = list(
-		list(mode_name="semi auto", automatic = FALSE, fire_delay= 3, burst=1, burst_delay = 2, move_delay=0, one_hand_penalty=12, burst_accuracy=null, dispersion=null),
-		list(mode_name="automatic",  automatic = TRUE, fire_delay = 0.5, burst = 1, burst_delay = 0, move_delay=12, one_hand_penalty=24, burst_accuracy=list(0,0,-1,-1,-1,-1,-2,-2), dispersion=list(1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0)),
+	init_firemodes = list(
+		list(mode_name="semi auto", automatic = FALSE, fire_delay= 3, burst=1, burst_delay = 2, move_delay=0, one_hand_penalty=12, burst_accuracy=null),
+		list(mode_name="automatic",  automatic = TRUE, fire_delay = 0.5, burst = 1, burst_delay = 0, move_delay=12, one_hand_penalty=24, burst_accuracy=list(0,0,-1,-1,-1,-1,-2,-2)),
 		)
 
 //rifle
@@ -138,10 +138,10 @@
 	one_hand_penalty = 8
 	acc_mod_base = 3
 	penetration_mod = 3.5
-	firemodes = list(
-		list(mode_name="semi auto", burst=1, fire_delay=null, move_delay=null, use_launcher=null, one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.5, 1)),
-		list(mode_name="automatic",  automatic = TRUE, fire_delay = 2.5, burst = 1, burst_delay = 0, move_delay=2, dispersion=list(0.5, 1, 1.5, 2)),
-		list(mode_name="fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10, burst_accuracy=null, dispersion=null)
+	init_firemodes = list(
+		list(mode_name="semi auto", burst=1, fire_delay=null, move_delay=null, use_launcher=null, one_hand_penalty=8, burst_accuracy=null),
+		list(mode_name="automatic",  automatic = TRUE, fire_delay = 2.5, burst = 1, burst_delay = 0, move_delay=2),
+		list(mode_name="fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10, burst_accuracy=null)
 		)
 
 /////////
@@ -152,8 +152,8 @@
 	desc = "A much more odd version of what the original was, this is slightly different from what the TVP-2 stood for. This incorporates a hefty locking system, increasing the weight, though ensuring safety aboard a vessel."
 	req_access = list(access_marines)
 	authorized_modes = list(UNAUTHORIZED) //can't be registered, but that doesn't matter as this prevents firing regardless
-	firemodes = list(
-		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=12, burst_accuracy=null, dispersion=null),
+	init_firemodes = list(
+		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=12, burst_accuracy=null),
 		)
 
 /obj/item/gun/projectile/rocket/recoilless/sec/free_fire()
@@ -181,8 +181,8 @@
 	req_access = list(access_hop)
 	authorized_modes = list(UNAUTHORIZED)
 	jam_chance = 25 //big ol' gun. Purely for balance.
-	firemodes = list(
-		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=8, burst_accuracy=null, dispersion=null),
+	init_firemodes = list(
+		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=8, burst_accuracy=null),
 		)
 
 /////////
@@ -225,7 +225,7 @@
 	item_state = "sexyshotgun"
 	jam_chance = 5
 	req_access = list(access_brig)
-	firemodes = list(
+	init_firemodes = list(
 		list(mode_name="semi auto",       burst=1,    fire_delay=null,    move_delay=null, use_launcher=null, one_hand_penalty=8, burst_accuracy=null, dispersion=null),
 		list(mode_name="fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10, burst_accuracy=null, dispersion=null)
 		)*/

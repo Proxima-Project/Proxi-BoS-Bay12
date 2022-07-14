@@ -213,7 +213,7 @@
 	recharge_time = 8
 	accuracy = 3
 	projectile_type = /obj/item/projectile/energy/plasmarifle
-	firemodes = list(
+	init_firemodes = list(
 		list(mode_name="single-fire", burst=1, move_delay=1),
 		list(mode_name="burst", burst=2, move_delay=2)
 		)

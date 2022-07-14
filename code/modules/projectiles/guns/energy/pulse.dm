@@ -115,7 +115,7 @@
 		slot_r_hand_str = 'icons/boh/mob/items/righthand_guns.dmi',
 		slot_back_str = 'icons/boh/mob/items/onmob_back.dmi',
 	)
-	firemodes = list(
+	init_firemodes = list(
 		list(mode_name="pulse", projectile_type=/obj/item/projectile/beam/pulse/skrell/single/lance, charge_cost=240, burst=1, burst_delay=null),
 		list(mode_name="ion", projectile_type=/obj/item/projectile/ion/skrell, charge_cost=720, burst=1, burst_delay=null),
 	)

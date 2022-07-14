@@ -661,7 +661,8 @@
 		very_unsafe_set_firemode(sel_mode) // Reset the firemode so it gets the new changes
 
 /obj/item/gun/proc/initialize_firemodes()
-	QDEL_CLEAR_LIST(firemodes)
+	if(length(firemodes))
+		QDEL_CLEAR_LIST(firemodes)
 
 	for(var/i in 1 to init_firemodes.len)
 		var/list/L = init_firemodes[i]

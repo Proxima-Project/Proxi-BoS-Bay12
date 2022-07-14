@@ -12,7 +12,7 @@
 	w_class = ITEM_SIZE_NORMAL
 	slot_flags = SLOT_DENYPOCKET | SLOT_HOLSTER
 	projectile_type = /obj/item/projectile/beam/particle/defence
-	firemodes = list(
+	init_firemodes = list(
 		list(mode_name="primary",   projectile_type = /obj/item/projectile/beam/particle/defence),
 		)
 	var/windup = 5
@@ -53,7 +53,7 @@
 	wielded_item_state = "particle_rifle-wielded"
 	charge_meter = 0
 	has_safety = FALSE
-	firemodes = list(
+	init_firemodes = list(
 		list(mode_name="stun", burst=3, move_delay=1, projectile_type=/obj/item/projectile/beam/stun),
 		list(mode_name="shock", burst=2, move_delay=2, projectile_type=/obj/item/projectile/beam/stun/shock),
 		list(mode_name="lethal - stable", projectile_type=/obj/item/projectile/beam/particle)
