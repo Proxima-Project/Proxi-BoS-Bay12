@@ -1,4 +1,4 @@
-// These pins can only contain a color (in the form of #FFFFFF) or null.
+// These pins can only contain a color (in the form of #fffff) or null.
 /datum/integrated_io/color
 	name = "color pin"
 

@@ -20,7 +20,7 @@
 "ak" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	req_access = list("ACCESS_VOXSHIP")
 	},
 /obj/structure/cable{
@@ -731,7 +731,7 @@
 "gs" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	frequency = 1504;
 	id_tag = "lower_aft_vox_in";
@@ -1117,7 +1117,7 @@
 "iY" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	frequency = 1503;
 	id_tag = "upper_mid_vox_out";
@@ -1220,7 +1220,7 @@
 "kg" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	name = "OFD";
 	req_access = list("ACCESS_VOXSHIP")
@@ -1638,7 +1638,7 @@
 "mY" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	req_access = list("ACCESS_VOXSHIP")
 	},
@@ -1713,7 +1713,7 @@
 "nS" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	name = "Misslie Room";
 	req_access = list("ACCESS_VOXSHIP")
 	},
@@ -2036,7 +2036,7 @@
 "pY" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	req_access = list("ACCESS_VOXSHIP")
 	},
 /obj/machinery/door/firedoor,
@@ -2311,7 +2311,7 @@
 	},
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	name = "Brig";
 	req_access = list("ACCESS_VOXSHIP")
 	},
@@ -2343,7 +2343,7 @@
 "sf" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	frequency = 1500;
 	id_tag = "lower_fore_vox_out";
@@ -2623,7 +2623,7 @@
 "uj" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	req_access = list("ACCESS_VOXSHIP")
 	},
@@ -2669,7 +2669,7 @@
 "uq" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	name = "Hall to Brig";
 	req_access = list("ACCESS_VOXSHIP")
 	},
@@ -3039,7 +3039,7 @@
 "wR" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	req_access = list("ACCESS_VOXSHIP")
 	},
@@ -3080,7 +3080,7 @@
 "xi" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	req_access = list("ACCESS_VOXSHIP")
 	},
@@ -3401,7 +3401,7 @@
 "AL" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	frequency = 1502;
 	id_tag = "lower_mid_vox_in";
@@ -3586,7 +3586,7 @@
 	},
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	name = "Armory";
 	req_access = list("ACCESS_VOXSHIP")
@@ -3940,7 +3940,7 @@
 "Ew" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	frequency = 1501;
 	id_tag = "upper_fore_vox_out";
@@ -4476,7 +4476,7 @@
 "Is" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	frequency = 1503;
 	id_tag = "upper_mid_vox_in";
@@ -4585,7 +4585,7 @@
 "Jp" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	name = "Engineering";
 	req_access = list("ACCESS_VOXSHIP")
@@ -4625,7 +4625,7 @@
 "Jx" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	name = "Engineering";
 	req_access = list("ACCESS_VOXSHIP")
@@ -4662,7 +4662,7 @@
 "JR" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	req_access = list("ACCESS_VOXSHIP")
 	},
 /turf/simulated/floor/tiled/techmaint/vox,
@@ -4987,7 +4987,7 @@
 "ME" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	frequency = 1502;
 	id_tag = "lower_mid_vox_out";
@@ -5077,7 +5077,7 @@
 "Nx" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	name = "Armory";
 	req_access = list("ACCESS_VOXSHIP")
@@ -5117,7 +5117,7 @@
 "NZ" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	frequency = 1500;
 	id_tag = "lower_fore_vox_in";
 	req_access = list("ACCESS_VOXSHIP")
@@ -5307,7 +5307,7 @@
 "Qj" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	req_access = list("ACCESS_VOXSHIP")
 	},
 /obj/machinery/door/firedoor,
@@ -5439,7 +5439,7 @@
 "QN" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	req_access = list("ACCESS_VOXSHIP")
 	},
 /turf/simulated/floor/reinforced/vox,
@@ -5684,7 +5684,7 @@
 "Tb" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	dir = 4;
 	frequency = 1504;
 	id_tag = "lower_mid_vox_in";
@@ -5811,7 +5811,7 @@
 "Ur" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	frequency = 1501;
 	id_tag = "upper_fore_vox_in";
 	req_access = list("ACCESS_VOXSHIP")
@@ -5994,7 +5994,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	name = "Misslie Room";
 	req_access = list("ACCESS_VOXSHIP")
 	},
@@ -6016,7 +6016,7 @@
 "Ww" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	req_access = list("ACCESS_VOXSHIP")
 	},
 /obj/structure/cable{
@@ -6082,7 +6082,7 @@
 "WQ" = (
 /obj/machinery/door/airlock/ascent{
 	autoset_access = 0;
-	color = "#6CDA1B";
+	color = "#6cda1b";
 	req_access = list("ACCESS_VOXSHIP")
 	},
 /obj/machinery/door/firedoor,

@@ -273,7 +273,7 @@
 	var/silk_production = FALSE
 	var/silk_reserve = 100
 	var/silk_max_reserve = 500
-	var/silk_color = "#FFFFFF"
+	var/silk_color = "#fffff"
 // vesta ascent shit end
 
 /*

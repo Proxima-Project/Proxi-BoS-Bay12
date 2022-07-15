@@ -5,7 +5,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Chief Engineer"
-	selection_color = "#A25F2A"
+	selection_color = "#a25f2a"
 	economic_power = 6
 	minimal_player_age = 3
 	minimum_character_age = list(SPECIES_HUMAN = 27)
@@ -59,7 +59,7 @@
 	economic_power = 5
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 19)
-	selection_color = "#A25F2A"
+	selection_color = "#a25f2a"
 	alt_titles = list(
 		"Engine Technician",
 		"Electrician",
@@ -113,7 +113,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Chief Engineer and Engineering Personnel"
-	selection_color = "#A25F2A"
+	selection_color = "#a25f2a"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/engineering/contractor
@@ -169,7 +169,7 @@
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 22)
 	supervisors = "the Chief Engineer and the Senior Engineer"
-	selection_color = "#A25F2A"
+	selection_color = "#a25f2a"
 	economic_power = 6
 	alt_titles = list(
 		"Mechsuit Technician",

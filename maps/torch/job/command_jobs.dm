@@ -173,7 +173,7 @@
 	economic_power = 9
 	minimum_character_age = list(SPECIES_HUMAN = 27)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer
-	selection_color = "#B8733D"
+	selection_color = "#b8733d"
 	allowed_branches = list(
 		/datum/mil_branch/larfleet
 	)
@@ -350,7 +350,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "Operational Headquarters and Terran Embassy Command"
-	selection_color = "#B00000"
+	selection_color = "#b00000"
 	minimal_player_age = 14
 	economic_power = 16
 	minimum_character_age = list(SPECIES_HUMAN = 25)
@@ -398,7 +398,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the ICCG Representative"
-	selection_color = "#B00000"
+	selection_color = "#b00000"
 	economic_power = 12
 	minimal_player_age = 2
 	minimum_character_age = list(SPECIES_HUMAN = 25)

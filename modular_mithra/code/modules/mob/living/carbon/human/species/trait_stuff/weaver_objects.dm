@@ -70,9 +70,6 @@
 	icon_state = "nest"
 	base_icon = "nest"
 
-/obj/structure/bed/double/weaversilk_nest/update_icon()
-	return
-
 /obj/structure/bed/double/weaversilk_nest/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(isWrench(W) || istype(W,/obj/item/stack) || isWirecutter(W))
 		return

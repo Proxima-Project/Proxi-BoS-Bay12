@@ -12,7 +12,7 @@
 	economic_power = 5
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 25)
-	selection_color = "#755C48"
+	selection_color = "#755c48"
 	alt_titles = list(
 		"Deck Chief")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/supply/deckofficer/fleet
@@ -50,7 +50,7 @@
 	spawn_positions = 3
 	supervisors = "the Gunnery Chief"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
-	selection_color = "#755C48"
+	selection_color = "#755c48"
 	alt_titles = list(
 		"Munitions Technician")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/supply/tech/fleet
@@ -90,7 +90,7 @@
 	supervisors = "the Gunnery Chief"
 	economic_power = 7
 	minimum_character_age = list(SPECIES_HUMAN = 18)
-	selection_color = "#755C48"
+	selection_color = "#755c48"
 	alt_titles = list(
 		"Scavenger" = /decl/hierarchy/outfit/job/torch/passenger/research/prospector/scav)
 
@@ -126,7 +126,7 @@
 	economic_power = 10
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 24)
-	selection_color = "#755C48"
+	selection_color = "#755c48"
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/pilot
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
@@ -246,4 +246,3 @@
 	)
 
 	access = list(access_maint_tunnels, access_emergency_storage, access_solgov_crew)
-
