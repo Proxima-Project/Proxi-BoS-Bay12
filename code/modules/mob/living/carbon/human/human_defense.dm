@@ -59,7 +59,7 @@ meteor_act
 		return
 	return ..()
 
-/mob/living/carbon/human/get_armors_by_zone(obj/item/organ/external/def_zone, damage_type, damage_flags, damage)
+/mob/living/carbon/human/get_armors_by_zone(obj/item/organ/external/def_zone, damage_type, damage_flags)
 	if(!def_zone)
 		def_zone = ran_zone()
 	if(!istype(def_zone))
@@ -76,8 +76,6 @@ meteor_act
 					var/armor = get_extension(bling, /datum/extension/armor)
 					if(armor)
 						. += armor
-					var/obj/item/clothing/accessory/armor_plate/P = bling
-					P.on_hit(damage, damage_type)
 
 		if(gear.body_parts_covered & def_zone.body_part)
 			var/armor = get_extension(gear, /datum/extension/armor)
