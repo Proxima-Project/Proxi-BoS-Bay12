@@ -13,8 +13,10 @@
 		)
 	slot = ACCESSORY_SLOT_ARMOR_C
 	flags_inv = CLOTHING_BULKY
+	var/is_breakable = FALSE
 
-
+/obj/item/clothing/accessory/armor_plate/proc/on_hit(var/damage, var/dmgtype)
+	return
 /obj/item/clothing/accessory/armor_plate/medium
 	name = "medium armor plate"
 	desc = "A plasteel-reinforced synthetic armor plate, providing good protection. Attaches to a plate carrier."
@@ -79,3 +81,29 @@
 		energy = ARMOR_ENERGY_SMALL,
 		bomb = ARMOR_BOMB_PADDED
 	)
+
+/obj/item/clothing/accessory/armor_plate/ceramic
+	name = "ceramic armor plate"
+	desc = "A heavier armor plate with additional ablative coating. Attaches to a plate carrier."
+	icon_state = "armor_tactical"
+	armor = list(
+		melee = ARMOR_MELEE_RESISTANT,
+		bullet = ARMOR_BALLISTIC_RESISTANT,
+		laser = ARMOR_LASER_MAJOR,
+		energy = ARMOR_ENERGY_RESISTANT,
+		bomb = ARMOR_BOMB_PADDED
+	)
+	is_breakable = TRUE
+	var/health = 100
+	var/dmg_hp_mod = 0.7
+	var/isbroken = FALSE
+
+/obj/item/clothing/accessory/armor_plate/ceramic/on_hit(damage, dmgtype)
+	if(dmgtype != DAMAGE_BRUTE || isbroken)
+		return
+	health -= damage * dmg_hp_mod
+	if(health <= 0)
+		src.visible_message(SPAN_WARNING("[src] breaks apart from damage!"))
+		armor = list()
+		isbroken = TRUE
+		name = "broken " + name

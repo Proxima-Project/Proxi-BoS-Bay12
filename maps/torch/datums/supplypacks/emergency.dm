@@ -3,7 +3,7 @@
 
 /decl/hierarchy/supply_pack/emergency/light_plates
 	name = "Armor Plates - Light"
-	contains = list(/obj/item/clothing/accessory/armorplate = 4)
+	contains = list(/obj/item/clothing/accessory/armor_plate = 4)
 	cost = 15
 	containername = "light armor plates crate"
 

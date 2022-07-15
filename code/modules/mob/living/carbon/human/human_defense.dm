@@ -59,7 +59,7 @@ meteor_act
 		return
 	return ..()
 
-/mob/living/carbon/human/get_armors_by_zone(obj/item/organ/external/def_zone, damage_type, damage_flags)
+/mob/living/carbon/human/get_armors_by_zone(obj/item/organ/external/def_zone, damage_type, damage_flags, damage)
 	if(!def_zone)
 		def_zone = ran_zone()
 	if(!istype(def_zone))
@@ -76,6 +76,9 @@ meteor_act
 					var/armor = get_extension(bling, /datum/extension/armor)
 					if(armor)
 						. += armor
+					var/obj/item/clothing/accessory/armor_plate/P = bling
+					P.on_hit(damage, damage_type)
+
 		if(gear.body_parts_covered & def_zone.body_part)
 			var/armor = get_extension(gear, /datum/extension/armor)
 			if(armor)
@@ -451,6 +454,13 @@ meteor_act
 
 	// We may also be taking a suit breach.
 	if(!wear_suit) return
+	if(def_zone == BP_CHEST && istype(wear_suit, /obj/item/clothing/suit/armor/pcarrier))
+		var/obj/item/clothing/suit/armor/pcarrier/car = wear_suit
+		if(car.accessories)
+			for(var/obj/item/clothing/accessory/armor_plate/P in car.accessories)
+				if(P.is_breakable)
+					P.on_hit(damage, damtype)
+
 	if(!istype(wear_suit,/obj/item/clothing/suit/space)) return
 	var/obj/item/clothing/suit/space/SS = wear_suit
 	SS.create_breaches(damtype, damage)
