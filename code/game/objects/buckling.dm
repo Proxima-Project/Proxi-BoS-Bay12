@@ -7,6 +7,11 @@
 	var/buckle_require_restraints = 0 //require people to be handcuffed before being able to buckle. eg: pipes
 	var/mob/living/buckled_mob = null
 
+/obj/Move()
+	. = ..()
+	if(buckled_mob)
+		buckled_mob.set_glide_size(src.glide_size)
+
 /obj/attack_hand(mob/living/user)
 	. = ..()
 	if(can_buckle && buckled_mob)

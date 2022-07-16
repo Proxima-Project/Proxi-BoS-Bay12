@@ -113,6 +113,7 @@
 	var/safety_state = 1
 	var/has_safety = TRUE
 	var/safety_icon 	   //overlay to apply to gun based on safety state, if any
+	var/drawsound = 'sound/weapons/guns/interaction/unholster.ogg'
 
 	//boh
 	var/has_firing_pin = FALSE
@@ -671,6 +672,10 @@
 /obj/item/gun/pickup(mob/user)
 	.=..()
 	update_firemode()
+	if(drawsound)
+		user.visible_message("<span class = 'warning'><b>[user] grabs a weapon!</b></span>")
+		playsound(user, drawsound, 50, 1)
+
 
 /obj/item/gun/dropped(mob/user)
 	.=..()
