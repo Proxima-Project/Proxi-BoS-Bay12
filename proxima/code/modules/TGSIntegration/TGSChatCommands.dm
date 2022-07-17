@@ -14,7 +14,7 @@
 	var/list/adm = get_admin_counts()
 	var/list/allmins = adm["total"]
 	var/status = "**Админы: [allmins.len]**\nАктивные: __*[english_list(adm["present"])]*__\nАФК: __*[english_list(adm["afk"])]*__\nСкрыты: __*[english_list(adm["stealth"])]*__\nБез бана: __*[english_list(adm["noflags"])]*__\n\n"
-	status += "**Игроки: [GLOB.clients.len]**\nАктивные: `[get_active_player_count(0,1,0)]`\nПубличный режим: ||__*[PUBLIC_GAME_MODE]*__||\nНастоящий режим: ||__*[SSticker.mode ? SSticker.mode.name : "Не начался"]*__||"
+	status += "**Игроки: [GLOB.clients.len]**\nАктивные: `[get_active_player_count(0,1,0)]`\nПубличный режим: ||__*[PUBLIC_GAME_MODE]*__||\nНастоящий режим: ||__*[SSticker.mode ? SSticker.mode.name : "Не начался"]*__||\nАспект раунда: ||[SSaspect.choosen_aspect ? SSaspect.choosen_aspect.name : "Не выбран"]||"
 	return status
 
 /datum/tgs_chat_command/irccheck

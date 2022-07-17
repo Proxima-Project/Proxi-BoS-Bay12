@@ -39,7 +39,7 @@
 /obj/item/clothing/glasses/hud/health/prescription
 	name = "prescription health scanner HUD"
 	desc = "A medical HUD integrated with a set of prescription glasses."
-	prescription = 5
+	prescription = 7
 	icon_state = "healthhudpresc"
 	off_state = "healthhudpresc_off"
 	item_state = "healthhudpresc"
@@ -53,7 +53,7 @@
 	body_parts_covered = EYES
 
 /obj/item/clothing/glasses/hud/health/goggle/prescription
-	prescription = 5
+	prescription = 7
 	desc = "A medical HUD integrated with a wide visor. This one has a corrective lense."
 
 /obj/item/clothing/glasses/hud/security
@@ -69,7 +69,7 @@
 /obj/item/clothing/glasses/hud/security/prescription
 	name = "prescription security HUD"
 	desc = "A security HUD integrated with a set of prescription glasses."
-	prescription = 5
+	prescription = 7
 	icon_state = "sechudpresc"
 	off_state = "sechudpresc_off"
 	item_state = "sechudpresc"
@@ -97,7 +97,7 @@
 	body_parts_covered = EYES
 
 /obj/item/clothing/glasses/hud/security/prot/prescription
-	prescription = 5
+	prescription = 7
 	desc = "A pair of goggles with a SECHUD and polarization toggle. These ones have eyesight-correcting lenses."
 
 /obj/item/clothing/glasses/hud/security/prot/sunglasses
@@ -108,7 +108,7 @@
 	body_parts_covered = null
 
 /obj/item/clothing/glasses/hud/security/prot/sunglasses/prescription
-	prescription = 5
+	prescription = 7
 	desc = "Glasses with a SECHUD and polarization toggle. These ones have eyesight-correcting lenses."
 
 /obj/item/clothing/glasses/hud/security/prot/aviators
@@ -119,7 +119,7 @@
 	body_parts_covered = null
 
 /obj/item/clothing/glasses/hud/security/prot/aviators/prescription
-	prescription = 5
+	prescription = 7
 	desc = "Aviators with a SECHUD and polarization toggle. These ones have eyesight-correcting lenses."
 
 /obj/item/clothing/glasses/hud/janitor
@@ -136,7 +136,7 @@
 	off_state = "janihudpresc_off"
 	item_state = "janihudpresc"
 	desc = "A janitor HUD integrated with a set of prescription glasses."
-	prescription = 5
+	prescription = 7
 
 /obj/item/clothing/glasses/hud/janitor/process_hud(var/mob/M)
 	process_jani_hud(M)
@@ -155,4 +155,4 @@
 	off_state = "scihudpresc_off"
 	item_state = "scihudpresc"
 	desc = "A science HUD integrated with a set of prescription glasses."
-	prescription = 5
+	prescription = 7

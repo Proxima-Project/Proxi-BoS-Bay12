@@ -32,6 +32,7 @@ SUBSYSTEM_DEF(supply)
 	)
 	//virus dishes uniqueness
 	var/list/sold_virus_strains = list()
+	var/list/price_mod_for = list()
 
 /datum/controller/subsystem/supply/Initialize(start_uptime)
 	ordernum = rand(1,9000)
@@ -51,6 +52,14 @@ SUBSYSTEM_DEF(supply)
 // Just add points over time.
 /datum/controller/subsystem/supply/fire()
 	add_points_from_source(points_per_process, "time")
+
+/datum/controller/subsystem/supply/proc/get_price_for(var/decl/hierarchy/supply_pack/order)
+	return (order.type in price_mod_for) ? (price_mod_for[order.type] * order.cost) : order.cost
+
+/datum/controller/subsystem/supply/proc/change_price_for(var/decl/hierarchy/supply_pack/order, var/pricemod)
+	var/list/decls = decls_repository.get_decls_of_type(order)
+	for(var/sp in decls)
+		SSsupply.price_mod_for[sp] = pricemod
 
 
 /datum/controller/subsystem/supply/UpdateStat(time)

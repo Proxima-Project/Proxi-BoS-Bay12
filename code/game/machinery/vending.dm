@@ -96,7 +96,7 @@
  *  products that the vending machine is to carry without manually populating
  *  src.product_records.
  */
-/obj/machinery/vending/proc/build_inventory(populate_parts = FALSE)
+/obj/machinery/vending/proc/build_inventory(populate_parts = FALSE, var/ifempty = 1)
 	var/list/all_products = list(
 		list(src.products, CAT_NORMAL),
 		list(src.contraband, CAT_HIDDEN),
@@ -110,7 +110,7 @@
 
 			product.price = (entry in src.prices) ? src.prices[entry] : 0
 			if(populate_parts)
-				product.amount = (current_list[1][entry]) ? current_list[1][entry] : 1
+				product.amount = (current_list[1][entry]) ? current_list[1][entry] : ifempty
 			product.category = category
 
 			src.product_records.Add(product)

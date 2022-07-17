@@ -76,6 +76,13 @@
 /*
 	Predicate Helpers
 */
+/proc/is_turf_no_mines_and_walls(var/turf/T)
+	if(!istype(T, /turf/simulated/floor))
+		return FALSE
+	if(locate(/obj/item/mine) in T)
+		return FALSE
+	return TRUE
+
 /proc/area_belongs_to_zlevels(var/area/A, var/list/z_levels)
 	return A && (A.z in z_levels)
 

@@ -591,6 +591,12 @@ The slots that you can use are found in items_clothing.dm and are the inventory 
 		else
 			blur.filters = list()
 
+	for(var/atom/movable/renderer/above_lighting/blur in H.renderers)
+		if(how_nearsighted)
+			blur.filters = list(filter(type="blur", size=2))
+		else
+			blur.filters = list()
+
 	for(var/atom/movable/renderer/fov_hidden/blur in H.renderers)
 		if(how_nearsighted)
 			blur.filters = list(filter(type="blur", size=2), filter(type="alpha", render_source = FIELD_OF_VISION_BLOCKER_RENDER_TARGET, flags = MASK_INVERSE))

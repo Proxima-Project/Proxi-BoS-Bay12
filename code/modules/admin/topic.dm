@@ -1652,6 +1652,27 @@
 		if(!check_rights(R_SPAWN))	return
 		return create_object(usr)
 
+	else if(href_list["c_aspect"])
+		if(!check_rights(R_ADMIN))	return
+
+		if(SSticker.mode)
+			return alert(usr, "The game has already started.", null, null, null, null)
+		var/dat = {"<head><meta charset=\"utf-8\"></head><B>Какой аспект выберете сегодня?</B><BR>Режим на данный момент: [SSaspect.choosen_aspect ? SSaspect.choosen_aspect : "Не выбран"]<HR>"}
+		for(var/datum/round_aspect/aspect as anything in typesof(/datum/round_aspect))
+			dat += {"<A href='?src=\ref[src];c_aspect2=[aspect]'>[initial(aspect.name)]</A><br>"}
+		show_browser(usr, dat, "window=c_aspect")
+
+	else if(href_list["c_aspect2"])
+		if(!check_rights(R_ADMIN))	return
+
+		if (SSticker.mode)
+			return alert(usr, "Игра уже началась...", null, null, null, null)
+		SSaspect.force_set_aspect(href_list["c_aspect2"])
+		log_and_message_admins("установил аспект: [SSaspect.choosen_aspect].")
+		// to_world("<span class='notice'><b>Сегодняшний аспект: [SSaspect.choosen_aspect]</b></span>")
+		Game() // updates the main game menu
+		.(href, list("c_aspect"=1))
+
 	else if(href_list["create_turf"])
 		if(!check_rights(R_SPAWN))	return
 		return create_turf(usr)

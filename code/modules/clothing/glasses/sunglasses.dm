@@ -8,7 +8,7 @@
 
 
 /obj/item/clothing/glasses/sunglasses/prescription
-	prescription = 5
+	prescription = 7
 	desc = "Glasses with treated lenses to prevent glare. They provide some rudamentary protection from dazzling attacks. These ones have eyesight-correcting lenses."
 
 
@@ -21,7 +21,7 @@
 
 
 /obj/item/clothing/glasses/sunglasses/big/prescription
-	prescription = 5
+	prescription = 7
 	desc = "Glasses with treated lenses to prevent glare. The thick, wide lenses protect against a variety of flash attacks. These ones have eyesight-correcting lenses."
 
 
@@ -37,7 +37,7 @@
 
 
 /obj/item/clothing/glasses/aviators_black/prescription
-	prescription = 5
+	prescription = 7
 	desc = "An anachronistic style of glare protection popularized by military pilot mystique. These ones have black frames and eyesight-correcting lenses."
 
 
@@ -53,7 +53,7 @@
 
 
 /obj/item/clothing/glasses/aviators_silver/prescription
-	prescription = 5
+	prescription = 7
 	desc = "An anachronistic style of glare protection popularized by military pilot mystique. These ones have silver frames and eyesight-correcting chrome lenses."
 
 /obj/item/clothing/glasses/aviators_gold
@@ -68,7 +68,7 @@
 
 
 /obj/item/clothing/glasses/aviators_gold/prescription
-	prescription = 5
+	prescription = 7
 	desc = "An anachronistic style of glare protection popularized by military pilot mystique. These ones have gold frames and eyesight-correcting chrome lenses."
 
 
@@ -84,7 +84,7 @@
 
 
 /obj/item/clothing/glasses/aviators_rose/prescription
-	prescription = 5
+	prescription = 7
 	desc = "An anachronistic style of glare protection popularized by military pilot mystique. These ones have rose gold frames and eyesight-correcting goldochre chrome lenses."
 
 

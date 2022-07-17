@@ -663,6 +663,7 @@ var/global/floorIsLava = 0
 		dat += "<A href='?src=\ref[src];f_secret=1'>(Force Secret Mode)</A><br>"
 
 	dat += {"
+		<A href='?src=\ref[src];c_aspect=1'>Change Round Aspect</A><br>
 		<BR>
 		<A href='?src=\ref[src];create_object=1'>Create Object</A><br>
 		<A href='?src=\ref[src];create_turf=1'>Create Turf</A><br>

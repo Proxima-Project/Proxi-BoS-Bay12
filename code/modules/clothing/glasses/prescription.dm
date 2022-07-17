@@ -29,6 +29,6 @@
 	name = "scanning goggles"
 	desc = "Oddly shaped eyesight-correcting goggles with dangling wires."
 	icon_state = "uzenwa_sissra_1"
-	prescription = 5
+	prescription = 7
 	light_protection = 7
 	electric = TRUE
