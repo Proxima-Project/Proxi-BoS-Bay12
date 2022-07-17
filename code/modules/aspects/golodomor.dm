@@ -19,7 +19,17 @@
 	. = ..()
 	SSsupply.change_price_for(/decl/hierarchy/supply_pack/galley, 10)
 
-	for(var/obj/item/reagent_containers/food/snacks/food in world)
+	for(var/obj/item/reagent_containers/food/food in world)
+		if(prob(20) || !is_station_area(get_area(food)))
+			continue
+		qdel(food)
+
+	for(var/obj/item/clothing/mask/chewable/food in world)
+		if(prob(20) || !is_station_area(get_area(food)))
+			continue
+		qdel(food)
+
+	for(var/obj/item/storage/chewables/food in world)
 		if(prob(20) || !is_station_area(get_area(food)))
 			continue
 		qdel(food)
