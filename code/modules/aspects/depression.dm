@@ -12,7 +12,7 @@
 	SSsupply.change_price_for(/decl/hierarchy/supply_pack, 5)
 	for(var/obj/machinery/vending/vendomat in world)
 		if(!is_station_area(get_area(vendomat)))
-			return
+			continue
 		QDEL_NULL_LIST(vendomat.product_records)
 		vendomat.product_records	= list()
 		for(var/i in vendomat.prices)

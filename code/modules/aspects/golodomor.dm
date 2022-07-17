@@ -21,12 +21,12 @@
 
 	for(var/obj/item/reagent_containers/food/snacks/food in world)
 		if(prob(20) || !is_station_area(get_area(food)))
-			return
+			continue
 		qdel(food)
 
 	for(var/obj/machinery/vending/vendomat in world)
 		if(!is_station_area(get_area(vendomat)))
-			return
+			continue
 		QDEL_NULL_LIST(vendomat.product_records)
 		vendomat.product_records	= list()
 		for(var/i in vendomat.products)
