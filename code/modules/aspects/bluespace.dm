@@ -22,7 +22,7 @@
 	else
 		target_turf = pick_area_and_turf(GLOB.is_station_but_not_space_or_shuttle_area)
 
-	var/obj/effect/portal/P = new(selected_turf, target_turf, rand(PORTAL_MIN_TIME, PORTAL_MAX_TIME))
+	new /obj/effect/portal(selected_turf, target_turf, rand(PORTAL_MIN_TIME, PORTAL_MAX_TIME))
 
 #undef PORTAL_MIN_TIME
 #undef PORTAL_MAX_TIME
