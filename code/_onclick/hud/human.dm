@@ -295,7 +295,11 @@
 		hud_elements |= target.parkour
 
 	if(target.client && target.client.usefov)
+		if(target.client.fov_mask)
+			qdel(target.client.fov_mask)
 		target.client.fov_mask = new /obj/screen/fov_blocker( target )
+		if(target.client.fov_shadow)
+			qdel(target.client.fov_shadow)
 		target.client.fov_shadow = new /obj/screen/fov_shadow( target )
 		target.check_fov()
 

@@ -1,6 +1,9 @@
 #define DEFAULT_HUNGER_FACTOR 0.03 // Factor of how fast mob nutrition decreases
 #define DEFAULT_THIRST_FACTOR 0.03 // Factor of how fast mob hydration decreases
 
+#define NOHUNGER_HUNGER_FACTOR 0
+#define NOTHIRST_THIRST_FACTOR 0
+
 #define REM 0.2 // Means 'Reagent Effect Multiplier'. This is how many units of reagent are consumed per tick
 
 #define CHEM_TOUCH 1

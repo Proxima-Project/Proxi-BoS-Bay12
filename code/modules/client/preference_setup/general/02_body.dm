@@ -306,7 +306,11 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 			ResetAllHair()
 
 			//reset hair colour and skin colour
-			pref.head_hair_color = "#000000"
+			if(has_flag(mob_species, SYNC_HAIR_AND_BODY_COLOR))
+				pref.head_hair_color = pref.skin_color
+				pref.facial_hair_color = pref.skin_color
+			else
+				pref.head_hair_color = "#000000"
 			pref.skin_tone = 0
 			pref.age = max(min(pref.age, mob_species.max_age), mob_species.min_age)
 
@@ -391,6 +395,9 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 		var/new_skin = input(user, "Choose your character's skin colour: ", CHARACTER_PREFERENCE_INPUT_TITLE, pref.skin_color) as color|null
 		if(new_skin && has_flag(all_species[pref.species], HAS_SKIN_COLOR) && CanUseTopic(user))
 			pref.skin_color = new_skin
+			if(has_flag(mob_species, SYNC_HAIR_AND_BODY_COLOR))
+				pref.head_hair_color = new_skin
+				pref.facial_hair_color = new_skin
 			return TOPIC_REFRESH_UPDATE_PREVIEW
 
 	else if(href_list["facial_style"])

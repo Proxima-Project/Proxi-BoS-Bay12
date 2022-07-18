@@ -18,13 +18,14 @@ var/global/datum/species/shapeshifter/promethean/prometheans
 	blood_color = "#05ff9b"
 	flesh_color = "#05fffb"
 
-	hunger_factor =    DEFAULT_HUNGER_FACTOR //todo
+	hunger_factor =    DEFAULT_HUNGER_FACTOR
+	thirst_factor =    NOTHIRST_THIRST_FACTOR
 	reagent_tag =      IS_SLIME
 	bump_flag =        SLIME
 	swap_flags =       MONKEY|SLIME|SIMPLE_ANIMAL
 	push_flags =       MONKEY|SLIME|SIMPLE_ANIMAL
 	species_flags =    SPECIES_FLAG_NO_SCAN | SPECIES_FLAG_NO_SLIP | SPECIES_FLAG_NO_MINOR_CUT
-	appearance_flags = HAS_SKIN_COLOR | HAS_EYE_COLOR | HAS_HAIR_COLOR | RADIATION_GLOWS
+	appearance_flags = HAS_SKIN_COLOR | HAS_EYE_COLOR | RADIATION_GLOWS | SYNC_HAIR_AND_BODY_COLOR
 	spawn_flags =      SPECIES_CAN_JOIN
 
 	breath_type = null
@@ -32,8 +33,8 @@ var/global/datum/species/shapeshifter/promethean/prometheans
 
 	gluttonous =          GLUT_TINY | GLUT_SMALLER | GLUT_ITEM_ANYTHING | GLUT_PROJECTILE_VOMIT
 	blood_volume =        600
-	min_age =             1
-	max_age =             5
+	min_age =             18
+	max_age =             70
 	brute_mod =           0.5
 	burn_mod =            2
 	oxy_mod =             0
@@ -61,7 +62,7 @@ var/global/datum/species/shapeshifter/promethean/prometheans
 	cold_discomfort_strings = list("You feel too cool.")
 
 	inherent_verbs = list(
-		/mob/living/carbon/human/proc/shapeshifter_select_shape,
+		// /mob/living/carbon/human/proc/shapeshifter_select_shape,
 		/mob/living/carbon/human/proc/shapeshifter_select_colour,
 		/mob/living/carbon/human/proc/shapeshifter_select_hair,
 		/mob/living/carbon/human/proc/shapeshifter_select_gender
@@ -86,20 +87,13 @@ var/global/datum/species/shapeshifter/promethean/prometheans
 	addtimer(CALLBACK(H, /mob/proc/gib),0)
 
 /datum/species/shapeshifter/promethean/handle_environment_special(var/mob/living/carbon/human/H)
-
-	var/turf/T = H.loc
-	if(istype(T))
-		var/obj/effect/decal/cleanable/C = locate() in T
-		if(C)
-			if(H.nutrition < 300)
-				H.adjust_nutrition(rand(10,20))
-			qdel(C)
-
 	// We need a handle_life() proc for this stuff.
 
 	// Regenerate limbs and heal damage if we have any. Copied from Bay xenos code.
 	// Theoretically the only internal organ a slime will have
 	// is the slime core. but we might as well be thorough.
+	if(H.hydration < 400)
+		H.hydration = 400 // damn
 	for(var/obj/item/organ/I in H.internal_organs)
 		if(I.damage > 0)
 			I.damage = max(I.damage - heal_rate, 0)

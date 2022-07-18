@@ -6,7 +6,7 @@ var/global/list/wrapped_species_by_ref = list()
 /datum/species/shapeshifter
 
 	inherent_verbs = list(
-		/mob/living/carbon/human/proc/shapeshifter_select_shape,
+		// /mob/living/carbon/human/proc/shapeshifter_select_shape,
 		/mob/living/carbon/human/proc/shapeshifter_select_hair,
 		/mob/living/carbon/human/proc/shapeshifter_select_gender
 		)
@@ -122,23 +122,23 @@ var/global/list/wrapped_species_by_ref = list()
 	visible_message("<span class='notice'>\The [src]'s form contorts subtly.</span>")
 	change_gender(new_gender)
 
-/mob/living/carbon/human/proc/shapeshifter_select_shape()
+// /mob/living/carbon/human/proc/shapeshifter_select_shape()
 
-	set name = "Select Body Shape"
-	set category = "Abilities"
+// 	set name = "Select Body Shape"
+// 	set category = "Abilities"
 
-	if(stat || world.time < last_special)
-		return
+// 	if(stat || world.time < last_special)
+// 		return
 
-	last_special = world.time + 50
+// 	last_special = world.time + 50
 
-	var/new_species = input("Please select a species to emulate.", "Shapeshifter Body") as null|anything in species.get_valid_shapeshifter_forms(src)
-	if(!new_species || !all_species[new_species] || wrapped_species_by_ref["\ref[src]"] == new_species)
-		return
+// 	var/new_species = input("Please select a species to emulate.", "Shapeshifter Body") as null|anything in species.get_valid_shapeshifter_forms(src)
+// 	if(!new_species || !all_species[new_species] || wrapped_species_by_ref["\ref[src]"] == new_species)
+// 		return
 
-	wrapped_species_by_ref["\ref[src]"] = new_species
-	visible_message("<span class='notice'>\The [src] shifts and contorts, taking the form of \a ["\improper [new_species]"]!</span>")
-	regenerate_icons()
+// 	wrapped_species_by_ref["\ref[src]"] = new_species
+// 	visible_message("<span class='notice'>\The [src] shifts and contorts, taking the form of \a ["\improper [new_species]"]!</span>")
+// 	regenerate_icons()
 
 /mob/living/carbon/human/proc/shapeshifter_select_colour()
 

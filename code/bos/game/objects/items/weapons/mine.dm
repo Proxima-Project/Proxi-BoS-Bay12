@@ -21,7 +21,7 @@
 			return
 		if(H.skill_check(SKILL_ELECTRICAL, SKILL_ADEPT) && prob(20*H.get_skill_value(SKILL_HAULING)))
 			visible_message(SPAN_WARNING("[user] started to deactivate [src]..."))
-			if(do_after(H, 10 SECONDS, src, DO_USER_SAME_HAND | DO_PUBLIC_PROGRESS))
+			if(do_after(H, 10 SECONDS, src, DO_USER_SAME_HAND | DO_SHOW_PROGRESS | DO_PUBLIC_PROGRESS))
 				active = FALSE
 				visible_message(SPAN_INFO("With evident excitement [user] disarms [src]"))
 				update_icon()

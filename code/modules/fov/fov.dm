@@ -18,7 +18,7 @@
 	check_fov()
 
 /mob/living/proc/update_fov_dir()
-	if(client && client.usefov)
+	if(client && client.usefov && client.hasmask)
 		client.fov_mask.dir = src.dir
 		client.fov_shadow.dir = src.dir
 

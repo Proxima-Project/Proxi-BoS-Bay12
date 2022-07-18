@@ -895,3 +895,15 @@ The slots that you can use are found in items_clothing.dm and are the inventory 
 			var/decl/emote/exertion_emote = decls_repository.get_decl(pick(active_emotes))
 			if (exertion_emote)
 				exertion_emote.do_emote(H)
+
+/mob/living/carbon/human/adjust_hydration(var/amt)
+	if(!species?.thirst_factor)
+		return
+
+	return ..(amt)
+
+/mob/living/carbon/human/adjust_nutrition(var/amt)
+	if(!species?.hunger_factor)
+		return
+
+	return ..(amt)
