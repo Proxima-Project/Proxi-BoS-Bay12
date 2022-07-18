@@ -13,7 +13,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/exploration/pathfinder
 	allowed_branches = list(/datum/mil_branch/civilian, /datum/mil_branch/lord)
 	allowed_ranks = list(
-		/datum/mil_rank/civ/contractor, /datum/mil_rank/lord/scientist
+		/datum/mil_rank/civ/contractor, /datum/mil_rank/lord/gov
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_EVA         = SKILL_ADEPT,
@@ -71,7 +71,7 @@
 		/datum/mil_branch/civilian, /datum/mil_branch/lord
 	)
 	allowed_ranks = list(,
-		/datum/mil_rank/civ/contractor, /datum/mil_rank/lord/scientist
+		/datum/mil_rank/civ/contractor, /datum/mil_rank/lord/gov
 	)
 
 	access = list(access_tox, access_maint_tunnels, access_tox_storage, access_research, access_petrov_maint, access_petrov, access_petrov_helm,
@@ -102,7 +102,7 @@
 		/datum/mil_branch/civilian, /datum/mil_branch/lord
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/civ/contractor, /datum/mil_rank/lord/scientist
+		/datum/mil_rank/civ/contractor, /datum/mil_rank/lord/gov
 	)
 	max_skill = list(   SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_DEVICES     = SKILL_MAX,
@@ -129,7 +129,7 @@
 		"Explorer" = /decl/hierarchy/outfit/job/torch/crew/exploration/explorer,
 		"Xenoarchaeologist")
 	allowed_ranks = list(
-		/datum/mil_rank/civ/contractor, /datum/mil_rank/lord/scientist
+		/datum/mil_rank/civ/contractor, /datum/mil_rank/lord/gov
 	)
 	min_skill = list(   SKILL_EVA = SKILL_BASIC)
 

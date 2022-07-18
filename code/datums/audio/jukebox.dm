@@ -150,6 +150,11 @@
 
 
 GLOBAL_LIST_INIT(jukebox_tracks, list(
+	/decl/audio/track/rain, //bos
+	/decl/audio/track/endoftheworld, //bos
+	/decl/audio/track/startthefire, // bos
+	/decl/audio/track/solandterra, //bos
+	/decl/audio/track/comeyouknights, //bos
 	/decl/audio/track/absconditus,
 	/decl/audio/track/ambispace,
 	/decl/audio/track/as_far_as_it_gets,

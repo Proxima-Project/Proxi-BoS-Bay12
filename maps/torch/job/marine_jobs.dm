@@ -1,13 +1,11 @@
 /datum/job/sea/marine
-	title = "Marine Senior Enlisted Advisor"
+	title = "Marine Officer"
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/marine
 	allowed_branches = list(
 		/datum/mil_branch/larmarine
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/larmarine/e8_alt,
-		/datum/mil_rank/larmarine/e9,
-		/datum/mil_rank/larmarine/e9_alt
+		/datum/mil_rank/larmarine/o2
 	)
 	access = list(access_medical, access_engine, access_maint_tunnels, access_external_airlocks, access_emergency_storage,
 			            access_teleporter, access_eva, access_bridge, access_all_personal_lockers, access_janitor,
@@ -15,12 +13,12 @@
 			            access_solgov_crew, access_gun, access_expedition_shuttle, access_guppy, access_senadv, access_hangar, access_emergency_armory, access_gunnery, access_marines, access_marspec, access_marcom)
 
 /datum/job/squad_lead
-	title = "Marine Leader"
+	title = "Marine Squad Leader"
 	department = "Marines"
 	department_flag = INF
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the highest ranking Marine and SolGov Command"
+	supervisors = "the highest ranking Marine and Antares Command"
 	selection_color = "#557e38"
 	minimal_player_age = 12
 	economic_power = 7
@@ -87,14 +85,14 @@
 		)
 	access = list(access_maint_tunnels, access_solgov_crew, access_expedition_shuttle, access_expedition_shuttle_helm, access_guppy, access_hangar, access_guppy_helm, access_marines,
 			            access_aquila, access_eva, access_martech, access_marspec)
-
+/*
 /datum/job/combat_tech/is_position_available()
 	if(..())
 		for(var/mob/M in GLOB.player_list)
 			if(M.client && M.mind && M.mind.assigned_role == "Marine Leader")
 				return TRUE
 	return FALSE
-
+*/
 /datum/job/combat_tech/get_description_blurb()
 	return "Вы - Техник военного Отряда ЛСС. Вашим прямым начальством является Лидер военного Отряда ЛСС. \
 	В Ваши обязанности входит оказание огня на поражение и снос всего, на что укажет Лидер Отряда. В крайние случаи отсутствия Лидера, Вы можете попытаться взять командование морпехами на себя. Ключевое здесь слово - попытаться.\
@@ -136,14 +134,14 @@
 		)
 	access = list(access_maint_tunnels, access_solgov_crew, access_expedition_shuttle, access_expedition_shuttle_helm, access_guppy, access_hangar, access_guppy_helm, access_marines,
 			            access_aquila, access_eva, access_marmed, access_medical, access_marspec)
-
+/*
 /datum/job/combat_medic/is_position_available()
 	if(..())
 		for(var/mob/M in GLOB.player_list)
 			if(M.client && M.mind && M.mind.assigned_role == "Marine Leader")
 				return TRUE
 	return FALSE
-
+*/
 /datum/job/combat_medic/get_description_blurb()
 	return "Вы - Медик военного Отряда ЛСС. Вашим прямым начальством является Лидер военного Отряда ЛСС. \
 	В Ваши обязанности входит оказание первой медицинской и хирургической помощи морпехам при необходимости. В крайние случаи отсутствия Лидера, Вы можете попытаться взять командование морпехами на себя. Ключевое здесь слово - попытаться. \
@@ -182,14 +180,14 @@
 	alt_titles = list(
 		"Marine Grenadier",
 		"Marine Assaultman")
-
+/*
 /datum/job/grunt/is_position_available()
 	if(..())
 		for(var/mob/M in GLOB.player_list)
 			if(M.client && M.mind && M.mind.assigned_role == "Marine Leader")
 				return TRUE
 	return FALSE
-
+*/
 /datum/job/grunt/get_description_blurb()
 	return "Вы - Морпех из военного Отряда ЛСС. Вашим прямым начальством является Лидер военного Отряда ЛСС. В случае отсутствия Лидера, Техник/Медик возьмет на себя тяжелую ношу в виде командования Вами и другими морпехами. \
 	И да, постарайтесь не умереть, выполняя приказы вышестоящих. УРА-А-А-А! \

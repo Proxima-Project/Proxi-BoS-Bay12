@@ -160,6 +160,8 @@ var/global/datum/announcement/minor/minor_announcement = new(new_sound = 'sound/
 		return "Service"
 	if(job.department_flag & EXP)
 		return "Exploration"
+	if(job.department_flag & INF) //bos
+		return "Infantry"
 	return "Common"
 
 /////// ANNOUNCEMENT PROCS VIA RADIO ///////

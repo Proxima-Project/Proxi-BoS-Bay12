@@ -86,6 +86,9 @@
 /proc/area_belongs_to_zlevels(var/area/A, var/list/z_levels)
 	return A && (A.z in z_levels)
 
+/proc/always_true(var/area/A)
+	return TRUE
+
 /proc/is_station_area(var/area/A)
 	return A && (isStationLevel(A.z))
 

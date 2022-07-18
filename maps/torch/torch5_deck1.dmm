@@ -4407,17 +4407,16 @@
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
-/obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/cable/green{
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/effect/floor_decal/corner/blue/mono,
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
 	},
+/obj/effect/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/sea/marine)
 "ahm" = (
@@ -4429,7 +4428,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/obj/effect/floor_decal/corner/blue/half{
+/obj/effect/floor_decal/corner/b_green/half{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -4439,17 +4438,17 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea/marine)
 "aho" = (
-/obj/effect/floor_decal/corner/blue/half{
+/obj/effect/floor_decal/corner/b_green/half{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea/marine)
 "ahp" = (
-/obj/effect/floor_decal/corner/blue/mono,
 /obj/item/device/radio/intercom{
 	dir = 8;
 	pixel_x = 20
 	},
+/obj/effect/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/sea/marine)
 "ahq" = (
@@ -4528,13 +4527,13 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/effect/floor_decal/corner/blue/half{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/newscaster/security_unit{
 	pixel_x = -27
 	},
+/obj/effect/floor_decal/corner/b_green/half{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/sea/marine)
 "ahx" = (
@@ -4641,10 +4640,10 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/fore)
 "ahJ" = (
-/obj/effect/floor_decal/corner/blue/half{
+/obj/structure/filingcabinet/chestdrawer,
+/obj/effect/floor_decal/corner/b_green/half{
 	dir = 4
 	},
-/obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/sea/marine)
 "ahK" = (
@@ -4982,21 +4981,21 @@
 	},
 /obj/structure/table/steel,
 /obj/machinery/recharger,
-/obj/effect/floor_decal/corner/blue/half{
-	dir = 8
-	},
 /obj/item/rig/command/sea/equipped{
 	desc = "A specialized hardsuit control module issued to senior NCOs of the Lordanian Marine Corps."
+	},
+/obj/effect/floor_decal/corner/b_green/half{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/sea/marine)
 "aih" = (
-/obj/effect/floor_decal/corner/blue/half{
-	dir = 4
-	},
 /obj/structure/table/steel,
 /obj/machinery/photocopier/faxmachine{
 	department = "SEA"
+	},
+/obj/effect/floor_decal/corner/b_green/half{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/sea/marine)
@@ -5077,11 +5076,11 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/medical)
 "aio" = (
-/obj/effect/floor_decal/corner/blue/mono,
 /obj/machinery/computer/modular/preset/cardslot/command{
 	dir = 4;
 	icon_state = "console"
 	},
+/obj/effect/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/sea/marine)
 "aip" = (
@@ -5089,7 +5088,7 @@
 	dir = 1;
 	pixel_y = -25
 	},
-/obj/effect/floor_decal/corner/blue/half,
+/obj/effect/floor_decal/corner/b_green/half,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea/marine)
 "aiq" = (
@@ -5097,21 +5096,21 @@
 	dir = 1;
 	pixel_y = -22
 	},
-/obj/effect/floor_decal/corner/blue/half,
+/obj/effect/floor_decal/corner/b_green/half,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea/marine)
 "air" = (
-/obj/effect/floor_decal/corner/blue/half,
 /obj/machinery/button/blast_door{
 	id_tag = "sea_mc_shutters";
 	name = "SEA Office Shutters";
 	pixel_y = -25
 	},
-/obj/structure/bed/chair/padded/red{
-	dir = 1
-	},
 /obj/effect/landmark/start{
 	name = "Senior Enlisted Advisor of Marine Corps"
+	},
+/obj/effect/floor_decal/corner/b_green/half,
+/obj/structure/bed/chair/padded/green{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea/marine)
@@ -22770,7 +22769,7 @@
 	},
 /obj/machinery/door/airlock/sol{
 	id_tag = "seamcforedoor";
-	name = "Senior Enlisted Advisor of Marine Corps";
+	name = "Officer of Marine Corps";
 	secured_wires = 1
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -25176,15 +25175,15 @@
 /area/security/opscheck)
 "oOt" = (
 /obj/machinery/light,
-/obj/effect/floor_decal/corner/blue/mono,
 /obj/item/device/taperecorder,
 /obj/item/modular_computer/tablet/lease/preset/command,
 /obj/item/stamp/sea{
-	name = "marine sea's rubber stamp"
+	name = "marine officer's rubber stamp"
 	},
 /obj/structure/closet/secure_closet/sea{
-	name = "marine SEA's locker"
+	name = "marine Officer's locker"
 	},
+/obj/effect/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/sea/marine)
 "oPb" = (

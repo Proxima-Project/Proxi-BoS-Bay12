@@ -35,6 +35,7 @@
 
 #define FACTION_LRA				"Republic Army"
 #define FACTION_SYNDI			"Syndicate"
+#define FACTION_NONE			"Independent"
 
 #define HOME_SYSTEM_EARTH      "Earth"
 #define HOME_SYSTEM_LUNA       "Luna"

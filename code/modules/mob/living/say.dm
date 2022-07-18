@@ -19,6 +19,7 @@ var/global/list/department_radio_keys = list(
 	  ":y" = "Exploration",		".y" = "Exploration",
 	  ":o" = "Response Team",".o" = "Response Team", //ERT
 	  ":j" = "Hailing", ".j" = "Hailing",
+	  ":a" = "Infantry",	".a" = "Infantry", //bos
 
 	  ":R" = "right ear",	".R" = "right ear",
 	  ":L" = "left ear",	".L" = "left ear",
@@ -39,6 +40,7 @@ var/global/list/department_radio_keys = list(
 	  ":Y" = "Exploration",		".Y" = "Exploration",
 	  ":O" = "Response Team", ".O" = "Response Team",
 	  ":J" = "Hailing", ".J" = "Hailing",
+	  ":A" = "Infantry",	".A" = "Infantry", //bos
 
 	  //kinda localization -- Sweden_Moose
 	  ":к" = "right ear",	".к" = "right ear",
@@ -61,6 +63,7 @@ var/global/list/department_radio_keys = list(
 	  ":н" = "Exploration",		".н" = "Exploration",
 	  ":щ" = "Response Team",".щ" = "Response Team", //ERT
 	  ":о" = "Hailing", ".о" = "Hailing",
+	  ":ф" = "Infantry",	".ф" = "Infantry", //bos
 
 	  ":К" = "right ear",	".К" = "right ear",
 	  ":Д" = "left ear",	".Д" = "left ear",
@@ -80,7 +83,8 @@ var/global/list/department_radio_keys = list(
 	  ":Я" = "Entertainment",".Я" = "Entertainment",
 	  ":Н" = "Exploration",		".Н" = "Exploration",
 	  ":Щ" = "Response Team", ".Щ" = "Response Team",
-	  ":О" = "Hailing", ".О" = "Hailing"
+	  ":О" = "Hailing", ".О" = "Hailing",
+	  ":Ф" = "Infantry",	".Ф" = "Infantry", //bos
 )
 
 

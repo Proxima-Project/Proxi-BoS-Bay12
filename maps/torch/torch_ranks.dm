@@ -146,13 +146,13 @@
 	email_domain = "antar.lordgov"
 
 	rank_types = list(
-		/datum/mil_rank/lord/gov,
-		/datum/mil_rank/lord/scientist
+		/datum/mil_rank/lord/rep,
+		/datum/mil_rank/lord/gov
 	)
 
 	spawn_rank_types = list(
-		/datum/mil_rank/lord/gov,
-		/datum/mil_rank/lord/scientist
+		/datum/mil_rank/lord/rep,
+		/datum/mil_rank/lord/gov
 	)
 
 /datum/mil_branch/terran
@@ -458,12 +458,12 @@
  *  ====== =========
  */
 
-/datum/mil_rank/lord/gov
+/datum/mil_rank/lord/rep
 	name = "Sov Lordania Representative"
 	name_short = "SLR"
 
-/datum/mil_rank/lord/scientist
-	name = "Government Scientist"
+/datum/mil_rank/lord/gov
+	name = "Government Worker"
 	name_short = "GOVT"
 
 /*

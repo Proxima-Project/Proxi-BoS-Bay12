@@ -4,7 +4,7 @@
 	Неумелое руководство последних лет сильно потрепало ЦПСС - спорные экономические и политические реформы привели к Корпоративным Войнам, подъему национализма и сепаратизма на пограничных мирах. \
 	Теперь ЦПСС сталкивается с последствиями своих решений. И пусть никто точно не знает, что случится с ЦПСС в ближайшее время, все сходятся на мнении, что время это будет темным. \
 	<font color=\"#ff0000\">Только для антагонистов.</font>" //bos
-
+	economic_power = 0.8 //bos
 
 /decl/cultural_info/faction/scg/fleet
 	name = FACTION_FLEET
@@ -18,6 +18,7 @@
 	Bachelor degree and go through a lengthy training process before being assigned to a warship. \
 	Recently Sol-made IPCs were also permitted to enlist, provided they agree to install a law shackle. \
 	<font color=\"#ff0000\">Только для антагонистов.</font>" //bos
+	economic_power = 0.7 //bos
 
 /decl/cultural_info/faction/scg/army
 	name = FACTION_ARMY
@@ -44,7 +45,7 @@
 	description = "Гильгамешские Конфедеративные Системы является вторым государством по силе в человеческом регионе космоса и граничит со своим главным соперником – ЦПСС. \
 	Почти тридцать лет назад ГКК и ЦПСС вели масштабную войну, известную как Гайский Конфликт. И не смотря на то, что в начале войны у ГКК была позиция победителя, все сложилось совсем не так. \
 	Теперь, когда ЦПСС ослабело, Конфедерация видит отличный момент для того, чтобы показать кузькину мать." //bos
-	economic_power = 0.9
+	economic_power = 1.1 //was 0.9
 
 
 /decl/cultural_info/faction/remote
@@ -143,4 +144,5 @@
 
 /decl/cultural_info/faction/other
 	name = FACTION_OTHER
-	description = "You belong to one of the many other factions that operate in the galaxy. Numerous, too numerous to list, these factions represent a variety of interests, purposes, intents and goals."
+	description = "Вы принадлежите к одной из многих других фракций, действующих в галактике. \
+	Многочисленные, слишком многочисленные, чтобы их перечислять, эти фракции представляют различные интересы, цели, намерения и задачи." //bos

@@ -75,3 +75,8 @@
 	name = "terran encryption key"
 	icon_state = "com_cypherkey"
 	channels = list("Command" = 1)
+
+/obj/item/device/encryptionkey/heads/marcom
+	name = "marine officer's encryption key"
+	icon_state = "com_cypherkey"
+	channels = list("Command" = 1, "Infantry" = 1, "Security" = 1, "Medical" = 1, "Exploration" = 1)

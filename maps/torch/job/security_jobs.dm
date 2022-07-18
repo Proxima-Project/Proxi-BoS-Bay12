@@ -46,9 +46,11 @@
 	skill_points = 18
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/forensic_tech
 	allowed_branches = list(
+		/datum/mil_branch/lord,
 		/datum/mil_branch/civilian
 	)
 	allowed_ranks = list(
+		/datum/mil_rank/lord/gov,
 		/datum/mil_rank/civ/contractor
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,

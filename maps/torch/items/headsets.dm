@@ -71,6 +71,13 @@
 	item_state = "headset"
 	ks1type = /obj/item/device/encryptionkey/heads/sea
 
+/obj/item/device/radio/headset/marcom
+	name = "marine officer's headset"
+	desc = "The headset of the man who protects your worthless lives with style."
+	icon_state = "com_headset"
+	item_state = "headset"
+	ks1type = /obj/item/device/encryptionkey/heads/marcom
+
 /obj/item/device/radio/headset/sea/alt
 	name = "political officer's bowman headset"
 	icon_state = "com_headset_alt"
