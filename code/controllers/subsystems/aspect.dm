@@ -5,6 +5,18 @@ SUBSYSTEM_DEF(aspect)
 	priority = SS_PRIORITY_ASPECT
 	var/datum/round_aspect/choosen_aspect = null
 
+/datum/controller/subsystem/aspect/UpdateStat(text)
+	var/aspname = "Не выбран"
+	var/asppreload = "null"
+	var/aspinround = "null"
+	if(choosen_aspect)
+		aspname = choosen_aspect.name
+		aspinround = choosen_aspect.have_inround_proc ? "Да" : "Нет"
+		asppreload = choosen_aspect.have_preload_proc ? "Да" : "Нет"
+
+
+	..("Аспект: [aspname] | Действует(перед раундом: [asppreload], в раунде [aspinround])")
+
 /datum/controller/subsystem/aspect/fire(resumed)
 	switch(GAME_STATE)
 		if(RUNLEVEL_SETUP)
@@ -42,7 +54,7 @@ SUBSYSTEM_DEF(aspect)
 	choosen_aspect = new aspect
 
 /datum/controller/subsystem/aspect/proc/init_aspect()
-	if(choosen_aspect)
+	if(choosen_aspect && !choosen_aspect.initialized)
 		if(choosen_aspect.have_preload_proc)
 			choosen_aspect.do_preload_thing()
 		if(choosen_aspect.have_inround_proc)
@@ -53,6 +65,7 @@ SUBSYSTEM_DEF(aspect)
 			wait = initial(wait)
 
 		choosen_aspect.announce_aspect()
+		choosen_aspect.initialized = TRUE
 
 /datum/round_aspect
 	var/name = "Самый обычный"
@@ -64,6 +77,7 @@ SUBSYSTEM_DEF(aspect)
 	var/have_inround_proc = FALSE // Еще флажочек
 	var/inround_timeout = 5 MINUTES // Период срабатывания do_inround_thing если включен have_inround_proc
 	var/preload_maked = FALSE
+	var/initialized = FALSE
 
 	var/announce_text = "<span class=\"info\">Эта чудная смена пройдет как обычно. <span class=\"italic\">Может быть...</span></span>"
 
