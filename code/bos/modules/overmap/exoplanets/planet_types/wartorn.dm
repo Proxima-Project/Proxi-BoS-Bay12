@@ -99,9 +99,6 @@
 	)
 	base_turf = /turf/simulated/floor/exoplanet/desert
 
-#define WALL_VALUE 1
-#define ROAD_VALUE 10
-
 #define TRANSLATE_COORD(X,Y) ((((Y) - 1) * limit_x) + (X))
 
 /datum/random_map/war_city

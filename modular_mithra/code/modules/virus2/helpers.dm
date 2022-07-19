@@ -8,7 +8,7 @@
 				infect_virus2(victim, disease)
 
 //Returns 1 if mob can be infected, 0 otherwise.
-proc/infection_chance(var/mob/living/carbon/M, var/vector = "Airborne")
+/proc/infection_chance(var/mob/living/carbon/M, var/vector = "Airborne")
 	if (!istype(M))
 		return 0
 

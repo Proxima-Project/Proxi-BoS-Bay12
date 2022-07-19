@@ -3360,7 +3360,6 @@
 #include "maps\torch\items\clothing\boh_under.dm"
 #include "maps\torch\loadout\zaglushka.dm"
 #include "maps\torch\structures\closets\munitions.dm"
-#include "modular_mithra\code\__defines\culture.dm"
 #include "modular_mithra\code\__defines\mobs.dm"
 #include "modular_mithra\code\_helpers\global_lists.dm"
 #include "modular_mithra\code\_onclick\click.dm"
