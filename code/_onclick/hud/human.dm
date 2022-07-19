@@ -75,6 +75,8 @@
 		using.alpha = ui_alpha
 		src.adding += using
 		move_intent = using
+		var/obj/screen/movement/M = using
+		M.owner = mymob
 
 	if(hud_data.has_drop)
 		using = new /obj/screen()
@@ -402,6 +404,24 @@
 		else
 			to_chat(usr, SPAN_DANGER("You cannot breathe!"))
 
+/obj/screen/movement/on_update_icon()
+	. = ..()
+	if(owner?.facing_dir && owner?.client && owner?.client?.prefs)
+		chached_fixeye = istype(chached_fixeye, /image) ? chached_fixeye : image('icons/bos/mob/eye.dmi', "fixeye")
+		chached_fixeye.color = "#6f0000"
+		overlays += chached_fixeye
+	else
+		overlays -= chached_fixeye
+
+/obj/screen/movement
+	var/image/chached_fixeye
+	var/mob/living/owner
+
 /obj/screen/movement/Click(var/location, var/control, var/params)
 	if(istype(usr))
+		var/list/p = params2list(params)
+		if(p["ctrl"])
+			usr.face_direction()
+			update_icon()
+			return
 		usr.set_next_usable_move_intent()
