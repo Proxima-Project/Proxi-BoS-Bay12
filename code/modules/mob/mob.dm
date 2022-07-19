@@ -975,9 +975,7 @@
 	return update_icons()
 
 /mob/verb/face_direction()
-
-	set name = "Face Direction"
-	set category = "IC"
+	set name = ".fixeye"
 	set src = usr
 
 	set_face_dir()
