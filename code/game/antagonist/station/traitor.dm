@@ -35,10 +35,7 @@ GLOBAL_DATUM_INIT(traitors, /datum/antagonist/traitor, new)
 	else
 		switch(rand(1,100))
 			if(1 to 33)
-				var/datum/objective/assassinate/kill_objective = new
-				kill_objective.owner = traitor
-				kill_objective.find_target()
-				traitor.objectives += kill_objective
+				// Mafiosy poshel nahuy
 			if(34 to 50)
 				var/datum/objective/brig/brig_objective = new
 				brig_objective.owner = traitor
