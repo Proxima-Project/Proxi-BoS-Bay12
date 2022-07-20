@@ -56,8 +56,6 @@
 /mob/living/proc/in_fov(atom/observed_atom, ignore_self = FALSE)
 	if(!client)
 		return TRUE
-	if(!observed_atom.client)
-		return TRUE
 	if(!observed_atom)
 		return TRUE
 	if(ignore_self && observed_atom == src)
