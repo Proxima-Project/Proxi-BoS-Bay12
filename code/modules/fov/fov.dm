@@ -1,4 +1,4 @@
-/client
+/mob/living/
 	var/obj/screen/fov_mask
 	var/obj/screen/fov_shadow
 	var/usefov = TRUE
@@ -7,49 +7,59 @@
 
 /mob/living/SelfMove(direction)
 	. = ..()
-	update_fov_dir()
+	if(client)
+		check_fov()
 
 /mob/living/set_dir()
 	. = ..()
-	update_fov_dir()
+	if(client)
+		check_fov()
 
 /mob/living/UpdateLyingBuckledAndVerbStatus()
 	. = ..()
-	check_fov()
+	if(client)
+		check_fov()
 
 /mob/living/proc/update_fov_dir()
-	if(client && client.usefov && client.hasmask)
-		client.fov_mask.dir = src.dir
-		client.fov_shadow.dir = src.dir
+	if(usefov && hasmask)
+		fov_mask.dir = src.dir
+		fov_shadow.dir = src.dir
 
 /mob/living/proc/check_fov()
 	if(client)
 		if(resting || lying || client.eye != client.mob)
-			client.hide_cone()
-		else if(client.usefov)
-			client.show_cone()
+			hide_cone()
+		else if(usefov)
+			show_cone()
+			update_fov_dir()
 		else
-			client.hide_cone()
+			hide_cone()
 
 /mob/living/proc/toggle_fov()
 	if(client)
-		client.usefov = !client.usefov
+		usefov = !usefov
 		src.check_fov()
 
 // //Making these generic procs so you can call them anywhere.
-/client/proc/show_cone()
-	if(usefov && !hasmask)
-		screen += fov_shadow
-		screen += fov_mask
+/mob/living/proc/show_cone()
+	if(client && !hasmask)
+		client.screen += fov_shadow
+		client.screen += fov_mask
 		hasmask = TRUE
 
-/client/proc/hide_cone()
-	if(usefov && hasmask)
-		screen -= fov_shadow
-		screen -= fov_mask
+/mob/living/proc/hide_cone()
+	if(client && hasmask)
+		client.screen -= fov_shadow
+		client.screen -= fov_mask
 		hasmask = FALSE
 
 /mob/living/proc/in_fov(atom/observed_atom, ignore_self = FALSE)
+	if(!client)
+		return TRUE
+	if(!observed_atom.client)
+		return TRUE
+	if(!observed_atom)
+		return TRUE
 	if(ignore_self && observed_atom == src)
 		return TRUE
 	if(is_blind())
@@ -60,7 +70,7 @@
 	//  ^ If that case has changed and you need that check, add it.
 	var/rel_x = observed_atom.x - my_turf.x
 	var/rel_y = observed_atom.y - my_turf.y
-	if(client?.fovangle)
+	if(fovangle)
 		if(rel_x >= -1 && rel_x <= 1 && rel_y >= -1 && rel_y <= 1) //Cheap way to check inside that 3x3 box around you
 			return TRUE //Also checks if both are 0 to stop division by zero
 
@@ -88,7 +98,7 @@
 		var/angle = arccos((dir_x * rel_x + dir_y * rel_y) / (sqrt(dir_x**2 + dir_y**2) * sqrt(rel_x**2 + rel_y**2)))
 
 		/// Calculate vision angle and compare
-		var/vision_angle = (360 - client.fovangle) / 2
+		var/vision_angle = (360 - fovangle) / 2
 		if(angle < vision_angle)
 			. = TRUE
 	else
@@ -134,3 +144,23 @@
 	mouse_opacity = MOUSE_OPACITY_UNCLICKABLE
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	screen_loc = "BOTTOM,LEFT"
+
+/mob/living/ghostize(can_reenter_corpse)
+	if(hasmask)
+		hide_cone()
+	if(fov_mask)
+		QDEL_NULL(fov_mask)
+	if(fov_shadow)
+		QDEL_NULL(fov_shadow)
+	. = ..()
+
+
+/mob/living/Logout()
+	if(client)
+		if(hasmask)
+			hide_cone()
+		if(fov_mask)
+			QDEL_NULL(fov_mask)
+		if(fov_shadow)
+			QDEL_NULL(fov_shadow)
+	. = ..()

@@ -296,13 +296,13 @@
 		target.parkour.passthrought = image(target.parkour.icon, "passthrought")
 		hud_elements |= target.parkour
 
-	if(target.client && target.client.usefov)
-		if(target.client.fov_mask)
-			qdel(target.client.fov_mask)
-		target.client.fov_mask = new /obj/screen/fov_blocker( target )
-		if(target.client.fov_shadow)
-			qdel(target.client.fov_shadow)
-		target.client.fov_shadow = new /obj/screen/fov_shadow( target )
+	if(target && target.usefov)
+		if(target.fov_mask)
+			QDEL_NULL(target.fov_mask)
+		target.fov_mask = new /obj/screen/fov_blocker(target)
+		if(target.fov_shadow)
+			QDEL_NULL(target.fov_shadow)
+		target.fov_shadow = new /obj/screen/fov_shadow(target)
 		target.check_fov()
 
 	mymob.client.screen = list()
