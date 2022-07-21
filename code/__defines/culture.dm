@@ -28,6 +28,15 @@
 #define FACTION_TEST_SUBJECTS 	"Test Subjects"
 #define FACTION_SPACECOPS		"Sol Federal Police"
 
+//SOVEREIGN LORDANIA (BOS)
+#define FACTION_SOVLORDANIA		"Lordanian Sovereign Systems"
+#define FACTION_LARFLEET		"Fleet"
+#define FACTION_LARMARINES		"Marine Corps"
+
+#define FACTION_LRA				"Republic Army"
+#define FACTION_SYNDI			"Syndicate"
+#define FACTION_NONE			"Independent"
+
 #define HOME_SYSTEM_EARTH      "Earth"
 #define HOME_SYSTEM_LUNA       "Luna"
 #define HOME_SYSTEM_MARS       "Mars"
@@ -49,6 +58,7 @@
 #define HOME_SYSTEM_STATELESS  "Stateless"
 #define HOME_SYSTEM_OTHER      "Other System"
 #define HOME_SYSTEM_DEEP_SPACE "Deep Space"
+#define HOME_SYSTEM_TERSTEN		"Tersten"
 
 #define CULTURE_OTHER          "Other Culture"
 #define CULTURE_HUMAN          "Humankind"
@@ -75,6 +85,14 @@
 #define CULTURE_STOK           "Stok Business"
 #define CULTURE_ALIUM          "Mysterious Aliens"
 #define CULTURE_CULTIST        "Blood Cult"
+
+//SOVEREIGN LORDANIA (BOS)
+#define CULTURE_HUMAN_LORDANIAN_WEST "Lordanian, West"
+#define CULTURE_HUMAN_LORDANIAN_EAST "Lordanian, East"
+#define CULTURE_HUMAN_TERSTEN_UP	 "Terstenian, Urban"
+#define CULTURE_HUMAN_TERSTEN_DW	 "Terstenian, Wild"
+#define CULTURE_HUMAN_YUKLID		 "Yuklidian"
+#define CULTURE_HUMAN_LORRIMAN		 "Lorrimanian"
 
 #define RELIGION_OTHER         "Other Religion"
 #define RELIGION_JUDAISM       "Judaism"
@@ -123,27 +141,33 @@
 #define FACTION_ADHERENT_LOYALISTS   "Loyalists"
 #define FACTION_ADHERENT_SEPARATISTS "Seperatists"
 
-// Vox cultures.
-#define CULTURE_VOX_ARKSHIP    "Arkship Crew"
-#define CULTURE_VOX_SALVAGER   "Salvager Crew"
-#define CULTURE_VOX_RAIDER     "Raider Crew"
+// Vox cultures. (BOH)
+#define CULTURE_VOX_ACOLYTE    "Resolute Acolyte"
+#define CULTURE_VOX_TRUTH      "Artificer of Truth"
+#define CULTURE_VOX_TECHNICIAN "Sacred Technician"
+#define CULTURE_VOX_LIGHT      "Voidborne Vigilant"
+#define CULTURE_VOX_MERCHANT   "Sworn Merchant"
 
-#define HOME_SYSTEM_VOX_ARK    "Ark-Dweller"
-#define HOME_SYSTEM_VOX_SHROUD "Shroud-Dweller"
-#define HOME_SYSTEM_VOX_SHIP   "Ship-Dweller"
+#define HOME_SYSTEM_VOX_CAPITAL    "Ark of the Starlight Herald"
+#define HOME_SYSTEM_VOX_FORTRESS   "Ark of the Stalwart Guardian"
+#define HOME_SYSTEM_VOX_RESEARCH   "Ark of the Curious Acolyte"
+#define HOME_SYSTEM_VOX_PROCESSING "Ark of the Dutiful Blade"
+#define HOME_SYSTEM_VOX_PRODUCTION "Ark of the Vigilant Prophet"
 
-#define FACTION_VOX_RAIDER     "Raider"
-#define FACTION_VOX_CREW       "Ark Labourer"
-#define FACTION_VOX_APEX       "Apex Servant"
+#define FACTION_VOX_FLEET      "Fleet Vox"
+#define FACTION_VOX_COVENANT   "Covenant Vox"
+#define FACTION_VOX_ARK        "Ark Vox"
 
-#define RELIGION_VOX           "Auralis Reverence"
+#define RELIGION_VOX_CODEX     "Chakala, The Immortal Codex"
+#define RELIGION_VOX_GUARDIAN  "Kihikihi, The Watchful Guardian"
+#define RELIGION_VOX_FORCE     "Kritika, The Unrelenting Force"
 
 // IPC cultures.
-#define CULTURE_POSITRONICS    "Union Member"
+#define CULTURE_POSITRONICS    "Elips Member"
 
 #define HOME_SYSTEM_ROOT       "Root"
 
-#define FACTION_POSITRONICS    "Positronic Union"
+#define FACTION_POSITRONICS    "Fleet Elips"
 
 // Diona cultures.
 #define CULTURE_DIONA          "Diona Chorus"
@@ -195,3 +219,16 @@
 #define CULTURE_NABBER_AMINUS "Grade A-"
 #define CULTURE_NABBER_A      "Grade A"
 #define CULTURE_NABBER_APLUS  "Grade A+"
+
+// Ascent (boh)
+#define CULTURE_ASCENT           "The Ascent"
+#define HOME_SYSTEM_KHARMAANI    "Core"
+#define FACTION_ASCENT_GYNE      "Ascent Gyne"
+#define FACTION_ASCENT_ALATE     "Ascent Alate"
+#define FACTION_ASCENT_SERPENTID "Ascent Serpentid"
+#define RELIGION_KHARMAANI       "Nest-Lineage Veneration"
+
+// Tajaran cultures (boh)
+#define CULTURE_TAJARAN      "The Tajara"
+#define HOME_SYSTEM_TAJARAN  "Rarkajar"
+#define FACTION_TAJARAN      "Tajaran Government"
