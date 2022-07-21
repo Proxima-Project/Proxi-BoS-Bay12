@@ -45,7 +45,6 @@
 /turf/simulated/wall/ocp_wall,
 /area/voxship/engineering)
 "aG" = (
-/obj/machinery/porta_turret/vox,
 /obj/structure/window/phoronreinforced,
 /obj/structure/window/phoronreinforced{
 	dir = 4
@@ -189,7 +188,11 @@
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/engineering)
 "cs" = (
-/obj/machinery/atmospherics/omni/filter,
+/obj/machinery/atmospherics/omni/filter{
+	tag_north = 2;
+	tag_south = 3;
+	tag_west = 1
+	},
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
@@ -847,7 +850,11 @@
 /turf/simulated/floor/reinforced/vox,
 /area/voxship/misslie)
 "gP" = (
-/obj/machinery/atmospherics/omni/filter,
+/obj/machinery/atmospherics/omni/filter{
+	tag_east = 2;
+	tag_north = 8;
+	tag_south = 1
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -1258,7 +1265,6 @@
 /obj/structure/window/phoronreinforced{
 	dir = 4
 	},
-/obj/machinery/porta_turret/vox,
 /turf/simulated/floor/reinforced/airless,
 /area/voxship/armory)
 "kp" = (
@@ -1476,7 +1482,6 @@
 /turf/simulated/wall/alienwall,
 /area/voxship/shuttle)
 "lT" = (
-/obj/machinery/porta_turret/vox,
 /obj/structure/window/phoronreinforced,
 /obj/structure/window/phoronreinforced{
 	dir = 8
@@ -2238,7 +2243,11 @@
 /turf/simulated/floor/reinforced/vox,
 /area/voxship/armory)
 "ri" = (
-/obj/machinery/atmospherics/omni/filter,
+/obj/machinery/atmospherics/omni/filter{
+	tag_east = 2;
+	tag_south = 5;
+	tag_west = 1
+	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -2699,7 +2708,6 @@
 /obj/item/clothing/accessory/storage/holster/armpit,
 /obj/item/clothing/accessory/storage/webbing_large,
 /obj/item/clothing/accessory/storage/white_vest,
-/obj/item/clothing/accessory/storage/drop_pouches/black,
 /obj/item/clothing/accessory/storage/black_vest,
 /obj/item/clothing/accessory/storage/brown_vest,
 /obj/item/clothing/accessory/storage/holster/waist,
@@ -3199,13 +3207,6 @@
 	},
 /turf/simulated/floor/reinforced/vox,
 /area/voxship/misslie)
-"yv" = (
-/obj/machinery/turretid/vox{
-	dir = 1;
-	pixel_y = -25
-	},
-/turf/simulated/floor/reinforced/vox,
-/area/voxship/armory)
 "yP" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4;
@@ -3371,7 +3372,6 @@
 	},
 /area/voxship/ofd)
 "Ay" = (
-/obj/machinery/porta_turret/vox,
 /obj/structure/window/phoronreinforced{
 	dir = 8
 	},
@@ -4050,7 +4050,6 @@
 /turf/simulated/floor/reinforced/vox,
 /area/voxship/shuttle)
 "Fe" = (
-/obj/machinery/porta_turret/vox,
 /obj/structure/window/phoronreinforced{
 	dir = 1
 	},
@@ -4448,7 +4447,6 @@
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/ship_fore)
 "Io" = (
-/obj/machinery/porta_turret/vox,
 /obj/structure/window/phoronreinforced,
 /obj/structure/window/phoronreinforced{
 	dir = 4
@@ -4535,10 +4533,6 @@
 	},
 /turf/simulated/floor/reinforced/vox,
 /area/voxship/ofd)
-"IH" = (
-/obj/machinery/portable_atmospherics/canister/hfp,
-/turf/simulated/floor/reinforced/vox,
-/area/voxship/dock)
 "II" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 8
@@ -5959,7 +5953,11 @@
 /turf/simulated/floor/reinforced/vox,
 /area/voxship/dock)
 "Wh" = (
-/obj/machinery/atmospherics/omni/filter,
+/obj/machinery/atmospherics/omni/filter{
+	tag_east = 2;
+	tag_north = 1;
+	tag_south = 4
+	},
 /obj/machinery/light{
 	dir = 8;
 	icon_state = "tube1"
@@ -6144,7 +6142,6 @@
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/engineering)
 "Xw" = (
-/obj/machinery/porta_turret/vox,
 /turf/simulated/floor/reinforced/airless,
 /area/voxship/armory)
 "Xx" = (
@@ -17395,7 +17392,7 @@ eQ
 YO
 qK
 HM
-yv
+YO
 Uh
 Uh
 do
@@ -17859,7 +17856,7 @@ gW
 Hz
 Dg
 Uk
-IH
+ZW
 Zu
 HX
 HX

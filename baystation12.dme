@@ -3352,6 +3352,7 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_maps.dm"
+#include "maps\away\voxship\voxship.dm"
 #include "maps\torch\items\rewards.dm"
 #include "maps\torch\items\ziptie.dm"
 #include "maps\torch\items\clothing\boh_accessory.dm"
