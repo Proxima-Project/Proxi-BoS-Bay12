@@ -163,11 +163,11 @@
 #define RELIGION_VOX_FORCE     "Kritika, The Unrelenting Force"
 
 // IPC cultures.
-#define CULTURE_POSITRONICS    "Union Member"
+#define CULTURE_POSITRONICS    "Elips Member"
 
 #define HOME_SYSTEM_ROOT       "Root"
 
-#define FACTION_POSITRONICS    "Positronic Union"
+#define FACTION_POSITRONICS    "Fleet Elips"
 
 // Diona cultures.
 #define CULTURE_DIONA          "Diona Chorus"
