@@ -167,7 +167,7 @@
 
 #define HOME_SYSTEM_ROOT       "Root"
 
-#define FACTION_POSITRONICS    "Fleet Elips"
+#define FACTION_POSITRONICS    "Elips"
 
 // Diona cultures.
 #define CULTURE_DIONA          "Diona Chorus"
