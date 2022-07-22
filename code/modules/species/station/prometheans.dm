@@ -46,7 +46,11 @@ var/global/datum/species/shapeshifter/promethean/prometheans
 	limbs_are_nonsolid =  TRUE
 
 	unarmed_types = list(/datum/unarmed_attack/slime_glomp)
-	has_organ =     list(BP_BRAIN = /obj/item/organ/internal/brain/slime) // Slime core.
+	has_organ =     list(
+		BP_BRAIN = /obj/item/organ/internal/brain/slime,
+		BP_STOMACH = /obj/item/organ/internal/stomach/slime
+
+	) // Slime core.
 	has_limbs = list(
 		BP_CHEST =  list("path" = /obj/item/organ/external/chest/unbreakable/slime),
 		BP_GROIN =  list("path" = /obj/item/organ/external/groin/unbreakable/slime),

@@ -17,7 +17,7 @@
 
 /datum/round_aspect/golodomor/do_preload_thing()
 	. = ..()
-	SSsupply.change_price_for(/decl/hierarchy/supply_pack/galley, 10)
+	SSsupply.change_price_for(/decl/hierarchy/supply_pack/galley, rand(10,13))
 
 	for(var/obj/item/reagent_containers/food/food in world)
 		if(prob(20) || !is_station_area(get_area(food)))

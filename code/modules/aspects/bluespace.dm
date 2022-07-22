@@ -1,5 +1,5 @@
-#define PORTAL_MIN_TIME 10 MINUTES
-#define PORTAL_MAX_TIME 30 MINUTES
+#define PORTAL_MIN_TIME 5 MINUTES
+#define PORTAL_MAX_TIME 10 MINUTES
 
 /datum/round_aspect/bluespace
 	name = "Блю-Спейс"
@@ -8,7 +8,7 @@
 	announce_text = "<span class=\"info\">Из-за необьяснимой аномалии на судне начали появляться неопознанные порталы.</span>"
 	have_inround_proc = TRUE
 	have_preload_proc = FALSE
-	inround_timeout = 5 MINUTE
+	inround_timeout = 1 MINUTE
 
 /datum/round_aspect/bluespace/get_desc_msg()
 	return SPAN_WARNING("Остерегайтесь порталов, они могут привести вас куда угодно...")

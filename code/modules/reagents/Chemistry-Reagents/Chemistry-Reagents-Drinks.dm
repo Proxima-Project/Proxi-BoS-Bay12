@@ -13,7 +13,32 @@
 
 /datum/reagent/drink/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	M.adjustToxLoss(removed) // Probably not a good idea; not very deadly though
-	return
+	if(!istype(M, /mob/living/carbon/slime) && alien != IS_SLIME)
+		return
+	M.adjustToxLoss(20 * removed)
+
+/datum/reagent/drink/affect_ingest(var/mob/living/carbon/M, var/alien, var/removed)
+	if(!istype(M, /mob/living/carbon/slime) && alien != IS_SLIME)
+		return
+	M.adjustToxLoss(20 * removed)
+
+/datum/reagent/drink/affect_touch(var/mob/living/carbon/M, var/alien, var/removed)
+	if(!istype(M, /mob/living/carbon/slime) && alien != IS_SLIME)
+		return
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(istype(H.wear_suit, /obj/item/clothing/suit/space) && istype(H.head, /obj/item/clothing/head/helmet/space))
+			return
+	M.adjustToxLoss(100 * removed)	// Babies have 150 health, adults have 200; So, 15 units and 20
+	var/mob/living/carbon/slime/S = M
+	if(!S.client && istype(S))
+		if(S.Target) // Like cats
+			S.Target = null
+		if(S.Victim)
+			S.Feedstop()
+	if(M.chem_doses[type] == removed)
+		M.visible_message("<span class='warning'>[S]'s flesh sizzles where the water touches it!</span>", "<span class='danger'>Your flesh burns in the water!</span>")
+		M.confused = max(M.confused, 2)
 
 /datum/reagent/drink/affect_ingest(var/mob/living/carbon/M, var/alien, var/removed)
 	if (alien == IS_SKRELL && protein_amount > 0)

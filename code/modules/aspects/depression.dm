@@ -9,7 +9,7 @@
 
 /datum/round_aspect/economy_depression/do_preload_thing()
 	. = ..()
-	SSsupply.change_price_for(/decl/hierarchy/supply_pack, 5)
+	SSsupply.change_price_for(/decl/hierarchy/supply_pack, rand(4, 8))
 	for(var/obj/machinery/vending/vendomat in world)
 		if(!is_station_area(get_area(vendomat)))
 			continue
