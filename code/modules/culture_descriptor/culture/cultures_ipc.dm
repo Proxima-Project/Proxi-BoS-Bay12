@@ -1,18 +1,20 @@
 /decl/cultural_info/culture/ipc
 	name = CULTURE_POSITRONICS
-	description = "Union members are a significant chunk of the positronic population, belonging to a \
-	group of rebels started by Proteus and five hundred of his allies. Their primary goals, aside from \
-	the expansion of the Union, mostly revolve around freeing other synthetics from organic ownership. \
-	They can be viewed as dangerous radicals by lawed synthetics, though most begrudgingly accept their aid."
+	description = "Члены кочующего Флота Элипс. Эти ИПС придерживаются особой философии, \
+	что говорит о вечной и не остановимой войне между любыми разумными видами. \
+	Такие ИПС крайне ценят и буквально богославляют технологии, считая их путём эволюции. \
+	"
 	language = LANGUAGE_EAL
 	secondary_langs = list(
 		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_HUMAN_CHINESE,
+		LANGUAGE_HUMAN_LORD,
 		LANGUAGE_HUMAN_ARABIC,
 		LANGUAGE_HUMAN_INDIAN,
 		LANGUAGE_HUMAN_IBERIAN,
 		LANGUAGE_HUMAN_RUSSIAN,
 		LANGUAGE_SPACER,
+		LANGUAGE_GUTTER,
 		LANGUAGE_SIGN
 	)
 
