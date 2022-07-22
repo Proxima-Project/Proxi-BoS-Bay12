@@ -55,6 +55,7 @@
 	name = "alien window"
 	color = GLASS_COLOR_ALIEN
 	init_material = MATERIAL_GLASS_ALIEN
+	init_reinf_material = MATERIAL_STEEL
 
 /obj/structure/window/alien/full
 	dir = 5

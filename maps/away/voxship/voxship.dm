@@ -142,6 +142,7 @@
 	_fully_charged = TRUE
 
 /turf/simulated/floor/tiled/white/usedup
+	initial_gas = list(GAS_NITROGEN = MOLES_N2STANDARD*1.25)
 
 /obj/machinery/sleeper/vox
 	name = "vox sleeper"
