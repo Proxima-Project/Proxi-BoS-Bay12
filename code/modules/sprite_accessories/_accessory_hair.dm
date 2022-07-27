@@ -13,7 +13,7 @@
 /datum/sprite_accessory/hair/bald
 	name = "Bald"
 	icon_state = "bald"
-	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_VOX)
+	species_allowed = list(SPECIES_HUMAN,SPECIES_PROMETHEAN,SPECIES_UNATHI,SPECIES_VOX)
 	flags = VERY_SHORT | HAIR_BALD
 
 /datum/sprite_accessory/hair/short
