@@ -9,6 +9,7 @@
 /decl/surgery_step/open_encased
 	name = "Saw through bone"
 	allowed_tools = list(
+		/obj/item/circular_saw/esoteric = 110, //BoS Esoteric Update
 		/obj/item/circular_saw = 100,
 		/obj/item/material/knife = 50,
 		/obj/item/material/hatchet = 75
