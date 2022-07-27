@@ -6396,6 +6396,13 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aftport)
+"pF" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/security/marines)
 "pG" = (
 /obj/effect/wallframe_spawn/reinforced/hull,
 /obj/machinery/door/firedoor,
@@ -9657,6 +9664,8 @@
 	dir = 5;
 	icon_state = "techfloor_edges"
 	},
+/obj/structure/table/steel,
+/obj/item/paper/inf/dock,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/marines)
 "xc" = (
@@ -13833,6 +13842,24 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/marines)
+"Ih" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	cycle_to_external_air = 1;
+	frequency = 1331;
+	id_tag = "aquila_shuttle";
+	pixel_x = 0;
+	pixel_y = 24;
+	tag_exterior_sensor = "aquila_shuttle_sensor_external";
+	tag_exterior_door = "aquila_shuttle_outer";
+	tag_interior_door = "aquila_shuttle_inner";
+	tag_interior_sensor = "aquila_shuttle_sensor";
+	name = "Aquilla port controller"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/security/marines)
 "Ii" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/monotile,
@@ -15153,7 +15180,6 @@
 	},
 /obj/item/gun/projectile/automatic/bullpup_rifle/sec/lmg,
 /obj/item/gun/projectile/rocket/oneuse/marine,
-/obj/item/gun/projectile/rocket/recoilless/sec,
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "Explosive";
 	req_access = list("ACCESS_MARCOM")
@@ -15168,9 +15194,12 @@
 	name = "box of frag shells";
 	startswith = list(/obj/item/grenade/frag/shell=7)
 	},
-/obj/item/gun/projectile/rocket/recoilless/sec,
 /obj/item/gun/projectile/rocket/oneuse/marine,
 /obj/item/gun/projectile/automatic/bullpup_rifle/sec/lmg,
+/obj/item/plastique,
+/obj/item/plastique,
+/obj/item/plastique,
+/obj/item/plastique,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/security/marines/armory)
 "Ld" = (
@@ -51103,8 +51132,8 @@ wv
 Dk
 nN
 xb
-gW
-gW
+pF
+Ih
 yI
 gW
 gW

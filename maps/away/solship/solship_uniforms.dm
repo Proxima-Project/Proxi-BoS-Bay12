@@ -24,7 +24,7 @@
 	name = OUTFIT_JOB_NAME("Solship Cap Fleet Outfit")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/command/captain
 	id_types= list(/obj/item/card/id/solship/captain)
-
+/*
 /decl/hierarchy/mil_uniform/scgfleet
 	name = "Master scg fleet outfit"
 	hierarchy_type = /decl/hierarchy/mil_uniform/fleet
@@ -529,3 +529,4 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/flag
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
 	dress_extra = list(/obj/item/clothing/head/beret/solgov/fleet/dress/command)
+*/

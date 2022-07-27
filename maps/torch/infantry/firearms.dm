@@ -123,10 +123,6 @@
 	req_access = list(access_hop)
 	authorized_modes = list(UNAUTHORIZED)
 	starts_loaded = 0
-	init_firemodes = list(
-		list(mode_name="semi auto", automatic = FALSE, fire_delay= 3, burst=1, burst_delay = 2, move_delay=0, one_hand_penalty=12, burst_accuracy=null),
-		list(mode_name="automatic",  automatic = TRUE, fire_delay = 0.5, burst = 1, burst_delay = 0, move_delay=12, one_hand_penalty=24, burst_accuracy=list(0,0,-1,-1,-1,-1,-2,-2)),
-		)
 
 //rifle
 /obj/item/gun/projectile/automatic/bullpup_rifle/sec/lmg

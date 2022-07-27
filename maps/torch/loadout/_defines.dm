@@ -44,7 +44,7 @@
 #define RESEARCH_ROLES list(/datum/job/rd, /datum/job/scientist, /datum/job/mining, /datum/job/scientist_assistant, /datum/job/assistant, /datum/job/nt_pilot, /datum/job/roboticist)
 
 //For jobs that spawn with weapons in their lockers
-#define ARMED_ROLES list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/sea, /datum/job/sea/marine, /datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/merchant, /datum/job/terguard, /datum/job/grunt, /datum/job/combat_tech, /datum/job/combat_medic, /datum/job/squad_lead, /datum/job/submap/armsfactory_loyalguard)
+#define ARMED_ROLES list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/sea, /datum/job/sea/marine, /datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/merchant, /datum/job/terrep, /datum/job/terguard, /datum/job/grunt, /datum/job/combat_tech, /datum/job/combat_medic, /datum/job/squad_lead, /datum/job/submap/armsfactory_loyalguard, /datum/job/qm, /datum/job/bridgeofficer)
 
 //For jobs that spawn with armor in their lockers
 #define ARMORED_ROLES list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/qm, /datum/job/sea, /datum/job/sea/marine, /datum/job/bridgeofficer, /datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/merchant, /datum/job/terguard, /datum/job/submap/skrellscoutship_crew, /datum/job/submap/skrellscoutship_crew/leader, /datum/job/grunt, /datum/job/combat_tech, /datum/job/combat_medic, /datum/job/squad_lead, /datum/job/submap/armsfactory_loyalguard)

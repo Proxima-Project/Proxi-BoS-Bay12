@@ -38,6 +38,13 @@
 	cover += /obj/item/clothing/head/lordan/utility
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(cover)
 
+/datum/gear/military/orbitalberet
+	display_name = "orbital assault beret"
+	path = /obj/item/clothing/head/beret/lordan/orbital
+	slot = slot_head
+	cost = 0
+	allowed_branches = list(/datum/mil_branch/larmarine)
+
 /datum/gear/military/fleetcap
 	display_name = "fleet cover selection"
 	path = /obj/item/clothing/head

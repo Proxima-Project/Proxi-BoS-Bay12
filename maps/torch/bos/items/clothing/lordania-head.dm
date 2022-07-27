@@ -61,6 +61,11 @@
 	desc = "A green beret denoting service in the LSS Marine Corps."
 	icon_state = "beret_margreen"
 
+/obj/item/clothing/head/beret/lordan/orbital
+	name = "orbital assault beret"
+	desc = "A blue beret denoting orbital assault training. For helljumpers that are more inclined towards style than safety."
+	icon_state = "beret_marblue"
+
 /obj/item/clothing/head/beret/lordan/fleet
 	name = "fleet beret"
 	desc = "A black dress cap bearing the crest of the LSS Fleet"
