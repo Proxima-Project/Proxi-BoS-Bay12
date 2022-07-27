@@ -136,6 +136,7 @@
 /decl/surgery_step/internal/remove_organ
 	name = "Remove internal organ"
 	allowed_tools = list(
+		/obj/item/hemostat/esoteric = 110, //BoS Esoteric Update
 		/obj/item/hemostat = 100,
 		/obj/item/wirecutters = 75,
 		/obj/item/material/knife = 75,
@@ -298,6 +299,7 @@
 /decl/surgery_step/internal/attach_organ
 	name = "Attach internal organ"
 	allowed_tools = list(
+		/obj/item/FixOVein/esoteric = 110, //BoS Esoteric Update
 		/obj/item/FixOVein = 100,
 		/obj/item/stack/cable_coil = 75,
 		/obj/item/tape_roll = 50
