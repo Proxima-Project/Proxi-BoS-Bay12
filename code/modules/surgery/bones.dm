@@ -18,6 +18,7 @@
 /decl/surgery_step/bone/glue
 	name = "Begin bone repair"
 	allowed_tools = list(
+		/obj/item/bonegel/esoteric = 110, //BoS Esoteric Update P1
 		/obj/item/bonegel = 100,
 		/obj/item/tape_roll = 75
 	)
@@ -57,6 +58,7 @@
 /decl/surgery_step/bone/set_bone
 	name = "Set bone"
 	allowed_tools = list(
+		/obj/item/bonesetter/esoteric = 110, //BoS Esoteric Update P1
 		/obj/item/bonesetter = 100,
 		/obj/item/wrench = 75
 	)
@@ -108,6 +110,7 @@
 /decl/surgery_step/bone/finish
 	name = "Finish bone repair"
 	allowed_tools = list(
+		/obj/item/bonegel/esoteric = 110, //BoS Esoteric Update
 		/obj/item/bonegel = 100,
 		/obj/item/tape_roll = 75
 	)
