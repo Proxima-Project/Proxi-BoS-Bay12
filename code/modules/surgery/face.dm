@@ -4,6 +4,7 @@
 /decl/surgery_step/fix_face
 	name = "Repair face"
 	allowed_tools = list(
+		/obj/item/hemostat/esoteric = 110, //BoS Esoteric Update
 		/obj/item/hemostat = 100,
 		/obj/item/stack/cable_coil = 75,
 		/obj/item/device/assembly/mousetrap = 10,
@@ -91,6 +92,7 @@
 /decl/surgery_step/plastic_surgery/reform_face
 	name = "Reform Face"
 	allowed_tools = list(
+		/obj/item/hemostat/esoteric = 110, //BoS Esoteric Update
 		/obj/item/hemostat = 100,
 		/obj/item/stack/cable_coil = 75,
 		/obj/item/device/assembly/mousetrap = 10,
