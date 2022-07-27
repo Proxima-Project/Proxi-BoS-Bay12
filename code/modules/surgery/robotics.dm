@@ -105,6 +105,7 @@
 /decl/surgery_step/robotics/open_hatch
 	name = "Open maintenance hatch"
 	allowed_tools = list(
+		/obj/item/retractor/esoteric = 110, //BoS Esoteric Update
 		/obj/item/retractor = 100,
 		/obj/item/crowbar = 100,
 		/obj/item/material/kitchen/utensil = 50
@@ -141,6 +142,7 @@
 /decl/surgery_step/robotics/close_hatch
 	name = "Close maintenance hatch"
 	allowed_tools = list(
+		/obj/item/retractor/esoteric = 110, //BoS Esoteric Update
 		/obj/item/retractor = 100,
 		/obj/item/crowbar = 100,
 		/obj/item/material/kitchen/utensil = 50
@@ -337,6 +339,7 @@
 	name = "Repair prosthetic organ"
 	allowed_tools = list(
 		/obj/item/stack/nanopaste = 100,
+		/obj/item/bonegel/esoteric = 40, //BoS Esoteric Update
 		/obj/item/bonegel = 30,
 		/obj/item/screwdriver = 70,
 	)
@@ -559,6 +562,7 @@
 	min_duration = 60
 	max_duration = 80
 	allowed_tools = list(
+		/obj/item/hemostat/esoteric = 110, //BoS Esoteric Update
 		/obj/item/hemostat = 100,
 		/obj/item/wirecutters = 75,
 		/obj/item/material/kitchen/utensil/fork = 20
