@@ -18,7 +18,7 @@ var/global/datum/species/shapeshifter/promethean/prometheans
 	blood_color = "#05ff9b"
 	flesh_color = "#05fffb"
 
-	hunger_factor =    DEFAULT_HUNGER_FACTOR
+	hunger_factor =    NOHUNGER_HUNGER_FACTOR
 	thirst_factor =    NOTHIRST_THIRST_FACTOR
 	reagent_tag =      IS_SLIME
 	bump_flag =        SLIME
@@ -47,9 +47,7 @@ var/global/datum/species/shapeshifter/promethean/prometheans
 
 	unarmed_types = list(/datum/unarmed_attack/slime_glomp)
 	has_organ =     list(
-		BP_BRAIN = /obj/item/organ/internal/brain/slime,
-		BP_STOMACH = /obj/item/organ/internal/stomach/slime
-
+		BP_BRAIN = /obj/item/organ/internal/brain/slime
 	) // Slime core.
 	has_limbs = list(
 		BP_CHEST =  list("path" = /obj/item/organ/external/chest/unbreakable/slime),
@@ -100,6 +98,10 @@ var/global/datum/species/shapeshifter/promethean/prometheans
 	// is the slime core. but we might as well be thorough.
 	if(H.hydration < 400)
 		H.hydration = 400 // damn
+
+	if(H.nutrition < 400)
+		H.nutrition = 400
+
 	for(var/obj/item/organ/I in H.internal_organs)
 		if(I.damage > 0)
 			I.damage = max(I.damage - heal_rate, 0)
