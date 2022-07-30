@@ -2,7 +2,8 @@
 	name = "Drill keyhole incision"
 	allowed_tools = list(
 		/obj/item/pickaxe/drill = 80,
-		/obj/item/surgicaldrill = 100
+		/obj/item/surgicaldrill = 100,
+		/obj/item/surgicaldrill/esoteric = 110 //BoS Esoteric Update
 	)
 	fail_string = "cracking"
 	access_string = "a neat hole"
@@ -42,7 +43,8 @@
 	name = "Detach crystalline internal organ"
 	allowed_tools = list(
 		/obj/item/pickaxe/drill = 80,
-		/obj/item/surgicaldrill = 100
+		/obj/item/surgicaldrill = 100,
+		/obj/item/surgicaldrill/esoteric = 110 //BoS Esoteric Update
 	)
 	surgery_candidate_flags = SURGERY_NO_ROBOTIC | SURGERY_NO_STUMP | SURGERY_NEEDS_ENCASEMENT | SURGERY_NO_FLESH
 

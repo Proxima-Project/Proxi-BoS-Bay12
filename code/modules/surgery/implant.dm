@@ -24,6 +24,7 @@
 /decl/surgery_step/cavity/make_space
 	name = "Hollow out cavity"
 	allowed_tools = list(
+		/obj/item/surgicaldrill/esoteric = 110, //BoS Esoteric Update
 		/obj/item/surgicaldrill = 100,
 		/obj/item/pen = 75,
 		/obj/item/stack/material/rods = 50
@@ -55,6 +56,7 @@
 /decl/surgery_step/cavity/close_space
 	name = "Close cavity"
 	allowed_tools = list(
+		/obj/item/cautery/esoteric = 110, //BoS Esoteric Update
 		/obj/item/cautery = 100,
 		/obj/item/clothing/mask/smokable/cigarette = 75,
 		/obj/item/flame/lighter = 50,
@@ -143,6 +145,7 @@
 /decl/surgery_step/cavity/implant_removal
 	name = "Remove foreign body"
 	allowed_tools = list(
+		/obj/item/hemostat/esoteric = 110, //BoS Esoteric Update
 		/obj/item/hemostat = 100,
 		/obj/item/wirecutters = 75,
 		/obj/item/material/kitchen/utensil/fork = 20

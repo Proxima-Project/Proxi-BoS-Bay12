@@ -63,7 +63,7 @@
 
 	max_material_storage = 75000 * clamp(total_component_rating_of_type(/obj/item/stock_parts/matter_bin), 0, 10)
 
-	T = clamp(total_component_rating_of_type(/obj/item/stock_parts/manipulator), 0, 6)
+	T = clamp(total_component_rating_of_type(/obj/item/stock_parts/manipulator), 0, 8) //BoS Esoteric Update. Why? Since 6 is two pico, so without updating it would give 0.5 instead of proper 0.25
 	mat_efficiency = 1 - (T - 2) / 8
 	speed = T / 2
 	..()

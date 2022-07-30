@@ -23,6 +23,7 @@
 /decl/surgery_step/generic/cut_with_laser
 	name = "Make laser incision"
 	allowed_tools = list(
+		/obj/item/scalpel/laser4 = 105, //BoS: This one is utterly retarded but Bayshitcode. Overall t4 tools will grant +10% buff. Archotech will grant + 40%
 		/obj/item/scalpel/laser3 = 95,
 		/obj/item/scalpel/laser2 = 85,
 		/obj/item/scalpel/laser1 = 75,
@@ -143,6 +144,7 @@
 /decl/surgery_step/generic/clamp_bleeders
 	name = "Clamp bleeders"
 	allowed_tools = list(
+		/obj/item/hemostat/esoteric = 110, //BoS Esoteric Update
 		/obj/item/hemostat = 100,
 		/obj/item/stack/cable_coil = 75,
 		/obj/item/device/assembly/mousetrap = 20
@@ -184,6 +186,7 @@
 /decl/surgery_step/generic/retract_skin
 	name = "Widen incision"
 	allowed_tools = list(
+		/obj/item/retractor/esoteric = 110, //BoS Esoteric Update
 		/obj/item/retractor = 100,
 		/obj/item/crowbar = 75,
 		/obj/item/material/knife = 50,
@@ -229,6 +232,7 @@
 /decl/surgery_step/generic/cauterize
 	name = "Cauterize incision"
 	allowed_tools = list(
+		/obj/item/cautery/esoteric = 110, //BoS Esoteric Update
 		/obj/item/cautery = 100,
 		/obj/item/clothing/mask/smokable/cigarette = 75,
 		/obj/item/flame/lighter = 50,
@@ -296,6 +300,7 @@
 /decl/surgery_step/generic/amputate
 	name = "Amputate limb"
 	allowed_tools = list(
+		/obj/item/circular_saw/esoteric = 110, //BoS Esoteric Update
 		/obj/item/circular_saw = 100,
 		/obj/item/material/hatchet = 75
 	)
