@@ -177,7 +177,7 @@
 "du" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/map_template/armsfactory)
 "dv" = (/obj/effect/paint/black,/turf/simulated/wall/r_wall,/area/map_template/armsfactory/jail)
 "dw" = (/obj/effect/floor_decal/techfloor,/obj/effect/floor_decal/techfloor/hole/right,/obj/machinery/atmospherics/pipe/simple/hidden/universal,/turf/simulated/floor/tiled/techfloor,/area/map_template/armsfactory)
-"dx" = (/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/effect/floor_decal/corner/brown,/obj/machinery/door/airlock/multi_tile/command{name = "Commanding Operations"},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/armsfactory)
+"dx" = (/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/effect/floor_decal/corner/brown,/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/armsfactory)
 "dy" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/reagent_dispensers/fueltank,/obj/machinery/light{dir = 8},/obj/effect/floor_decal/corner/orange/border{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/map_template/armsfactory/engineering)
 "dz" = (/obj/effect/paint/black,/turf/simulated/wall,/area/map_template/armsfactory/bathroom)
 "dA" = (/obj/structure/bed/padded,/obj/item/bedsheet/brown,/obj/effect/floor_decal/techfloor{dir = 10},/turf/simulated/floor/tiled/techfloor,/area/map_template/armsfactory/dorms)
