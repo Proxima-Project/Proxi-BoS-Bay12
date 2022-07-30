@@ -189,6 +189,7 @@
 #include "code\bos\modules\clothing\accss_armor_boh.dm"
 #include "code\bos\modules\clothing\armor_boh.dm"
 #include "code\bos\modules\clothing\hardhat_boh.dm"
+#include "code\bos\modules\clothing\shieldarmor.dm"
 #include "code\bos\modules\clothing\suit.dm"
 #include "code\bos\modules\culture_descriptor\culture\cultures_ascent.dm"
 #include "code\bos\modules\culture_descriptor\culture\cultures_human.dm"

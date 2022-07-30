@@ -296,6 +296,9 @@
 		target.parkour.passthrought = image(target.parkour.icon, "passthrought")
 		hud_elements |= target.parkour
 
+		target.armorhud = new (null)
+		target.armorhud.screen_loc = ui_armorhud
+
 	if(target && target.usefov)
 		if(target.fov_mask)
 			QDEL_NULL(target.fov_mask)
