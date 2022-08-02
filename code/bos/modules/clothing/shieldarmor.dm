@@ -7,7 +7,7 @@
 	var/damtoreg = round(damage/3)
 
 	var/obj/item/clothing/suit/armor/shieldarmor/arm = holder
-	if(arm.charge >= damtoreg)
+	if(arm.charge > damtoreg)
 		arm.charge -= damtoreg
 		arm.update_hud(arm.loc)
 		return 1
@@ -24,7 +24,7 @@
 	icon_state = "smol"
 	var/active = TRUE
 	var/chargelevel = 25
-	var/delay = 5 SECONDS
+	var/delay = 3 SECONDS
 	var/chargesoundend = 'sound/items/shieldbatteryend.ogg'
 
 /obj/item/armorchargebattery/examine(mob/user, distance)
@@ -41,7 +41,7 @@
 	name = "Huge shields battery"
 	icon_state = "huge"
 	chargelevel = 125
-	delay = 10 SECONDS
+	delay = 6 SECONDS
 
 /obj/item/clothing/suit/armor/shieldarmor
 	name = "Energy shielded armor"
@@ -52,27 +52,31 @@
 		melee = ARMOR_MELEE_SHIELDED,
 		bullet = ARMOR_BALLISTIC_HEAVY,
 		laser = ARMOR_LASER_HEAVY,
-		energy = ARMOR_ENERGY_SHIELDED,
-		bomb = ARMOR_BOMB_MINOR,
-		bio = ARMOR_BIO_MINOR,
-		rad = ARMOR_RAD_MINOR
+		energy = ARMOR_ENERGY_SHIELDED
 	)
 	var/brokensound = 'sound/items/shieldbroken.ogg'
 	var/maxcharge = 50
 	var/charge = 50
+	var/guipath = 'icons/bos/mob/shieldgui.dmi'
 
 /obj/item/clothing/suit/armor/shieldarmor/proc/update_hud(mob/user)
 	if(!ishuman(user))
 		return
 	var/mob/living/carbon/human/H = user
 	if(equip_slot == slot_wear_suit && H.client && H.armorhud)
-		var/times = charge ? round(charge/25) : 0
+		var/fullpeaces = (charge - (charge % 25)) / 25
+		var/partpeaces = round((charge % 25) / 5)
 
-		var/icon/hud = icon('icons/bos/mob/shieldgui.dmi', "[icon_state]-c")
-		var/icon/hudonmob = icon('icons/bos/mob/shieldgui.dmi', icon_state)
-		if(times)
-			for(var/i in 0 to max(times-1, 1))
-				hudonmob.Blend(hud, ICON_OVERLAY, y=i*9)
+		var/icon/hud_peace = icon(guipath, "[icon_state]-m")
+		var/icon/hud = icon(guipath, "[icon_state]-c")
+		var/icon/hudonmob = icon(guipath, icon_state)
+		for(var/i in 1 to fullpeaces)
+			hudonmob.Blend(hud, ICON_OVERLAY, y = (i - 1) * 9)
+
+		var/yoffs = fullpeaces * 9
+		for(var/i in 1 to partpeaces)
+			hudonmob.Blend(hud_peace, ICON_OVERLAY, y = yoffs+i)
+
 		H.armorhud.icon = hudonmob
 		if(H.armorhud in H?.client.screen)
 			return

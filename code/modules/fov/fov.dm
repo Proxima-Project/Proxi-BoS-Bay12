@@ -43,7 +43,11 @@
 // //Making these generic procs so you can call them anywhere.
 /mob/living/proc/show_cone()
 	if(client && !hasmask)
+		if(!fov_shadow)
+			fov_shadow = new /obj/screen/fov_shadow(src)
 		client.screen += fov_shadow
+		if(!fov_mask)
+			fov_mask = new /obj/screen/fov_mask(src)
 		client.screen += fov_mask
 		hasmask = TRUE
 
