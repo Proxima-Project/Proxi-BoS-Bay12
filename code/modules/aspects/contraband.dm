@@ -17,7 +17,7 @@
 	var/list/turf/avalible_turfs = get_subarea_turfs(maintarea, list(/proc/is_turf_no_mines_and_walls))
 	for(var/j in 1 to rand(CONTR_MIN, CONTR_MAX))
 		T = pick(avalible_turfs)
-		if(prob(97))
+		if(prob(85))
 			var/contraband_common = pick(/obj/random/lilgun, /obj/random/contraband, /obj/random/contraband, /obj/random/contraband)
 			new contraband_common (T)
 		else
