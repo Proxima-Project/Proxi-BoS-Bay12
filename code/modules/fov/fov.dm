@@ -47,7 +47,7 @@
 			fov_shadow = new /obj/screen/fov_shadow(src)
 		client.screen += fov_shadow
 		if(!fov_mask)
-			fov_mask = new /obj/screen/fov_mask(src)
+			fov_mask = new /obj/screen/fov_blocker(src)
 		client.screen += fov_mask
 		hasmask = TRUE
 
