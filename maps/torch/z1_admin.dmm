@@ -9885,7 +9885,7 @@
 /obj/item/stack/material/steel{
 	amount = 50
 	},
-/obj/item/stack/material/steel{
+/obj/item/stack/material/aluminium{
 	amount = 50
 	},
 /turf/simulated/floor/tiled,
