@@ -206,6 +206,7 @@
 #include "code\bos\modules\emotes\definitions\_species.dm"
 #include "code\bos\modules\emotes\definitions\ascent.dm"
 #include "code\bos\modules\emotes\definitions\audible.dm"
+#include "code\bos\modules\events\supply_pod.dm"
 #include "code\bos\modules\guns\crafting_zipgun.dm"
 #include "code\bos\modules\guns\disprcd.dm"
 #include "code\bos\modules\guns\mantid.dm"
