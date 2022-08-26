@@ -18104,6 +18104,30 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
+"Ru" = (
+/obj/structure/table/rack,
+/obj/item/clothing/suit/armor/shieldarmor/blue,
+/obj/item/clothing/suit/armor/shieldarmor/blue,
+/obj/item/clothing/suit/armor/shieldarmor/blue,
+/obj/item/clothing/suit/armor/shieldarmor/blue,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/obj/item/armorchargebattery,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/security/marines/armory)
 "Rv" = (
 /obj/structure/closet/l3closet/janitor,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -50493,7 +50517,7 @@ aa
 aa
 aa
 Fp
-Fp
+Ru
 IQ
 fO
 El

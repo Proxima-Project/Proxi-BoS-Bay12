@@ -48,16 +48,32 @@
 	icon = 'icons/bos/obj/armorshield.dmi'
 	icon_state = "50"
 	armor_type = /datum/extension/armor/shieldlike
+	item_icons = list(
+		slot_wear_suit_str = 'icons/bos/obj/armorshield.dmi'
+	)
 	armor = list(
 		melee = ARMOR_MELEE_SHIELDED,
 		bullet = ARMOR_BALLISTIC_HEAVY,
 		laser = ARMOR_LASER_HEAVY,
 		energy = ARMOR_ENERGY_SHIELDED
 	)
+	var/hit_flick_icon = "shield_armor_hit"
 	var/brokensound = 'sound/items/shieldbroken.ogg'
 	var/maxcharge = 50
 	var/charge = 50
 	var/guipath = 'icons/bos/mob/shieldgui.dmi'
+
+/obj/item/clothing/suit/armor/shieldarmor/New()
+	. = ..()
+	if(!isicon(hit_flick_icon))
+		hit_flick_icon = icon(icon, hit_flick_icon)
+
+/obj/item/clothing/suit/armor/shieldarmor/on_update_icon()
+	. = ..()
+	item_state_slots[slot_wear_suit_str] = "shield_armor_[charge ? 1 : 0]"
+	if(ishuman(loc))
+		var/mob/living/carbon/human/H = loc
+		H.update_inv_wear_suit(TRUE)
 
 /obj/item/clothing/suit/armor/shieldarmor/proc/update_hud(mob/user)
 	if(!ishuman(user))
@@ -78,6 +94,7 @@
 			hudonmob.Blend(hud_peace, ICON_OVERLAY, y = yoffs+i)
 
 		H.armorhud.icon = hudonmob
+		update_icon()
 		if(H.armorhud in H?.client.screen)
 			return
 		H?.client.screen += H.armorhud
