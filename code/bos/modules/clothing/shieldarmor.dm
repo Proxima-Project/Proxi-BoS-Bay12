@@ -5,18 +5,19 @@
 		return 0
 
 	var/damtoreg = round(damage/3)
-
+	. = 0
 	var/obj/item/clothing/suit/armor/shieldarmor/arm = holder
 	if(arm.charge > damtoreg)
 		arm.charge -= damtoreg
-		arm.update_hud(arm.loc)
-		return 1
+		. = 1
 	else if(arm.charge > 0)
 		arm.charge = 0
-		arm.update_hud(arm.loc)
 		playsound(arm, arm.brokensound, 100)
-		return 0.5
-	return 0
+		. = 0.5
+	arm.update_hud(arm.loc)
+	arm.flick_hit(arm.loc)
+
+	return .
 
 /obj/item/armorchargebattery
 	name = "Small shields battery"
@@ -51,22 +52,19 @@
 	item_icons = list(
 		slot_wear_suit_str = 'icons/bos/obj/armorshield.dmi'
 	)
+	item_state_slots = list(
+		slot_wear_suit_str = "shield_armor_1"
+	)
 	armor = list(
 		melee = ARMOR_MELEE_SHIELDED,
 		bullet = ARMOR_BALLISTIC_HEAVY,
 		laser = ARMOR_LASER_HEAVY,
 		energy = ARMOR_ENERGY_SHIELDED
 	)
-	var/hit_flick_icon = "shield_armor_hit"
 	var/brokensound = 'sound/items/shieldbroken.ogg'
 	var/maxcharge = 50
 	var/charge = 50
 	var/guipath = 'icons/bos/mob/shieldgui.dmi'
-
-/obj/item/clothing/suit/armor/shieldarmor/New()
-	. = ..()
-	if(!isicon(hit_flick_icon))
-		hit_flick_icon = icon(icon, hit_flick_icon)
 
 /obj/item/clothing/suit/armor/shieldarmor/on_update_icon()
 	. = ..()
@@ -74,6 +72,15 @@
 	if(ishuman(loc))
 		var/mob/living/carbon/human/H = loc
 		H.update_inv_wear_suit(TRUE)
+
+/obj/item/clothing/suit/armor/shieldarmor/proc/flick_hit(mob/user)
+	if(charge)
+		item_state_slots[slot_wear_suit_str] = "shield_armor_hit"
+		if(ishuman(user))
+			var/mob/living/carbon/human/H = user
+			H.update_inv_wear_suit(TRUE)
+
+	addtimer(CALLBACK(src, /atom/movable/.proc/update_icon), 1 SECOND, TIMER_NO_HASH_WAIT | TIMER_OVERRIDE | TIMER_UNIQUE)
 
 /obj/item/clothing/suit/armor/shieldarmor/proc/update_hud(mob/user)
 	if(!ishuman(user))
@@ -94,7 +101,6 @@
 			hudonmob.Blend(hud_peace, ICON_OVERLAY, y = yoffs+i)
 
 		H.armorhud.icon = hudonmob
-		update_icon()
 		if(H.armorhud in H?.client.screen)
 			return
 		H?.client.screen += H.armorhud
@@ -133,6 +139,7 @@
 		bat.active = FALSE
 		bat.update_icon()
 		update_hud(loc)
+		update_icon()
 
 /obj/item/clothing/suit/armor/shieldarmor/blue
 	icon_state = "75"
