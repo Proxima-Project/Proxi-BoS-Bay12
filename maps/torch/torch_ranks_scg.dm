@@ -31,8 +31,8 @@
 
 	assistant_job = /datum/job/crew
 	min_skill = list(	SKILL_HAULING = SKILL_ADEPT,
-	                    SKILL_WEAPONS = SKILL_BASIC,
-	                    SKILL_COMBAT  = SKILL_BASIC)
+						SKILL_WEAPONS = SKILL_BASIC,
+						SKILL_COMBAT  = SKILL_BASIC)
 
 /datum/mil_branch/fleet
 	name = "SCG Fleet"

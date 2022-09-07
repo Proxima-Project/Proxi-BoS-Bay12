@@ -10,13 +10,13 @@
 /var/const/access_guppy_helm = "ACCESS_TORCH_GUP_HELM" //76
 /datum/access/guppy_helm
 	id = access_guppy_helm
-	desc = "General Utility Pod Helm"
+	desc = "SGRP General Utility Pod Helm"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_expedition_shuttle_helm = "ACCESS_EXPLO_HELM" //77
 /datum/access/exploration_shuttle_helm
 	id = access_expedition_shuttle_helm
-	desc = "Charon Helm"
+	desc = "SGEV Charon Helm"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_aquila = "ACCESS_TORCH_AQUILA" //78
@@ -34,20 +34,20 @@
 /var/const/access_solgov_crew = "ACCESS_TORCH_CREW" //80
 /datum/access/solgov_crew
 	id = access_solgov_crew
-	desc = "NanoTrasen Crew"
+	desc = "Antares Crew"
 	region = ACCESS_REGION_GENERAL
 
 /var/const/access_nanotrasen = "ACCESS_TORCH_CORP" //81
 /datum/access/nanotrasen
 	id = access_nanotrasen
-	desc = "Corporate Personnel"
+	desc = "Research Personnel"
 	region = ACCESS_REGION_RESEARCH
 
 /var/const/access_robotics_engineering = "ACCESS_TORCH_BIOMECH"  //82
 /datum/access/robotics_engineering
 	id = access_robotics_engineering
 	desc = "Biomechanical Engineering"
-	region = ACCESS_REGION_ENGINEERING
+	region = ACCESS_REGION_MEDBAY	// Minimal access to Medbay's Surgery
 
 /var/const/access_emergency_armory = "ACCESS_TORCH_ARMORY" //83
 /datum/access/emergency_armory
@@ -68,12 +68,6 @@
 	desc = "Adjudicator"
 	region = ACCESS_REGION_COMMAND
 	access_type = ACCESS_TYPE_NONE //Ruler of their own domain, CO cannot enter
-
-/var/const/access_sec_guard = "ACCESS_TORCH_SECURITY_GUARD" //86
-/datum/access/sec_guard
-	id = access_sec_guard
-	desc = "Security Guard"
-	region = ACCESS_REGION_RESEARCH
 
 /var/const/access_gun = "ACCESS_TORCH_CANNON" //87
 /datum/access/gun
@@ -129,6 +123,54 @@
 	desc = "Pilot"
 	region = ACCESS_REGION_GENERAL
 
+/var/const/access_marines = "ACCESS_MARINES"
+/datum/access/marines
+	id = access_marines
+	desc = "Marine"
+	region = ACCESS_REGION_SERVICE
+
+/var/const/access_marcom = "ACCESS_OFFICER"
+/datum/access/marcom
+	id = access_marcom
+	desc = "Marine Officer"
+	region = ACCESS_REGION_SERVICE
+
+/var/const/access_marlead = "ACCESS_MARLEAD"
+/datum/access/marlead
+	id = access_marlead
+	desc = "Marine Leader"
+	region = ACCESS_REGION_SERVICE
+
+/var/const/access_martech = "ACCESS_MARTECH"
+/datum/access/martech
+	id = access_martech
+	desc = "Marine Technician"
+	region = ACCESS_REGION_SERVICE
+
+/var/const/access_marmed = "ACCESS_MARMED"
+/datum/access/marmed
+	id = access_marmed
+	desc = "Marine Medic"
+	region = ACCESS_REGION_SERVICE
+
+/var/const/access_marspec = "ACCESS_MARSPEC"
+/datum/access/marspec
+	id = access_marspec
+	desc = "Marine Specialist"
+	region = ACCESS_REGION_SERVICE
+
+/var/const/access_gunnery = "ACCESS_GUNNERY"
+/datum/access/gunnery
+	id = access_gunnery
+	desc = "Gunnery Access"
+	region = ACCESS_REGION_SECURITY
+
+/var/const/access_chronicler = "ACCESS_CHRONICLER"
+/datum/access/chronicler
+	id = access_chronicler
+	desc = "Chronicler Access"
+	region = ACCESS_REGION_GENERAL
+
 /var/const/access_commissary = "ACCESS_TORCH_SHOP" //96
 /datum/access/commissary
 	id = access_commissary
@@ -167,56 +209,47 @@
 /*************
 * NRV Petrov *
 *************/
-/var/const/access_petrov = "ACCESS_TORCH_PETROV" //200
-/datum/access/petrov
-	id = access_petrov
-	desc = "NTRL Petrov"
-	region = ACCESS_REGION_NT
+/datum/access/research
+	desc = "LRL Petrov"
+
+/datum/access/research_storage
+	desc = "LRL Petrov Equipment Storage"
+
+/datum/access/tox
+	desc = "LRL Petrov Toxins Lab"
+
+/datum/access/tox_storage
+	desc = "LRL Petrov Phoron Sublimation Lab"
+
+/datum/access/rd
+	desc = "Research Director"
 
 /var/const/access_petrov_helm = "ACCESS_TORCH_PETROV_HELM" //201
 /datum/access/petrov_helm
 	id = access_petrov_helm
-	desc = "NTRL Petrov Helm"
-	region = ACCESS_REGION_NT
+	desc = "LRL Petrov Helm"
+	region = ACCESS_REGION_RESEARCH
 
 /var/const/access_petrov_analysis = "ACCESS_TORCH_PETROV_ANALYSIS" //202
 /datum/access/petrov_analysis
 	id = access_petrov_analysis
-	desc = "NTRL Petrov Analysis Lab"
-	region = ACCESS_REGION_NT
-
-/var/const/access_petrov_phoron = "ACCESS_TORCH_PETROV_PHORON" //203
-/datum/access/petrov_phoron
-	id = access_petrov_phoron
-	desc = "NTRL Petrov Phoron Sublimation Lab"
-	region = ACCESS_REGION_NT
-
-/var/const/access_petrov_toxins = "ACCESS_TORCH_PETROV_TOXINS" //204
-/datum/access/petrov_toxins
-	id = access_petrov_toxins
-	desc = "NTRL Polyp Toxins Lab"
-	region = ACCESS_REGION_NT
+	desc = "LRL Petrov Analysis Lab"
+	region = ACCESS_REGION_RESEARCH
 
 /var/const/access_petrov_chemistry = "ACCESS_TORCH_PETROV_CHEMISTRY" //205
 /datum/access/petrov_chemistry
 	id = access_petrov_chemistry
-	desc = "NTRL Petrov Chemistry Lab"
-	region = ACCESS_REGION_NT
-
-/var/const/access_petrov_rd = "ACCESS_TORCH_PETROV_RD" //206
-/datum/access/petrov_rd
-	id = access_petrov_rd
-	desc = "NTRL Petrov Research Director's Office"
-	region = ACCESS_REGION_NT
+	desc = "LRL Petrov Chemistry Lab"
+	region = ACCESS_REGION_RESEARCH
 
 /var/const/access_petrov_security = "ACCESS_TORCH_PETROV_SEC" //207
 /datum/access/petrov_security
 	id = access_petrov_security
-	desc = "NTRL Polyp Security Office"
-	region = ACCESS_REGION_NT
+	desc = "LRL Petrov Security Office"
+	region = ACCESS_REGION_RESEARCH
 
 /var/const/access_petrov_maint = "ACCESS_TORCH_PETROV_MAINT" //208
 /datum/access/petrov_maint
 	id = access_petrov_maint
-	desc = "NTRL Petrov Maintenance"
-	region = ACCESS_REGION_NT
+	desc = "LRL Petrov Maintenance"
+	region = ACCESS_REGION_RESEARCH

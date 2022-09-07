@@ -97,4 +97,4 @@
 	permission_fields += add_field(/datum/report_field/signature, "Для разрешения на вылет, поставьте подпись либо печать здесь", required = 1)
 	for(var/datum/report_field/field in permission_fields)
 		field.set_access(access_edit=list(list(access_qm, access_heads)))
-	set_access(list(list(access_guppy, access_expedition_shuttle, access_petrov)),list(list(access_guppy, access_expedition_shuttle, access_petrov)))
+	set_access(list(list(access_guppy, access_expedition_shuttle, access_research)),list(list(access_guppy, access_expedition_shuttle, access_research)))

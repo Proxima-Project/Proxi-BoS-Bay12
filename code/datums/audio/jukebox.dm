@@ -150,7 +150,7 @@
 
 
 GLOBAL_LIST_INIT(jukebox_tracks, list(
-	/decl/audio/track/kabak, //bos starts
+	/decl/audio/track/kabak,			//Bos starts,
 	/decl/audio/track/drunkensailor,
 	/decl/audio/track/rain,
 	/decl/audio/track/endoftheworld,
@@ -159,7 +159,7 @@ GLOBAL_LIST_INIT(jukebox_tracks, list(
 	/decl/audio/track/vinteresah,
 	/decl/audio/track/startthefire,
 	/decl/audio/track/solandterra,
-	/decl/audio/track/comeyouknights, //bos ends
+	/decl/audio/track/comeyouknights,	//Bos ends,
 	/decl/audio/track/absconditus,
 	/decl/audio/track/ambispace,
 	/decl/audio/track/as_far_as_it_gets,

@@ -8,7 +8,6 @@
 #define ACCESS_REGION_GENERAL 6
 #define ACCESS_REGION_SUPPLY 7
 #define ACCESS_REGION_SERVICE 8
-#define ACCESS_REGION_NT 9 //boh
 
 // Keep those two up to date
 #define ACCESS_REGION_MIN 1

@@ -55,7 +55,7 @@
 /obj/structure/table/vox/update_desc()
 	return
 
-/obj/structure/table/vox/break_to_parts()
+/obj/structure/table/vox/break_to_parts(full_return)
 	return
 
 /obj/structure/table/vox/on_update_icon()

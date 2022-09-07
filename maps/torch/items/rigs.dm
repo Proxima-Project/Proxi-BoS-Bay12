@@ -285,7 +285,7 @@
 	 			  /obj/item/ammo_magazine,
 	  			  /obj/item/handcuffs,
 	   			  /obj/item/device/flashlight,
-	    		  /obj/item/tank,
+				  /obj/item/tank,
 				  /obj/item/device/suit_cooling_unit,
 				  /obj/item/melee/baton,
 				  /obj/item/storage/)
@@ -333,7 +333,7 @@
 				   /obj/item/device/flashlight,
 				   /obj/item/tank,
 				   /obj/item/device/suit_cooling_unit,
-			       /obj/item/stack/flag,
+				   /obj/item/stack/flag,
 				   /obj/item/storage/excavation,
 				   /obj/item/device/scanner/health,
 				   /obj/item/device/measuring_tape,

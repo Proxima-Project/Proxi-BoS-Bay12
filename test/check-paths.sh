@@ -30,7 +30,7 @@ exactly 2 "/datum text paths" '"/datum'
 exactly 2 "/mob text paths" '"/mob'
 exactly 10 "/obj text paths" '"/obj'
 exactly 8 "/turf text paths" '"/turf'
-exactly 121 "to_world uses" '\sto_world\('
+exactly 124 "to_world uses" '\sto_world\('
 exactly 53 "to_world_log uses" '\sto_world_log\('
 exactly 0 "world<< uses" 'world<<|world[[:space:]]<<'
 exactly 0 "world.log<< uses" 'world.log<<|world.log[[:space:]]<<'
@@ -42,7 +42,7 @@ exactly 3 "update_icon() override" '/update_icon\((.*)\)'  -P
 exactly 5 "goto use" 'goto '
 exactly 1 "NOOP match" 'NOOP'
 exactly 369 "spawn uses" '^\s*spawn\s*\(\s*(-\s*)?\d*\s*\)' -P
-exactly 318 "tag uses" '\stag = ' -P '**/*.dmm'
+exactly 42 "tag uses" '\stag = ' -P '**/*.dmm'
 exactly 25 "anchored = 0/1" 'anchored\s*=\s*\d' -P
 exactly 29 "density = 0/1" 'density\s*=\s*\d' -P
 exactly 2 "emagged = 0/1" 'emagged\s*=\s*\d' -P

@@ -444,7 +444,7 @@
 	requires_power = 1
 	dynamic_lighting = 1
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
-	req_access = list(access_petrov)
+	req_access = list(access_research)
 
 /area/shuttle/petrov/cell1
 	name = "\improper LRL Petrov - Isolation Cell 1"
@@ -466,10 +466,9 @@
 	req_access = list(access_petrov_security)
 
 /area/shuttle/petrov/rd
-	icon_state = "heads_rd"
 	name = "\improper LRL Petrov - CSO's Office"
-	icon_state = "head_quarters"
-	req_access = list(access_petrov_rd)
+	icon_state = "heads_rd"
+	req_access = list(access_rd)
 
 /area/shuttle/petrov/cockpit
 	name = "\improper LRL Petrov - Cockpit"
@@ -489,7 +488,7 @@
 /area/shuttle/petrov/toxins
 	name = "\improper LRL Petrov - Storage and Range"
 	icon_state = "toxstorage"
-	req_access = list(access_petrov_toxins)
+	req_access = list(access_tox)
 
 /area/shuttle/petrov/rnd
 	name = "\improper LRL Petrov - Fabricator Lab"
@@ -502,15 +501,17 @@
 /area/shuttle/petrov/phoron
 	name = "\improper LRL Petrov - Heavy Containment"
 	icon_state = "toxstorage"
-	req_access = list(access_petrov_phoron)
+	req_access = list(access_tox_storage)
 
 /area/shuttle/petrov/custodial
 	name = "\improper LRL Petrov - Custodial"
 	icon_state = "decontamination"
+	req_access = list(access_research_storage)
 
 /area/shuttle/petrov/equipment
 	name = "\improper LRL Petrov - Equipment Storage"
 	icon_state = "locker"
+	req_access = list(access_research_storage)
 
 /area/shuttle/petrov/eva
 	name = "\improper LRL Petrov - EVA Storage"
@@ -678,12 +679,12 @@
 
 /area/crew_quarters/heads/office/rd
 	icon_state = "heads_rd"
-	name = "\improper Command - CSO's Office"
+	name = "\improper Research - CSO's Office"
 	req_access = list(access_rd)
 
 /area/crew_quarters/heads/office/cmo
 	icon_state = "heads_cmo"
-	name = "\improper Command - CMO's Office"
+	name = "\improper Medical - CMO's Office"
 	req_access = list(access_cmo)
 
 /area/crew_quarters/heads/office/ce
@@ -693,7 +694,7 @@
 
 /area/crew_quarters/heads/office/cos
 	icon_state = "heads_hos"
-	name = "\improper Command - CoS' Office"
+	name = "\improper Security - CoS' Office"
 	req_access = list(access_hos)
 
 /area/crew_quarters/heads/office/cl
@@ -717,7 +718,8 @@
 	req_access = list(access_senadv)
 
 /area/crew_quarters/heads/office/sea/marine
-	name = "\improper Command - Marine SEA's Office"
+	name = "\improper Infantry - Marine Officer's Office"
+	req_access = list(access_marcom)
 
 // Engineering
 
@@ -905,6 +907,7 @@
 /area/rnd/canister
 	name = "\improper Canister Storage"
 	icon_state = "toxstorage"
+	req_access = list(access_tox)
 
 /area/rnd/development
 	name = "\improper Fabricator Lab"
@@ -1136,7 +1139,7 @@
 /area/medical/triage
 	name = "\improper Triage"
 	icon_state = "medbay"
-	req_access = list(access_medical)
+	req_access = list(list(access_medical, access_robotics_engineering))
 
 /area/medical/reslab
 	name = "\improper Resuscitation Lab"
@@ -1511,7 +1514,7 @@
 
 // Research
 /area/assembly
-	req_access = list(access_robotics_engineering)
+	req_access = list(access_robotics)
 
 /area/assembly/chargebay
 	name = "\improper Mech Bay"
@@ -1797,7 +1800,7 @@
 	name = "\improper Marine Hard Storage"
 	icon = 'icons/boh/area.dmi'
 	icon_state = "triage"
-	req_access = list(access_marcom)
+	req_access = list(access_marlead)
 
 /area/security/marines/bunk
 	name = "\improper Marine Barracks"

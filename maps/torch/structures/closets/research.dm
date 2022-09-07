@@ -104,7 +104,7 @@
 
 /obj/structure/closet/secure_closet/guard
 	name = "security guard's locker"
-	req_access = list(access_sec_guard)
+	req_access = list(access_petrov_security)
 	closet_appearance = /decl/closet_appearance/secure_closet/torch/science
 
 /obj/structure/closet/secure_closet/guard/WillContain()

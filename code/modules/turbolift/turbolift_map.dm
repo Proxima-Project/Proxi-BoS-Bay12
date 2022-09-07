@@ -225,6 +225,10 @@
 	lift.control_panel_interior = new(T, lift)
 	lift.control_panel_interior.set_dir(udir)
 	lift.current_floor = lift.floors[1]
+	// BoS start
+	var/obj/machinery/camera/AIEYE = new /obj/machinery/camera(T)
+	AIEYE.set_dir(udir)
+	// BoS end
 
 	lift.open_doors()
 

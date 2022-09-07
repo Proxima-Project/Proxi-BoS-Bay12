@@ -131,7 +131,7 @@
 
 /obj/structure/closet/secure_closet/squad_lead
 	name = "squad leader's locker"
-	req_access = list(access_marcom)
+	req_access = list(access_marlead)
 	closet_appearance = /decl/closet_appearance/secure_closet/security/hos
 
 /obj/structure/closet/secure_closet/squad_lead/WillContain()

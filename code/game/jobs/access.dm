@@ -184,9 +184,7 @@ var/global/list/priv_region_access
 		if(ACCESS_REGION_SUPPLY) //supply
 			return "Supply"
 		if(ACCESS_REGION_SERVICE) //nt
-			return "Service"
-		if(ACCESS_REGION_NT) //boh
-			return "Science"
+			return "Infantry"	// ORIG	return "Service"	// Service is GENERAL, so we can rename us ~BoS
 
 /proc/get_access_desc(id)
 	var/list/AS = priv_all_access_datums_id || get_all_access_datums_by_id()

@@ -56,7 +56,7 @@ var/list/phonetic_alphabet_suffix = list("ALPHA", "BETA", "GAMMA", "DELTA", "EPS
 		identified = TRUE
 		var/obj/effect/overmap/event/source_event = source
 		marker = image(loc = source_event, icon = 'icons/obj/overmap.dmi', icon_state = source_event.overmap_effect_state)
-		marker.color = source_event.color
+		marker.color = source_event.color != null ? source_event.color : "FFFFFF"	// BoS bugfixing if color = null
 		marker.filters = filter(type="drop_shadow", color = marker.color + "F0", size = 2, offset = 1,x = 0, y = 0)
 		marker.alpha = 0
 

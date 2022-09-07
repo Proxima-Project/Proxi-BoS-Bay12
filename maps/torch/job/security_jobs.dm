@@ -16,19 +16,19 @@
 		/datum/mil_rank/larfleet/e8
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
-	                    SKILL_EVA         = SKILL_BASIC,
-	                    SKILL_COMBAT      = SKILL_BASIC,
-	                    SKILL_WEAPONS     = SKILL_ADEPT,
-	                    SKILL_FORENSICS   = SKILL_BASIC)
+						SKILL_EVA         = SKILL_BASIC,
+						SKILL_COMBAT      = SKILL_BASIC,
+						SKILL_WEAPONS     = SKILL_ADEPT,
+						SKILL_FORENSICS   = SKILL_BASIC)
 
 	max_skill = list(   SKILL_COMBAT      = SKILL_MAX,
-	                    SKILL_WEAPONS     = SKILL_MAX,
-	                    SKILL_FORENSICS   = SKILL_MAX)
+						SKILL_WEAPONS     = SKILL_MAX,
+						SKILL_FORENSICS   = SKILL_MAX)
 	skill_points = 34
 
 	access = list(access_security, access_brig, access_armory, access_forensics_lockers,
-			            access_maint_tunnels, access_external_airlocks, access_emergency_storage,
-			            access_eva, access_sec_doors, access_solgov_crew, access_gun, access_petrov, access_petrov_security, access_hangar)
+						access_maint_tunnels, access_external_airlocks, access_emergency_storage,
+						access_eva, access_sec_doors, access_solgov_crew, access_gun, access_research, access_petrov_security, access_hangar)
 
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
 							 /datum/computer_file/program/camera_monitor)
@@ -55,20 +55,20 @@
 		/datum/mil_rank/civ/contractor
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_COMPUTER    = SKILL_BASIC,
-	                    SKILL_EVA         = SKILL_BASIC,
-	                    SKILL_COMBAT      = SKILL_BASIC,
-	                    SKILL_WEAPONS     = SKILL_BASIC,
-	                    SKILL_FORENSICS   = SKILL_ADEPT)
+						SKILL_COMPUTER	= SKILL_BASIC,
+						SKILL_EVA         = SKILL_BASIC,
+						SKILL_COMBAT      = SKILL_BASIC,
+						SKILL_WEAPONS     = SKILL_BASIC,
+						SKILL_FORENSICS   = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_COMBAT      = SKILL_MAX,
-	                    SKILL_WEAPONS     = SKILL_MAX,
-	                    SKILL_FORENSICS   = SKILL_MAX)
+						SKILL_WEAPONS     = SKILL_MAX,
+						SKILL_FORENSICS   = SKILL_MAX)
 	skill_points = 20
 
 	access = list(access_security, access_brig, access_forensics_lockers,
-			            access_maint_tunnels, access_emergency_storage,
-			            access_sec_doors, access_solgov_crew, access_morgue, access_eva)
+						access_maint_tunnels, access_emergency_storage,
+						access_sec_doors, access_solgov_crew, access_morgue, access_eva)
 
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
 							 /datum/computer_file/program/camera_monitor)
@@ -106,20 +106,20 @@
 		/datum/mil_rank/larfleet/e4
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_EVA         = SKILL_BASIC,
-	                    SKILL_COMBAT      = SKILL_BASIC,
-	                    SKILL_WEAPONS     = SKILL_ADEPT,
-	                    SKILL_FORENSICS   = SKILL_BASIC,
+						SKILL_EVA         = SKILL_BASIC,
+						SKILL_COMBAT      = SKILL_BASIC,
+						SKILL_WEAPONS     = SKILL_ADEPT,
+						SKILL_FORENSICS   = SKILL_BASIC,
 						SKILL_HAULING	  = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_COMBAT      = SKILL_MAX,
-	                    SKILL_WEAPONS     = SKILL_MAX,
-	                    SKILL_FORENSICS   = SKILL_MAX)
+						SKILL_WEAPONS     = SKILL_MAX,
+						SKILL_FORENSICS   = SKILL_MAX)
 	skill_points = 22
 
 	access = list(access_security, access_brig, access_maint_tunnels,
 						access_external_airlocks, access_emergency_storage,
-			            access_eva, access_sec_doors, access_solgov_crew, access_petrov, access_petrov_security, access_hangar)
+						access_eva, access_sec_doors, access_solgov_crew, access_research, access_petrov_security, access_hangar)
 
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant,
 							 /datum/computer_file/program/camera_monitor)
