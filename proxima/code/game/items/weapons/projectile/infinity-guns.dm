@@ -103,4 +103,3 @@
 	name = "SN42-Smart"
 	desc = "The SN42 Enforcer variant or simply Syndie 42 is a self-defense weapon made on bullpup system. Formely produced by Syndicate for it's Corporate Force. Looks cool and stylish, but sometimes too uncomfortably to run with it. Uses 6mmR rounds."
 	authorized_modes = list(UNAUTHORIZED)
-Footer
