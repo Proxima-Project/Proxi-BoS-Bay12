@@ -1,6 +1,6 @@
 /obj/item/gun/projectile/automatic/corpo
-	name = "NT41"
-	desc = "The NT41 Enforcer is a self-defense weapon made on bullpup system. Produced by NanoTrasen for it's Security Force. Looks cool and stylish, but sometimes too uncomfortably to run with it. Remember, not a single word about 'Syndicate'. Uses 6mmR rounds."
+	name = "SN42"
+	desc = "The SN42 Enforcer or simply Syndie 42 is a self-defense weapon made on bullpup system. Formely produced by Syndicate for it's Corporate Force. Looks cool and stylish, but sometimes too uncomfortably to run with it. Uses 6mmR rounds."
 	icon_state = "nt41"
 	item_state = "nt41"
 	icon = 'proxima/icons/obj/guns/guns.dmi'
@@ -36,7 +36,7 @@
 
 /obj/item/gun/projectile/automatic/amrcarabine
 	name = "LDC-542"
-	desc = "A 'silent' and deadly gun, manufactured by Aussec Armory. It's a common weapon for a long-medium ranged combat units in Private Military Companies. Uses 12mmR rounds. Fuck, is this even legal?"
+	desc = "A 'silent' and deadly gun, formely manufactured by Syndicate. It's a common weapon for a long-medium ranged combat units in Private Military Companies. Uses 12mmR rounds. Fuck, is this even legal?"
 	icon = 'proxima/icons/obj/guns/guns.dmi'
 	icon_state = "amrcarabine"
 	item_state = "z8carbine"
@@ -67,7 +67,7 @@
 
 /obj/item/gun/projectile/automatic/pdw
 	name = "BP-15"
-	desc = "The BP-15 'Moloh' is a personal defense weapon, produced by Aussec Armory for use by police spec ops or solders. Uses 6mmR rounds."
+	desc = "The BP-15 'Moloh' is a personal defense weapon, produced by Hephaestus Industries for use by police spec ops or solders. Uses 6mmR rounds."
 	icon = 'proxima/icons/obj/guns/guns.dmi'
 	icon_state = "pdw"
 	item_state = "c20r"
@@ -100,6 +100,7 @@
 	..()
 
 /obj/item/gun/projectile/automatic/corpo/sec
-	name = "NT41-Smart"
-	desc = "The varriant of NT41 Enforcer is a self-defense weapon made on bullpup system, moddified to have 'smartlock' system widely used in smartgun sidearms. Produced by NanoTrasen for it's Security Force. Looks cool and stylish, but sometimes too uncomfortably to run with it. Remember, not a single word about 'Syndicate'. Uses 6mmR rounds."
+	name = "SN42-Smart"
+	desc = "The SN42 Enforcer variant or simply Syndie 42 is a self-defense weapon made on bullpup system. Formely produced by Syndicate for it's Corporate Force. Looks cool and stylish, but sometimes too uncomfortably to run with it. Uses 6mmR rounds."
 	authorized_modes = list(UNAUTHORIZED)
+Footer
