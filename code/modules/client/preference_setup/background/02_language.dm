@@ -1,7 +1,6 @@
 /datum/preferences
 	var/list/alternate_languages
 	var/accent
-	//uh, git...
 
 /datum/category_item/player_setup_item/background/languages
 	name = "Languages"
