@@ -65,12 +65,4 @@ GLOBAL_LIST_EMPTY(accent_path_to_name)
 
 
 //TODO: put this in the proper place and build all the allowed_accents sets
-
 /// The accents this background permits, if any.
-/decl/cultural_info/var/list/allowed_accents = list()
-
-/decl/cultural_info/culture/human/martian_surfacer/allowed_accents = list(
-	/decl/accent/sol_core,
-	/decl/accent/mars_surface,
-	/decl/accent/mars_tunnel
-)
