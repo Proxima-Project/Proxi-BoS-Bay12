@@ -108,8 +108,8 @@
 					/obj/item/clothing/suit/engicost,
 					/obj/item/clothing/suit/maxman,
 					/obj/item/clothing/suit/iasexy,
-					/obj/item/clothing/suit/sexyminer
-					/obj/item/clothing/suit/lumber
+					/obj/item/clothing/suit/sexyminer,
+					/obj/item/clothing/suit/lumber,
 					/obj/item/clothing/under/waiter,
 					/obj/item/clothing/under/gladiator,
 					/obj/item/clothing/under/soviet,
