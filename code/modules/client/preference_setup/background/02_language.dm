@@ -34,8 +34,8 @@
 /datum/category_item/player_setup_item/background/languages/proc/build_allowed_accents()
 	allowed_accents = list()
 	for (var/token in pref.cultural_info)
-		var/decl/cultural_info = SSculture.get_culture(pref.cultural_info[token])
-		for (var/path in allowed_accents)
+		var/decl/cultural_info/culture = SSculture.get_culture(pref.cultural_info[token])
+		for (var/path in culture.allowed_accents)
 			allowed_accents |= GLOB.accent_path_to_name[path]
 	allowed_accents |=  GLOB.accent_path_to_name[/decl/accent/unknown]
 
