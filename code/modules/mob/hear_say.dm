@@ -97,6 +97,7 @@
 			accent_tag = accent.GetTag(client)
 			to_world("[length(accent_tag)]")
 			to_world(accent_tag)
+			//display_message = {"[accent_tag], <span class="message"><span class="body">"[display_message]</span></span>"}
 		else
 			to_world("no accent collected")
 	else
@@ -122,7 +123,8 @@
 				display_verb = "[verb] ([language.shorthand])"
 		display_message = language.format_message(display_message, display_verb)
 		//[!accent_tag?" ":isicon(accent_tag)?"\icon[accent_tag]":accent_tag]
-	on_hear_say({"<span class="game say">[display_controls]<span class="name">[display_name]</span>[alt_name] [display_message]</span>"})
+
+	on_hear_say({"[accent_tag] <span class="game say">[display_controls]<span class="name">[display_name]</span>[alt_name] [display_message]</span>"})
 
 
 /mob/proc/on_hear_say(var/message)
