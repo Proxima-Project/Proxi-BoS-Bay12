@@ -27,9 +27,7 @@
 		return ""
 	if (pref == GLOB.PREF_PLAIN)
 		return code
-	//else
-		//icon2html(icon, recipient, realsize = TRUE, class = "text_tag")
-	return icon
+	return icon2html(icon, recipient, realsize = TRUE, class = "text_tag")
 
 
 /decl/accent/none
