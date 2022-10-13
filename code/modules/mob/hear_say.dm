@@ -90,18 +90,19 @@
 
 	var/accent_tag = ""
 	if (speaker.accent)
-		to_world("has accent path [speaker.accent]")
+		//to_world("has accent path [speaker.accent]")
 		var/decl/accent/accent = decls_repository.get_decl(speaker.accent)
 		if (accent)
-			to_world("got accent [accent.name]")
+			//to_world("got accent [accent.name]")
 			accent_tag = accent.GetTag(client)
+			/*
 			to_world("[length(accent_tag)]")
 			to_world(accent_tag)
-			//display_message = {"[accent_tag], <span class="message"><span class="body">"[display_message]</span></span>"}
 		else
 			to_world("no accent collected")
 	else
 		to_world("no accent set")
+	*/
 
 	var/display_verb = verb
 	if (!language)
@@ -122,7 +123,6 @@
 			if (GLOB.PREF_SHORTHAND)
 				display_verb = "[verb] ([language.shorthand])"
 		display_message = language.format_message(display_message, display_verb)
-		//[!accent_tag?" ":isicon(accent_tag)?"\icon[accent_tag]":accent_tag]
 
 	on_hear_say({"[accent_tag] <span class="game say">[display_controls]<span class="name">[display_name]</span>[alt_name] [display_message]</span>"})
 
