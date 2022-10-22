@@ -101,7 +101,7 @@
 	<br />
 	"}
 	f = 1
-	for(var/k in ALL_ANTIGENS)
+	for(var/k in GLOB.ALL_ANTIGENS)
 		if(!f) H += " | "
 		else f = 0
 		H += "<a href='?src=\ref[src];what=antigen;toggle=[k]' style='color:[(k in antigens) ? "#006600" : "#ff0000"]'>[k]</a>"

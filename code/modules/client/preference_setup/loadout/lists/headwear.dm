@@ -209,4 +209,5 @@
 	cowboy_hat["black cowboy hat"] = /obj/item/clothing/head/cowboy_hat/black
 	cowboy_hat["white cowboy hat"] = /obj/item/clothing/head/cowboy_hat/white
 	cowboy_hat["wide-brimmed cowboy hat"] = /obj/item/clothing/head/cowboy_hat/wide
+	cowboy_hat["black wide-brimmed cowboy hat"] = /obj/item/clothing/head/cowboy_hat/wide/black
 	gear_tweaks += new/datum/gear_tweak/path(cowboy_hat)

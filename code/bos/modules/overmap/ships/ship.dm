@@ -24,6 +24,7 @@
 	var/sensor_visiblity //chance of showing up on sensors at all
 	var/base_sensor_visibility
 	var/identification_difficulty = 100 //How difficult are we to tick up identification on?
+	var/is_in_stealth = FALSE
 
 	var/vessel_mass = 10000             //tonnes, arbitrary number, affects acceleration provided by engines
 	var/vessel_size = SHIP_SIZE_LARGE	//arbitrary number, affects how likely are we to evade meteors
@@ -254,6 +255,8 @@
 	..()
 	for(var/obj/machinery/computer/ship/S in SSmachines.machinery)
 		S.attempt_hook_up(src)
+	for(var/obj/machinery/stealth/S in SSmachines.machinery)
+		S.attempt_hook_up(src)
 	for(var/datum/ship_engine/E in ship_engines)
 		if(check_ownership(E.holder))
 			engines |= E
@@ -279,7 +282,7 @@
 /obj/effect/overmap/visitable/ship/proc/get_total_sensor_vis()
 	var/new_sensor_vis = (base_sensor_visibility + get_engine_sensor_increase())
 
-	return min(new_sensor_vis, 100)
+	return is_in_stealth ? 0 : min(new_sensor_vis, 100)
 
 
 /obj/effect/overmap/visitable/ship/proc/check_target(obj/effect/overmap/target)

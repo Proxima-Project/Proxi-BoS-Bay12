@@ -67,26 +67,26 @@
 					for (var/ID in virus)
 						var/datum/disease2/disease/V = virus[ID]
 						var/datum/computer_file/data/virus_record/R = null
-						if (ID in virusDB)
-							R = virusDB[ID]
+						if (ID in GLOB.virusDB)
+							R = GLOB.virusDB[ID]
 
 						var/weakref/W = B.data["donor"]
 						var/mob/living/carbon/human/D = W.resolve()
-						pathogen_pool.Add(list(list(\
-							"name" = "[D ? D.get_species() : "Unidentified"] [B.name]", \
-							"dna" = B.data["blood_DNA"], \
-							"unique_id" = V.uniqueID, \
-							"reference" = "\ref[V]", \
-							"is_in_database" = !!R, \
-							"record" = "\ref[R]")))
+						pathogen_pool.Add(list(list(
+							"name" = "[D ? D.get_species() : "Unidentified"] [B.name]",
+							"dna" = B.data["blood_DNA"],
+							"unique_id" = V.uniqueID,
+							"reference" = V ? "\ref[V]" : "",
+							"is_in_database" = !!R,
+							"record" = R ? "\ref[R]" : "")))
 
 				if (pathogen_pool.len > 0)
 					data["pathogen_pool"] = pathogen_pool
 
 		if (LIST)
 			var/list/db[0]
-			for (var/ID in virusDB)
-				var/datum/computer_file/data/virus_record/r = virusDB[ID]
+			for (var/ID in GLOB.virusDB)
+				var/datum/computer_file/data/virus_record/r = GLOB.virusDB[ID]
 				db.Add(list(list("name" = r.fields["name"], "record" = "\ref[r]")))
 
 			if (db.len > 0)
@@ -205,9 +205,9 @@
 "}
 
 			var/i = 0
-			for (var/ID in virusDB)
+			for (var/ID in GLOB.virusDB)
 				i++
-				var/datum/computer_file/data/virus_record/r = virusDB[ID]
+				var/datum/computer_file/data/virus_record/r = GLOB.virusDB[ID]
 				P.info += "[i]. " + r.fields["name"]
 				P.info += "<br>"
 

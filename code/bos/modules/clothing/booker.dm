@@ -4,6 +4,7 @@
 	name = "lord-protector armor"
 	icon = 'customs/icons/obj/custom_items_obj.dmi'
 	icon_state = "inqarmor_alt"
+	item_state = "inqarmor_alt"
 	item_icons = list(slot_wear_suit_str = 'customs/icons/mob/custom_items_mob.dmi')
 	item_state_slots = list(
 		slot_l_hand_str = "space_suit_syndicate",

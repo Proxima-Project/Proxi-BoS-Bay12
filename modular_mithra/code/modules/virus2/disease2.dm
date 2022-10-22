@@ -32,8 +32,8 @@ LEGACY_RECORD_STRUCTURE(virus_records, virus_record)
 		else
 			infectionchance = rand(60,90)
 
-	antigen = list(pick(ALL_ANTIGENS))
-	antigen |= pick(ALL_ANTIGENS)
+	antigen = list(pick(GLOB.ALL_ANTIGENS))
+	antigen |= pick(GLOB.ALL_ANTIGENS)
 	spreadtype = prob(70) ? "Airborne" : "Contact"
 
 	if(all_species.len)
@@ -152,8 +152,8 @@ LEGACY_RECORD_STRUCTURE(virus_records, virus_record)
 
 	effects += get_random_virus2_effect(effect_stage, badness, exclude)
 
-	antigen = list(pick(ALL_ANTIGENS))
-	antigen |= pick(ALL_ANTIGENS)
+	antigen = list(pick(GLOB.ALL_ANTIGENS))
+	antigen |= pick(GLOB.ALL_ANTIGENS)
 
 	if (prob(5) && all_species.len)
 		affected_species = get_infectable_species()
@@ -197,12 +197,12 @@ LEGACY_RECORD_STRUCTURE(virus_records, virus_record)
 	return res
 
 
-var/global/list/virusDB = list()
+GLOBAL_LIST_EMPTY(virusDB)
 
 /datum/disease2/disease/proc/name()
 	.= "strain #[add_zero("[uniqueID]", 4)]"
-	if ("[uniqueID]" in virusDB)
-		var/datum/computer_file/data/virus_record/V = virusDB["[uniqueID]"]
+	if ("[uniqueID]" in GLOB.virusDB)
+		var/datum/computer_file/data/virus_record/V = GLOB.virusDB["[uniqueID]"]
 		.= V.fields["name"]
 
 /datum/disease2/disease/proc/get_info(skill = HAS_PERK, verbose = 1, given_effects)
@@ -232,7 +232,7 @@ var/global/list/virusDB = list()
 
 
 /datum/disease2/disease/proc/addToDB()
-	if ("[uniqueID]" in virusDB)
+	if ("[uniqueID]" in GLOB.virusDB)
 		return 0
 	var/datum/computer_file/data/virus_record/v = new()
 	v.fields["id"] = uniqueID
@@ -240,7 +240,7 @@ var/global/list/virusDB = list()
 	v.fields["description"] = get_info()
 	v.fields["antigen"] = antigens2string(antigen)
 	v.fields["spread type"] = spreadtype
-	virusDB["[uniqueID]"] = v
+	GLOB.virusDB["[uniqueID]"] = v
 	return 1
 
 

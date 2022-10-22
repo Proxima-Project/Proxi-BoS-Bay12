@@ -1,3 +1,10 @@
+GLOBAL_LIST_INIT(razorweb_immune_species, list(
+		SPECIES_MANTID_ALATE   = TRUE,
+		SPECIES_MANTID_GYNE    = TRUE,
+		SPECIES_MONARCH_QUEEN  = TRUE,
+		SPECIES_MONARCH_WORKER = TRUE
+	))
+
 /obj/item/razorweb
 	name = "razorweb wad"
 	desc = "A wad of crystalline monofilament."
@@ -29,12 +36,6 @@
 	var/last_light
 	var/image/gleam
 	var/image/web
-	var/global/species_immunity_list = list(
-		SPECIES_MANTID_ALATE   = TRUE,
-		SPECIES_MANTID_GYNE    = TRUE,
-		SPECIES_MONARCH_QUEEN  = TRUE,
-		SPECIES_MONARCH_WORKER = TRUE
-	)
 
 /obj/effect/razorweb/Destroy()
 	if(owner)
@@ -132,7 +133,7 @@
 	var/mob/living/carbon/human/H
 	if(ishuman(L))
 		H = L
-		if(species_immunity_list[H.species.name])
+		if(GLOB.razorweb_immune_species[H.species.name])
 			return
 
 	if(!silent)

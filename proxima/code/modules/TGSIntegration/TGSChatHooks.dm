@@ -24,3 +24,46 @@
 	if (LAZYLEN(GLOB.round_end_notifiees))
 		send2chat("*Раунд закончился, ребятки. Всем по слапу!*\n[GLOB.round_end_notifiees.Join(", ")]", "bot-spam")
 	return TRUE
+
+
+/hook/banned/proc/SendTGSBan(bantype, admin, target, jobs, duration, reason)
+	var/bantypeString = ""
+	switch(bantype)
+		if (BANTYPE_JOB_PERMA)
+			bantypeString = "*__**ПЕРМА ДЖОБКА НА ПРОФЫ:**__ \n[jobs]*"
+		if (BANTYPE_JOB_TEMP)
+			bantypeString = "*__Временно на профы:__ \n[jobs]*\n**5.1. Бан спадет через:** __*[duration]*__"
+		if (BANTYPE_PERMA)
+			bantypeString = "__***ПЕРМА***__"
+		if (BANTYPE_TEMP)
+			bantypeString = "__*На время*__.\n**5.1. Бан спадет через:** __*[duration]*__"
+		else
+			bantypeString = "__***капец как забанил...***__"
+	send2chat("***Новый жбан***\n**1. Ckey осужденного:** __*[target]*__\n**2. Ckey администратора:** __*[admin]*__\n**3. Сервер:** __*BoS*__\n**4. Причина:**```[reason]```**5. Наказание и длительность:** [bantypeString]", "notes-hub")
+	return TRUE
+
+/hook/unbanned/proc/SendTGSUnBan(bantype, admin, target, jobs)
+	var/bantypeString = ""
+	switch(bantype)
+		if (BANTYPE_JOB_PERMA)
+			bantypeString = "__***пермабан на профессию**: [jobs]*__"
+		if (BANTYPE_JOB_TEMP)
+			bantypeString = "__*временный бан на профессию: [jobs]*__"
+		if (BANTYPE_PERMA)
+			bantypeString = "__***ПЕРМАБАН***__"
+		if (BANTYPE_TEMP)
+			bantypeString = "__*временный бан*__"
+		else
+			bantypeString = "__***капец как разбанил...***__"
+	send2chat("***Амнистия***\n__**1. Ckey помилованного:** __*[target]*__\n**2. Ckey покровителя:** __*[admin]***__**3. Сервер:** __*BOS*__\n**4. Что прощено:** [bantypeString]", "notes-hub")
+	return TRUE
+
+/hook/playerNotes/proc/SendTGSNotes(admin, target, note)
+	if (findtext_char(note, "banned") || findtext_char(note, "(MANUAL BAN)"))
+		return TRUE		// Это бан (или может быть анбан), нефиг дублировать
+	send2chat("***Доносики***\n**1. Ckey обвиняемого:** __*[target]*__\n**2. Ckey доносчика:** __*[admin]*__\n**3. Сервер:** __*BOS*__\n**4. Доносик:** __*[note]*__\n**5. Тип:** __*Нотес*__\n**6. Срок действия доноса:** __*INFINITY*__", "notes-hub")
+	return TRUE
+
+/hook/oocMessage/proc/SendOOCMsg(ckey, message, admin_rank)
+	send2chat("**[admin_rank == null ? null : admin_rank][ckey]:** *[message]*", "ooc-chat")
+	return TRUE

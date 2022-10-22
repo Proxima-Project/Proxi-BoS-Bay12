@@ -1,8 +1,8 @@
 /obj/machinery/power/shield_generator
 	name = "advanced shield generator"
 	desc = "A heavy-duty shield generator and capacitor, capable of generating energy shields at large distances."
-	icon = 'icons/obj/machines/shielding.dmi'
-	icon_state = "generator0"
+	icon = 'icons/boh/newshields_64x32.dmi' //BOS, was 'icons/obj/machines/shielding.dmi'
+	icon_state = "shield_gen" //BOS, was "generator0"
 	density = TRUE
 	base_type = /obj/machinery/power/shield_generator
 	construct_state = /decl/machine_construction/default/panel_closed
@@ -46,9 +46,9 @@
 
 /obj/machinery/power/shield_generator/on_update_icon()
 	if(running)
-		icon_state = "generator1"
+		icon_state = "shield_gen_kostyl" //BOS, was "generator1"
 	else
-		icon_state = "generator0"
+		icon_state = "shield_gen" //BOS, was "generator0"
 
 /obj/machinery/power/shield_generator/precharged
 	precharged = TRUE

@@ -95,6 +95,7 @@
 /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet/kgb //cursed af
 	name = OUTFIT_JOB_NAME("Political Officer - KGB")
 	uniform = /obj/item/clothing/under/sl_suit
+	head = /obj/item/clothing/head/helmet/kgb
 
 /decl/hierarchy/outfit/job/torch/crew/command/bridgeofficer
 	name = OUTFIT_JOB_NAME("Second Officer")

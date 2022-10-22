@@ -9,16 +9,16 @@ on:
       - dev
 env:
   BYOND_MAJOR: "514"
-  BYOND_MINOR: "1578"
+  BYOND_MINOR: "1583"
   SPACEMAN_DMM_VERSION: suite-1.7.2
 
 jobs:
   DreamChecker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Setup Cache
-        uses: actions/cache@937d24475381cd9c75ae6db12cb4e79714b926ed
+        uses: actions/cache@56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1
         with:
           path: $HOME/spaceman_dmm/$SPACEMAN_DMM_VERSION
           key: ${{ runner.os }}-spacemandmm-${{ env.SPACEMAN_DMM_VERSION }}
@@ -40,9 +40,9 @@ jobs:
   Code:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Setup Cache
-        uses: actions/cache@937d24475381cd9c75ae6db12cb4e79714b926ed
+        uses: actions/cache@56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1
         with:
           path: $HOME/BYOND-${BYOND_MAJOR}.${BYOND_MINOR}
           key: ${{ runner.os }}-byond-${{ env.BYOND_MAJOR }}-${{ env.BYOND_MINOR }}
@@ -65,11 +65,11 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        map_path: [example, torch, away_sites_testing]
+        map_path: [torch]
     steps:
-      - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Setup Cache
-        uses: actions/cache@937d24475381cd9c75ae6db12cb4e79714b926ed
+        uses: actions/cache@56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1
         with:
           path: $HOME/BYOND-${BYOND_MAJOR}.${BYOND_MINOR}
           key: ${{ runner.os }}-byond-${{ env.BYOND_MAJOR }}-${{ env.BYOND_MINOR }}

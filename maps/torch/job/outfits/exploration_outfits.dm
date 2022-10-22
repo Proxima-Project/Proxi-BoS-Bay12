@@ -34,3 +34,5 @@
 	uniform = /obj/item/clothing/under/lordan/utility/fleet/command/pilot
 	shoes = /obj/item/clothing/shoes/lordan
 	head = /obj/item/clothing/head/beret/lordan/fleet
+	id_types= list(/obj/item/card/id/torch/passenger/research/nt_pilot)
+	l_ear = /obj/item/device/radio/headset/headset_pilot

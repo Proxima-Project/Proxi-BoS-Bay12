@@ -19764,27 +19764,27 @@
 /area/command/conference)
 "ipc" = (
 /obj/item/underwear/undershirt{
-	icon = 'maps/torch/bos/icons/obj/items/undershirt.dmi';
+	icon = 'icons/bos/mob/human.dmi';
 	icon_state = "lordshirt";
 	name = "lordanian undershirt"
 	},
 /obj/item/underwear/undershirt{
-	icon = 'maps/torch/bos/icons/obj/items/undershirt.dmi';
+	icon = 'icons/bos/mob/human.dmi';
 	icon_state = "lordshirt";
 	name = "lordanian undershirt"
 	},
 /obj/item/underwear/undershirt{
-	icon = 'maps/torch/bos/icons/obj/items/undershirt.dmi';
+	icon = 'icons/bos/mob/human.dmi';
 	icon_state = "lordshirt";
 	name = "lordanian undershirt"
 	},
 /obj/item/underwear/undershirt{
-	icon = 'maps/torch/bos/icons/obj/items/undershirt.dmi';
+	icon = 'icons/bos/mob/human.dmi';
 	icon_state = "lordshirt";
 	name = "lordanian undershirt"
 	},
 /obj/item/underwear/undershirt{
-	icon = 'maps/torch/bos/icons/obj/items/undershirt.dmi';
+	icon = 'icons/bos/mob/human.dmi';
 	icon_state = "lordshirt";
 	name = "lordanian undershirt"
 	},

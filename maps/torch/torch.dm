@@ -29,7 +29,6 @@
 	#include "bos/items/choco.dm"
 	#include "bos/items/swords.dm"
 	#include "bos/items/tableflags.dm"
-	#include "bos/items/underwear.dm"
 
 	#include "bos/items/clothing/lordania-feet.dm"
 	#include "bos/items/clothing/lordania-hands.dm"

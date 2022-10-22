@@ -292,9 +292,9 @@
 //vesta port start
 	if(H.virus2.len)
 		for (var/ID in H.virus2)
-			if (ID in virusDB)
+			if (ID in GLOB.virusDB)
 				print_reagent_default_message = FALSE
-				var/datum/computer_file/data/virus_record/V = virusDB[ID]
+				var/datum/computer_file/data/virus_record/V = GLOB.virusDB[ID]
 				. += "<span class='scan_warning'>Warning: Pathogen [V.fields["name"]] detected in subject's blood. Known antigen : [V.fields["antigen"]]</span>"
 //vesta port end
 	if(print_reagent_default_message)

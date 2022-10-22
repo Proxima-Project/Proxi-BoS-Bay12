@@ -24,3 +24,9 @@
 	icon_state = "cowboy_wide"
 	item_state = "cowboy_wide"
 	body_parts_covered = 0
+
+/obj/item/clothing/head/cowboy_hat/wide/black
+	name = "black wide-brimmed cowboy hat"
+	desc = "Welcome to the Deadlands."
+	icon_state = "blackhat"
+	item_state = "blackhat"
