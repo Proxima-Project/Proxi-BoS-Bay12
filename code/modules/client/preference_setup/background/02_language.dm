@@ -41,11 +41,14 @@
 
 /datum/category_item/player_setup_item/background/languages/content()
 	. = list()
+
+	/* ACCENTS CHOICING IN PREFS. DISABLED FOR NOW.
 	. += "<b>Accent</b><br/>"
 	. += BTN("change_accent", pref.accent)
 	var/decl/accent/accent = decls_repository.get_decl(GLOB.accent_name_to_path[pref.accent])
 	. += " - [accent.desc]"
-	//TODO: use list/hidden & list/expanded to provide available accent buttons & desc
+	*/
+
 	. += "<br /><b>Languages</b><br/>"
 	var/list/show_langs = get_language_text()
 	if(LAZYLEN(show_langs))

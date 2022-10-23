@@ -90,19 +90,9 @@
 
 	var/accent_tag = ""
 	if (speaker.accent)
-		//to_world("has accent path [speaker.accent]")
 		var/decl/accent/accent = decls_repository.get_decl(speaker.accent)
 		if (accent)
-			//to_world("got accent [accent.name]")
 			accent_tag = accent.GetTag(client)
-			/*
-			to_world("[length(accent_tag)]")
-			to_world(accent_tag)
-		else
-			to_world("no accent collected")
-	else
-		to_world("no accent set")
-	*/
 
 	var/display_verb = verb
 	if (!language)
