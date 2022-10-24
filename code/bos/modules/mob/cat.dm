@@ -9,7 +9,8 @@
 	speak_emote = list("шлёпает ушами")
 	ai_holder = /datum/ai_holder/simple_animal/passive/caracal
 	say_list_type = /datum/say_list/caracal
-
+	//if(speak_emote)
+	//playsound(loc, pick(list('proxima/sound/floppa/flop11.ogg','proxima/sound/floppa/flop12.ogg','proxima/sound/floppa/flop21.ogg','proxima/sound/floppa/flop22.ogg','proxima/sound/floppa/flop31.ogg','proxima/sound/floppa/flop32.ogg','proxima/sound/floppa/flop4.ogg','proxima/sound/floppa/flop51.ogg','proxima/sound/floppa/flop52.ogg','proxima/sound/floppa/flop61.ogg','proxima/sound/floppa/flop62.ogg','proxima/sound/floppa/flop7.ogg')), 50, 1)//
 /datum/ai_holder/simple_animal/passive/caracal
 	can_flee = TRUE
 
