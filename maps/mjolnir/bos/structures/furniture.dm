@@ -32,7 +32,7 @@
 	storage_capacity = (MOB_MEDIUM * 3)
 	icon = 'maps/mjolnir/bos/icons/obj/structures/closets/cardbox_love.dmi'
 
-/obj/structure/closet/mjolnir/cardbox/love
+/obj/structure/closet/mjolnir/cardbox/patriots
 	name = "LPA box"
 	desc = "A strange carboard box with eye-cathing design."
 	icon = 'maps/mjolnir/bos/icons/obj/structures/closets/cardbox_lpa.dmi'
