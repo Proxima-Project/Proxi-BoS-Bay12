@@ -24,10 +24,10 @@
 	#include "bos/structures/signs.dm"
 	#include "bos/structures/statue.dm"
 	#include "bos/structures/furniture.dm"
+	#include "bos/structures/cardbox.dm"
 
 	#include "infantry/firearms.dm"
 	#include "infantry/outfits.dm"
 	#include "infantry/storage.dm"
 	#include "infantry/vending.dm"
 	#include "infantry/hardsuit.dm"
-	
