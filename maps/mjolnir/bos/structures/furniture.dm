@@ -34,7 +34,7 @@
 
 /obj/structure/closet/mjolnir/cardbox/patriots
 	name = "LPA box"
-	desc = "A strange carboard box with eye-cathing design."
+	desc = "A strange carboard box with eye-catching design."
 	icon = 'maps/mjolnir/bos/icons/obj/structures/closets/cardbox_lpa.dmi'
 
 ///
@@ -56,6 +56,11 @@
 	name = "wooden bunk"
 	icon_state = "bunk_wooden"
 	base_icon = "bunk_wooden"
+
+/obj/structure/bed/roller/ironingboard/mjolnir
+	name = "ironing board"
+	desc = "An ironing board to unwrinkle your wrinkled clothing."
+	icon = 'maps/mjolnir/bos/icons/obj/items/ironing.dmi'
 
 ///
 //DRAWERS
@@ -92,6 +97,11 @@
 	name = "glass table"
 	desc = "A glass table"
 	icon_state = "fixed3"
+
+/obj/structure/table/rack/mjolnir/shelf
+	name = "shelf"
+	desc = "A store shelf."
+	icon_state = "fixed5"
 
 //NOT FIXED//
 

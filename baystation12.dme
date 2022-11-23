@@ -3387,6 +3387,8 @@
 #include "interface\skin.dmf"
 #include "maps\_maps.dm"
 #include "maps\mjolnir\bos\items\swords.dm"
+#include "maps\mjolnir\bos\machines\washing_machine.dm"
+#include "maps\mjolnir\bos\structures\furniture.dm"
 #include "maps\torch\items\rewards.dm"
 #include "maps\torch\items\ziptie.dm"
 #include "maps\torch\items\clothing\boh_accessory.dm"
