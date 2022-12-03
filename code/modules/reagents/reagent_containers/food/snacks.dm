@@ -3871,7 +3871,7 @@
 	desc = "Interestingly, the shell has gone soft and the contents have gone stale."
 	icon_state = "ancient_taco"
 	
-/Donuts of death
+//Donuts of death
 
 /obj/item/weapon/storage/box/donut/strange
 	startswith = list(/obj/item/weapon/reagent_containers/food/snacks/donut/normal/death = 6)
