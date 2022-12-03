@@ -3267,6 +3267,7 @@
 #include "code\modules\tables\rack.dm"
 #include "code\modules\tables\tables.dm"
 #include "code\modules\tables\update_triggers.dm"
+#include "code\modules\tables\mag_tables.dm"
 #include "code\modules\tension\tension.dm"
 #include "code\modules\TGS\tgs.dm"
 #include "code\modules\TGS\tgs\includes.dm"
