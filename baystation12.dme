@@ -172,6 +172,7 @@
 #include "code\bos\game\objects\effects\razorweb.dm"
 #include "code\bos\game\objects\effects\decals\contraband.dm"
 #include "code\bos\game\objects\effects\decals\posters\posters.dm"
+#include "code\bos\game\objects\items\toys.dm"
 #include "code\bos\game\objects\items\devices\syndietele.dm"
 #include "code\bos\game\objects\items\weapons\chem_mine.dm"
 #include "code\bos\game\objects\items\weapons\improvised.dm"
