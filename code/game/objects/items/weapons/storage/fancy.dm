@@ -220,7 +220,7 @@
 
 /obj/item/storage/fancy/cigarettes/jerichos
 	name = "pack of Jerichos"
-	desc = "Typically seen dangling from the lips of Martian soldiers and border world hustlers. Tastes like hickory smoke, feels like warm liquid death down your lungs."
+	desc = "Typically seen dangling from the lips of soldiers and border world hustlers. Tastes like hickory smoke, feels like warm liquid death down your lungs."
 	icon_state = "Jpacket"
 	item_state = "Dpacket"
 	startswith = list(/obj/item/clothing/mask/smokable/cigarette/jerichos = 6)
@@ -250,8 +250,8 @@
 
 //cigarellos
 /obj/item/storage/fancy/cigarettes/cigarello
-	name = "pack of Trident Original cigars"
-	desc = "The Trident brand's wood tipped little cigar, favored by the Sol corps diplomatique for their pleasant aroma. Machine made on Mars for over 100 years."
+	name = "pack of cigars"
+	desc = "The wood tipped little cigar, favored by all sorts of diplomats for their pleasant aroma."
 	icon_state = "CRpacket"
 	item_state = "Dpacket"
 	max_storage_space = 5
@@ -259,8 +259,8 @@
 	startswith = list(/obj/item/clothing/mask/smokable/cigarette/trident = 5)
 
 /obj/item/storage/fancy/cigarettes/cigarello/variety
-	name = "pack of Trident Fruit cigars"
-	desc = "The Trident brand's wood tipped little cigar, favored by the Sol corps diplomatique for their pleasant aroma. Machine made on Mars for over 100 years. This is a fruit variety pack."
+	name = "pack of fruit cigars"
+	desc = "The wood tipped little cigar, favored by all sorts of diplomats for their pleasant aroma. This is a fruit variety pack."
 	icon_state = "CRFpacket"
 	startswith = list(	/obj/item/clothing/mask/smokable/cigarette/trident/watermelon,
 						/obj/item/clothing/mask/smokable/cigarette/trident/orange,
@@ -269,8 +269,8 @@
 						/obj/item/clothing/mask/smokable/cigarette/trident/berry)
 
 /obj/item/storage/fancy/cigarettes/cigarello/mint
-	name = "pack of Trident Menthol cigars"
-	desc = "The Trident brand's wood tipped little cigar, favored by the Sol corps diplomatique for their pleasant aroma. Machine made on Mars for over 100 years. These are the menthol variety."
+	name = "pack of menthol cigars"
+	desc = "The wood tipped little cigar, favored by all sorts of diplomats for their pleasant aroma. These are the menthol variety."
 	icon_state = "CRMpacket"
 	startswith = list(/obj/item/clothing/mask/smokable/cigarette/trident/mint = 5)
 
