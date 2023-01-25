@@ -68,16 +68,19 @@
 	name = "revolver cylinder"
 	icon_state = "spec_revolver"
 	item_state = "spec_revolver"
+	matter = list(MATERIAL_STEEL = 6000)
 
 /obj/item/firearmpart_spec/shotgun
 	name = "shotgun body"
 	icon_state = "spec_shotgun"
 	item_state = "spec_shotgun"
+	matter = list(MATERIAL_STEEL = 8000)
 
 /obj/item/firearmpart_spec/rifle
 	name = "rifle body"
 	icon_state = "spec_rifle"
 	item_state = "spec_rifle"
+	matter = list(MATERIAL_STEEL = 10000)
 
 /obj/item/firearmpart_spec/nail //Currently not available due to how shell casings work fucking up how I wanted nails to work. Keeping here for legacy/future fix material.
 	name = "nailgun body"
