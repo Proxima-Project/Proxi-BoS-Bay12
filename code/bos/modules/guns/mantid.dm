@@ -32,7 +32,7 @@
 	w_class = ITEM_SIZE_HUGE
 	one_hand_penalty = 6
 	multi_aim = 1
-	battery_chamber_size = BATTERY_ALIEN
+	battery_chamber_size = 4
 	battery_changable = TRUE
 	battery_type = /obj/item/cell/guncell/ascent
 	burst_delay = 3
