@@ -5804,7 +5804,6 @@
 /obj/structure/closet/secure_closet/cos,
 /obj/item/gun/energy/gun/secure,
 /obj/item/clothing/suit/armor/shieldarmor/red,
-/obj/item/cell/guncell/pistol/large,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mJ" = (
@@ -11529,7 +11528,6 @@
 /obj/item/storage/belt/medical,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/gun/energy/gun/secure,
-/obj/item/cell/guncell/pistol/large,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
 "EV" = (
@@ -16723,6 +16721,8 @@
 /obj/item/armorchargebattery,
 /obj/item/armorchargebattery,
 /obj/item/armorchargebattery,
+/obj/item/cell/guncell/pistol/large,
+/obj/item/cell/guncell/pistol/large,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "Zu" = (
