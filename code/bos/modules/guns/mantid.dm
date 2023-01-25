@@ -27,11 +27,14 @@
 	slot_flags = SLOT_BACK
 	force = 25 // Heavy as Hell.
 	projectile_type = /obj/item/projectile/beam/particle
-	max_shots = 18
-	self_recharge = 1
+	charge_cost = 20
+	self_recharge = 0
 	w_class = ITEM_SIZE_HUGE
 	one_hand_penalty = 6
 	multi_aim = 1
+	battery_chamber_size = BATTERY_ALIEN
+	battery_changable = TRUE
+	battery_type = /obj/item/cell/guncell/ascent
 	burst_delay = 3
 	burst = 3
 	move_delay = 4

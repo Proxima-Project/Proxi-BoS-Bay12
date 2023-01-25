@@ -146,16 +146,6 @@
 	contraband = 1
 	security_level = null
 
-/decl/hierarchy/supply_pack/security/plasma
-	name = "Weapons - Plasma assault rifles"
-	contains = list(/obj/item/gun/energy/k342 = 2,
-					/obj/item/cell/guncell/medium = 2)
-	cost = 120
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "plasma longarms crate"
-	access = access_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
-
 /*
 /decl/hierarchy/supply_pack/security/plasma/expo
 	name = "Weapons - Plasma assault rifles (Expeditionary Corps)"

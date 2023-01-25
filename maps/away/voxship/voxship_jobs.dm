@@ -403,7 +403,10 @@
 
 /obj/item/gun/energy/sniperrifle/vox
 	desc = "This is a modified Hephaestus Industries Baleful. The cell has been replaced by a vox variant, allowing it to self-charge. Sadly, this makes it lose its function to knock people out. It's a designated marksman rifle capable of shooting powerful ionized beams."
-	self_recharge = 1
+	self_recharge = 0
+	battery_chamber_size = BATTERY_VOX
+	battery_changable = TRUE
+	battery_type = /obj/item/cell/guncell/vox/overcharged
 	recharge_time = 80
 	projectile_type = /obj/item/projectile/beam/snipervox
 

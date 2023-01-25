@@ -100,34 +100,6 @@
 	containername = "k342 - barrakuda crate"
 	access = access_emergency_armory
 	security_level = SUPPLY_SECURITY_ELEVATED
-
-/decl/hierarchy/supply_pack/security/k342
-	name = "Ammunition - Energy Small Guncells"
-	contains = list(/obj/item/cell/guncell/small = 4)
-	cost = 40
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "Ammunition - Energy Small Guncells"
-	access = access_emergency_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
-
-/decl/hierarchy/supply_pack/security/k342
-	name = "Ammunition - Energy Medium Guncells"
-	contains = list(/obj/item/cell/guncell/medium = 4)
-	cost = 60
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "Ammunition - Energy Medium Guncells"
-	access = access_emergency_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
-
-/decl/hierarchy/supply_pack/security/k342
-	name = "Ammunition - Energy Large Guncells"
-	contains = list(/obj/item/cell/guncell/large = 4)
-	cost = 80
-	containertype = /obj/structure/closet/crate/secure/weapon
-	containername = "Ammunition - Energy Large Guncells"
-	access = access_emergency_armory
-	security_level = SUPPLY_SECURITY_ELEVATED
-
 //proxima code end
 
 /decl/hierarchy/supply_pack/security/sniperlaser
