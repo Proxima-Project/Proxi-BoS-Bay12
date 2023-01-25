@@ -10,18 +10,6 @@
 	containername = "special ops crate"
 	hidden = 1
 
-/decl/hierarchy/supply_pack/security/militia
-	name = "Kit - Militia"
-	contains = list(/obj/item/clothing/suit/armor/pcarrier/light/militia = 2,
-					/obj/item/clothing/head/helmet = 2,
-					/obj/item/clothing/under/bdu/black = 2,
-					/obj/item/clothing/accessory/armband/bluegold = 2,
-					/obj/item/clothing/gloves/thick = 2,
-					/obj/item/clothing/mask/gas = 2)
-	cost = 20
-	containertype = /obj/structure/closet/crate/secure
-	containername = "militia equipment crate"
-	access = access_security
 
 /decl/hierarchy/supply_pack/security/lightarmor
 	name = "Armor - Light"
@@ -168,11 +156,13 @@
 	access = access_armory
 	security_level = SUPPLY_SECURITY_ELEVATED
 
+/*
 /decl/hierarchy/supply_pack/security/plasma/expo
 	name = "Weapons - Plasma assault rifles (Expeditionary Corps)"
 	contains = list(/obj/item/gun/energy/k342/explo = 2,
 					/obj/item/cell/guncell/medium = 2)
 	cost = 100
+*/
 
 /decl/hierarchy/supply_pack/security/plasma/stingray
 	name = "Weapons - Plasma sniper rifles"
