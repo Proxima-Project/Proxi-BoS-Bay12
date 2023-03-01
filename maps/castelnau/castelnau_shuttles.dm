@@ -72,7 +72,7 @@ CASTELNAU_ESCAPE_POD(4)
 	range = 1
 	fuel_consumption = 4
 	logging_home_tag = "nav_cheapskate_dock"
-	logging_access = access_castelnau_cheapskate_helm
+	//logging_access = access_castelnau_prometeus_helm
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 
 /obj/effect/shuttle_landmark/castelnau/hangar/cheapskate
@@ -102,7 +102,7 @@ CASTELNAU_ESCAPE_POD(4)
 	range = 1
 	fuel_consumption = 1.5
 	logging_home_tag = "nav_bixie_dock"
-	logging_access = access_castelnau_bixie_helm
+	//logging_access = access_hangar
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 
 /obj/effect/shuttle_landmark/castelnau/hangar/bixie
@@ -132,7 +132,7 @@ CASTELNAU_ESCAPE_POD(4)
 	range = 1
 	fuel_consumption = 1.5
 	logging_home_tag = "nav_perseus_dock"
-	logging_access = access_castelnau_perseus_helm
+	//logging_access = access_hangar
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 
 /obj/effect/shuttle_landmark/castelnau/hangar/perseus

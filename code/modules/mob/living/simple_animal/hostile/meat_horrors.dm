@@ -228,7 +228,7 @@
 	response_harm   = "pokes"
 	maxHealth = 50
 	health = 50
-	movement_cooldown = 5 //bos, was 2
+	movement_cooldown = 2
 	natural_weapon = /obj/item/natural_weapon/claws
 	heat_damage_per_tick = 100
 	cold_damage_per_tick = 0
