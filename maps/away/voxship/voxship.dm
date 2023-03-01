@@ -96,7 +96,7 @@
 	descriptor = "Shoal forward base"
 	map = "Vox Ship"
 	crew_jobs = list(
-		/datum/job/submap/voxship_human,
+//		/datum/job/submap/voxship_human,
 		/datum/job/submap/voxship_vox,
 		/datum/job/submap/voxship_vox/armalis,
 		/datum/job/submap/voxship_vox/doc,

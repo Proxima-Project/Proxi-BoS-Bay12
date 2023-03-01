@@ -11,7 +11,7 @@
 		/datum/species/adherent = list(/datum/job/captain, /datum/job/hop, /datum/job/warden, /datum/job/officer, /datum/job/specialist, /datum/job/redactor/,/datum/job/psiengineer),
 		/datum/species/nabber = list(COMMAND_JOBS, /datum/job/senior_engineer, /datum/job/senior_doctor, /datum/job/scientist, /datum/job/qm, /datum/job/warden, /datum/job/officer, /datum/job/specialist, /datum/job/redactor/,/datum/job/psiengineer),
 //		/datum/species/resomi = list(COMMAND_JOBS, /datum/job/senior_engineer, /datum/job/senior_doctor, /datum/job/senior_scientist, /datum/job/warden),
-		/datum/species/vox = list(/datum/job/captain, /datum/job/hop, /datum/job/warden),
+		/datum/species/vox = list(/datum/job/captain, /datum/job/hop, /datum/job/warden, /datum/job/officer, /datum/job/specialist, /datum/job/redactor/,/datum/job/psiengineer,/datum/job/chiefmerchant,/datum/job/ftumerchant_security),
 		/datum/species/vox/armalis = list(HUMAN_NOVOX_JOBS),
 
 	)

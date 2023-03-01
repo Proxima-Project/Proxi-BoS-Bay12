@@ -13,6 +13,11 @@
 	path = /obj/item/gun/projectile/pistol/holdout
 	cost = 5
 
+/datum/gear/fr_syndi/silencer
+	display_name = "pistol silencer"
+	path = /obj/item/silencer
+	cost = 3
+
 /datum/gear/fr_syndi/holdoutrevolver
 	display_name = "Lumoco Protector concealable revolver"
 	path = /obj/item/gun/projectile/revolver/holdout

@@ -34,7 +34,7 @@
 /datum/job/submap/voxship_vox/get_description_blurb()
 	return "По воле мертвых Создателей, вы должны вернуть системы, ныне павшей Империи Ауралис, дабы возродить ее и покарать недостойных, чего бы вам этого не стоило. \
 	Почитайте создателей, повинуйтесь своему Куиллу."
-
+/* COISCIN WHAT THE FUCK
 /datum/job/submap/voxship_human
 	title = "Slave"
 	total_positions = 2
@@ -45,7 +45,7 @@
 	return "Вы - непутевый исследователь, или кто-то еще кому не посчастливилось попасть в руки воксов, и, если так можно выразиться, вы в дерьме.\
 	Попробуйте сбежать или следуйте всем указаниям ваших новых хозяев - решайте сами."
 
-
+*/
 /datum/job/submap/voxship_vox/doc
 	title = "Shard Biotechnician"
 	total_positions = 2
