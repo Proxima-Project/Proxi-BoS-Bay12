@@ -233,6 +233,7 @@ var/global/list/admin_verbs_hideable = list(
 	/datum/admins/proc/toggleenter,
 	/datum/admins/proc/toggleguests,
 	/datum/admins/proc/announce,
+	/client/proc/gibforfree,
 	/client/proc/colorooc,
 	/client/proc/admin_ghost,
 	/client/proc/toggle_view_range,
@@ -922,6 +923,7 @@ var/list/admin_verbs_xeno = list(
 	for (var/mob/T as mob in SSmobs.mob_list)
 		to_chat(T, "<br><center><span class='notice'><b><font size=4>Man up.<br> Deal with it.</font></b><br>Move on.</span></center><br>")
 		sound_to(T, 'sound/voice/ManUp1.ogg')
+		T.gib()
 
 	log_and_message_admins("told everyone to man up and deal with it.")
 
@@ -933,3 +935,17 @@ var/list/admin_verbs_xeno = list(
 	if(!S) return
 	T.add_spell(new S)
 	log_and_message_admins("gave [key_name(T)] the spell [S].")
+
+/client/proc/gibforfree()
+	set name = "Genocide"
+	set category = "Special Verbs"
+
+	if(!check_rights(R_ADMIN))
+		return
+
+	switch(alert("Genocide is bad. Are you sure you want become war criminal?",,"Yes","No"))
+		if("No")
+			return
+		else
+			for(var/mob/unter as mob in SSmobs.mob_list)
+				unter.gib()

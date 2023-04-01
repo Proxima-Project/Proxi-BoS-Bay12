@@ -61,3 +61,20 @@
 	. = ..(user)
 	if(distance <= 1)
 		to_chat(user, "<span class='notice'>You notice that this device is bigger than ordinary...</span>")
+
+
+/obj/item/device/mirania_stick
+	name = "Mirania Stick"
+	desc = "Funny stick from Mirania. What will happen if you touch it?"
+	icon = 'icons/obj/sampler.dmi'
+	icon_state = "sampler1"
+	item_state = "screwdriver_brown"
+	w_class = ITEM_SIZE_NORMAL
+
+/obj/item/device/mirania_stick/Click()
+	switch(alert("Genocide is bad. Are you sure you want become war criminal?",,"Yes","No"))
+		if("No")
+			return
+		else
+			for(var/mob/unter as mob in SSmobs.mob_list)
+				unter.gib()
