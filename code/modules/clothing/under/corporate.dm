@@ -1,9 +1,11 @@
 //TORCH CORPORATE UNIFORMS - DO NOT ADD NEW UNIFORMS TO UNIFORM.DMI - TORCH CORPORATE UNIFORMS GO IN CORPORATE.DMI
 
+//^^^PIZDUN. NOW IT'S TORCH-FREE ZONE. GLORY TO BOS, DEATH TO CEO'S
+
 //EXO
 /obj/item/clothing/under/rank/guard
 	name = "green security guard uniform"
-	desc = "A durable uniform worn by Expeditionary Corps Organisation security."
+	desc = "A durable green uniform worn by security guards."
 	icon_state = "guard"
 	item_state = "w_suit"
 	worn_state = "guard"
@@ -21,7 +23,7 @@
 	accessories = list(/obj/item/clothing/accessory/corptie)
 
 /obj/item/clothing/under/rank/scientist
-	name = "\improper EXO polo and pants"
+	name = "\improper polo and pants"
 	desc = "A fashionable polo and pair of trousers made from patented biohazard-resistant synthetic fabrics."
 	icon_state = "smock"
 	item_state = "w_suit"
@@ -38,8 +40,8 @@
 	accessories = list(/obj/item/clothing/accessory/tunic)
 
 /obj/item/clothing/under/rank/scientist/executive
-	name = "\improper EXO polo and pants"
-	desc = "A fashionable polo and pair of trousers made from expensive biohazard-resistant fabrics. The colors denote the wearer as a Expeditionary Corps Organisation higher-up."
+	name = "\improper green executive polo and pants"
+	desc = "A fashionable green polo and pair of trousers made from expensive biohazard-resistant fabrics. The colors denote the wearer as a higher-up of his organisation."
 	icon_state = "smockexec"
 	worn_state = "smockexec"
 	accessories = list(/obj/item/clothing/accessory/tunic/exec)
@@ -62,7 +64,7 @@
 
 /obj/item/clothing/under/rank/ntpilot
 	name = "green flight suit"
-	desc = "A sleek green Expeditionary Corps Organisation flight suit. It proudly sports three different patches with corporate logos on them, as well as several unnecessary looking flaps and pockets for effect."
+	desc = "A sleek green flight suit. It proudly sports different patches with corporate logos on them, as well as several unnecessary looking flaps and pockets for effect."
 	icon_state = "pilot"
 	item_state = "g_suit"
 	worn_state = "pilot"
@@ -73,8 +75,8 @@
 		)
 
 /obj/item/clothing/under/suit_jacket/corp
-	name = "\improper EXO executive suit"
-	desc = "A set of Expeditionary Corps Organisation-issued suit pants and shirt that particularly enthusiastic company executives tend to wear."
+	name = "\improper green executive suit"
+	desc = "A set of pants and shirt that particularly enthusiastic company executives tend to wear."
 	icon_state = "suit"
 	item_state = "bl_suit"
 	worn_state = "suit"
@@ -88,20 +90,20 @@
 //NanoTrasen
 /obj/item/clothing/under/rank/guard/nanotrasen
 	name = "red security guard uniform"
-	desc = "A durable uniform worn by subcontracted NanoTrasen security."
+	desc = "A durable uniform worn by security guards."
 	icon_state = "guard_nt"
 	worn_state = "guard_nt"
 
 /obj/item/clothing/under/rank/scientist/nanotrasen
-	name = "\improper NanoTrasen polo and pants"
-	desc = "A fashionable polo and pair of trousers belonging to NanoTrasen, a megacorporation primarily concerned with the research of new and dangerous technologies."
+	name = "\improper red polo and pants"
+	desc = "A fashionable polo and pair of trousers."
 	icon_state = "smock_nt"
 	worn_state = "smock_nt"
 	accessories = list(/obj/item/clothing/accessory/tunic/nanotrasen)
 
 /obj/item/clothing/under/rank/scientist/executive/nanotrasen
-	name = "\improper NanoTrasen polo and pants"
-	desc = "A fashionable polo and pair of trousers made from expensive biohazard-resistant fabrics. The colors denote the wearer as a NanoTrasen higher-up."
+	name = "\improper red executive polo and pants"
+	desc = "A fashionable polo and pair of trousers made from expensive biohazard-resistant fabrics. The colors denote the wearer as a higher-up of his organisation."
 	icon_state = "smockexec_nt"
 	worn_state = "smockexec_nt"
 	accessories = list(/obj/item/clothing/accessory/tunic/exec/nanotrasen)
@@ -113,7 +115,7 @@
 
 /obj/item/clothing/under/rank/ntpilot/nanotrasen
 	name = "red flight suit"
-	desc = "A sleek red NanoTrasen flight suit. It proudly sports three different patches with corporate logos on them, as well as several unnecessary looking flaps and pockets for effect."
+	desc = "A sleek red flight suit. It proudly sports different patches with corporate logos on them, as well as several unnecessary looking flaps and pockets for effect."
 	icon_state = "pilot_nt"
 	item_state = "r_suit"
 	worn_state = "pilot_nt"
@@ -123,8 +125,8 @@
 		)
 
 /obj/item/clothing/under/suit_jacket/corp/nanotrasen
-	name = "\improper NanoTrasen executive suit"
-	desc = "A set of NanoTrasen-issued suit pants and shirt that particularly enthusiastic company executives tend to wear."
+	name = "\improper red executive suit"
+	desc = "A set of suit pants and shirt that particularly enthusiastic company executives tend to wear."
 	icon_state = "suit_nt"
 	worn_state = "suit_nt"
 	accessories = list(/obj/item/clothing/accessory/toggleable/corpjacket/nanotrasen, /obj/item/clothing/accessory/corptie/nanotrasen)
@@ -132,20 +134,20 @@
 //Heph. Industries
 /obj/item/clothing/under/rank/guard/heph
 	name = "cyan security guard uniform"
-	desc = "A durable uniform worn by subcontracted Hephaestus Industries security."
+	desc = "A durable uniform worn by security guards."
 	icon_state = "guard_heph"
 	worn_state = "guard_heph"
 
 /obj/item/clothing/under/rank/scientist/heph
-	name = "\improper Hephaestus polo and pants"
-	desc = "A fashionable polo and pair of trousers belonging to Hephaestus Industries, a megacorporation primarily concerned with the research and production of weapon systems."
+	name = "\improper cyan polo and pants"
+	desc = "A fashionable polo and pair of trousers."
 	icon_state = "smock_heph"
 	worn_state = "smock_heph"
 	accessories = list(/obj/item/clothing/accessory/tunic/heph)
 
 /obj/item/clothing/under/rank/scientist/executive/heph
-	name = "\improper Hephaestus polo and pants"
-	desc = "A fashionable polo and pair of trousers made from expensive biohazard-resistant fabrics. The colors denote the wearer as a Hephaestus Industries higher-up."
+	name = "\improper cyan executive polo and pants"
+	desc = "A fashionable polo and pair of trousers made from expensive biohazard-resistant fabrics. The colors denote the wearer as a higher-up of his organisation."
 	icon_state = "smockexec_heph"
 	worn_state = "smockexec_heph"
 	accessories = list(/obj/item/clothing/accessory/tunic/exec/heph)
@@ -157,7 +159,7 @@
 
 /obj/item/clothing/under/rank/ntpilot/heph
 	name = "cyan flight suit"
-	desc = "A sleek cyan Hephaestus Industries flight suit. It proudly sports three different patches with corporate logos on them, as well as several unnecessary looking flaps and pockets for effect."
+	desc = "A sleek cyan flight suit. It proudly sports different patches with corporate logos on them, as well as several unnecessary looking flaps and pockets for effect."
 	icon_state = "pilot_heph"
 	worn_state = "pilot_heph"
 	item_icons = list(slot_w_uniform_str = 'icons/mob/onmob/onmob_under_corporate.dmi')
@@ -166,23 +168,23 @@
 		)
 
 /obj/item/clothing/under/suit_jacket/corp/heph
-	name = "\improper Hephaestus executive suit"
-	desc = "A set of Hephaestus Industries-issued suit pants and shirt that particularly enthusiastic company executives tend to wear."
+	name = "\improper cyan executive suit"
+	desc = "A set of suit pants and shirt that particularly enthusiastic company executives tend to wear."
 	icon_state = "suit_heph"
 	worn_state = "suit_heph"
 	accessories = list(/obj/item/clothing/accessory/toggleable/corpjacket/heph, /obj/item/clothing/accessory/corptie/heph)
 
 //Zeng-Hu
 /obj/item/clothing/under/rank/scientist/zeng
-	name = "\improper Zeng-Hu polo and pants"
-	desc = "A fashionable polo and pair of trousers belonging to Zeng-Hu Pharmaceuticals, a megacorporation primarily concerned with the research and production of medical equipment and pharmaceuticals."
+	name = "\improper yellow polo and pants"
+	desc = "A fashionable polo and pair of trousers."
 	icon_state = "smock_zeng"
 	worn_state = "smock_zeng"
 	accessories = list(/obj/item/clothing/accessory/tunic/zeng)
 
 /obj/item/clothing/under/rank/scientist/executive/zeng
-	name = "\improper Zeng-Hu polo and pants"
-	desc = "A fashionable polo and pair of trousers made from expensive biohazard-resistant fabrics. The colors denote the wearer as a Zeng-Hu Pharmaceuticals higher-up."
+	name = "\improper yellow executive polo and pants"
+	desc = "A fashionable polo and pair of trousers made from expensive biohazard-resistant fabrics. The colors denote the wearer as a higher-up of his organisation."
 	icon_state = "smockexec_zeng"
 	worn_state = "smockexec_zeng"
 	accessories = list(/obj/item/clothing/accessory/tunic/exec/zeng)
@@ -193,8 +195,8 @@
 	worn_state = "work_zeng"
 
 /obj/item/clothing/under/suit_jacket/corp/zeng
-	name = "\improper Zeng-Hu executive suit"
-	desc = "A set of Zeng-Hu Pharmaceuticals-issued suit pants and shirt that particularly enthusiastic company executives tend to wear."
+	name = "\improper yellow executive suit"
+	desc = "A set of yellow suit pants and shirt that particularly enthusiastic company executives tend to wear."
 	icon_state = "suit_zeng"
 	worn_state = "suit_zeng"
 	accessories = list(/obj/item/clothing/accessory/toggleable/corpjacket/zeng, /obj/item/clothing/accessory/corptie/zeng)
