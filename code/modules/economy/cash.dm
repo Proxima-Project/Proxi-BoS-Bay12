@@ -18,12 +18,26 @@
 	var/worth = 0
 	var/static/denominations = list(1000,500,200,100,50,20,10,1)
 
-	volume = 1
-	nutriment_amt = 1
+	bitesize = 3
+	volume = 1000
 	nutriment_amt = 1
 	nutriment_desc = list(
-		"Jewrenium" = 1
+		"dirty dollar" = 2,
+		"liquified money" = 2,
+		"1% of life" = 2,
+		"Trasen's balls" = 1,
+		"communists' anger" = 1
 	)
+
+/obj/item/reagent_containers/food/snacks/spacecash/Initialize()
+	.=..()
+	reagents.add_reagent(/datum/reagent/tricordrazine/jew, 1)
+
+/obj/item/reagent_containers/food/snacks/spacecash/attack(mob/M as mob, mob/user as mob, def_zone)
+	..()
+	worth = round(worth - bitesize)
+	reagents.del_reagent(/datum/reagent/tricordrazine/jew)
+	reagents.add_reagent(/datum/reagent/tricordrazine/jew, worth)
 
 /obj/item/reagent_containers/food/snacks/spacecash/standard_feed_mob(var/mob/user, var/mob/target)
 	if(user.a_intent == I_HELP)
@@ -40,14 +54,16 @@
 			var/obj/item/reagent_containers/food/snacks/spacecash/cash = W
 			bundle = new (src.loc)
 			bundle.worth += cash.worth
-			bundle.volume = cash.worth
 			bundle.nutriment_amt = cash.volume
+			bundle.reagents.del_reagent(/datum/reagent/tricordrazine/jew)
+			bundle.reagents.add_reagent(/datum/reagent/tricordrazine/jew, bundle.worth)
 			qdel(cash)
 		else //is bundle
 			bundle = W
 		bundle.worth += src.worth
-		bundle.volume = bundle.worth
 		bundle.nutriment_amt = bundle.volume
+		bundle.reagents.del_reagent(/datum/reagent/tricordrazine/jew)
+		bundle.reagents.add_reagent(/datum/reagent/tricordrazine/jew, bundle.worth)
 		bundle.update_icon()
 		if(istype(user, /mob/living/carbon/human))
 			var/mob/living/carbon/human/h_user = user

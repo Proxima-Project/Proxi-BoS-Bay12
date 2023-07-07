@@ -1062,4 +1062,5 @@
 	//Syndies are fine tho
 	if((H.char_branch.name != "Free Trade Union") && (H.char_branch.name != "Consortium of Trans-Star Corporations"))
 		return
-	M.heal_organ_damage(4 * removed, 4 * removed) //Slightly buffed tric. Might be Excessive.
+	M.heal_organ_damage(2 * removed, 2 * removed) //Slightly buffed tric. Might be Excessive.
+												  //Fuck the buffs, t0o op
