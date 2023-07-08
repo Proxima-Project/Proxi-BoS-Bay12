@@ -31,13 +31,14 @@
 
 /obj/item/reagent_containers/food/snacks/spacecash/Initialize()
 	.=..()
-	reagents.add_reagent(/datum/reagent/tricordrazine/jew, 1)
+	reagents.add_reagent(/datum/reagent/tricordrazine/jew, worth)
 
 /obj/item/reagent_containers/food/snacks/spacecash/attack(mob/M as mob, mob/user as mob, def_zone)
-	..()
+	.=..()
 	worth = round(worth - bitesize)
 	reagents.del_reagent(/datum/reagent/tricordrazine/jew)
 	reagents.add_reagent(/datum/reagent/tricordrazine/jew, worth)
+	update_icon()
 
 /obj/item/reagent_containers/food/snacks/spacecash/standard_feed_mob(var/mob/user, var/mob/target)
 	if(user.a_intent == I_HELP)
@@ -54,14 +55,14 @@
 			var/obj/item/reagent_containers/food/snacks/spacecash/cash = W
 			bundle = new (src.loc)
 			bundle.worth += cash.worth
-			bundle.nutriment_amt = cash.volume
+			bundle.nutriment_amt = cash.worth
 			bundle.reagents.del_reagent(/datum/reagent/tricordrazine/jew)
 			bundle.reagents.add_reagent(/datum/reagent/tricordrazine/jew, bundle.worth)
 			qdel(cash)
 		else //is bundle
 			bundle = W
 		bundle.worth += src.worth
-		bundle.nutriment_amt = bundle.volume
+		bundle.nutriment_amt = bundle.worth
 		bundle.reagents.del_reagent(/datum/reagent/tricordrazine/jew)
 		bundle.reagents.add_reagent(/datum/reagent/tricordrazine/jew, bundle.worth)
 		bundle.update_icon()
