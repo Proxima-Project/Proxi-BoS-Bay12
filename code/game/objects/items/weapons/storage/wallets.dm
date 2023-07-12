@@ -6,7 +6,7 @@
 	w_class = ITEM_SIZE_SMALL
 	max_w_class = ITEM_SIZE_SMALL //Don't worry, see can_hold[]
 	max_storage_space = 8
-	can_hold = list(
+/*	can_hold = list(
 		/obj/item/reagent_containers/food/snacks/spacecash,
 		/obj/item/card,
 		/obj/item/clothing/mask/smokable,
@@ -43,7 +43,7 @@
 		/obj/item/clothing/accessory/pronouns,
 		/obj/item/storage/chewables/rollable
 	)
-
+*/
 	slot_flags = SLOT_ID
 
 	var/obj/item/card/id/front_id = null
