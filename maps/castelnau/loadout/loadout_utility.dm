@@ -1,3 +1,8 @@
+/datum/gear/utility/holopad
+	display_name = "Holopad"
+	path = /obj/item/device/holopad
+	cost = 5
+
 /datum/gear/utility/pda
 	display_name = "PDA selection"
 	path = /obj/item/modular_computer/pda

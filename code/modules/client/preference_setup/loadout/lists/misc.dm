@@ -311,7 +311,3 @@
 	cointype["coin, platinum"] = /obj/item/material/coin/platinum
 	gear_tweaks += new/datum/gear_tweak/path(cointype)
 
-/datum/gear/device/holopad/cheap
-	display_name = "holopda"
-	path = /obj/item/device/holopad/cheap
-	cost = 3
