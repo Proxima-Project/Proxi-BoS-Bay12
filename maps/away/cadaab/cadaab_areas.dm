@@ -4,7 +4,7 @@
 	name = "Cadaab"
 	icon = 'maps/away/cadaab/icons/areas.dmi'
 	icon_state = "where"
-	base_turf = /turf/simulated/floor/exoplanet/desert/cadaab
+	base_turf = /turf/space
 //	planetary_surface = TRUE
 	var/outside = FALSE //Mostly for sandstorm proper work
 	var/datum/sandstorm/sandstorm_container //Container for sandstorm datum
