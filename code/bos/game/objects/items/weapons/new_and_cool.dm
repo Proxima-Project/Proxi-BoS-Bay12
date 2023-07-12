@@ -11,7 +11,7 @@
 	icon_state = "sword"
 	item_state = "sword"
 	slot_flags = SLOT_BELT
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_HUGE
 	force = 15
 	max_force = 10
 	force_multiplier = 0.5
