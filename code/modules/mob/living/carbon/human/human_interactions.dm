@@ -32,6 +32,10 @@
 			if (istype(P.loc, /obj/structure/closet) && P.loc == H.loc)
 				P.visible_message("<B>[H]</B> кланяется <B>[P]</B>.")
 
+		else if (href_list["interaction"] == "wink") //BoS
+			to_chat(P, "<B>[H]</B> незаметно подмигивает Вам.")
+			to_chat(H, "Вы незаметно подмигнули <B>[P]</B>.")
+
 		else if (href_list["interaction"] == "pet")
 			if(((!istype(P.loc, /obj/structure/closet)) || (H.loc == P.loc)) && hashands && H.Adjacent(P))
 				H.visible_message("<B>[H]</B> [pick("гладит", "поглаживает")] <B>[P]</B>.")

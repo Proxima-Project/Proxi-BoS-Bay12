@@ -261,8 +261,8 @@ GLOBAL_DATUM_INIT(mini_role, /datum/antagonist/mini_roles, new)
 
 /datum/mini_role/creditor/special_act(var/mob/living/carbon/human/target)
 	var/debt
-	debt = mini_target.assigned_job.economic_power * 1000 - rand(-40,1) * 100
-	if(debt << 0) debt += 4000
+	debt = mini_target.assigned_job.economic_power * 500 + rand(-10,20) * 100
+	if(debt << 1000) debt += 2000
 	objective = "[mini_target]([mini_target.assigned_job.title]) задолжал Вам [debt] кредитов. Добейтесь от должника возвращения долга до конца смены."
 	double_text = "<span class='danger'><font size=3>Вы вспоминаете, что то ли по пьяне, то ли из-за смертельной угрозы, то ли просто по случайности, но Вы должны [owner] [debt] кредитов. Не сказать, что бы Вам хотелось с ними раставаться...</font></span>"
 	double_objective = "Избегать отдачи долга в [debt] кредитов [owner]([owner.assigned_job.title])."
@@ -302,15 +302,17 @@ GLOBAL_DATUM_INIT(mini_role, /datum/antagonist/mini_roles, new)
 	double_text = "<span class='danger'><font size=3>Где-то рядом с Вами должен находится связной, который может обладать интересной и полезной информацией. Найдите его и получите эту информацию.</font></span>"
 	double_objective = "Найдите и установите контакт с связным."
 
-	//Put names of possible coop roles in list below
+	//Put types of possible coop roles in list below
 	var/connected_roles = list(/datum/mini_role/rat, /datum/mini_role/contractor)
+	//Guys below too boring to unmask them
+	var/boring_roles = list(/datum/mini_role/creditor)
 
 /datum/mini_role/link/additional_check(var/mob/living/carbon/human/target)
 	var/try_amount = 0
 	var/list/unmasked_roles = list()
 	while(try_amount != 4)
 		var/datum/mini_role/picked_role = pick(GLOB.mini_role.all_mini_roles_datums)
-		if((is_type_in_list(picked_role, connected_roles)) || (picked_role.owner == target.mind))
+		if((is_type_in_list(picked_role, connected_roles)) || (is_type_in_list(picked_role, unmasked_roles)) || (is_type_in_list(picked_role, boring_roles)) || (picked_role.owner == target.mind))
 			try_amount += 1
 			continue
 		unmasked_roles += picked_role

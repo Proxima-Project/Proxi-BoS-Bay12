@@ -42,6 +42,7 @@
 	var/ya = "&#1103;"
 
 	dat +=  {"• <A href='?src=\ref[src];interaction=bow'>Отвесить поклон.</A><BR>"}
+	dat +=  {"• <A href='?src=\ref[src];interaction=wink'>Незаметно подмигнуть.</A><BR>"}
 	if (hashands)
 		dat +=  {"<font size=3><B>Руки:</B></font><BR>"}
 		dat +=  {"• <A href='?src=\ref[src];interaction=bow_affably'>Приветливо кивнуть.</A><BR>"}
