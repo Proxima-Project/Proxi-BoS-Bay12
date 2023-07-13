@@ -8,7 +8,7 @@
 "ah" = (/obj/structure/steelfence,/turf/simulated/floor/grass/cadaab,/area/mjolnir)
 "ai" = (/obj/structure/steelfence{dir = 5},/turf/simulated/floor/grass/cadaab,/area/mjolnir)
 "aj" = (/obj/item/shovel,/turf/simulated/floor/grass/cadaab,/area/mjolnir)
-"ak" = (/obj/structure/curtain/open/bed{pixel_x = -32},/obj/structure/table/woodentable,/turf/simulated/floor/wood,/area/mjolnir/inside)
+"ak" = (/obj/structure/curtain/open/bed{pixel_x = -32},/obj/structure/table/woodentable,/obj/random/backpack,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "al" = (/obj/structure/pit/closed/cadaab{dir = 8},/obj/structure/gravemarker/random,/turf/simulated/floor/grass/cadaab,/area/mjolnir)
 "am" = (/obj/machinery/vending/coffee,/turf/simulated/floor/tiled,/area/mjolnir)
 "an" = (/obj/effect/wallframe_spawn,/obj/effect/paint/merc,/turf/simulated/floor/lino,/area/mjolnir/inside)
@@ -56,7 +56,7 @@
 "bd" = (/obj/structure/flora/jungle/bush/c_random,/obj/structure/flora/tree/jungle/small/random,/turf/simulated/floor/grass/cadaab,/area/mjolnir)
 "be" = (/obj/effect/floor_decal/corner/blue{dir = 9},/obj/item/material/shard,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "bf" = (/obj/machinery/atmospherics/pipe/manifold/hidden{dir = 8},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/mjolnir)
-"bg" = (/obj/structure/table/steel,/obj/structure/table/steel,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"bg" = (/obj/structure/table/steel,/obj/structure/table/steel,/obj/effect/floor_decal/corner/brown/full,/obj/random/accessory,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "bh" = (/obj/structure/flora/jungle/bush/a_random,/obj/structure/flora/jungle/bush/a_random,/turf/simulated/floor/grass/cadaab,/area/mjolnir)
 "bi" = (/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 4},/turf/simulated/floor/inaks/plate,/area/mjolnir)
 "bj" = (/turf/simulated/floor/reinforced,/area/mjolnir/inside)
@@ -107,7 +107,7 @@
 "cc" = (/obj/item/stack/material/plasteel,/obj/item/stack/material/plasteel,/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "cd" = (/obj/item/stack/material/plasteel,/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "ce" = (/obj/effect/gibspawner/human,/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
-"cf" = (/obj/structure/table/woodentable,/obj/machinery/light,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
+"cf" = (/obj/structure/table/woodentable,/obj/machinery/light,/obj/random/drinkbottle,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "cg" = (/obj/effect/landmark{name = "JoinLateCryo"},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "ch" = (/obj/machinery/cryopod{dir = 1},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "ci" = (/obj/item/stack/material/plasteel,/obj/item/stack/material/rods,/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
@@ -159,16 +159,16 @@
 "dc" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/firedoor,/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "dd" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "de" = (/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/tiled,/area/mjolnir/inside)
-"df" = (/obj/machinery/camera/network/second_deck{dir = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
+"df" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "dg" = (/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 8},/obj/effect/floor_decal/steeldecal/steel_decals4{dir = 5},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "dh" = (/obj/item/stack/material/rods,/obj/item/stack/material/rods,/obj/item/stack/material/rods,/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "di" = (/obj/structure/railing/mapped{dir = 4},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
-"dj" = (/obj/structure/sign/booker/not_booker,/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
+"dj" = (/obj/random/trash,/turf/simulated/floor/exoplanet/concrete,/area/mjolnir)
 "dk" = (/obj/structure/railing/mapped{dir = 4},/obj/machinery/status_display{pixel_x = -32},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "dl" = (/obj/machinery/firealarm{pixel_y = 24},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "dm" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "dn" = (/obj/structure/memstatue/ambrosia,/obj/effect/floor_decal/spline/plain/yellow{dir = 4},/turf/simulated/floor/inaks/plate,/area/mjolnir)
-"do" = (/obj/machinery/camera/network/engineering{c_tag = "Solar Control - Port"},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
+"do" = (/obj/structure/table/woodentable,/obj/random/drinkbottle,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "dp" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
 "dq" = (/obj/random/lootable_mgsbox,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "dr" = (/obj/structure/table/woodentable_reinforced,/obj/machinery/fabricator/micro/bartender,/turf/simulated/floor/wood,/area/mjolnir/inside)
@@ -205,7 +205,7 @@
 "et" = (/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/structure/table/glass,/obj/item/defibrillator/compact/loaded,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "eu" = (/obj/effect/floor_decal/corner/brown{dir = 10},/obj/effect/floor_decal/industrial/warning/corner{dir = 4},/turf/simulated/floor/tiled/dark/monotile,/area/mjolnir)
 "ev" = (/obj/effect/wallframe_spawn/reinforced,/obj/machinery/door/firedoor,/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/plating,/area/mjolnir)
-"ez" = (/obj/machinery/light,/turf/simulated/floor/tiled/freezer,/area/mjolnir/inside)
+"ez" = (/obj/structure/table/steel,/turf/simulated/floor/tiled/freezer,/area/mjolnir/inside)
 "eA" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/door/firedoor,/obj/structure/disposalpipe/segment,/obj/effect/gibspawner/human,/turf/simulated/floor/plating,/area/mjolnir)
 "eB" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/plating,/area/mjolnir)
 "eD" = (/obj/machinery/door/unpowered/simple/plastic,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -227,7 +227,11 @@
 "fu" = (/obj/structure/bed/chair/office/comfy/yellow{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "fx" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/machinery/atmospherics/portables_connector{dir = 1},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "fy" = (/obj/structure/steelfence/door,/turf/simulated/floor/inaks/cubic_plate,/area/mjolnir)
+"fz" = (/obj/structure/bed/sofa/brown{dir = 1},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "fC" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/effect/floor_decal/corner_techfloor_grid{dir = 6},/turf/simulated/floor/plating,/area/mjolnir)
+"fD" = (/obj/effect/floor_decal/corner/brown/full,/obj/machinery/computer/modular/preset/civilian{dir = 4},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"fE" = (/obj/item/stack/material/rods,/obj/random/trash,/turf/simulated/floor/plating,/area/mjolnir)
+"fH" = (/obj/structure/table/woodentable,/obj/random/single/playing_cards,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "fJ" = (/obj/structure/table/marble,/obj/machinery/cooker/candy,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "fK" = (/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
 "fL" = (/obj/structure/bed/chair/pew/left/mahogany,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
@@ -237,6 +241,7 @@
 "ga" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/catwalk_plated,/turf/simulated/floor/plating,/area/mjolnir)
 "gd" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "ge" = (/obj/effect/floor_decal/borderfloor/corner,/obj/effect/floor_decal/corner/yellow/bordercorner,/turf/simulated/floor/tiled,/area/mjolnir)
+"gi" = (/obj/structure/window/reinforced{dir = 4},/obj/item/stack/material/rods,/obj/random/trash,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "gk" = (/obj/structure/fitness/punchingbag,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "gm" = (/obj/machinery/hologram/holopad,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "gn" = (/obj/item/stool/wood,/obj/machinery/light{dir = 4},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
@@ -259,6 +264,7 @@
 "gS" = (/obj/effect/floor_decal/corner/paleblue{dir = 5},/obj/structure/bed/chair/padded/blue{dir = 2; icon_state = "chair_preview"},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "gW" = (/obj/machinery/door/firedoor,/obj/machinery/door/airlock/engineering{name = "Fusion Testing Facility"; secured_wires = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/door/firedoor,/obj/structure/barricade,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
 "gX" = (/obj/structure/bed/chair/wood{dir = 1},/turf/simulated/floor/wood,/area/mjolnir/inside)
+"hb" = (/obj/effect/floor_decal/borderfloorblack{dir = 4},/obj/random/trash,/turf/simulated/floor/plating,/area/mjolnir/inside)
 "hc" = (/obj/effect/paint_stripe/red,/turf/simulated/floor/plating,/area/mjolnir)
 "hd" = (/obj/effect/floor_decal/spline/fancy/black{dir = 9; icon_state = "spline_fancy"},/obj/effect/floor_decal/spline/fancy/black,/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
 "hg" = (/obj/effect/floor_decal/corner/lime{dir = 9},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -270,6 +276,7 @@
 "hs" = (/obj/structure/catwalk,/obj/item/stool,/obj/structure/cable/green,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/plating,/area/mjolnir)
 "hu" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/constructable_frame,/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
 "hv" = (/obj/machinery/organ_printer/robot/mapped,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"hx" = (/obj/random/trash,/turf/simulated/floor/tiled/freezer,/area/mjolnir/inside)
 "hz" = (/obj/effect/floor_decal/borderfloorblack{dir = 10},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "hB" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "hD" = (/obj/structure/table/woodentable,/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
@@ -288,6 +295,7 @@
 "ii" = (/obj/machinery/computer/robotics{dir = 4; req_access = list("ACCESS_CASTELNAU_COMMAND")},/obj/effect/floor_decal/corner/blue{dir = 9},/turf/simulated/floor/plating,/area/mjolnir)
 "ik" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "il" = (/obj/structure/bed/chair/wood{dir = 4},/obj/effect/floor_decal/spline/fancy/wood{dir = 8},/obj/structure/curtain/open/bed{pixel_y = -32},/turf/simulated/floor/wood,/area/mjolnir/inside)
+"ip" = (/obj/item/stack/material/rods,/obj/random/trash,/turf/simulated/floor/plating,/area/mjolnir/inside)
 "iq" = (/obj/structure/ruins,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "ir" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1; tag = "icon-map-scrubbers (NORTH)"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/catwalk_plated,/obj/structure/disposalpipe/junction{dir = 8; icon_state = "pipe-j2"},/turf/simulated/floor/plating,/area/mjolnir)
 "is" = (/obj/machinery/disease2/antibodyanalyser,/obj/structure/window/reinforced,/obj/effect/floor_decal/corner/lime{dir = 6},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -302,7 +310,10 @@
 "iN" = (/obj/structure/table/woodentable_reinforced,/obj/machinery/chemical_dispenser/bar_soft/full,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "iP" = (/obj/structure/morgue{dir = 1},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "iQ" = (/obj/structure/table/steel,/obj/random/material_rnd_steel,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"iT" = (/obj/structure/flora/pottedplant/smelly,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"iU" = (/obj/structure/bed/chair/office/comfy/yellow,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "iY" = (/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/stock_parts/circuitboard/atmos_alert,/obj/item/stock_parts/circuitboard/powermonitor,/obj/item/stock_parts/circuitboard/stationalert,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"jb" = (/obj/random/trash,/turf/simulated/floor/plating,/area/mjolnir)
 "jc" = (/turf/simulated/floor/shuttle/white,/area/mjolnir/inside)
 "je" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/structure/table/standard,/obj/structure/plushie/beepsky,/obj/effect/floor_decal/borderfloor,/obj/effect/floor_decal/corner/green/border,/obj/effect/floor_decal/borderfloor/corner2,/obj/effect/floor_decal/corner/green/bordercorner2,/obj/machinery/light,/turf/simulated/floor/tiled,/area/mjolnir)
 "jk" = (/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/machinery/door/airlock/freezer{name = "Chef"},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -310,6 +321,7 @@
 "jn" = (/obj/machinery/light/spot,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "jo" = (/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/structure/window/basic{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "ju" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"jv" = (/obj/item/stack/material/rods,/obj/random/trash,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "jA" = (/obj/effect/floor_decal/corner_techfloor_grid/full{dir = 4},/obj/machinery/camera/network/command{dir = 8; pixel_y = -21},/obj/effect/floor_decal/corner/grey/border{dir = 8},/obj/machinery/papershredder,/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "jE" = (/obj/structure/flora/pottedplant/minitree,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "jF" = (/obj/structure/flora/pottedplant/aquatic,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
@@ -328,11 +340,13 @@
 "kf" = (/obj/structure/bed/chair/wood/wings{dir = 8},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "kg" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 4; icon_state = "warningcorner"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/random/trash,/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "ki" = (/obj/structure/closet/walllocker/emerglocker/north,/obj/effect/floor_decal/corner/paleblue{dir = 9; icon_state = "corner_white"},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"kk" = (/obj/structure/table/woodentable,/obj/item/storage/box/checkers/chess,/obj/item/storage/box/checkers/chess/red,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "kl" = (/turf/space,/area/space)
 "kn" = (/obj/structure/undies_wardrobe/chestdrawer/walnut,/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
 "ko" = (/obj/machinery/door/airlock/multi_tile/glass/mining{dir = 4; name = "Depot"},/turf/simulated/floor/tiled/dark/monotile,/area/mjolnir/inside)
 "kq" = (/obj/effect/floor_decal/corner/lime{dir = 5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "kv" = (/obj/machinery/power/port_gen/pacman{sheets = 25},/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/light,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"kw" = (/obj/structure/table/woodentable_reinforced,/obj/random/drinkbottle,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "kz" = (/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "kA" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/closet/secure_closet/engineering_electrical{req_access = list("ACCESS_CASTELNAU_ENGINEERING")},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
 "kC" = (/obj/structure/curtain/open/privacy,/obj/effect/floor_decal/corner/paleblue{dir = 5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -358,6 +372,7 @@
 "lI" = (/obj/effect/floor_decal/corner/lightgrey/bordercorner{dir = 8},/obj/effect/floor_decal/corner/lightgrey/half{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "lL" = (/obj/structure/table/steel,/obj/machinery/recharger,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
 "lN" = (/obj/effect/paint/merc,/turf/simulated/wall/maple,/area/mjolnir/inside)
+"lO" = (/obj/structure/table/woodentable,/obj/item/paper_bin,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "lQ" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/turf/simulated/floor/reinforced/airless,/area/mjolnir/inside)
 "lR" = (/obj/machinery/constructable_frame/computerframe{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "lS" = (/obj/machinery/portable_atmospherics/canister/oxygen,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
@@ -367,6 +382,7 @@
 "mb" = (/obj/structure/table/rack{dir = 8},/obj/item/stack/material/steel{amount = 50},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
 "me" = (/obj/machinery/hologram/holopad,/turf/simulated/floor/lino,/area/mjolnir/inside)
 "mf" = (/obj/effect/wallframe_spawn/reinforced/no_grille,/turf/simulated/floor/plating,/area/mjolnir/inside)
+"mg" = (/obj/random/trash,/turf/simulated/floor/grass/cadaab,/area/mjolnir)
 "mj" = (/obj/machinery/atmospherics/binary/pump{dir = 1},/turf/simulated/wall/ocp_wall,/area/mjolnir/inside)
 "mk" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/mjolnir)
 "ml" = (/obj/structure/ruins,/turf/simulated/floor/plating,/area/mjolnir/inside)
@@ -377,6 +393,7 @@
 "mz" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/obj/effect/floor_decal/corner_techfloor_grid{dir = 9},/obj/structure/window/reinforced{health = 1e+007},/obj/effect/floor_decal/corner/blue{dir = 9},/obj/machinery/constructable_frame/computerframe{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "mA" = (/obj/effect/floor_decal/corner/lime{dir = 1},/obj/effect/floor_decal/corner/paleblue{dir = 4},/turf/simulated/floor/tiled/white/monotile,/area/mjolnir)
 "mB" = (/obj/structure/table/glass,/obj/effect/floor_decal/corner/lime{dir = 9},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"mE" = (/obj/machinery/noisetv/old,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "mH" = (/obj/effect/floor_decal/industrial/warning,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/mjolnir)
 "mI" = (/obj/structure/sign/booker/not_booker{dir = 1; pixel_y = -32},/obj/item/material/shard,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "mJ" = (/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
@@ -388,6 +405,7 @@
 "mT" = (/obj/structure/bed,/obj/item/bedsheet/clown,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "mV" = (/obj/machinery/door/airlock/engineering{name = "Engineers"},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "mY" = (/obj/effect/wallframe_spawn/no_grille,/obj/effect/paint/merc,/turf/simulated/floor/crystal,/area/mjolnir/inside)
+"na" = (/obj/structure/bookcase,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "nb" = (/obj/effect/floor_decal/corner/lightgrey/bordercorner,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "nc" = (/obj/machinery/door/airlock/hatch{icon_state = "closed"; id_tag = "prototype_access_hatch"; locked = 1},/turf/simulated/floor/reinforced,/area/mjolnir/inside)
 "nf" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 1; icon_state = "warningcorner"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/plating,/area/mjolnir/inside)
@@ -397,19 +415,24 @@
 "nn" = (/obj/machinery/atmospherics/pipe/manifold/hidden{dir = 4},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "np" = (/obj/structure/stairs/west,/obj/structure/ruins,/obj/structure/ruins,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "nq" = (/obj/effect/floor_decal/chapel{dir = 8; icon_state = "chapel"},/obj/structure/bed/chair/pew/mahogany,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"nv" = (/obj/item/stack/material/rods,/turf/simulated/floor/plating,/area/mjolnir/inside)
+"nx" = (/obj/machinery/bookbinder,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "ny" = (/obj/machinery/button/blast_door{id_tag = "qm_warehouse"; name = "Warehouse Door Control"; pixel_x = -24; pixel_y = 6; req_access = newlist()},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "nz" = (/obj/effect/floor_decal/corner/paleblue{dir = 9},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "nC" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/lino,/area/mjolnir/inside)
+"nF" = (/obj/structure/table/steel,/obj/effect/floor_decal/corner/brown/full,/obj/item/pen,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "nH" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "nN" = (/obj/structure/table/marble,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/structure/hygiene/sink/modern{dir = 8},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "nQ" = (/obj/structure/bed/chair/office/light{dir = 1},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "nR" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/effect/catwalk_plated,/turf/simulated/floor/plating,/area/mjolnir)
 "nT" = (/obj/machinery/light{dir = 1},/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/green/border{dir = 1},/obj/structure/bed/chair/padded/green,/turf/simulated/floor/tiled,/area/mjolnir)
 "nU" = (/obj/structure/table/woodentable_reinforced,/obj/structure/curtain/open/bed{pixel_y = -32},/turf/simulated/floor/wood,/area/mjolnir/inside)
+"oa" = (/obj/structure/window/reinforced{dir = 4},/obj/random/trash,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "oi" = (/obj/machinery/atmospherics/pipe/simple/hidden,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "oj" = (/obj/item/stool/bar/padded,/obj/effect/floor_decal/spline/fancy/wood,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "on" = (/obj/machinery/light/spot,/turf/simulated/floor/tiled/dark/monotile,/area/mjolnir/inside)
 "op" = (/obj/structure/memstatue/shmesser,/obj/effect/floor_decal/spline/plain/yellow,/turf/simulated/floor/inaks/plate,/area/mjolnir)
+"or" = (/obj/random/trash,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "os" = (/obj/structure/bed/chair/wood{dir = 4},/obj/structure/curtain/open/bed{pixel_y = -32},/turf/simulated/floor/wood,/area/mjolnir/inside)
 "ot" = (/obj/structure/bed/sofa/brown/right,/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
 "oE" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/door/airlock/hatch/maintenance/bolted{frequency = 1379; id_tag = "prototype_interior"; name = "Fusion Maintenance"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
@@ -417,6 +440,7 @@
 "oM" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/effect/catwalk_plated,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/plating,/area/mjolnir)
 "oP" = (/turf/simulated/floor,/area/mjolnir)
 "oQ" = (/obj/structure/table/rack,/obj/item/storage/box/gloves,/obj/item/storage/box/gloves,/obj/item/storage/box/gloves,/obj/effect/floor_decal/corner/paleblue{dir = 9; icon_state = "corner_white"},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"oT" = (/obj/machinery/computer/arcade,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "oU" = (/obj/effect/floor_decal/borderfloorblack{dir = 8},/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "oX" = (/obj/structure/table/glass,/obj/item/storage/box/beakers,/obj/item/storage/box/syringes{pixel_x = 4; pixel_y = 4},/obj/item/reagent_containers/dropper,/obj/structure/window/reinforced,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "oZ" = (/obj/structure/steelfence{dir = 6},/turf/simulated/floor/inaks/cubic_plate,/area/mjolnir)
@@ -443,9 +467,11 @@
 "qd" = (/obj/effect/floor_decal/corner/paleblue/three_quarters,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "qe" = (/obj/machinery/meter,/obj/machinery/atmospherics/pipe/manifold/hidden,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "qf" = (/obj/structure/table/woodentable_reinforced/mahogany,/obj/item/storage/candle_box,/obj/item/storage/candle_box,/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
+"qg" = (/obj/structure/reagent_dispensers/water_cooler,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "qh" = (/turf/simulated/floor/grass/cadaab,/area/mjolnir/inside)
 "qj" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/simple/hidden/yellow{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/item/stack/material/plasteel,/turf/simulated/floor/plating,/area/mjolnir)
 "qk" = (/obj/effect/wallframe_spawn/reinforced_phoron,/obj/machinery/door/blast/regular{dir = 4; id_tag = "fusion_observation"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/plating,/area/mjolnir/inside)
+"ql" = (/obj/structure/table/marble,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/random/mre,/turf/simulated/floor/tiled/white/monotile,/area/mjolnir/inside)
 "qo" = (/obj/structure/steelfence,/turf/simulated/floor/inaks/cubic_plate,/area/mjolnir)
 "qr" = (/obj/structure/curtain/open/privacy,/obj/effect/floor_decal/corner/paleblue{dir = 10},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "qt" = (/obj/structure/adherent_bath,/turf/simulated/floor/crystal,/area/mjolnir/inside)
@@ -462,8 +488,9 @@
 "qU" = (/obj/machinery/vending/coffee{dir = 8},/obj/effect/floor_decal/industrial/outline,/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "qW" = (/obj/item/storage/mirror{pixel_x = -35},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "qX" = (/obj/item/stack/material/rods,/obj/item/stack/material/rods,/turf/simulated/wall/r_wall/prepainted,/area/mjolnir)
-"rc" = (/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
+"rc" = (/obj/random/trash,/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
 "rd" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/hologram/holopad,/turf/simulated/floor/tiled,/area/mjolnir)
+"re" = (/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "rf" = (/obj/item/bedsheet,/obj/structure/bed/padded,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/white/monotile,/area/mjolnir/inside)
 "rg" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/plating,/area/mjolnir/inside)
 "ri" = (/obj/structure/closet/secure_closet/personal/patient,/obj/effect/floor_decal/corner/paleblue{dir = 6},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -476,6 +503,7 @@
 "rB" = (/obj/machinery/alarm{dir = 8; pixel_x = 23},/obj/structure/reagent_dispensers/water_cooler,/obj/effect/floor_decal/borderfloor{dir = 4},/obj/effect/floor_decal/corner/green/border{dir = 4},/obj/effect/floor_decal/borderfloor/corner2{dir = 6},/obj/effect/floor_decal/corner/green/bordercorner2{dir = 6},/turf/simulated/floor/tiled,/area/mjolnir)
 "rC" = (/obj/structure/catwalk,/turf/simulated/floor,/area/mjolnir/inside)
 "rE" = (/obj/item/light/tube,/turf/simulated/floor/exoplanet/barren,/area/mjolnir)
+"rF" = (/obj/structure/bed/sofa/brown/left{dir = 1},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "rG" = (/obj/machinery/field_generator,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "rM" = (/obj/effect/floor_decal/spline/plain/yellow{dir = 4},/turf/simulated/floor/inaks/plate,/area/mjolnir)
 "rP" = (/obj/machinery/computer/fusion/fuel_control{dir = 4; icon_state = "computer"; initial_id_tag = "aux_fusion_plant"; req_access = list("ACCESS_ENGINE_EQUIP")},/obj/effect/floor_decal/corner/yellow/half{dir = 1; icon_state = "bordercolorhalf"},/turf/simulated/floor/tiled/monotile,/area/mjolnir/inside)
@@ -494,6 +522,7 @@
 "sq" = (/obj/structure/table/rack{dir = 8},/obj/item/storage/toolbox/electrical,/obj/item/storage/toolbox/mechanical,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "ss" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/simple/hidden/yellow{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/plating,/area/mjolnir)
 "sv" = (/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/turf/simulated/floor/tiled/dark/monotile,/area/mjolnir)
+"sw" = (/obj/structure/flora/tree/jungle/random,/obj/structure/closet/tent,/obj/random/lilgun,/obj/random/lilgun,/obj/item/clothing/accessory/coppercats,/turf/simulated/floor/grass/cadaab,/area/mjolnir)
 "sy" = (/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/obj/machinery/power/port_gen/pacman/mrs,/turf/simulated/floor/reinforced/airless,/area/mjolnir/inside)
 "sB" = (/obj/machinery/fusion_fuel_injector/mapped{anchored = 0; initial_id_tag = "aux_fusion_plant"},/turf/simulated/floor/reinforced,/area/mjolnir/inside)
 "sD" = (/obj/structure/cable/green,/obj/structure/cable/green{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -514,10 +543,11 @@
 "sZ" = (/obj/machinery/optable,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "tf" = (/obj/machinery/vending/tool/adherent,/turf/simulated/floor/crystal,/area/mjolnir/inside)
 "tg" = (/obj/structure/closet/crate,/obj/random/maintenance,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"tj" = (/obj/machinery/noisetv/old,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "tk" = (/obj/machinery/telecomms/broadcaster/preset_right,/turf/simulated/floor/tiled/techmaint,/area/mjolnir/inside)
 "tl" = (/obj/machinery/cryopod,/obj/effect/floor_decal/techfloor{dir = 10},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "tq" = (/obj/structure/bed/roller,/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/light,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
-"tr" = (/obj/structure/fireaxecabinet{pixel_y = 30},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"tr" = (/obj/structure/fireaxecabinet{pixel_y = 30},/obj/effect/floor_decal/corner/brown/full,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "tu" = (/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/effect/floor_decal/corner/paleblue{dir = 1},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "tv" = (/obj/effect/paint_stripe/green,/turf/simulated/wall/r_wall/hull,/area/mjolnir)
 "tw" = (/obj/structure/hygiene/shower,/obj/effect/floor_decal/corner/paleblue{dir = 5},/obj/effect/floor_decal/corner/paleblue,/obj/structure/window/basic{dir = 8},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -541,17 +571,22 @@
 "um" = (/obj/structure/hygiene/sink{dir = 4; icon_state = "sink"; pixel_x = 11; pixel_y = 0},/obj/effect/floor_decal/corner/paleblue{dir = 6},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "uo" = (/obj/effect/floor_decal/spline/fancy/black{dir = 9; icon_state = "spline_fancy"},/turf/simulated/floor/pool,/area/mjolnir)
 "up" = (/obj/machinery/vending/tool,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled,/area/mjolnir/inside)
+"ur" = (/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/random/trash,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "us" = (/turf/simulated/floor/reinforced/airless,/area/mjolnir/inside)
 "ut" = (/obj/structure/stairs/east,/obj/structure/ruins,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"uu" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/obj/random/trash,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "uv" = (/obj/structure/steelfence{dir = 6},/turf/simulated/floor/tiled/monotile,/area/mjolnir)
 "uw" = (/obj/item/stool/bar/padded,/obj/effect/floor_decal/spline/fancy/wood{dir = 4},/turf/simulated/floor/wood,/area/mjolnir/inside)
 "ux" = (/obj/effect/landmark{name = "JoinLateCryo"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/disposalpipe/segment,/obj/effect/floor_decal/industrial/warning{dir = 8; icon_state = "warning"},/obj/item/stack/material/rods,/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "uz" = (/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/stock_parts/circuitboard/holodeckcontrol,/obj/item/stock_parts/circuitboard/mech_recharger,/obj/item/stock_parts/circuitboard/solar_control,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"uG" = (/obj/structure/curtain/open/bed{pixel_y = -32},/obj/structure/table/woodentable,/obj/random/drinkbottle,/obj/random/drinkbottle,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"uH" = (/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/obj/random/trash,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "uI" = (/obj/machinery/fusion_fuel_compressor,/obj/machinery/light{dir = 1},/turf/simulated/floor/reinforced/airless,/area/mjolnir/inside)
 "uJ" = (/obj/machinery/telecomms/processor/preset_one,/turf/simulated/floor/tiled/techmaint,/area/mjolnir/inside)
 "uN" = (/obj/effect/floor_decal/spline/fancy/black,/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
+"uO" = (/obj/structure/table/standard,/obj/random/mre,/obj/random/mre,/turf/simulated/floor/lino,/area/mjolnir/inside)
 "uP" = (/obj/structure/table/rack,/obj/item/clothing/under/lordan/utility/tan,/obj/item/clothing/under/lordan/utility/tan,/obj/item/clothing/under/lordan/utility/tan,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
-"uT" = (/turf/simulated/wall,/area/mjolnir/inside)
+"uT" = (/obj/structure/undies_wardrobe/chestdrawer/walnut,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "uZ" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/cable/green,/obj/machinery/camera/network/third_deck{dir = 8},/obj/machinery/constructable_frame/computerframe{dir = 1},/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
 "va" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/mjolnir)
 "vf" = (/obj/effect/floor_decal/spline/fancy/black{dir = 9; icon_state = "spline_fancy"},/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
@@ -560,10 +595,12 @@
 "vl" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "vm" = (/obj/structure/window/reinforced{dir = 1},/obj/machinery/vending/engivend,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
 "vn" = (/obj/structure/closet/emcloset,/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8; level = 2},/obj/machinery/light,/obj/machinery/camera/network/third_deck{dir = 8},/turf/simulated/floor/tiled/monotile,/area/mjolnir)
+"vs" = (/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "vt" = (/obj/effect/floor_decal/spline/fancy/black{dir = 1; icon_state = "spline_fancy"},/turf/simulated/floor/pool,/area/mjolnir)
 "vu" = (/obj/machinery/door/airlock/multi_tile/glass/medical{dir = 4; id_tag = "MedEnt"; name = "Morgue"},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "vv" = (/obj/structure/closet/l3closet/janitor,/obj/effect/floor_decal/industrial/outline/grey,/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "vw" = (/obj/structure/table/woodentable/maple,/turf/simulated/floor/carpet/purple,/area/mjolnir/inside)
+"vx" = (/obj/machinery/noisetv,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "vB" = (/obj/effect/floor_decal/corner/lightgrey/border{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "vC" = (/obj/structure/curtain/open/bed{pixel_y = -32},/obj/structure/table/woodentable,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "vD" = (/obj/effect/floor_decal/corner/brown{dir = 1; icon_state = "corner_white"},/turf/simulated/floor/tiled/dark,/area/mjolnir)
@@ -580,12 +617,15 @@
 "wd" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/unary/freezer{dir = 8; icon_state = "freezer"; set_temperature = 80; use_power = 1},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "wi" = (/obj/structure/memstatue/vasiliy,/obj/effect/floor_decal/spline/plain/yellow,/turf/simulated/floor/inaks/plate,/area/mjolnir)
 "wj" = (/obj/effect/gibspawner/robot,/turf/simulated/floor/plating,/area/mjolnir)
+"wk" = (/obj/effect/floor_decal/corner/brown/full,/obj/random/lootable_mgsbox,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "wn" = (/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/structure/table/glass,/obj/item/auto_cpr,/obj/item/auto_cpr,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "wo" = (/obj/structure/table/woodentable_reinforced/mahogany,/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
+"wv" = (/obj/structure/table/steel,/obj/random/powercell,/obj/effect/floor_decal/corner/brown/full,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "wx" = (/obj/structure/curtain/open/bed{pixel_y = -32},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "wz" = (/obj/structure/ruins,/turf/simulated/floor,/area/mjolnir/inside)
 "wB" = (/obj/structure/closet/cabinet/walnut,/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
 "wC" = (/obj/structure/hygiene/shower{dir = 1},/obj/effect/floor_decal/corner/lime{dir = 10},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"wE" = (/obj/structure/table/steel,/obj/random/gloves,/obj/random/gloves,/turf/simulated/floor/tiled/freezer,/area/mjolnir/inside)
 "wG" = (/obj/structure/kitchenspike,/turf/simulated/floor/tiled/freezer,/area/mjolnir/inside)
 "wH" = (/obj/effect/floor_decal/corner/paleblue,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "wJ" = (/obj/structure/reagent_dispensers/watertank,/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
@@ -595,9 +635,11 @@
 "wQ" = (/obj/structure/table/marble,/obj/machinery/cooker/cereal,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "wR" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled/dark/monotile,/area/mjolnir)
 "wV" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"wW" = (/obj/machinery/computer/modular/preset/civilian{dir = 1},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "wX" = (/obj/machinery/atmospherics/pipe/manifold/hidden,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "wY" = (/obj/effect/floor_decal/borderfloorblack{dir = 8},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "wZ" = (/obj/structure/table/rack,/obj/random/maintenance,/obj/random/projectile,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
+"xa" = (/obj/structure/bed,/obj/item/bedsheet/orange,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "xf" = (/obj/machinery/hologram/holopad,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "xg" = (/obj/machinery/door/firedoor,/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/blast/regular/open{dir = 4; id_tag = "tp"; name = "Teleporter"},/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
 "xi" = (/obj/structure/table/woodentable_reinforced,/obj/item/music_tape/custom,/turf/simulated/floor/wood,/area/mjolnir/inside)
@@ -606,11 +648,11 @@
 "xp" = (/obj/structure/table/marble,/obj/item/tableflag/antar/iccg,/turf/simulated/floor/inaks/plate,/area/mjolnir)
 "xs" = (/obj/structure/lordbanner,/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 1},/turf/simulated/floor/inaks/plate,/area/mjolnir)
 "xu" = (/obj/effect/floor_decal/spline/plain/yellow{dir = 1},/turf/simulated/floor/inaks/plate,/area/mjolnir)
-"xB" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/structure/disposalpipe/segment{dir = 2; icon_state = "pipe-c"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/yellow{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/mjolnir)
+"xB" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/structure/disposalpipe/segment{dir = 2; icon_state = "pipe-c"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/yellow{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/structure/catwalk,/obj/random/trash,/turf/simulated/floor/plating,/area/mjolnir)
 "xD" = (/obj/effect/paint_stripe/red,/turf/simulated/wall/r_wall/prepainted,/area/mjolnir)
 "xF" = (/obj/structure/bed/chair/wood{dir = 8},/obj/effect/floor_decal/spline/fancy/wood{dir = 4},/obj/structure/curtain/open/bed{pixel_y = -32},/turf/simulated/floor/wood,/area/mjolnir/inside)
 "xL" = (/turf/simulated/wall/prepainted,/area/mjolnir)
-"xQ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "danger"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
+"xQ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "danger"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/random/trash,/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
 "xR" = (/obj/effect/floor_decal/corner/paleblue/half{dir = 4; icon_state = "bordercolorhalf"},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "xS" = (/obj/structure/curtain/open/privacy,/turf/simulated/floor/tiled/freezer,/area/mjolnir/inside)
 "xT" = (/obj/machinery/door/airlock/glass/civilian{name = "Cryogenic Storage"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
@@ -630,11 +672,13 @@
 "yK" = (/obj/structure/bed/chair/wood,/turf/simulated/floor/lino,/area/mjolnir/inside)
 "yO" = (/obj/machinery/fusion_fuel_injector/mapped{anchored = 0; dir = 1; icon_state = "injector0"; initial_id_tag = "aux_fusion_plant"},/turf/simulated/floor/reinforced,/area/mjolnir/inside)
 "yR" = (/obj/machinery/recharge_station,/obj/effect/floor_decal/industrial/outline,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"yS" = (/obj/structure/curtain/open/bed{pixel_x = -32},/obj/structure/table/woodentable,/obj/random/donkpocket_box,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "yT" = (/obj/effect/floor_decal/industrial/warning/corner,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "yV" = (/obj/effect/floor_decal/corner/paleblue/three_quarters,/obj/structure/table/standard,/obj/item/bodybag/rescue/loaded,/obj/item/bodybag/rescue/loaded,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "yX" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/obj/machinery/jukebox/old,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "yY" = (/obj/effect/floor_decal/corner/brown/three_quarters,/turf/simulated/floor/tiled/dark,/area/mjolnir)
 "za" = (/obj/machinery/door/airlock/freezer{name = "Chef"},/turf/simulated/floor/wood,/area/mjolnir/inside)
+"zc" = (/obj/machinery/washing_machine,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "zd" = (/obj/effect/floor_decal/industrial/warning/corner,/turf/simulated/floor/plating,/area/mjolnir/inside)
 "zf" = (/obj/machinery/bluespacerelay,/turf/simulated/floor/tiled/techmaint,/area/mjolnir/inside)
 "zi" = (/obj/structure/bed/chair/wheelchair,/obj/effect/floor_decal/corner/paleblue{dir = 5},/obj/effect/floor_decal/corner/paleblue,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -668,6 +712,7 @@
 "Am" = (/obj/structure/table/standard,/obj/machinery/recharger,/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/green/border{dir = 1},/obj/effect/floor_decal/borderfloor/corner2{dir = 1},/obj/effect/floor_decal/corner/green/bordercorner2{dir = 1},/obj/structure/sign/directions/security{dir = 8; pixel_y = 32},/turf/simulated/floor/tiled,/area/mjolnir)
 "Ao" = (/obj/machinery/button/blast_door{desc = "A remote control-switch for the prototype exhaust"; id_tag = "prototype_exhaust"; name = "Chamber Exhaust"; pixel_x = -11; pixel_y = 29},/obj/machinery/button/blast_door{desc = "A remote control-switch for the engine containment doors"; id_tag = "prototype_chamber_blast"; name = "Chamber Containment"; pixel_x = 0; pixel_y = 29},/obj/machinery/button/blast_door{desc = "A remote control-switch for the observation shutters"; id_tag = "fusion_observation"; name = "Chamber Observation"; pixel_x = 11; pixel_y = 29},/obj/effect/floor_decal/corner/yellow{dir = 5; icon_state = "corner_white"},/turf/simulated/floor/tiled/steel_grid,/area/mjolnir/inside)
 "Aq" = (/obj/machinery/power/apc/debug/skrell,/turf/simulated/floor/tiled/techmaint,/area/mjolnir/inside)
+"Ar" = (/obj/structure/curtain/open/bed{pixel_x = -32},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "At" = (/obj/structure/table/marble,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/turf/simulated/floor/tiled/white/monotile,/area/mjolnir/inside)
 "Au" = (/obj/item/auto_cpr,/obj/item/bodybag/rescue/loaded,/obj/item/reagent_containers/glass/beaker/cryoxadone{pixel_x = 7; pixel_y = 1},/obj/item/reagent_containers/glass/beaker/cryoxadone{pixel_x = 7; pixel_y = 1},/obj/structure/sign/noidle{pixel_y = 32},/obj/structure/table/standard,/obj/effect/floor_decal/corner/paleblue{dir = 5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Aw" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/obj/machinery/door/firedoor,/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/blast/regular/open{dir = 4; id_tag = "tp"; name = "Teleporter"},/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
@@ -677,11 +722,13 @@
 "AD" = (/obj/structure/flora/jungle/bush/b_random,/turf/unsimulated/wall/cadaab,/area/mjolnir)
 "AH" = (/obj/effect/floor_decal/corner/paleblue{dir = 8},/turf/simulated/floor/tiled/white/monotile,/area/mjolnir)
 "AI" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/disposalpipe/segment{dir = 4; icon_state = "pipe-c"},/obj/item/material/shard,/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
+"AN" = (/obj/structure/noticeboard{pixel_y = 32},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "AO" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/railing/mapped{dir = 4},/obj/random/trash,/turf/simulated/floor/tiled,/area/mjolnir)
 "AP" = (/turf/simulated/floor/tiled/monotile,/area/mjolnir)
 "AT" = (/obj/machinery/atmospherics/unary/outlet_injector{frequency = 1441; id = "rust_injector"; injecting = 1; use_power = 1},/turf/simulated/floor/reinforced/airless,/area/mjolnir/inside)
 "AW" = (/obj/machinery/cooker/fryer,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "AX" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
+"AY" = (/obj/structure/table/woodentable,/obj/item/device/flashlight/lamp/green,/obj/random/powercell,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "AZ" = (/obj/item/stack/material/plasteel,/turf/simulated/wall/r_wall/prepainted,/area/mjolnir)
 "Ba" = (/obj/structure/catwalk,/turf/simulated/floor/plating,/area/mjolnir)
 "Bc" = (/obj/structure/curtain/open/bed{pixel_y = -32},/obj/structure/table/woodentable/maple,/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
@@ -692,10 +739,13 @@
 "Bl" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 1; icon_state = "spline_fancy"},/turf/simulated/floor/wood,/area/mjolnir/inside)
 "Bo" = (/obj/effect/floor_decal/spline/plain/yellow{dir = 10},/turf/simulated/floor/inaks/plate,/area/mjolnir)
 "Bp" = (/obj/effect/landmark{name = "JoinLateCryo"},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
+"Bs" = (/obj/effect/floor_decal/corner/brown/full,/obj/random/trash,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Bu" = (/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "Bx" = (/obj/machinery/door/window/brigdoor/eastleft{autoset_access = 0; dir = 2; name = "Bar"; req_access = list("ACCESS_BAR")},/turf/simulated/floor/wood,/area/mjolnir/inside)
 "By" = (/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/structure/table/glass,/obj/machinery/recharger,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"BA" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/wood,/area/mjolnir/inside)
 "BI" = (/obj/structure/flora/pottedplant/crystal,/turf/simulated/floor/crystal,/area/mjolnir/inside)
+"BK" = (/obj/random/plushie/large,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "BM" = (/obj/structure/bed/chair/wood{dir = 8},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "BN" = (/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/stock_parts/circuitboard/rdserver,/obj/item/stock_parts/circuitboard/protolathe,/obj/item/stock_parts/circuitboard/destructive_analyzer,/obj/item/stock_parts/circuitboard/rdconsole,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "BP" = (/obj/machinery/cryopod{dir = 4},/obj/effect/floor_decal/techfloor{dir = 6},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
@@ -703,14 +753,15 @@
 "BS" = (/obj/structure/hygiene/shower{dir = 1},/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/structure/window/basic{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "BU" = (/obj/structure/table/rack,/obj/item/storage/box/bodybags{pixel_x = 6; pixel_y = -1},/obj/item/storage/box/bodybags{pixel_x = 6; pixel_y = -1},/obj/item/storage/box/bodybags{pixel_x = 6; pixel_y = -1},/obj/effect/floor_decal/corner/paleblue{dir = 9; icon_state = "corner_white"},/obj/effect/floor_decal/corner/paleblue{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "BX" = (/obj/structure/table/standard,/obj/item/storage/firstaid/adv,/obj/item/reagent_containers/spray/cleaner{pixel_x = -5},/obj/item/reagent_containers/spray/cleaner{pixel_x = -5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
-"BY" = (/obj/structure/table/steel,/obj/machinery/recharger,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"BY" = (/obj/structure/table/steel,/obj/effect/floor_decal/corner/brown/full,/obj/random/contraband,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"BZ" = (/obj/machinery/light{dir = 1},/obj/structure/bookcase/manuals/research_and_development,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "Ca" = (/obj/effect/floor_decal/spline/fancy/black{dir = 5; icon_state = "spline_fancy"},/turf/simulated/floor/pool,/area/mjolnir)
 "Cd" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "Ce" = (/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/stock_parts/circuitboard/autolathe,/obj/item/stock_parts/circuitboard/unary_atmos/cooler,/obj/item/stock_parts/circuitboard/unary_atmos/heater,/obj/item/stock_parts/circuitboard/oxyregenerator,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "Cf" = (/obj/machinery/dna_scannernew,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Ci" = (/turf/unsimulated/wall/cadaab,/area/mjolnir)
 "Cj" = (/obj/machinery/camera/network/engine{c_tag = "Engine - Prototype Chamber 01"},/obj/machinery/computer/modular/preset/engineering{dir = 8; icon_state = "console"},/obj/effect/floor_decal/corner/yellow/half{dir = 1; icon_state = "bordercolorhalf"},/turf/simulated/floor/tiled/monotile,/area/mjolnir/inside)
-"Cm" = (/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "danger"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
+"Cm" = (/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "danger"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/random/trash,/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
 "Cq" = (/obj/structure/table/standard,/obj/random/toolbox,/obj/effect/floor_decal/borderfloor{dir = 1},/obj/effect/floor_decal/corner/green/border{dir = 1},/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled,/area/mjolnir)
 "Cr" = (/obj/structure/bed/chair/wood/wings{dir = 4},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Cs" = (/obj/structure/curtain/open/bed{pixel_y = 32},/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
@@ -722,11 +773,13 @@
 "CC" = (/obj/effect/floor_decal/corner_techfloor_grid/full{dir = 8},/obj/structure/window/reinforced{dir = 1},/obj/effect/floor_decal/corner/blue{dir = 9},/obj/machinery/locked_console{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "CG" = (/obj/effect/floor_decal/spline/plain/yellow{dir = 9},/turf/simulated/floor/exoplanet/concrete,/area/mjolnir)
 "CH" = (/obj/structure/closet/secure_closet/guncabinet,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"CI" = (/obj/structure/bed,/obj/random/accessory,/obj/machinery/light{dir = 1},/turf/simulated/floor/wood,/area/mjolnir/inside)
 "CL" = (/obj/effect/floor_decal/techfloor{dir = 8},/obj/machinery/recharge_station,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "CN" = (/obj/random/closet,/turf/simulated/floor/tiled,/area/mjolnir)
-"CP" = (/obj/structure/flora/tree/jungle/random,/turf/simulated/floor/beach/water/ocean,/area/mjolnir)
+"CP" = (/obj/structure/flora/tree/jungle/random,/turf/simulated/floor/exoplanet/water/shallow,/area/mjolnir)
 "CT" = (/obj/structure/steelfence{dir = 10},/turf/simulated/floor/tiled/monotile,/area/mjolnir)
 "CU" = (/obj/structure/hygiene/sink{dir = 1; pixel_y = 16},/obj/effect/floor_decal/corner/paleblue{dir = 5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"CW" = (/obj/structure/table/steel,/obj/machinery/computer/modular/preset/civilian{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
 "CX" = (/obj/machinery/embedded_controller/radio/airlock/access_controller{dir = 1; id_tag = "prototype_controller"; name = "Fusion Maintenance Access Controller"; pixel_x = 0; pixel_y = -21; req_access = list("ACCESS_ENGINE_EQUIP"); tag_exterior_door = "prototype_exterior"; tag_interior_door = "prototype_interior"},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/steel_grid,/area/mjolnir/inside)
 "CY" = (/obj/machinery/floodlight,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "CZ" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/tiled/steel_grid,/area/mjolnir/inside)
@@ -735,6 +788,7 @@
 "Df" = (/obj/machinery/door/airlock/engineering{name = "Engineers"},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
 "Dh" = (/obj/effect/floor_decal/corner/brown{dir = 10},/obj/effect/floor_decal/industrial/warning/corner{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/mjolnir)
 "Dl" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/plating,/area/mjolnir/inside)
+"Dm" = (/obj/structure/table/woodentable,/obj/random/accessory,/obj/random/accessory,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Do" = (/obj/structure/bed/chair/office/dark{dir = 1; icon_state = "officechair_preview"},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Dq" = (/obj/structure/flora/jungle/rock/random,/turf/simulated/floor/grass/cadaab,/area/mjolnir)
 "Ds" = (/obj/structure/table/rack,/obj/item/roller,/obj/item/roller,/obj/item/roller,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
@@ -752,10 +806,12 @@
 "DS" = (/turf/simulated/floor/carpet/purple,/area/mjolnir/inside)
 "DT" = (/obj/structure/window/reinforced,/obj/machinery/light{dir = 4},/obj/effect/floor_decal/corner_techfloor_grid{dir = 6},/obj/effect/floor_decal/corner/orange/border{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "DU" = (/obj/machinery/door/unpowered/simple/plastic{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"DV" = (/obj/structure/closet/coffin/wooden,/turf/simulated/floor/plating,/area/mjolnir/inside)
 "Eb" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/obj/effect/floor_decal/borderfloor{dir = 10},/obj/effect/floor_decal/corner/red/border{dir = 10},/obj/effect/floor_decal/borderfloor/corner2{dir = 9},/obj/effect/floor_decal/borderfloor/corner2{dir = 8},/obj/effect/floor_decal/corner/red/bordercorner2{dir = 9},/obj/effect/floor_decal/corner/red/bordercorner2{dir = 8},/obj/random/trash,/turf/simulated/floor/plating,/area/mjolnir)
 "Ef" = (/obj/machinery/door/airlock/external/bolted_open,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "Eg" = (/obj/effect/floor_decal/spline/fancy/black{dir = 8; icon_state = "spline_fancy"},/turf/simulated/floor/lino,/area/mjolnir/inside)
 "Ei" = (/obj/machinery/door/airlock/engineering{name = "Engineers"},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"Em" = (/obj/structure/hygiene/shower{dir = 4},/obj/structure/curtain/open/privacy,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Eo" = (/obj/effect/floor_decal/spline/fancy/black{dir = 4; icon_state = "spline_fancy"},/obj/machinery/light{dir = 4},/turf/simulated/floor/lino,/area/mjolnir/inside)
 "Ep" = (/obj/effect/landmark{name = "JoinLateCryo"},/obj/item/stack/material/rods,/turf/simulated/floor/plating,/area/mjolnir)
 "Eq" = (/obj/structure/table/reinforced,/obj/machinery/door/blast/shutters{density = 0; icon_state = "shutter0"; id_tag = "infirmaryrecep"; name = "Infirmary Window Shutters"; opacity = 0},/obj/machinery/door/firedoor{dir = 4},/obj/machinery/door/window/northleft{dir = 1; name = "Infirmary Reception"},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -766,9 +822,11 @@
 "EC" = (/obj/structure/bed/chair/pew/left,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "ED" = (/obj/structure/table/rack,/obj/item/clothing/under/lordan/utility/green,/obj/item/clothing/under/lordan/utility/green,/obj/item/clothing/under/lordan/utility/green,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "EE" = (/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/stock_parts/circuitboard/message_monitor,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"EH" = (/obj/structure/table/woodentable_reinforced,/obj/item/storage/slide_projector,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "EI" = (/turf/simulated/floor/carpet/orange,/area/mjolnir/inside)
 "EJ" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/effect/floor_decal/industrial/warning{dir = 9},/obj/machinery/portable_atmospherics/canister/helium{name = "\improper Fusion Fuel Canister \[He]"; start_pressure = 14999},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "EM" = (/obj/machinery/disposal,/obj/structure/disposalpipe/trunk{dir = 8},/turf/simulated/floor/plating,/area/mjolnir)
+"EO" = (/obj/structure/curtain/open/bed{pixel_x = -32},/obj/structure/table/woodentable,/obj/machinery/microwave,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "EQ" = (/obj/structure/steelfence/door,/turf/simulated/floor/tiled/monotile,/area/mjolnir)
 "ER" = (/obj/structure/table/woodentable,/obj/structure/flora/pottedplant/deskfern,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "ET" = (/obj/random/trash,/turf/simulated/floor/inaks/cubic_plate,/area/mjolnir)
@@ -795,6 +853,7 @@
 "FO" = (/obj/structure/morgue{dir = 2},/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "FQ" = (/obj/machinery/door/blast/regular/open{dir = 1; icon_state = "pdoor0"; id_tag = "prototype_chamber_blast"},/obj/effect/wingrille_spawn/reinforced_phoron/full,/turf/simulated/floor/reinforced/airless,/area/mjolnir/inside)
 "FR" = (/obj/effect/wallframe_spawn/reinforced,/obj/machinery/door/firedoor,/obj/structure/cable/green,/turf/simulated/floor/plating,/area/mjolnir)
+"FU" = (/obj/structure/window/reinforced{dir = 8},/obj/item/stack/material/rods,/turf/simulated/floor/plating,/area/mjolnir/inside)
 "FV" = (/obj/structure/curtain/open/bed{pixel_y = 32},/obj/structure/bed/sofa/brown,/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
 "FW" = (/turf/simulated/floor/tiled/techmaint,/area/mjolnir/inside)
 "FY" = (/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -803,10 +862,12 @@
 "Ge" = (/obj/effect/floor_decal/corner/lime{dir = 10},/obj/machinery/light,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Gf" = (/obj/machinery/door/airlock/multi_tile/glass/engineering{dir = 4; name = "Mechanic Bay"},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
 "Gg" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/disposalpipe/segment{dir = 1; icon_state = "pipe-c"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/plating,/area/mjolnir)
+"Gi" = (/obj/structure/table/woodentable_reinforced,/obj/structure/curtain/open/bed{pixel_y = -32},/obj/random/drinkbottle,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "Gk" = (/obj/effect/floor_decal/spline/fancy/black{dir = 4; icon_state = "spline_fancy"},/obj/structure/synthesized_instrument/synthesizer,/turf/simulated/floor/lino,/area/mjolnir/inside)
 "Gn" = (/obj/machinery/door/airlock/civilian{name = "Cryogenic Storage"},/turf/simulated/floor/tiled/monotile,/area/mjolnir/inside)
 "Go" = (/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Gp" = (/obj/effect/floor_decal/corner/paleblue/half,/turf/simulated/floor/tiled/white/monotile,/area/mjolnir)
+"Gq" = (/obj/effect/floor_decal/corner/brown/full,/obj/machinery/computer/modular/preset/civilian{dir = 8},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Gs" = (/obj/structure/sign/deck/second{dir = 8; pixel_x = 32; pixel_y = 32},/obj/structure/stairs/south,/turf/simulated/floor/plating,/area/mjolnir)
 "Gt" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "Gu" = (/obj/effect/floor_decal/corner/pink/mono,/obj/machinery/body_scanconsole{dir = 1},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -814,6 +875,8 @@
 "GC" = (/obj/structure/steelfence,/turf/simulated/floor/tiled/monotile,/area/mjolnir)
 "GE" = (/obj/effect/floor_decal/industrial/warning,/obj/effect/floor_decal/industrial/warning/corner{dir = 1; icon_state = "warningcorner"},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "GF" = (/obj/machinery/door/airlock/medical{name = "Operating Theatre 1"},/turf/simulated/floor/tiled/white/monotile,/area/mjolnir/inside)
+"GG" = (/obj/structure/table/steel,/obj/machinery/recharger,/obj/random/powercell,/obj/effect/floor_decal/corner/brown/full,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"GO" = (/obj/random/trash,/turf/simulated/floor/tiled/dark/monotile,/area/mjolnir/inside)
 "GS" = (/obj/structure/hygiene/shower,/turf/simulated/floor/tiled/freezer,/area/mjolnir/inside)
 "GU" = (/obj/effect/floor_decal/corner/brown/three_quarters{dir = 4},/turf/simulated/floor/tiled/dark,/area/mjolnir)
 "GV" = (/obj/machinery/door/airlock/hatch/maintenance,/obj/machinery/door/firedoor,/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
@@ -824,10 +887,11 @@
 "Ho" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Hr" = (/obj/structure/flora/pottedplant/stoutbush,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "Hs" = (/obj/structure/table/rack,/obj/item/clothing/head/helmet/tactical,/obj/item/clothing/head/helmet/tactical,/obj/item/clothing/head/helmet/tactical,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"Hy" = (/obj/structure/closet/cabinet/walnut,/obj/random/accessory,/obj/random/accessory,/obj/random/cash,/obj/random/contraband,/obj/random/gloves,/obj/random/snack,/obj/random/smokes,/obj/random/clothing,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "HC" = (/obj/item/stool/padded,/mob/living/carbon/human/monkey/punpun,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "HF" = (/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "HG" = (/obj/effect/floor_decal/spline/fancy/black{dir = 5; icon_state = "spline_fancy"},/turf/simulated/floor/lino,/area/mjolnir/inside)
-"HH" = (/obj/structure/closet/cabinet/walnut,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"HH" = (/obj/structure/closet/cabinet/walnut,/obj/random/accessory,/obj/random/accessory,/obj/random/cash,/obj/random/contraband,/obj/random/gloves,/obj/random/snack,/obj/random/smokes,/obj/random/clothing,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "HI" = (/obj/item/defibrillator/loaded,/obj/item/bodybag/rescue/loaded,/obj/item/auto_cpr,/obj/item/auto_cpr,/obj/structure/table/glass,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "HL" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "HM" = (/obj/effect/paint/green,/turf/simulated/wall/titanium,/area/mjolnir/inside)
@@ -845,6 +909,7 @@
 "Ip" = (/turf/simulated/floor/tiled/dark/monotile,/area/mjolnir/inside)
 "Iv" = (/obj/machinery/door/unpowered/simple/walnut{dir = 8},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Ix" = (/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/grey,/obj/item/storage/toolbox/mechanical,/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
+"Iy" = (/obj/structure/table/woodentable,/obj/item/board,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "IB" = (/obj/effect/paint_stripe/green,/turf/simulated/wall/prepainted,/area/mjolnir)
 "IC" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled,/area/mjolnir)
 "ID" = (/obj/effect/floor_decal/spline/fancy/black{dir = 4; icon_state = "spline_fancy"},/obj/item/device/synthesized_instrument/violin,/turf/simulated/floor/lino,/area/mjolnir/inside)
@@ -880,7 +945,7 @@
 "JL" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/effect/catwalk_plated,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,/obj/structure/disposalpipe/junction/yjunction{dir = 1},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/mjolnir)
 "JN" = (/obj/machinery/icecream_vat,/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
 "JP" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/machinery/computer/fusion/gyrotron{dir = 4; icon_state = "computer"; initial_id_tag = "aux_fusion_plant"; req_access = list("ACCESS_ENGINE_EQUIP")},/turf/simulated/floor/tiled/monotile,/area/mjolnir/inside)
-"JQ" = (/obj/structure/bed,/turf/simulated/floor/wood,/area/mjolnir/inside)
+"JQ" = (/obj/structure/bed,/obj/item/bedsheet/green,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "JS" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/effect/landmark{name = "JoinLateCryo"},/obj/machinery/light/spot{dir = 8},/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "JX" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "JY" = (/obj/effect/floor_decal/corner/lightgrey/bordercorner{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
@@ -888,12 +953,16 @@
 "Kc" = (/obj/structure/table/rack,/obj/effect/floor_decal/corner/paleblue{dir = 6},/obj/effect/floor_decal/corner/paleblue{dir = 1},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Kp" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Kt" = (/obj/structure/table/woodentable,/obj/machinery/light{dir = 1},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"Ku" = (/obj/structure/bed/chair/wood,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Kw" = (/turf/simulated/floor/tiled/dark,/area/mjolnir)
 "Kz" = (/obj/structure/table/marble,/obj/machinery/cooker/cereal,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "KA" = (/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/stock_parts/circuitboard/bluespacerelay,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
-"KB" = (/obj/structure/bed,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
+"KB" = (/obj/structure/bed,/obj/item/bedsheet/hop,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
+"KD" = (/obj/random/trash,/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "KE" = (/obj/structure/bed,/obj/item/bedsheet/mime,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"KL" = (/obj/structure/filingcabinet/chestdrawer,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "KO" = (/obj/structure/bed/chair/padded/green{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"KP" = (/obj/structure/table/woodentable_reinforced/mahogany,/obj/item/spirit_board,/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
 "KR" = (/obj/structure/table/standard,/obj/item/storage/box/bodybags{pixel_x = 1; pixel_y = 2},/obj/item/storage/box/bodybags{pixel_x = 1; pixel_y = 2},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "KS" = (/obj/machinery/vending/wallmed1{name = "Emergency NanoMed"; pixel_y = 32},/obj/structure/table/standard,/obj/item/paper_bin,/obj/item/pen,/turf/simulated/floor/carpet/red,/area/mjolnir)
 "KU" = (/obj/effect/paint/red,/obj/structure/sign/lord,/turf/simulated/wall/titanium,/area/mjolnir/inside)
@@ -908,8 +977,10 @@
 "Lg" = (/turf/simulated/floor/lino,/area/mjolnir/inside)
 "Lj" = (/obj/effect/floor_decal/corner/black/diagonal,/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Ll" = (/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/obj/item/stock_parts/circuitboard/robotics,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
+"Ln" = (/obj/structure/table/woodentable,/obj/random/drinkbottle,/obj/random/drinkbottle,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Lq" = (/obj/machinery/door/window/southright{name = "Virology"},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
-"Lw" = (/obj/structure/bed,/obj/machinery/light{dir = 4},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
+"Lr" = (/obj/structure/table/steel,/obj/item/paper_bin,/obj/item/pen,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"Lw" = (/obj/structure/bed,/obj/machinery/light{dir = 4},/obj/item/bedsheet/hos,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "LH" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "LI" = (/obj/structure/bed/chair/wood{dir = 4},/turf/simulated/floor/lino,/area/mjolnir/inside)
 "LJ" = (/obj/structure/closet/emcloset,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled,/area/mjolnir)
@@ -918,6 +989,7 @@
 "LP" = (/obj/machinery/door/airlock/external{frequency = 1331; icon_state = "closed"; id_tag = "cheapskate_shuttle_dock_inner"; locked = 1; name = "Docking Port Airlock"},/obj/machinery/atmospherics/pipe/simple/hidden{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "LQ" = (/obj/machinery/vending/coffee{dir = 4},/obj/effect/floor_decal/industrial/outline,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "LR" = (/obj/effect/floor_decal/corner/lime,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"LS" = (/obj/random/trash,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "LT" = (/obj/structure/table/woodentable/maple,/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
 "LX" = (/obj/machinery/door/unpowered/simple/walnut,/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
 "LZ" = (/obj/effect/wallframe_spawn/reinforced,/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -930,10 +1002,10 @@
 "Mr" = (/obj/machinery/cryopod{dir = 2},/obj/effect/floor_decal/corner/lightgrey/border{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "Ms" = (/obj/effect/floor_decal/industrial/warning{dir = 1; icon_state = "warning"},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "Mu" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable/green{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/item/stack/material/rods,/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
-"Mv" = (/obj/structure/bed,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"Mv" = (/obj/structure/ruins,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "Mx" = (/obj/item/device/radio/intercom{pixel_y = 24},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "Mz" = (/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
-"MB" = (/obj/structure/ladder/up,/turf/simulated/floor/tiled/monotile,/area/mjolnir)
+"MB" = (/turf/simulated/floor/exoplanet/water/shallow,/area/mjolnir)
 "MD" = (/obj/machinery/constructable_frame/computerframe{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "MF" = (/obj/structure/bed/chair/office/comfy/yellow{dir = 4},/obj/machinery/light{dir = 8},/turf/simulated/floor/carpet/orange,/area/mjolnir/inside)
 "MH" = (/obj/machinery/alarm{pixel_y = 24},/obj/machinery/light{dir = 1},/obj/effect/floor_decal/corner/yellow{dir = 5; icon_state = "corner_white"},/turf/simulated/floor/tiled/steel_grid,/area/mjolnir/inside)
@@ -941,6 +1013,7 @@
 "MJ" = (/obj/effect/floor_decal/borderfloorblack{dir = 8},/obj/machinery/light/spot,/turf/simulated/floor/plating,/area/mjolnir/inside)
 "MM" = (/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/structure/table/standard,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "MN" = (/obj/effect/paint/merc,/turf/simulated/wall/walnut,/area/mjolnir/inside)
+"MO" = (/obj/structure/bed/sofa/brown/right{dir = 1},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "MP" = (/obj/structure/table/woodentable,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "MQ" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/light{dir = 1},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "MT" = (/obj/structure/table/rack{dir = 8},/obj/item/stack/material/plastic/fifty,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
@@ -971,9 +1044,11 @@
 "NY" = (/obj/structure/curtain/open/bed{pixel_y = 32},/obj/structure/bed/sofa/brown/left,/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
 "Oa" = (/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/obj/machinery/light{dir = 1; icon_state = "tube1"},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Oc" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 8; icon_state = "warningcorner"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/plating,/area/mjolnir/inside)
-"Od" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/plating,/area/mjolnir)
+"Od" = (/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/obj/random/trash,/turf/simulated/floor/plating,/area/mjolnir)
 "Oe" = (/obj/structure/bed/chair/wood{dir = 1},/turf/simulated/floor/lino,/area/mjolnir/inside)
 "Of" = (/obj/effect/floor_decal/corner/paleblue{dir = 9},/obj/machinery/sleeper{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"Oh" = (/obj/item/stack/material/wood,/turf/simulated/floor/plating,/area/mjolnir/inside)
+"Oi" = (/obj/structure/closet/coffin/wooden,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "Oj" = (/obj/machinery/computer/diseasesplicer,/obj/effect/floor_decal/corner/lime{dir = 5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Ok" = (/obj/structure/flora/pottedplant/subterranean,/obj/effect/floor_decal/borderfloor{dir = 10},/obj/effect/floor_decal/corner/green/border{dir = 10},/obj/effect/floor_decal/borderfloor/corner2{dir = 8},/obj/effect/floor_decal/borderfloor/corner2{dir = 9},/obj/effect/floor_decal/corner/green/bordercorner2{dir = 8},/obj/effect/floor_decal/corner/green/bordercorner2{dir = 9},/obj/machinery/camera/network/third_deck{dir = 1},/turf/simulated/floor/tiled,/area/mjolnir)
 "Ol" = (/obj/structure/table/rack,/obj/item/defibrillator/compact/loaded,/obj/item/auto_cpr,/obj/item/auto_cpr,/obj/item/auto_cpr,/obj/effect/floor_decal/corner/paleblue{dir = 5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -987,9 +1062,11 @@
 "Ov" = (/obj/machinery/light,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Ow" = (/obj/structure/bed,/obj/item/bedsheet/yellow,/obj/machinery/light{dir = 8},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "Ox" = (/obj/effect/floor_decal/corner/black/diagonal,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
+"Oy" = (/obj/item/stack/material/plasteel,/obj/random/trash,/turf/simulated/floor/plating,/area/mjolnir)
 "Oz" = (/obj/machinery/vending/snack{dir = 8},/obj/effect/floor_decal/industrial/outline,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "OH" = (/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "OI" = (/obj/effect/paint/merc,/turf/simulated/wall,/area/mjolnir/inside)
+"OJ" = (/obj/random/trash,/turf/simulated/floor/tiled/dark,/area/mjolnir)
 "OM" = (/obj/effect/floor_decal/corner/brown{dir = 8; icon_state = "corner_white"},/turf/simulated/floor/tiled/dark,/area/mjolnir)
 "OP" = (/obj/machinery/firealarm{dir = 8; pixel_x = -24},/obj/effect/floor_decal/borderfloor{dir = 8},/obj/effect/floor_decal/corner/green/border{dir = 8},/turf/simulated/floor/tiled,/area/mjolnir)
 "OQ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/structure/cable/green{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/effect/catwalk_plated,/turf/simulated/floor/plating,/area/mjolnir)
@@ -1022,6 +1099,7 @@
 "PM" = (/obj/machinery/vending/containers,/obj/structure/window/reinforced{dir = 4},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "PN" = (/obj/machinery/smartfridge/secure/virology{req_access = list(list("ACCESS_VIRO","ACCESS_SURGERY"))},/obj/effect/floor_decal/corner/lime{dir = 5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "PO" = (/obj/machinery/cooker/oven,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
+"PP" = (/obj/structure/curtain/open/bed{pixel_y = -32},/obj/structure/table/woodentable/maple,/obj/item/device/flashlight/lamp,/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
 "PR" = (/obj/structure/table/glass,/obj/effect/floor_decal/corner/lime{dir = 9},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "PS" = (/obj/structure/catwalk,/obj/structure/janitorialcart,/obj/item/mop,/turf/simulated/floor/plating,/area/mjolnir)
 "PX" = (/obj/structure/table/rack,/obj/effect/floor_decal/corner/paleblue{dir = 6},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -1032,7 +1110,7 @@
 "Qi" = (/obj/random/junk,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/simple/hidden/yellow{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/plating,/area/mjolnir)
 "Qj" = (/obj/structure/closet/crate/radiation,/obj/item/stack/material/tritium/ten,/obj/item/stack/material/tritium/ten,/obj/machinery/camera/network/engine{c_tag = "Engine - Prototype Chamber One"},/turf/simulated/floor/reinforced/airless,/area/mjolnir/inside)
 "Qr" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/obj/structure/table/standard,/obj/structure/noticeboard{dir = 8; pixel_x = 26},/obj/item/paper_bin,/obj/item/pen,/obj/effect/floor_decal/borderfloor{dir = 6},/obj/effect/floor_decal/corner/green/border{dir = 6},/turf/simulated/floor/tiled,/area/mjolnir)
-"Qt" = (/obj/structure/table/steel,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"Qt" = (/obj/structure/table/steel,/obj/effect/floor_decal/corner/brown/full,/obj/item/paper_bin,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Qv" = (/obj/structure/window/reinforced{dir = 1},/obj/machinery/fabricator,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
 "Qw" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_x = 0},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "Qy" = (/obj/machinery/hologram/holopad/longrange,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
@@ -1042,13 +1120,14 @@
 "QD" = (/obj/machinery/atmospherics/pipe/simple/hidden,/obj/machinery/airlock_sensor{frequency = 1380; id_tag = "petrov_shuttle_dock_sensor"; pixel_x = -24},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "QF" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/carpet/purple,/area/mjolnir/inside)
 "QG" = (/obj/machinery/light,/turf/simulated/floor/carpet/purple,/area/mjolnir/inside)
+"QH" = (/obj/structure/table/woodentable_reinforced,/obj/effect/floor_decal/spline/fancy/wood{dir = 1; icon_state = "spline_fancy"},/obj/random/drinkbottle,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "QJ" = (/obj/effect/floor_decal/corner/paleblue{dir = 5},/obj/structure/window/basic{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "QO" = (/obj/machinery/door/airlock/freezer,/turf/simulated/floor/tiled/freezer,/area/mjolnir/inside)
 "QP" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 10},/obj/effect/floor_decal/corner/paleblue{dir = 5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "QR" = (/obj/effect/floor_decal/spline/fancy/black,/turf/simulated/floor/lino,/area/mjolnir/inside)
 "QV" = (/obj/structure/disposalpipe/trunk{dir = 1},/obj/machinery/disposal,/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "QY" = (/obj/structure/lordbanner,/obj/effect/floor_decal/spline/fancy/wood/corner,/turf/simulated/floor/inaks/plate,/area/mjolnir)
-"QZ" = (/obj/structure/curtain/open/bed{pixel_y = 32},/obj/structure/closet/cabinet/walnut,/turf/simulated/floor/wood,/area/mjolnir/inside)
+"QZ" = (/obj/structure/closet/cabinet/walnut,/obj/random/accessory,/obj/random/accessory,/obj/random/cash,/obj/random/contraband,/obj/random/gloves,/obj/random/snack,/obj/random/smokes,/obj/random/clothing,/obj/structure/curtain/open/bed{pixel_y = 32},/turf/simulated/floor/wood,/area/mjolnir/inside)
 "Ra" = (/obj/effect/floor_decal/corner/paleblue{dir = 6},/obj/effect/floor_decal/corner/paleblue{dir = 9},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Rh" = (/turf/simulated/shuttle/wall,/area/mjolnir/inside)
 "Rk" = (/obj/structure/table/glass,/turf/simulated/floor/crystal,/area/mjolnir/inside)
@@ -1060,7 +1139,7 @@
 "RC" = (/obj/item/device/radio/intercom/locked/confessional{pixel_x = 0; pixel_y = 23},/obj/structure/bed/chair/wood/maple{dir = 4; icon_state = "wooden_chair_preview"},/turf/simulated/floor/carpet/purple,/area/mjolnir/inside)
 "RF" = (/obj/effect/floor_decal/spline/fancy/black{dir = 8; icon_state = "spline_fancy"},/turf/simulated/floor/pool,/area/mjolnir)
 "RL" = (/obj/structure/rubble,/turf/simulated/floor/tiled/freezer,/area/mjolnir)
-"RM" = (/obj/structure/ladder/up,/turf/simulated/floor/inaks/cubic_plate,/area/mjolnir)
+"RM" = (/obj/structure/bed/roller/ironingboard,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "RO" = (/obj/machinery/light{dir = 1; icon_state = "tube1"},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "RP" = (/obj/structure/flora/pottedplant/smalltree,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "RR" = (/obj/structure/bed/roller,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -1071,18 +1150,23 @@
 "Sk" = (/obj/structure/closet/jcloset,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "Sm" = (/obj/structure/table/standard,/obj/item/storage/toolbox/electrical,/obj/machinery/alarm{dir = 8; pixel_x = 25; pixel_y = 0; req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))},/turf/simulated/floor/tiled/monotile,/area/mjolnir/inside)
 "Sn" = (/obj/effect/paint/red,/turf/simulated/wall/titanium,/area/mjolnir/inside)
+"So" = (/obj/random/lootable_mgsbox,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Sr" = (/obj/effect/floor_decal/spline/plain/yellow{dir = 8},/turf/simulated/floor/inaks/plate,/area/mjolnir)
 "St" = (/obj/structure/lordbanner,/obj/effect/floor_decal/spline/fancy/wood/corner{dir = 8},/turf/simulated/floor/inaks/plate,/area/mjolnir)
 "Su" = (/obj/structure/morgue{dir = 1},/obj/machinery/light,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Sw" = (/obj/structure/cable/green{d2 = 4; icon_state = "0-4"},/obj/machinery/power/emitter/gyrotron{dir = 8; initial_id_tag = "aux_fusion_plant"},/turf/simulated/floor/reinforced,/area/mjolnir/inside)
 "Sx" = (/obj/effect/floor_decal/corner_techfloor_grid{dir = 9},/obj/effect/floor_decal/corner/blue{dir = 9},/obj/machinery/status_display{pixel_x = -32},/obj/machinery/constructable_frame/computerframe{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
+"SA" = (/obj/structure/table/steel,/obj/random/soap,/obj/random/soap,/obj/random/drinkbottle,/turf/simulated/floor/tiled/freezer,/area/mjolnir/inside)
 "SC" = (/obj/structure/closet/secure_closet/medical_wall{name = "IV Equipment Cabinet"; pixel_x = -32},/obj/item/reagent_containers/ivbag/nanoblood,/obj/item/reagent_containers/ivbag/nanoblood,/obj/item/reagent_containers/ivbag/nanoblood,/obj/item/reagent_containers/ivbag/nanoblood,/obj/item/reagent_containers/ivbag/nanoblood,/obj/item/reagent_containers/ivbag/nanoblood,/obj/item/reagent_containers/ivbag/nanoblood,/obj/item/reagent_containers/ivbag/nanoblood,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "SF" = (/obj/effect/floor_decal/industrial/warning/corner,/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/plating,/area/mjolnir/inside)
 "SH" = (/obj/machinery/door/blast/shutters{density = 0; icon_state = "shutter0"; id_tag = "infirmaryrecep"; name = "Infirmary Window Shutters"; opacity = 0},/obj/machinery/door/firedoor{dir = 4},/obj/machinery/computer/modular/preset/medical,/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "SI" = (/obj/effect/wallframe_spawn/no_grille,/turf/space,/area/mjolnir/inside)
 "SN" = (/obj/structure/curtain/open/bed{pixel_x = 32},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"SP" = (/obj/structure/table/steel,/obj/effect/floor_decal/corner/brown/full,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "SR" = (/obj/structure/bed/chair/wood{dir = 8},/obj/effect/floor_decal/spline/fancy/wood{dir = 1; icon_state = "spline_fancy"},/turf/simulated/floor/wood,/area/mjolnir/inside)
+"SS" = (/obj/structure/table/woodentable,/obj/item/device/flashlight/lamp/green,/obj/item/toy/figure/booker,/obj/item/book/manual/detective,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "SV" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/firedoor,/obj/item/stack/material/plasteel,/turf/simulated/floor/tiled/monotile,/area/mjolnir)
+"SW" = (/obj/random/trash,/turf/simulated/floor/plating,/area/mjolnir/inside)
 "SX" = (/obj/structure/closet/crate,/obj/random/material,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "Ta" = (/obj/machinery/atmospherics/pipe/simple/hidden{dir = 9},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Tj" = (/obj/structure/window/reinforced{dir = 8},/obj/effect/floor_decal/corner/lime{dir = 9},/obj/effect/floor_decal/corner/lime,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -1092,14 +1176,18 @@
 "Tq" = (/obj/effect/floor_decal/corner/lightgrey/border,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "Tr" = (/obj/structure/table/glass,/obj/item/roller,/obj/item/roller,/obj/item/roller,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Tw" = (/turf/simulated/wall/r_wall/prepainted,/area/mjolnir/inside)
+"Tx" = (/obj/structure/bed,/obj/random/projectile,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Tz" = (/obj/effect/floor_decal/corner/brown{dir = 6},/turf/simulated/floor/tiled/dark,/area/mjolnir)
 "TA" = (/obj/effect/paint_stripe/brown,/turf/simulated/wall/prepainted,/area/mjolnir)
+"TD" = (/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "TF" = (/obj/structure/curtain/open/bed{pixel_y = 32},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "TH" = (/obj/effect/wallframe_spawn,/obj/effect/paint/merc,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "TI" = (/obj/machinery/door/firedoor,/obj/machinery/door/airlock/glass/medical{autoset_access = 0; id_tag = "inf_recep"; name = "Infirmary"; req_access = list("ACCESS_MEDICAL")},/obj/effect/floor_decal/corner/paleblue/mono,/turf/simulated/floor/tiled/white/monotile,/area/mjolnir/inside)
 "TK" = (/obj/machinery/disease2/diseaseanalyser,/obj/structure/reagent_dispensers/virusfood{density = 0; pixel_y = 32},/obj/effect/floor_decal/corner/lime{dir = 5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "TO" = (/obj/machinery/hologram/holopad/longrange,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "TP" = (/obj/machinery/flasher/portable,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"TQ" = (/obj/structure/ruins,/obj/random/trash,/turf/simulated/floor/tiled,/area/mjolnir/inside)
+"TR" = (/obj/machinery/computer/modular/preset/library{dir = 1},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "TU" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/turf/simulated/floor/tiled/dark/monotile,/area/mjolnir)
 "TW" = (/obj/machinery/clonepod/full,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Ua" = (/obj/structure/cable/green{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/disposalpipe/segment,/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/monotile,/area/mjolnir)
@@ -1109,18 +1197,20 @@
 "Uk" = (/obj/structure/table/rack/dark,/obj/random/maintenance,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Um" = (/obj/structure/table/rack{dir = 8},/obj/item/stack/material/aluminium/fifty,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir/inside)
 "Ur" = (/obj/structure/bed/chair/wood{dir = 8},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"Us" = (/obj/machinery/light{dir = 8},/obj/structure/bed/chair/wood{dir = 4},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Uu" = (/obj/structure/closet/crate/secure/biohazard/alt,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Uv" = (/obj/structure/filingcabinet/chestdrawer,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Uw" = (/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Uy" = (/obj/machinery/vending/assist,/obj/machinery/light{dir = 1; icon_state = "tube1"},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "UB" = (/obj/item/stock_parts/circuitboard/telecomms/processor,/obj/item/stock_parts/circuitboard/telecomms/receiver,/obj/item/stock_parts/circuitboard/telecomms/server,/obj/item/stock_parts/circuitboard/telecomms/bus,/obj/item/stock_parts/circuitboard/telecomms/broadcaster,/obj/structure/table/rack,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "UE" = (/obj/effect/floor_decal/corner/lightgrey/border{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
-"UF" = (/obj/structure/bed/chair/office/comfy/brown{dir = 4},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"UF" = (/obj/structure/bed/chair/office/comfy/brown{dir = 4},/obj/effect/floor_decal/corner/brown/full,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "UG" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/effect/landmark{name = "JoinLateCryo"},/obj/structure/cable/green{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/obj/random/trash,/obj/item/stack/material/rods,/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "UK" = (/obj/structure/undies_wardrobe,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "UL" = (/obj/machinery/cryopod,/obj/machinery/light/spot{dir = 4},/obj/effect/floor_decal/techfloor{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
 "UM" = (/obj/effect/floor_decal/corner/lime{dir = 10},/obj/effect/floor_decal/corner/lime{dir = 1},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "UN" = (/obj/structure/bed/chair/wood{dir = 8},/obj/effect/floor_decal/spline/fancy/wood{dir = 5},/turf/simulated/floor/wood,/area/mjolnir/inside)
+"UO" = (/obj/structure/table/standard,/obj/random/cash,/turf/simulated/floor/lino,/area/mjolnir/inside)
 "UR" = (/obj/machinery/door/unpowered/simple/walnut{dir = 4},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "US" = (/turf/simulated/floor/inaks/plate,/area/mjolnir)
 "UT" = (/obj/structure/bed/chair/wood{dir = 4},/obj/machinery/light{dir = 8},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
@@ -1136,13 +1226,17 @@
 "Vj" = (/obj/random/obstruction,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Vl" = (/obj/effect/floor_decal/spline/plain/yellow{dir = 5},/turf/simulated/floor/inaks/plate,/area/mjolnir)
 "Vm" = (/turf/simulated/floor/wood,/area/mjolnir/inside)
+"Vu" = (/obj/structure/reagent_dispensers/water_cooler{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "Vv" = (/obj/machinery/light/small,/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/tele_projector{dir = 8},/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
+"Vx" = (/obj/item/stool/wood,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Vz" = (/obj/machinery/door/unpowered/simple/walnut,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "VA" = (/obj/effect/wallframe_spawn/reinforced,/obj/machinery/door/firedoor,/turf/simulated/floor/plating,/area/mjolnir)
 "VB" = (/turf/simulated/floor/beach/water/ocean,/area/mjolnir)
 "VD" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/wood,/area/mjolnir/inside)
-"VG" = (/obj/structure/table/woodentable,/turf/simulated/floor/wood,/area/mjolnir/inside)
+"VG" = (/obj/structure/table/woodentable,/obj/random/cash,/obj/random/accessory,/turf/simulated/floor/wood,/area/mjolnir/inside)
+"VH" = (/obj/structure/table/woodentable,/obj/item/paper_bin,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "VJ" = (/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/obj/random/lootable_mgsbox,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"VL" = (/obj/item/stack/material/wood,/turf/simulated/floor,/area/mjolnir/inside)
 "VN" = (/obj/item/stack/material/plasteel,/obj/item/stack/material/rods,/turf/simulated/floor/plating,/area/mjolnir)
 "VP" = (/obj/effect/floor_decal/spline/fancy/black{dir = 9; icon_state = "spline_fancy"},/obj/item/device/synthesized_instrument/synthesizer,/turf/simulated/floor/lino,/area/mjolnir/inside)
 "VR" = (/obj/effect/floor_decal/corner/paleblue/three_quarters,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
@@ -1180,12 +1274,14 @@
 "Xj" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Xk" = (/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/turf/simulated/floor/tiled/techfloor,/area/mjolnir)
 "Xo" = (/obj/effect/floor_decal/corner/paleblue{dir = 10},/obj/effect/floor_decal/corner/paleblue{dir = 5},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
-"Xp" = (/obj/structure/bed/chair/office/comfy/brown{dir = 8},/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"Xp" = (/obj/structure/bed/chair/office/comfy/brown{dir = 8},/obj/effect/floor_decal/corner/brown/full,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Xr" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/door/airlock/civilian{autoset_access = 0; name = "Toilets"},/obj/machinery/door/firedoor,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/freezer,/area/mjolnir)
+"Xs" = (/obj/structure/table/woodentable,/obj/random/drinkbottle,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "Xt" = (/obj/structure/flora/pottedplant/unusual,/turf/simulated/floor/crystal,/area/mjolnir/inside)
 "Xu" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "Xv" = (/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
 "Xw" = (/obj/machinery/door/airlock/crystal{name = "Adherent Maintenance"},/turf/simulated/floor/crystal,/area/mjolnir/inside)
+"Xx" = (/obj/structure/table/steel,/obj/effect/floor_decal/corner/brown/full,/obj/random/plushie,/obj/machinery/recharger,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Xz" = (/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 8},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "XA" = (/obj/machinery/light/small,/obj/machinery/alarm{dir = 1; icon_state = "alarm0"; pixel_y = -22},/obj/structure/closet/radiation,/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "XB" = (/obj/random/trash,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled,/area/mjolnir)
@@ -1193,17 +1289,20 @@
 "XH" = (/obj/effect/floor_decal/spline/fancy/black{dir = 1; icon_state = "spline_fancy"},/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
 "XK" = (/obj/item/storage/mirror{pixel_x = -35},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
 "XL" = (/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
-"XM" = (/obj/structure/bed/padded,/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
+"XM" = (/obj/structure/bed/padded,/obj/item/bedsheet/orange,/turf/simulated/floor/carpet/red,/area/mjolnir/inside)
 "XV" = (/obj/structure/table/woodentable,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "XW" = (/obj/machinery/telecomms/server/presets/common,/turf/simulated/floor/tiled/techmaint,/area/mjolnir/inside)
 "Yb" = (/obj/structure/closet/secure_closet/freezer/meat,/obj/machinery/light,/turf/simulated/floor/tiled/freezer,/area/mjolnir/inside)
 "Yd" = (/obj/structure/bed/chair/bathtub,/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Ye" = (/obj/structure/curtain/open/bed{pixel_y = 32},/turf/simulated/floor/wood,/area/mjolnir/inside)
+"Yg" = (/obj/structure/flora/pottedplant/unusual,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "Yh" = (/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "Yi" = (/obj/structure/table/woodentable_reinforced,/turf/simulated/floor/wood,/area/mjolnir/inside)
 "Yj" = (/obj/structure/table/marble,/obj/structure/hygiene/sink/modern{dir = 1},/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Yk" = (/obj/item/stool/wood,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"Yp" = (/obj/structure/bookcase/manuals/engineering,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "Yt" = (/obj/structure/flora/pottedplant/decorative,/obj/machinery/light{dir = 1},/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"Yy" = (/obj/structure/table/steel,/obj/effect/floor_decal/corner/brown/full,/obj/item/paper_bin,/obj/item/pen,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "YC" = (/turf/simulated/floor/tiled,/area/mjolnir)
 "YD" = (/obj/effect/floor_decal/industrial/warning{dir = 8; icon_state = "danger"},/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/obj/effect/floor_decal/outops,/turf/simulated/floor/tiled/techmaint,/area/mjolnir)
 "YE" = (/obj/structure/hygiene/sink{dir = 4; icon_state = "sink"; pixel_x = 11; pixel_y = 0},/obj/item/storage/mirror{pixel_x = 30},/turf/simulated/floor/tiled/techfloor,/area/mjolnir/inside)
@@ -1230,6 +1329,7 @@
 "Zq" = (/obj/item/stool/wood,/turf/simulated/floor/wood/maple,/area/mjolnir/inside)
 "Zr" = (/obj/effect/floor_decal/corner/black/diagonal,/obj/structure/hygiene/toilet{dir = 8},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "Zt" = (/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
+"Zv" = (/obj/effect/floor_decal/corner/brown/full,/obj/effect/floor_decal/corner/brown/full,/obj/machinery/papershredder,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 "Zw" = (/obj/structure/closet/cabinet/walnut,/turf/simulated/floor/wood/walnut,/area/mjolnir/inside)
 "Zx" = (/obj/machinery/light,/turf/simulated/floor/lino,/area/mjolnir/inside)
 "Zz" = (/obj/machinery/door/unpowered/simple/walnut,/turf/simulated/floor/lino,/area/mjolnir/inside)
@@ -1238,13 +1338,14 @@
 "ZG" = (/turf/simulated/floor/plating,/area/mjolnir)
 "ZH" = (/obj/effect/paint_stripe/brown,/turf/simulated/wall/r_wall/hull,/area/mjolnir)
 "ZJ" = (/obj/effect/wallframe_spawn/no_grille,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
+"ZL" = (/obj/structure/reagent_dispensers/water_cooler,/turf/simulated/floor/cadaab_wood,/area/mjolnir/inside)
 "ZN" = (/obj/structure/table/rack{dir = 8},/obj/random/tool,/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled,/area/mjolnir/inside)
 "ZP" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/monotile,/area/mjolnir)
 "ZQ" = (/obj/structure/table/marble,/obj/machinery/cooker/candy,/obj/effect/floor_decal/corner/grey/diagonal{dir = 4},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "ZR" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 4; icon_state = "warningcorner"},/turf/simulated/floor/plating,/area/mjolnir/inside)
 "ZT" = (/obj/machinery/door/firedoor,/obj/machinery/door/airlock/glass/medical{autoset_access = 0; id_tag = "inf_recep"; name = "Infirmary"; req_access = list("ACCESS_MEDICAL")},/turf/simulated/floor/tiled/white,/area/mjolnir/inside)
 "ZU" = (/obj/effect/floor_decal/techfloor{dir = 8},/obj/machinery/cryopod/robot{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/mjolnir)
-"ZY" = (/turf/simulated/wall/wood,/area/mjolnir/inside)
+"ZY" = (/obj/structure/table/steel,/obj/effect/floor_decal/corner/brown/full,/obj/random/accessory,/obj/random/accessory,/turf/simulated/floor/tiled/dark,/area/mjolnir/inside)
 
 (1,1,1) = {"
 klklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklklkl
@@ -1258,31 +1359,31 @@ klklCiawawawLaZGVYVYVYVYVYVYZGawawawawawawVYawcdBjawawcdaxawawVYawawawawawawawac
 klklCiawVYawccZGcdVYawawawawawZGawawawawZGZGZGZGaxawcdawqXawcgcgawawawawaxawawawacacagacacacacacacacacacacacacacacagacacacadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacagacacacacacacacacacacacacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacCiklkl
 klklCicdawawaxawawawawVYVYawcdZGJFawawVYawZGZGawawawawawawaxchchawcdawawawawawawVYawawawacacacacacacadacacacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacacacagacacacacacacacacacacacacacacadacadacacacadacacCiklkl
 klklCiciawawawawVYawcdawawJFawawawawZGZGecLaZGZGckpKclawawawcpcpawecZGbQawawawawawawVYawawawadacacacacacacacacacacacacacacacacacacagacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadacacacacCiklkl
-klklCiaxawVYZGZGawawawawVYawVYawawVYawceaxVYZGVNZGZGZGecVNZGLaecZGLaeccDZGbQZGZGZGawawawVYawacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadacacacacacacacadacacacadacacacacacacacacacacacacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacacacacacacacadacCiklkl
-klklCiawaxawawawVYawawawawawVYawawVYcBaocgawaxciVYZGZGZGLaZGecZGZGZGawcpawchawZGecZGawawVYawawawacacacadacacacacadacacacacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacacacacacadacacacacacacadacacacacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacCiklkl
+klklCiaxawVYZGZGawawawawVYawVYawawVYawceaxVYZGVNZGjbjbfEVNZGLaecZGLaeccDZGbQZGZGZGawawawVYawacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadacacacacacacacadacacacadacacacacacacacacacacacacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacacacacacacacadacCiklkl
+klklCiawaxawawawVYawawawawawVYawawVYcBaocgawaxciVYjbjbjbLaZGecZGZGZGawcpawchawZGecZGawawVYawawawacacacadacacacacadacacacacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacacacacacadacacacacacacadacacacacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacCiklkl
 klklCiawaxVYVYawawawVYVYawawawawawcdBjAZawawawVYVYawIBIBIBIBatIBIBIBawecZGcpawZGZGawawawawawawawawawVYacacacagacacacacacagacacacacacacacacacadacacacacacacacacacacadacacacacacacacadacacacacacacacacacacacacacacadadacacacacacagacacacacacacacacacacacacacacacacacagacacacadacacagacacadacacacacadacacCiklkl
 klklCiVYawawawawawawawawawawawawWmawawawcgcsclawAZawxLWYavawcicwCLIBceawZGaxawcdZGZGZGZGawawceawawawawawacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacadacacacacacacacacadacacacacacacacacacacacacacacacacacacacacacacacCiklkl
-klklCiaxawVYawawcxaxVYawZGqcawawawawawawcdawawawawawxLJSavzMOTXkZUxLawZGZGecZGZGZGwjZGZGawawawawVYawAPAPAPAPAPAPAPAPAPAPAPAPAPAPAPAPAPAPAPuvGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCCTAPacacTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwahahahahaiahahOIOIOIOIOIOIOIOIOIOIOIacacacacCiklkl
-klklCiawawaxawaxawcyawawZGZGZGZGZGawVNawVYVYawceaxawPzpvavzMOTWYULxLaxaxMorQEpZGawVYZGZGawawawawawawawUSUSUSYGUSYGUSUSUSUSYGUSUSUSYGUSAPAPFtFtFtFtFtFtFtFtFtFtFtFtFtAPAPAPAPAPAPAPAPAPAPAPAPpracacacTwrfXLXLCvXjulPNOjTKtDQePbpZFtTWkMCfKRKpWBWBWBWBFOZtTwacacacacacacajOIDSDSDSDSDSQFtWhZdXOIacadacacCiklkl
-klklCiawaxciawVYawawZGZGZGZGZGawczcdawZGLaZGcBcEcgawhqUGavzMYWBptlxLawawZGZGZGaxcdawZGVYVYawVYawawawawYGUSUSUSUSUSUSYGUSUSUSUSUSUSUSUSAPAPFtYhNuNuNuNuNuNudxNuNuYhFtAPAPAPAPAPAPAPAPAPAPAPAPpradacacTwDIXLXLPnLZgMXLXLXLXLXLrZyvFtZtnQZtKRZtNLNLNLNLNLZtZtacacacalacacacDSDSDSDSDSDSDSDSDSDSOIacacadacCiklkl
-klklCiawawawawawawaxececZGZGecZGcHawcdZGZGJFZGZGZGZGIBaCtlBPuxdytlxLcgcsclccawVYVYawZGZGVYawawawVYawVYguETguguguguETguguguguguguETUSUSAPAPFtYhYhYhYhYhYhYhYhYhYhYhFtAPAPAPAPFtFtFtFtFtFtFtFtFtFtacacTwXjXjLqXjXjgMXLXLXLXLLRisyvFtmOZtZtZtZtNLNLNLNLNLZtvuacacacacacacacDSDSQGDSDSQGDSDSDSDSOIacacacacCiklkl
-klklCiawawawawawVYVYececZGVYawawckecLaecZGLaZGVNZGLaIBcJOtkeJikgzzIBcgcsclawcNcBapVYVYwjawawawawawawETETiIiIguguguiIiIguETiIiIETguUSUSAPAPFtYhYhzkECYhYhYhzkECYhYhFtMBAPAPAPFtHrgLzCgLFtmTzCsUFtacacTwWEkqXLkqkqvGVeoXtLVZAiiwUXFtDsZtZtZtOviPiPiPSuiPZtTwacacacacalacacOIOIOIOIsYOIOIDSDSDSOIacacacacCiklkl
-klklCiaxawawawawawawecZGecawawawawLaZGaxawawecZGecZGLaawcOcApXMugdXrawawauawchaxcgZGZGZGawceawawawVYFtFtFtFtFtFtFtFtFtFtFtFtFtFtFtUSUSAPAPFtIiYhYhYhYhDKYhYhYhYhYhFtAPAPAPAPFtYkMPYkgLFtgLgLaWFtacacTwPRXLXLXLXLXLXLXLXLXLbngMKZFtFteFFtFtFtFtFtFtFtFtFtTwacacalacacacacOIRCDSOIDSYNOIDSDSsdOIacadadacCiklkl
+klklCiaxawVYawawcxaxVYawZGqcawawawawawawcdawawawawawxLJSavzMOTXkZUxLawZGZGecjbjbZGwjjbjbawawawawVYawAPAPAPAPAPAPAPAPAPAPAPAPAPAPAPAPAPAPAPuvGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCGCCTAPacacTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwahahahahaiahahOIOIOIOIOIOIOIOIOIOIOIacacacacCiklkl
+klklCiawawaxawaxawcyawawZGZGZGZGZGawVNawVYVYawceaxawPzpvavzMOTWYULxLaxaxMorQEpZGawVYjbjbawawawawawawawUSUSUSYGUSYGUSUSUSUSYGUSUSUSYGUSAPAPFtFtFtFtFtFtFtFtFtFtFtFtFtAPAPAPAPAPAPAPAPAPAPAPAPpracacacTwrfXLXLCvXjulPNOjTKtDQePbpZFtTWkMCfKRKpWBWBWBWBFOZtTwacacacacacacajOIDSDSDSDSDSQFtWhZdXOIacadacacCiklkl
+klklCiawaxciawVYawawZGZGZGZGZGawczcdawZGLaZGcBcEcgawhqUGavzMYWBptlxLawawZGZGZGaxcdawjbVYVYawVYawawawawYGUSUSUSUSUSUSYGUSUSUSUSUSUSUSUSAPAPFtYhNuNuNuNuNuNudxNuNuYhFtAPAPAPAPAPAPAPAPAPAPAPAPpradacacTwDIXLXLPnLZgMXLXLXLXLXLrZyvFtZtnQZtKRZtNLNLNLNLNLZtZtacacacalacacacDSDSDSDSDSDSDSDSDSDSOIacacadacCiklkl
+klklCiawawawawawawaxececZGZGecZGcHawcdjbjbJFZGZGZGZGIBaCtlBPuxdytlxLcgcsclccawVYVYawZGZGVYawawawVYawVYguETguguguguETguguguguguguETUSUSAPAPFtYhYhYhYhYhYhYhYhYhYhYhFtAPAPAPAPFtFtFtFtFtFtFtFtFtFtacacTwXjXjLqXjXjgMXLXLXLXLLRisyvFtmOZtZtZtZtNLNLNLNLNLZtvuacacacacacacacDSDSQGDSDSQGDSDSDSDSOIacacacacCiklkl
+klklCiawawawawawVYVYececZGVYawawckecLaecZGLaZGVNZGLaIBcJOtkeJikgzzIBcgcsclawcNcBapVYVYwjawawawawawawETETiIiIguguguiIiIguETiIiIETguUSUSAPAPFtYhYhzkECYhYhYhzkECYhYhFtAPAPAPAPFtHrgLzCgLFtmTzCsUFtacacTwWEkqXLkqkqvGVeoXtLVZAiiwUXFtDsZtZtZtOviPiPiPSuiPZtTwacacacacalacacOIOIOIOIsYOIOIDSDSDSOIacacacacCiklkl
+klklCiaxawawawawawawecZGecawawawawOyjbaxawawecZGecZGLaawcOcApXMugdXrawawauawchaxcgZGZGZGawceawawawVYFtFtFtFtFtFtFtFtFtFtFtFtFtFtFtUSUSAPAPFtIiYhYhYhYhDKYhYhYhYhYhFtAPAPAPAPFtYkMPYkgLFtgLgLaWFtacacTwPRXLXLXLXLXLXLXLXLXLbngMKZFtFteFFtFtFtFtFtFtFtFtFtTwacacalacacacacOIRCDSOIDSYNOIDSDSsdOIacadadacCiklkl
 klklCiawciVYcdawVYawaxawZGawVYVYVYVYVNLaZGawLaZGZGZGaxZGeActPzxTxLIBawcPawZGcpawecVYZGZGawVYawawawVYFtGSFtGSFtISFtISFtISFtISFtISFtUSUSAPAPFtYhYhzkECYhYhYhzkECYhHLFtAPAPAPAPFtYkMPYkgLFtNzFtFtFtacacTwmBXLXLXLXLXLXLXLXLXLXLXLNFOZRYRYkCRYRYRYwOPYRYmNNrTwacacacacacacacOIOIFvOIOIOIOIDSDMvwOIacadacacCiklkl
 klklCiawccVYcdaxZGawawJFZGZGZGawaxawZGZGZGZGZGZGcgcsclLahEecZGZGawZGLaZGZGawawawawawVYZGZGawawawVYawFtxSFtxSFtxSFtxSFtxSFtxSFtxSFtUSUSAPAPFtYhYhYhYhYhYhYhYhYhYhYhFtAPAPAPAPFtgLgLgLgLgLgLgLgLeYacacTwUMPEXLPEPEOsXLxfXLXLXLXLwHZdZdZdqrQcXLXLXLEZXLXLIeTwalacacacacacacOIZtZtZtZttOZtZtZtDoOIacacadacCiklkl
-klklCiawcdawawawZGawZGawawawawaxcdZGZGawZGZGLaZGcgcsclZGZGecZGhEawawcBrQbQZGecaxVYawVYawcxawVYawawawhmhmhmhmhmhmhmhmhmhmhmhmhmNoFtUSUSAPAPFtYhNuNuNuYhYhYhNuNuNuYhFtAPAPAPAPFtFtFtNzFtgLYkMPYkFtacacTwsDsOfgsOsThgXLXLXLXLbngMKZFtFtFtFtMgXLXLbAPYXLbANrTwacacacacacacacOImOZtZtvfXHPaZtZtZtOIacacacacCiklkl
-klklCiawawcdawawZGZGZGZGZGJFceawcdcdZGLaawZGcdecawawawZGauJFLaZGZGZGawawZGecawcdawawawawawawawawVYawcRhmhmhmhmhmhmhmhmhmhmhmhmEYFtUSUSTwTwFtFtFtFtFtFtaaFtFtFtFtFtFtTwTwEQGCFtaWgLgLFtgLYkMPgnFtacacTwekXLXLPnOnhgXLXLXLXLbngMKZFtNrmNkYaIXLXLXLEZXLXLriTwalacacacalacacOIZtZthdqfwowoWeZtZtOIacadacacCiklkl
+klklCiawcdawawawZGawZGawawawawaxcdZGZGawjbjbOyZGcgcsclZGZGecZGhEawawcBrQbQZGecaxVYawVYawcxawVYawawawhmhmhxhmhmhmhmhmhmhmhmhmhmNoFtUSUSAPAPFtYhNuNuNuYhYhYhNuNuNuYhFtAPAPAPAPFtFtFtNzFtgLYkMPYkFtacacTwsDsOfgsOsThgXLXLXLXLbngMKZFtFtFtFtMgXLXLbAPYXLbANrTwacacacacacacacOImOZtZtvfXHPaZtZtZtOIacacacacCiklkl
+klklCiawawcdawawZGZGZGZGZGJFceawcdcdZGLaawZGcdecawawawZGauJFLaZGZGZGawawZGecawcdawawawawawawawawVYawcRhmhmhmhmhmhmhxhmhmhxhmhmEYFtUSUSTwTwFtFtFtFtFtFtaaFtFtFtFtFtFtTwTwEQGCFtaWgLgLFtgLYkMPgnFtacacTwekXLXLPnOnhgXLXLXLXLbngMKZFtNrmNkYaIXLXLXLEZXLXLriTwalacacacalacacOIZtZthdqfwoKPWeZtZtOIacadacacCiklkl
 klklCiawVYcdBjawJFawZGZGZGZGZGZGawZGZGVNhEawJFZGawJFawawJFawawJFJFZGciecZGawawawAZVYceawawawawVYawVYcRxSFtxSFthmhmhmhmhmhmhmhmEYFtUSUSTwZpJknbkUTqkUlIFNWHkUkUkUlmJkOzTwacacFtFBwxWgFtgLwxwxjEFtacacTwnmXLXLCvdvUMPEPEwCGeWLTjKZFttuZddJZdZdZdZdZdZdZdgBTwacacacacacacacOIZtZtZtsVuNNhZtZteUOIacacadacCiklkl
-klklCiawawawawawawawZGawawZGZGZGecawawZGZGJFawZGZGZGceawcdawJFJFJFawececawawawawawVYawawVYVYawawawawFttRFttRFtcqezcqhmcqhmhmQAQAFtUSUSTwLQJkUEBfkUBfmQJkUEBfkUBfmQJkXiTwacaqFtFtZJZJFtFtZJZJFtFtacacTwTwTwTwTwTwXjXjXjTwTwTwTwdtTwTwTwTwTwXjXjXjXjXjTwTwTwaiarahayahahahOImOMqfLZtZtZtMqfLZtOIacacacacCiklkl
-klklCiawawcdcdawawaxZGawcTaPFoWDZGtKjAHQViZGZGZGZGhEZGZGZGawawawawawcdawawawawcdceawawawawawawawawawFtFtFtFtFtuTFtFtFtFtFtdYFtFtFtUSUSjJXKJkUEMrvBMrmQJkUEMrvBMrmQJkYETwaqacacacaqacacacacacacacacacacacacacacacacacazacaAacJGmALLacacacaAacacacacacaAacacacacacacacacacOIZtRsJpZtZtZtRsJpZtOIacadadacCiklkl
-klklCiawcUaxawawJFawZGawcTaPCCNtZGfCkHMxJcLaZGZGZGLaJFZGZGZGZGcVcWJFJFJFJFIJZhvRawawVYawVYawVYawawawacacacacacacacacacacacacacacacUSUSTwJkJkiDvBvBvBJYJkiDvBvBvBJYJkJkTwacacaqacacacaqacacacagacacaqacaDacacacacazazacaAacaczBzBzBacaAacacacacaAacacacacacacacacacacacacOIZtnqBRZtZtZtnqBRZtOIacacacacCiklkl
-klklCiawawawVYawaxawawcxawVbSxAhDtkNCdCdAIZGZGcdZGJoJoJoFhZGLaxBssvRQivRvRqjOrNRawVYawUSawUSUSVYUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSGnhRJknbkUkUkUlmppnbkUkUkUlmJkFmGnUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSOIZtZtZtZtZtZtZtZteUOIacadacacCiklkl
-klklCiawawaxVYceawawawawcYaPmzeiUcyeDtDthKawawawawEsNRNRxLNRNRRTNRNRNRNRNRNRNRNRawcdawVYawawUSVYUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSfjhRJkUEBfkUBfmQyRUEBfkUBfmQJkFmYRUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSZtZtMqfLZtZtZtMqfLZtOIacacadacCiklkl
-klklCiawaxVYVYawaxawawawcYrAlwaYDttIaBmIQVawawawauevAknTCqAmLJjXhORxZPMcxndLCNamawcZawUSVYawawUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSTwscJkUEMrvBMrmQyRUEMrvBMrmQJkxRTwUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSNKZtZtZtOvZtZtZtZtZtOIacadacacCiklkl
+klklCiawawawawawawawZGawawZGZGZGecawawZGZGJFawZGZGZGceawcdawJFJFJFawececawawawawawVYawawVYVYawawawawFttRFttRFtSAezwEhmcqhmhmQAQAFtUSUSTwLQJkUEBfkUBfmQJkUEBfkUBfmQJkXiTwacaqFtFtZJZJFtFtZJZJFtFtacacTwTwTwTwTwTwXjXjXjTwTwTwTwdtTwTwTwTwTwXjXjXjXjXjTwTwTwaiarahayahahahOImOMqfLZtZtZtMqfLZtOIacacacacCiklkl
+klklCiawawcdcdawawaxZGawcTaPFoWDZGtKjAHQVijbjbjbZGhEZGZGZGawawawawawcdawawawawcdceawawawawawawawawawFtFtFtFtFtFtFtFtFtFtFtdYFtFtFtUSUSjJXKJkUEMrvBMrmQJkUEMrvBMrmQJkYETwaqacacacaqacacacacacacacacacacacacacacacacacazacaAacJGmALLacacacaAacacacacacaAacacacacacacacacacOIZtRsJpZtZtZtRsJpZtOIacadadacCiklkl
+klklCiawcUaxawawJFawZGawcTaPCCNtZGfCkHMxJcOyjbjbZGLaJFZGZGZGZGcVcWJFJFJFJFIJZhvRawawVYawVYawVYawawawacacacacacacacacacacacacacacacUSUSTwJkJkiDvBvBvBJYJkiDvBvBvBJYJkJkTwacacaqacacacaqacacacagacacaqacaDacacacacazazacaAacaczBzBzBacaAacacacacaAacacacacacacacacacacacacOIZtnqBRZtZtZtnqBRZtOIacacacacCiklkl
+klklCiawawawVYawaxawawcxawVbSxAhKDkNCdCdAIZGZGcdZGJoJoJoFhjbOyxBssvRQivRvRqjOrNRawVYawUSawYGUSVYUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSGnhRJknbkUkUkUlmppnbkUkUkUlmJkFmGnUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSOIZtZtZtZtZtZtZtZteUOIacadacacCiklkl
+klklCiawawaxVYceawawawawcYaPmzeiUcyeKDDthKawawawawEsNRNRxLNRNRRTNRNRNRNRNRNRNRNRawcdawVYawawUSVYUSUSUSUSUSUSUSUSUSUSYGUSUSUSUSUSUSUSUSfjhRJkUEBfkUBfmQyRUEBfkUBfmQJkFmYRUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSYGYGYGUSUSUSUSUSUSUSZtZtMqfLZtZtZtMqfLZtOIacacadacCiklkl
+klklCiawaxVYVYawaxawawawcYrAlwaYDttIaBmIQVawawawauevAknTCqAmLJjXhORxZPMcxndLCNamawcZawUSVYawawYGUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSTwscJkUEMrvBMrmQyRUEMrvBMrmQJkxRTwUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSYGUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSYGYGYGUSUSUSUSUSUSUSNKZtZtZtOvZtZtZtZtZtOIacadacacCiklkl
 klklCiawcUVYawawawawJFawdarAbeZGZGcMFuHQHQawceawawdbgrJdFJHRoMJLzxZcFzviKWPlirgvawawawVYawVYawUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSGnhRJkiDvBvBvBJYVfiDvBvBvBJYJkFmGnUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacOIOIOIOIOIOIOIOIOIOIOIacacacacCiklkl
 klklCiawcUawawJFawaxawaxdadciiZGcdddDTVYIxawawVYawFREbJwNyeneBaQmHXBdfdgvamkNmmkAZawawawawawawawacacacUSUSUSUSacacacacacacacacacacacacTwJkJknbkUkUkUlmyHnbkUkUkUlmJkJkTwacacacacacacacacacacUSUSUSacacacaczBzBzBacacazacaDaczBzBzBacazacacazaczBzBzBacacacacUSUSUSUSacacacacacacacacacacacacacacadadacCiklkl
-klklCiawcdcdawawcdawdhawaxawawLaZGcdccawawawqFawawxDxDxVxDhcdiAOZGicawxLdjawUaSVawcxawawawVYawacacacacUSUSUSUSadacacacacacacacacacacacjJXKJkUEBfkUBfmQJkUEBfkUBfmQJkYETwacacagacacacacacacacUSUSUSacacacacaVGpAHacazacazacacaVGpAHacacacazacacaVGpAHacacacacUSUSUSUSacacacacacacacacacacacacacacacacacCiklkl
-klklCiawaxawawawaxawaxawawawVYawawZGaxawcdciawawawKSztGgEMhcdkJJGsiccddldoawcQgeawawVYawawawawacagacacUSUSUSUSacacacacacacacacacacacacTwLQJkUEMrvBMrmQJkUEMrvBMrmQJkqUTwacaqacaqacacagacacacUSUSUSacacacacTwTITwTwXjXjXjXjTwTwTITwTwXjXjXjXjTwTwTITwacacaqacUSUSUSUSacagacacacacacaFacacacacacacacacacCiklkl
+klklCiawcdcdawawcdawdhawaxawawLaZGcdccawawawqFawawxDxDxVxDhcdiAOZGicawxLawawUaSVawcxawawawVYawacacacacUSUSUSUSadacacacacacacacacacacacjJXKJkUEBfkUBfmQJkUEBfkUBfmQJkYETwacacagacacacacacacacUSUSUSacacacacaVGpAHacazacazacacaVGpAHacacacazacacaVGpAHacacacacUSUSUSUSacacacacacacacacacacacacacacacacacCiklkl
+klklCiawaxawawawaxawaxawawawVYawawZGaxawcdciawawawKSztGgEMhcdkJJGsiccddlawawcQgeawawVYawawawawacagacacUSUSUSUSacacacacacacacacacacacacTwLQJkUEMrvBMrmQJkUEMrvBMrmQJkqUTwacaqacaqacacagacacacYGUSUSacacacacTwTITwTwXjXjXjXjTwTwTITwTwXjXjXjXjTwTwTITwacacaqacUSUSUSUSacagacacacacacaFacacacacacacacacacCiklkl
 klklCiawaxawVYcdcdawawawJFaxawcdZGLaawawawawVYawawawAZawawrEawawVYawawawawccawawawawawawawawacacagacacUSUSUSUSacacacadacacacacacacacacTwZpJkiDsIvBvBJYJkiDsIvBvBJYJkOzTwacacacacacacacacacacUSUSUSacagacacTwXzRYRYgSgSgSgSRYOZXLRYRYgSgSgSgSRYOZbxTwaqacacacUSUSUSUSacacacacacacacacacacacacacacadacacCiklkl
 klklCiawVYawawawawawawawawaxdpYDOdCmAwlzcufRrdbfspdmnnawcdcdawVYawcdawcdaxaxawawawVYawawacacacacacacacUSUSUSUSacacacacacacacadacacacacTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwacaqacacaqacagacacacUSUSUSacacacacXjnzXoXoXoXoXoXoXoXoXoXoXoXoXoXoXoXoXoKZTwacacaqacUSUSUSUSacacacacacacacacacacacacagacacadacCiklkl
 klklCiawVYawVYawawcUawawawawbvaercxQxgGBYCnRIWllVAQDoiVYawcdawawawawceawawJFawawawawawawacacacagacacacUSUSUSUSacacacacacacacacacacacacacacacacacacacacacacacaqacacacacacacagaqacacaqacacacacUSUSUSagacaDacTwqdZdZdQcRawHZdZdZdZdZdZdZdQcRawHZdZdFYTwacacacacUSUSUSUSacacacacacacacacacacaqagacacacadacCiklkl
@@ -1291,99 +1392,99 @@ klklCiawawVYawcdcdawawawVYawZHtvtvtvtvOPmszpICvnvTlXCuceawVYawawawawawawawawJFaw
 klklCiaxawaxawawawcdawcdawawTASkvvPSZGZGYCnRrBNRNRaGaHcdawawcdffawawawawawawawawacacacacacacacacacacacUSUSUSUSacacacacOIqteVRktfeVRkqtOIacacacFtzvFtzvFtzvFtzvFtacacacFtvULOLOFtgLLOLOYtFtacUSUSUSacTwGuXLGuXLXLZTXLvHKZTwXLLcXLxfXLTwnzvHXLZTXLXLXLXLumTwacUSUSUSUSacacacacacacaqacacacaFacacacacacacCiklkl
 klklCiawawVYVYVYaxawJFawawawTABaYJpgPfqBgaOQtVNRWUcLcdawawawawawawaxawawawawawacacacacadacacacacacacacUSUSUSUSacacacacmYpGgGpGpGpGgGpGOIacacacFtXvAXXvcrXvAXXvFtacaqacFtOwgLcCFtgLYkMPsoZJacUSUSUSacXjMgXLXLXLumTwyVaSFYTwTrIHHIXLXLTwVRMMtTTwMgXLXLXLumTwacUSUSUSUSaqacacacacagacacacacacacacacadadacCiklkl
 klklCiawVYawawawawawawawcdawawawNBhsIBOkbqjeQrNRZGawZGawaxawcxawawawawawJFawacacacacacacacacadacacacacUSUSUSUSadacacacmYpGpGpGpGpGpGpGOIacacacFtZqZqXvXvXvZqZqFtacacaqFtgLgLgLeYgLYkMPsoZJacUSUSUSaFXjMgXLXLXLKZTwTwTwTwTwTwTwTwTwcITwTwTwTwTwoQXLpbpbPXTwacUSUSUSUSacacacacacacacacacacacacaFacacadacCiklkl
-klklCiawawVYawawVYaxawawawawawawTATATATAGVNRawawCzRLawJFawawawJFawawawawawacacacacadacacacacacacacacacUSUSUSUSacacacacOIpGXtpGpGpGBIpGOIadacacFtAzBcXvXvXvBcBcFtacaqacFtsUvJfiFtgLgLgLgLFtacUSUSUSaFTwWxXLXLXLNFwdQPZFAuZFOZCURYRYXLQJpMNqtwTwnzXLXLXLikTwacUSUSUSUSacacacacacacacacacacacacacacacacacCiklkl
+klklCiawawVYawawVYaxawawawawawawTATATATAGVNRawawCzRLawJFawawawJFawawawawawacacacacadacacacacacacacacacUSUSUSUSacacacacOIpGXtpGpGpGBIpGOIadacacFtAzBcXvXvXvPPBcFtacaqacFtsUvJfiFtgLgLgLgLFtacUSUSUSaFTwWxXLXLXLNFwdQPZFAuZFOZCURYRYXLQJpMNqtwTwnzXLXLXLikTwacUSUSUSUSacacacacacacacacacacacacacacacacacCiklkl
 klklCiaxawawawawawawawawJFawawawawawawawawawawawawaxawawawaxaxJFawawawawacacacacacacacacacacacadacacacUSUSUSUSacacacacOIUUUUbEXwgQUUUUOIacacacFtSISIFtDuFtSISIFtaqacacFtFtFtFtFtsMgLgLgLeYacUSUSUSaFTwdAXLXLXLXLdwqewXhlTaXLXLXLXLXLXLXLXLXLXLXLXLXLXLikTwacUSUSUSUSacacacacacaqacacacagaqacacacacacacCiklkl
 klklCiawVYVYawaxawVYawawawawawcxawawawawawawaxawawawawaxawawawawawacacacacacacacacacacacacacacacacagacUSUSUSUSacacadacacacacacacacacacacacacacacacacacacacacacacacacacFtKEvJQzFtgLgLgLgLFtacUSUSUSaFTwWxXLXLXLXLXLXLXLXLXLXLXLXLXLXLXLXLXLXLXLXLXLXLXLHoTwacUSUSUSUSacacacacaqacacacaqacacacacacadacacCiklkl
 klklCiawawVYawawawawawawawawawawawJFawawawawawawJFawawawawawawawacacacacacacacacadacacacacacacagacacacUSUSUSUSzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBacacFtXugLgLeYgLYkMPsoZJacUSUSUSacTwSCXLXLwHZddJZdXLZdZdetwnByZdlcjoBShUZlTwikwVikZdikTwacUSUSUSUSacagacacacacacacacacacacacacacacacCiklkl
-klklCiawawawawawawawawawawawawawacacacawawawawawacacawawawawawacacacacagacadacacacacacadacacacacacacacUSUSUSUSzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBacFtFBgLmTiFqWYkERsoZJacUSUSUSacTwvOXLXLKZFtFtFtGFFtFtFtFtTwTwTwTwTwTwTwTwTwTwTwTwTwTwacUSUSUSUSacacacacacHMaJaJaJHMacacaqacacacacCiklkl
-klklCiawawawawawawacacacacacacacacacacacacacacacacacacacacagacacacacacacacacacacacacacacacacacacacacacUSUSUSUSzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBacFtjFwxwxFtIRwxwxgLFtacUSUSUSacXjVcXLXLPYFtJeXLXLBXgOIlkcTwguguguguRMguguguguguguguRUacUSUSUSUSacacacacHMHMhQhQhQHMHMacacacadadacCiklkl
-klklCiaFacacacacacacacacacacacaFacacacacacacacacadacacacacagacacacacacacacacacacacacacadacacacacacacacUSUSUSUSacacacacacmqxuxuVlacacacacacacacacacacacacacacaczBzBzBacFtFtZJZJFtFtZJZJFtFtacUSUSUSacXjkiXLXLyIFthvXLXLXLXLsZXLTwguguguguguguguguguguguguRUacUSUSUSUSacaFacacaJlRJkKOJkMDaJacacacacacacCiklkl
+klklCiawawawawawawawawawawawawawacacacawawawawawacacawawawawawacacacacagacadacacacacacadacacacacacacacUSUSYGUSzBzBzBzBzBzBzBzBdjzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBacFtFBgLmTiFqWYkERsoZJacUSUSUSacTwvOXLXLKZFtFtFtGFFtFtFtFtTwTwTwTwTwTwTwTwTwTwTwTwTwTwacUSUSUSUSacacacacacHMaJaJaJHMacacaqacacacacCiklkl
+klklCiawawawawawawacacacacacacacacacacacacacacacacacacacacagacacacacacacacacacacacacacacacacacacacacacUSUSUSUSzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBzBacFtjFwxwxFtIRwxwxgLFtacUSUSUSacXjVcXLXLPYFtJeXLXLBXgOIlkcTwguguguguguguguguguguguguRUacUSUSUSUSacacacacHMHMhQhQhQHMHMacacacadadacCiklkl
+klklCiaFacacacacacacacacacacacaFacacacacacacacacadacacacacagacacacacacacacacacacacacacadacacacacacacacUSUSUSUSacacacacacmqxuxuVlacmgacacacacacacacacacacacacaczBzBzBacFtFtZJZJFtFtZJZJFtFtacUSUSUSacXjkiXLXLyIFthvXLXLXLXLsZXLTwguguguguguguguguguguguguRUacUSUSUSUSacaFacacaJlRJkKOJkMDaJacacacacacacCiklkl
 klklCiaFacacacaFacacaFacacacacaFacacacacacTwTwTwTwTwTwTwTwTwTwTwTwacacacagacacacacacacacagacacadacacacUSUSUSUSadacacacacSrUSUSrMacacacacadacacacacacacacacacaczBzBzBacacacacacacacacacacacaqUSUSUSacTwRRtqtyFZFtUuXLpmXLNpXLpmTwguTwTwTwTwTwTwTwTwTwTwTwTwaFUSUSUSUSacacacacaJVfVfJkVfVfaJacacacacacacCiklkl
-klklCiadaFacacacacadacacacacacacacacadacacTwYhYhYhYhYhYhYhYhYhYhTwadacacacacacadacacacacacacacacacacacUSUSUSUSacacacCGkDbiUSUSeSxuVlacacacacacacacacaqacacacaczBzBzBzBzBzBzBzBzBzBzBzBzBzBzBUSUSUSacTwTwTwTwTwTwTwTwTwTwTwTwTwTwfyTwYhYhYhYhYhYhYhYhrxrxTwacUSUSUSUSaFacacbGHMHMHMbsHMHMHMbGacacadacacCiklkl
-klklCiacadacacacaFagacacaKacacacacacaFacacTwmlmlYhYhYhYhYhYhYhYhTwacacacacacagacacacacacacacacagacacacUSUSUSUSacacmqeeUSUSUSUSUSUSxsVlacacacacacaqacacacadacaczBzBzBzBzBzBzBzBzBzBzBzBzBzBzBUSUSUSacacacacaFaFaFaFacaFaFaFacacacacTwrRYhYhYhYhYhYhYhmlmlTwacUSUSUSUSacHMHMHMHMVfKbJkHMrSNiHMHMHMacadacCiklkl
-klklCiacacacaqacacacacacacacacacadacacacacTwYhYhYhYhYhYhYhYhYhYhpeUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacSrUSUSUSUSUSUSUSUSrMacacacacacacacacacacacacaczBzBzBzBzBzBzBzBzBzBzBzBzBzBUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSIZrRrRYhYhYhYhYhYhYhWKWKTwacUSUSUSUSaFHMOXJkHMVfKbJkHMJkJkJkFFHMacacacCiklkl
-klklCiacacacacacacacacaqaqacaFaFacacaFagacTwNJNJNJNJNJNJNJNJNJNJTwacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacfnUSZfgAUSUSZfgAUSdnacaOadacacacaqacacacacacacacacacacacacacacacacacacacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSaFTwdedededededededededeTwacUSUSUSUSacHMzRJkbsJkJkJkbsJkJkJkBkHMacacacCiklkl
-klklCiacacacaFaFacacaqacaqadacacacacacacacTwYhYhYhYhYhYhYhYhYhYhpeUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacSrEAUSUSUSUSUSUSEArMacacacacacacacacacaqacacacacacacacacacacacacacacacacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSIZrRrRYhYhYhYhYhYhYhrxrxTwacUSUSUSUSacHMUWJkHMDcJkJkHMEDJkJkTnHMadacacCiklkl
-klklgFacacacacacacacacacadacacacaFacaFacacTwsEYhYhYhYhYhYhYhYhYhTwacacacacacacacacacacacadacacacacacacUSUSUSUSmqxubiUSUSUSUSUSUSUSUSrMacacacacacacacacacoZsFqoqoqofyPDqoqoqoMNMNMNMNMNMNMNqofyqoVaacacUSUSUSacaFaFacacacacacacacacTwrRYhYhYhYhYhYhYhrRExTwacUSUSUSUSacHMHMHMHMHMbsHMHMuPJkJkzQHMadacacCiklkl
-klklCiacaFacaqacadacacacacacacacaFacacacacTwsErRYhYhYhYhYhYhYhYhTwacadacacacacacacacacacacacacacacacacUSUSUSUSSrUSUSPpUSUSaRaTUSUSxprMacacacacaqacacacacRUguguguguguguguguguMNkGOxMNOxZrMNguguguRUaUacUSUSUSacacacacaFacacacacacacTwYhYhYhYhYhYhYhYhYhudTwacUSUSUSUSacEfJkJkEfJkJkJkJkJkTOJkFFHMacacacCiklkl
-klklCiaFacacacacFtFtFtFtFtFtFtFtFtFtFtFtacTwnpYhYhYhYhYhYhYhYhYhTwacacaqacacacacadacacaqacacacacacacacUSUSUSUSSrUSUSxpUSUSaXaTUSUSsQrMacacaqaqacacacacacRUguguguguguguguguguMNMNzUMNzUMNMNguguguRUaZacUSUSUSacacacacacacacacagacacTwYhYhYhYhYhYhYhYhrROWTwacUSUSUSUSacEfJkJkEfJkJkJkJkJkJkJkFFHMacadacCiklkl
-klklgFadacacacacFtYhYhYhYhYhupUyPMSXSXFtacTwYhYhYhYhYhYhYhYhYhYhTwacacacacacacacacacacacacacacacacacacUSUSUSUSSrUSUSxpUSUSbabbUSUSPprMaqacacacbcacacacacRUguguguguguguguguguMNcGOxOxOxhPMNguguguRUacaZUSUSUSacacaZacacaFacacacacacTwYhYhYhYhYhYhYhYhvMvMTwacUSUSUSUSacHMHMHMHMHMHMHMHMYPJkJkFjHMacacacCiklkl
-klklCiacacacacacFtYhsqYhZNYhYhYhdGSXSXFtacTwTwTwTwTwTwTwTwTwTwTwTwacacacaqacacacacacacacacacadacacacacUSUSUSUSBoOohhUSUSUSUSUSUSUSUSrMacadacacaqacacacacRUguguguguguguguguguMNOxOxOxOxLjMNguguguRUacaZUSUSUSacacbdacacacaFacacacacTwTwTwTwTwTwTwTwTwTwTwTwacUSUSUSUSacHMCHjuJkJkCHqOHMsXJkJkHsHMadacacCiklkl
-klklCiacacaqacacFtIiZNYhZNYhVWYhdGSXSXFtacacacacacacacaFacacacacacacacaqacacacaqacaqacacacacacacacacacUSUSUSUSacacSrEAUSUSUSUSUSUSEArMaqacacaqacacaqacacMNMNMNMNMNMNMNMNMNMNMNcGOxOxOxhPMNMNMNMNMNacacUSUSUSacacagacacacaFaFaFacacacacacacacacacacagacacacacUSUSUSUSacHMJkJkCHJkJkJkbsJkJkJkFFHMacacacCiklkl
-klklCiadacaqacacFtYhZNYhZNYhYhVWdGSXcmFtacacaFacacaFacacacacaFacacacacacacacacadacacacacadacacacacacacUSUSUSUSacacfnUSZfgAUSUSZfgAUSjUacacaqacacacacacacMNVmqybRYYiNydYiuwOHMNMNOxOxOxMNMNlYtPHGMNaZacUSUSUSacacacaZacacacacaFaFacacaFacacaFacacacacacacacacUSUSUSUSacHMJkCHJkCHJkJkHMJkJkJkFFHMadacacCiklkl
-klklCiadadacacaFFtYhZNYhZNVWVWYhdGSXSXFtacacacacadacacacacacaFacacadacacacacacacacacacacacacacadacacacUSUSUSUSacacSrUSUSUSUSUSUSUSUSrMacacaqacacacacacacMNVmVmVmVmVmVmYiuwOHOHMNOxOxOxMNVPHOLgIDMNaZacUSUSUSacacacacacaDaFaFacacacacacaFacacagacacacacacacacUSUSUSUSacKUSnSnSnSnSnSnSnSnAdSnSnKUacacacCiklkl
+klklCiadaFacacacacadacacacacacacacacadacacTwYhYhYhYhYhYhYhYhYhYhTwadacacacacacadacacacacacacacacacacacUSUSUSUSacacacCGkDbiUSUSeSxuVlacacacacacacacacaqacacacaczBdjzBzBzBzBzBzBzBzBzBzBzBzBzBUSYGUSacTwTwTwTwTwTwTwTwTwTwTwTwTwTwfyTwYhYhYhYhYhYhYhYhrxrxTwacUSUSUSUSaFacacbGHMHMHMbsHMHMHMbGacacadacacCiklkl
+klklCiacadacacacaFagacacaKacacacacacaFacacTwmlmlYhYhYhnvPBYhLSYhTwacacacacacagacacacacacacacacagacacacUSUSUSUSacacmqeeUSUSUSUSUSUSxsVlacacacacacaqacacacadacaczBzBdjzBzBzBzBzBzBzBzBzBzBzBzBUSUSUSacacacacaFaFaFaFacaFaFaFacacacacTwrRYhPBPBYhPBYhYhmlmlTwacUSUSUSUSacHMHMHMHMVfKbJkHMrSNiHMHMHMacadacCiklkl
+klklCiacacacaqacacacacacacacacacadacacacacTwYhYhYhYhYhPBSWLSYhYhpeUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacSrUSUSUSUSUSUSUSUSrMacacacacacacacacacacacacaczBzBzBzBzBzBzBzBzBzBzBzBzBzBUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSIZrRrRYhYhYhYhPBYhYhWKWKTwacUSUSUSUSaFHMOXJkHMVfKbJkHMJkJkJkFFHMacacacCiklkl
+klklCiacacacacacacacacaqaqacaFaFacacaFagacTwNJNJNJNJNJNJuuuuNJNJTwacUSUSUSUSUSUSUSUSUSYGUSUSYGUSUSUSUSUSUSUSUSacacfnUSZfgAUSUSZfgAUSdnacaOadacacacaqacacacacacacacacacacacacacacacacacacacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSaFTwdedededededededededeTwacUSUSUSUSacHMzRJkbsJkJkJkbsJkJkJkBkHMacacacCiklkl
+klklCiacacacaFaFacacaqacaqadacacacacacacacTwYhLSLSLSLSYhYhYhYhYhpeUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacSrEAUSUSUSUSUSUSEArMacacacacacacacacacaqacacacacacacacacacacacacacacacacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSIZrRrRYhYhYhYhYhYhYhrxrxTwacUSUSUSUSacHMUWJkHMDcJkJkHMEDJkJkTnHMadacacCiklkl
+klklgFacacacacacacacacacadacacacaFacaFacacTwsELSTQLSLSnvYhYhYhYhTwacacacacacacacacacacacadacacacacacacUSUSUSUSmqxubiUSYGUSUSUSUSUSUSrMacacacacacacacacacoZsFqoqoqofyPDqoqoqoMNMNMNMNMNMNMNqofyqoVaacacUSUSUSacaFaFacacacacacacacacTwrRYhYhYhPBYhYhYhrRExTwacUSUSUSUSacHMHMHMHMHMbsHMHMuPJkJkzQHMadacacCiklkl
+klklCiacaFacaqacadacacacacacacacaFacacacacTwsErRYhYhPBLSYhYhPBYhTwacadacacacacacacacacacacacacacacacacUSUSUSUSSrUSUSPpUSUSaRaTUSUSxprMacacacacaqacacacacRUguguguguguguguguguMNkGOxMNOxZrMNguguguRUaUacUSUSUSacacacacaFacacacacacacTwYhPBYhYhYhYhYhYhrRudTwacUSUSUSUSacEfJkJkEfJkJkJkJkJkTOJkFFHMacacacCiklkl
+klklCiaFacacacacFtFtFtFtFtFtFtFtFtFtFtFtacTwnpYhLSLSLSLSYhYhYhYhTwacacaqacacacacadacacaqacacacacacacacUSUSUSUSSrUSUSxpUSUSaXaTUSUSsQrMacacaqaqacacacacacRUguguguguguguguguguMNMNzUMNzUMNMNguguguRUaZacUSUSUSacacacacacacacacagacacTwYhPBPBPBYhYhYhYhrROWTwacUSUSUSUSacEfJkJkEfJkJkJkJkJkJkJkFFHMacadacCiklkl
+klklgFadacacacacFtYhYhYhYhYhupUyPMSXSXFtacTwYhYhLSLSLSLSYhPBYhYhTwacacacacacacacacacacacacacacacacacacUSUSUSUSSrUSUSxpUSUSbabbUSUSPprMaqacacacbcacacacacRUguguguguguguguguguMNcGOxOxOxhPMNguguguRUacaZUSUSUSacacaZacacaFacacacacacTwYhPBPBPBYhYhYhYhvMvMTwacUSUSUSUSacHMHMHMHMHMHMHMHMYPJkJkFjHMacacacCiklkl
+klklCiacacacacacFtYhsqYhZNYhYhYhdGSXSXFtacTwTwTwTwTwTwTwTwTwTwTwTwacacacaqacacacacacacacacacadacacacacUSYGUSUSBoOohhUSUSUSUSUSUSUSUSrMacadacacaqacacacacRUguguguguguguguguguMNOxOxOxOxLjMNguguguRUacaZUSUSUSacacbdacacacaFacacacacTwTwTwTwTwTwTwTwTwTwTwTwacUSUSUSUSacHMCHjuJkJkCHqOHMsXJkJkHsHMadacacCiklkl
+klklCiacacaqacacFtIiZNYhZNYhVWYhdGSXSXFtacacacacacacacaFacacacacacacacaqacacacaqacaqacacacacacacacacacUSYGUSUSacacSrEAUSUSUSUSUSUSEArMaqacacaqacacaqacacMNMNMNMNMNMNMNMNMNMNMNcGOxOxOxhPMNMNMNMNMNacacUSUSUSacacagacacacaFaFaFacacacacacacacacacacagacacacacUSUSUSUSacHMJkJkCHJkJkJkbsJkJkJkFFHMacacacCiklkl
+klklCiadacaqacacFtYhZNYhZNYhYhVWdGSXcmFtacacaFacacaFacacacacaFacacacacacacacacadacacacacadacacacacacacUSUSUSUSacacfnUSZfgAUSUSZfgAUSjUacacaqacacacacacacMNVmqybRYYiNydEHuwOHMNMNOxOxOxMNMNlYtPHGMNaZacUSUSUSacacacaZacacacacaFaFacacaFacacaFacacacacacacacacUSUSUSUSacHMJkCHJkCHJkJkHMJkJkJkFFHMadacacCiklkl
+klklCiadadacacaFFtYhZNYhZNVWVWYhdGSXSXFtacacacacadacacacacacaFacacadacacacacacacacacacacacacacadacacacUSUSYGUSacacSrUSUSUSUSUSUSUSUSrMacacaqacacacacacacMNVmVmVmVmVmVmYiuwOHqgMNOxOxOxMNVPHOLgIDMNaZacUSUSUSacacacacacaDaFaFacacacacacaFacacagacacacacacacacUSUSUSUSacKUSnSnSnSnSnSnSnSnAdSnSnKUacacacCiklkl
 klklCiaFacacacacFtYhYhVWYhYhYhVWYhYhYhFtacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacBoStUSUSUSUSUSUSQYcKacacacaqacacacaDacMNqGVmVmHCVmVmdruwOHOHMNMNzUMNMNEgbzLgEoMNacacUSUSUSacacacaZacacPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcacacUSUSUSUSacoPSnrCrCrCrCrCrCrCrCrCSnoPacadacCiklkl
-klklCiacacacacacFtYhYhjKYhVWYhYhYhYhYhmnUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacacBoOoopOoOowiOocKacacacacacacaqacacacMNBxYiYiYixixiYiuwOHOHOHOHOHOHOHEgLgLgGkMNacaZUSUSUSacaDacaZacacPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcagacUSUSUSUSacoPSnrCrCrCrCrCrCrCrCrCSnoPacadacCiklkl
-klklCiacacaqaqacFtFtFtFtFtFtFtFtFtFtFtFtacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacacacacacacacacacacacacacacacadacacacacMNGbojojojojojojyXOHOHOHOHOHOHOHizQRQRTpMNaZacUSUSUSacacaZaqacacPcPcPczjPcPcPcPcPcPcPcPcPcPcPcPcacacUSUSUSUSacoPSnSnrCrCrCrCrCrCrCSnSnoPacacacCiklkl
-klklCiacaqacacacaZacacacacaqacacacacacacacacacacacacacacacacacacacacacacacUSUSacacaFacacacaFacacacacacUSUSUSUSacacacacacadacacacacacacaqacacacacacacacacIXWlOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHdICwacacUSUSUSacacaZaqacacPcPcPcuovtcnvtvtvtvtcnvtCaPcPcPcacacUSUSUSUSacacoPSnSnSnSnSnSnSnSnSnoPacacadacCiklkl
+klklCiacacacacacFtYhYhjKYhVWYhYhYhYhYhmnUSUSUSUSUSUSUSYGYGUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacacBoOoopOoOowiOocKacacacacacacaqacacacMNBxYiYiYixixiYiuwOHOHOHOHOHOHOHEgLgLgGkMNacaZUSUSUSacaDacaZacacPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcagacUSUSUSUSacoPSnrCrCrCrCrCrCrCrCrCSnoPacadacCiklkl
+klklCiacacaqaqacFtFtFtFtFtFtFtFtFtFtFtFtacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacacacacacacacacacacacacacacacadacacacacMNGbojojojojojojyXOHOHOHOHOHOHOHizQRQRTpMNaZacUSUSUSacacaZaqacacPcPcPczjPcPcPcPcPcPcPcPcPcPcPcPcacacUSYGYGYGacoPSnSnrCrCrCrCrCrCrCSnSnoPacacacCiklkl
+klklCiacaqacacacaZacacacacaqacacacacacacacacacacacacacacacacacacacacacacacUSUSacacaFacacacaFacacacacacYGUSUSUSacacacacacadacacacacacacaqacacacacacacacacIXWlOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHdICwacacUSUSUSacacaZaqacacPcPcPcuovtcnvtvtvtvtcnvtCaPcPcPcacacUSYGYGYGacacoPSnSnSnSnSnSnSnSnSnoPacacadacCiklkl
 klklgFacaZacaqacacacacacacadacacacaqacacacacacacaqacacacacacacacaFacacacacacacacacaFacacacacaFacaDacacUSUSUSUSadacaqacacaqacacacacadaqacacacaqacacacaDacIXWlOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHOHdICwaZacUSUSUSaqacaZaqaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSacacoPoPjPjPjPjPjPjPjPoPoPacacadacCiklkl
-klklCiacacacacagTwTwTwTwTwTwTwTwTwTwacaOaqacacacacaqacacTwTwTwTwTwTwTwTwTwWwmKTwTwTwTwTwTwTwTwTwTwacacUSUSUSUSacacacacacacacacacacacacacacacaDacacacacacIXWlOHOHgmOHOHOHrUdKSRBlgtdKSRBlgtdKUNngCwacacUSUSUSacacaZaqaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcagacUSUSUSUSacacacacacacacacacacacacacacacacacCiklkl
-klklCiadaqacacaZTwTwTwTwTwTwTwTwTwTwacacacacadacacacacacTwCeJkiYJkUBTwPBPBJkJkjuTwLelLIFWiIFLeVSTwaFacUSUSUSUSacaFacacacaFacaqacacacaDacacacacacacacacacIXWlOHOHOHOHOHOHcSYiOpVmCAYiOpVmCAYivIdICwacaZUSUSUSaqacaZaZaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSacaFacacacacacacacaqacacaqacacacadCiklkl
-klklCiacaqaqacacTwTwzdrgMQrgvPPBTwTwTwTwTwTwTwTwTwTwTwTwTwBNJkKAJkLlTwPBPBJkJkJkTwLeJkJkcXJkJkefihaFacUSUSUSUSacacacacacaFacacacacacacacacacacacacaqacacMNJsQCqEOHOHdQOHilnUeXiEosnUeXiEosnUxFOHMNacacUSUSUSacaqacaZaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSacaFacacacaFacacacacacacacaqbcacacCiklkl
-klklCiacacacacacTwTwOqsBsBsBJXPBSFTwTwTwTwTwTwTwTwTwTwTwTwuzJkEEJkjGTwPBPBJkJkJkTwpsJkJkJkJkJkfuqDaFacUSUSUSUSacacaqadacadacacacMNMNTHTHTHMNMNMNMNMNacacMNMNzZMNMNVzMNMNNNNNNNMNNNNNNNMNNNNNNNMNMNaZacUSUSUSacaqaDaZaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcaDacUSUSUSUSacaFacDqVBVBVBIIacacaFacacacacacacCiklkl
-klklCiacacacaqacTwzozoFQFQFQzozoaEWSQjuIsydVrPAoMHJmCjTwTwJkJkJkJkJkTwJkJkJkJkJkTwpsJkJkJkJkJkJkVTacacUSUSUSUSacacacacacaqacacacMNgLLOLOLOgLMNKtyzMNacaqacacaZacacUSacacacaZacaZaZaZacaZacacacacacacacUSUSUSacacacacaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSacacacVBVBVBVBVBVBVBDqacaqacacaqacCiklkl
-klklCiacacacaqacTwzousususususncWQWaWIRndBdVFMltQdjHIfTwTwTwTwmVTwTwTwTwTwHiTwTwTwpsJkJkJkJkJkJkmKacacUSUSUSUSacacacacacaqacacacMNXugLgLgLgLvjgLSNTHacacacaZaqacUSUSUSacacacaZacaZaZaZacaZaZacaZacacacUSUSUSacacacacacacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSaFaDacyxVBVBVBVBVBVBVBacacacadacadCiklkl
-klklgFacaqacacacTwTwWMhkOVcFusNbGEegOcgEQwqkJPbSCZUdbJgWmKJkJkJkJkJkJkJkJkJkJkJkTwkAJkJkJkJkJkJkGfacacUSUSUSUSaFacacacaqacacacacMNgLgLgLgLRPMNgLgLMNacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSacacacDqVBVBVBVBVBVBVBaqacacacadacCiklkl
-klklCiacacacacacTwTwWMDbpnRBlQNbbjSwsNLHZkTwTwTwmMTwTwTwSgJkJkJkJkJkJkJkJkJkJkJkTweIJkJkmbHlmKmKTwacacUSUSUSUSacacaqacadacacacacMNMNMNMNMNMNMNgLgLkFUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcaqaqUSUSUSUSacaFacacDqVBVBVBVBVBVBacacacacacacCiklkl
-klklCiacaqaqacacTwTwWMHTJvqSeaAyblDGDLdDEJTwnimfJqfkLbTwTwJkJkJkJkJkJkJkJkJkJkJkmKJkJkJkMTHlmKmKTwaqacUSUSUSUSacadacacacacacacacMNYdXLMNgLgLgLgLgLMNacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcaqacUSUSUSUSacacacacDqDqVBVBVBVBVBacacacacadacCiklkl
-klklCiacacacaqacTwzoususususATncPdyTYXPLcooEasLfFkYKryTwTwEIruruEIJkJkJkJkJkJkJkGfJkJkJkUmHlmKmKTwacacUSUSUSUSaFacacacacaqacaqacMNXLXLDUgLoFoFoFSNTHacacaqacacacUSUSUSacacacaqaDacacacaqacacacacacacacacaDacacacacacacacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacaqUSUSUSUSacacacacaqacVBVBVBVBVBacacaFacacacCiklkl
-klklCiacadacacacTwzozoFQFQFQmjzonfzryCwMkbTwXASgCXpxSmTwTwMFAAAADwJkJkiqJkDcJkJkTwJkJkJkJkQvvmbZTwacacUSUSUSUSacacaqacacacacbcacMNXLXLMNYMvCvCvCUrMNacaZacacaqacacUSacacacacaqacacacacacaqacacacacaDacacacacacacacacacacPcPcPcPhLdqKLdLdLdLdqKLdsGPcPcPcacacUSUSUSUSacacaFacaFDqVBVBVBVBVBacacacadbcacCiklkl
-klklCiacacacacacTwTwOqyOyOyOfxPBvlTwTwTwTwTwTwTwTwTwTwTwTwbIAAAADwJkJkiqutTwOYlSTwWzJkJkJkJkJkJkTwaqacUSUSUSUSacacacadacacacacacMNMNMNMNMNTHTHTHMNMNacaclNlNananlNZzlNlNlNlNlNlNlNlNlNlNacacacacacacIEIEIEIEIEIEacbcacacPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcacacUSUSUSUSacacacacDqacVBVBVBVBVBaqacacacacacCiklkl
-klklCiacadacacacTwTwZRMscbMscvPBTwTwTwTwTwTwTwTwTwTwTwTwTwbIAAAADwJkDcJkutTwTwTwTwwJJkJkJkJkJkJkTwacaqUSUSUSUSacacacacacacacaqacacacacacaZacacacaqacacaclNLgPePeLgLgrvLglNGoGoOaGoOaGolNacacacaqacacIEXLROXLYdIEacaqacacPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcacaqUSUSUSUSacacacacacacVBVBVBVBDqacacacacadacCiklkl
-klklgFacacacacacTwTwTwTwTwTwTwTwTwTwacacacacacacacacacacTwTwTwTwTwTwTwTwTwTwacacTwsLJkJkJkJkkvzmTwacacUSUSUSUSacadacacacacacacacacaqacaZacaqacacacacacaqanEBOSOSLgLgLgLgdEGoGohNdEGoZQlNacaqacacacacIEXLXLXLXLIEacacacacPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcacacUSUSUSUSacacacacacVBVBVBVBVBDqacDqaqadacacCiklkl
-klklCiacacacagacTwTwTwTwTwTwTwTwTwTwacacacacacaqacacacacacacacacacacacacacacacacTwTwTwTwDfTwTwTwTwacacUSUSUSUSacsbsbsbpypypypypyacadacsbsbsbsbsbsbsbacacanEBOSOSLgLgyKLggxGoGoGoGoGowQlNzBzBzBIEIEIEIEIEIEeDIEIEacacaqacacacacacacacacacacacacacacacacacacacUSUSUSUSacacacadacVBVBVBVBVBDqacacadacaqacCiklkl
-klklgFacacacacacacacacacacacacacacacacacacacacacaqacacacacacaqacacacacaqacacacacacacacacUSacacacacacacUSUSUSUSacsbgLgLgLgLgLgLpyacaqacsbgLgLgLgLgLsbacaclNLgLgLgmeLIOSLgAtGoGoGoGoGoGojkzBzBzBzagLgLIEgLgLgLgLIEacaqacacaqacacacacaFacaFacacadacaFacaqacacacUSUSUSUSacagacacDqVBVBVBVBVBacDqacacacadacCiklkl
-klklCiacacacacacacacacacacacadacacaOacacacaqacacacacacacacacacacaqacacadacaDacacacacacacUSacacacacaqacUSUSUSUSacsbgLGWPBPBPBgLpyacaqacsbgLgLgLgLgLsbaqaclNnCLgLgLgLIOSLgAtGoGoGoGoGonNlNzBzBzBIEgLgLIEgLgLgLMvIEacacadacacaFacaFacacaFaFacaFaFaFacacacacaqacUSUSUSUSacacacacaqVBVBVBVBVBacDqaqacacacacCiklkl
-klklCiacacacacadacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacacUSacacacacacaqUSUSUSUSacgLgLGWGWPBPBgLsbacacacpygLgLgLgLgLsbacacanEBOSOSLgLgOeLgAtGoGoGoGoGoiBlNacacacIEpEgLgLgLgLgLgLIEacacaqacacacacacacacacacacacacacacaFacaFacacUSUSUSUSacaqacacDqVBVBVBDqacacacacacaqadacCiklkl
-klklCiacacacacacaqacacacacacagacacacacacacTwTwTwTwTwTwTwTwTwTwTwTwaqacIEIEIEIEIEIEIEIEIEEiIEIEIEIEacacUSUSUSUSacgLgLgLgLPBPBgLsbacaqacsbgLgLgLgLgLsbacacanEBOSOSLgLgLgLgGoGoGodEdEGoGolNacacacIEMPMPIEgLgLgLHHIEacacacacacacacadacTwTwTwTwTwTwTwTwTwTwTwTwacUSUSUSUSacDqacacacVBVBVBVBacacacacacadacacCiklkl
-klklgFacacacacacacacaqacacacacacacacacacacTwPtTmTmXCBudGDymlPBXCTwacacIEgLgLgLgLIEgLgLgLgLgLgLgLIEacacUSUSUSUSacgLGWGWGWgLgLgLsbacaqacsbgLgLgLgLgLsbacaqlNLgOeOeZxLgLgLglNGoUiGoGoGoGolNaqaqacIETHTHIEIETHTHIEIEacaFacacacacacadacTwrxrxYhYhYhYhYhYhYhYhTwacUSUSUSUSacacacacacacVBVBVBVBacbcacacacacacCiklkl
-klklCiadacacacacacacaqaqacacacacacacacacacTwPtYhYhXCBudGDyPBmlXCTwacacIEgLgLgLgLeYgLgLoFoFoFgLgLEiUSUSUSUSUSUSacsbGWGWGWgLgLgLsbacacacsbgLgLgLgLgLsbacaclNlNlNlNlNlNlNlNlNlNlNlNGolNlNlNacacacacacacacacacacacaqacacacacacaFacacacTwwzGWYhYhYhYhYhYhYhYhTwacUSUSUSUSacacacacIbacVBVBVBVBDqacacacadaKacCiklkl
-klklCiacacacacacacacadacacaqacaqacacacacacTwYhYhYhYhBudGYhYhYhYhTwacacIEXugLgLgLIEgLgLMPMPMPgLgLIEacacUSUSUSUSacsbGWGWGWgLgLgLsbacacacsbgLgLgLgLgLsbacacacacacacacacacaclNFtFtFtQOFtFtlNacacacacacacacacacacacacacacacacacaFacacacTwwzwzYhYhYhYhYhYhYhrRTwbhUSUSUSUSacacaFacDqDqVBVBVBVBacacagacacacacCiklkl
-klklCiacacaqacacacacacacacacacacacacadacacTwYhYhYhYhBudGYhYhYhYhTwacaqIEgLgLgLgLIEgLgLMPMPMPgLgLIEacacUSUSUSUSacsbsbsbsbsbsbsbsbacacacsbsbsbsbsbsbsbacacacacacaFacacacaclNFthmhmhmhmFtlNaqacacacacaqacaqacacacadacacacacadacacacacTwWKWKYhYhYhYhYhYhYhrRrRacUSUSUSUSacacacDqacDqVBVBVBVBDqacacacacacacCiklkl
-klklCiacacacacagacagacacacacacacaqacacacacTwYhYhYhYhBudGYhYhYhYhTwacacIEgLgLgLgLIEXugLZBZBZBgLSNTHacacUSUSUSUSacacacacacacacacacadacacacacacacacacacacacacadacacacadacaclNFthmhmhmhmFtlNacacadacacacacacacacaqacacacacacacacaFacacTwdedededededededededeTwaFUSUSUSUSacacacacaFaFVBVBVBVBaqacDqacadadacCiklkl
-klklCiadadacacaqacacacacacaqacacadacacacacTwYhYhYhYhBudGYhYhYhYhTwacaqIEIEIEIEIEIEgLgLgLgLgLgLSNTHacacUSUSUSUSacacacacacacacacacacaqacacaqacaqaqacacacacacacacaFacacacaclNFthmhmhmhmFtlNacacaqacacacacaqacacacacacacacaqacacacacacTwrxrxYhYhYhYhYhYhYhrRrRacUSUSUSUSacacacaqaqacVBVBVBVBVBacacacadacacCiklkl
-klklCiadacacacacacacacacacaqacacacacacacacTwYhYhYhYhBudGYhYhYhYhTwacaqIEXLXLXLXLgpgLgLgLgLgLgLSNTHacacUSUSUSUSaclNlNlNlNlNlNacacacacacacacacacacacacacacacaFacacaFacacaclNFtJbYbMIwGFtlNacacacacacacacacacacacacacacacacaFacacacacTwsEYhYhYhYhYhYhYhYhrRTwacUSUSUSUSacacacacadacacVBVBVBVBVBVBVBVBacacCiklkl
-klklCiadacacacacacacaqacacacacacacacacacacTwYhYhYhYhBudGYhYhYhYhTwacacIEhBXLXLXLIEgLgLgLgLgLgLgLIEacacUSUSUSUSacLTXvXvzqFIlNacUSUSUSUSUSUSUSUSacacadacaFaFacacacacacacaclNFtFtFtFtFtFtlNacacacacacacadacacacacacacacacacacacacacacTwwPrRYhYhYhYhYhYhYhYhTwaFUSUSUSUSacacacacacacacacVBVBVBVBVBVBVBVBacCiklkl
-klklCiacacagacacacacacacacacacacacacacacacTwYhYhYhrRBudGrRrRYhYhTwaqaqIEXLXLXLXLIEgLgLgLgLgLgLgLIEacacUSUSUSUSacLTIdXvXvXvXvUSUSUSUSUSUSUSUSUSacacacacacaFacacaqacacacaclNlNlNlNlNlNlNlNacacacacaFacacaqacacacacacacacacacacacacacTwWKWKYhYhYhYhYhYhYhYhTwacUSUSUSUSacacacacacaqacacacaqVBVBVBVBCPadacCiklkl
+klklCiacacacacagTwTwTwTwTwTwTwTwTwTwacaOaqacacacacaqacacTwTwTwTwTwTwTwTwTwWwmKTwTwTwTwTwTwTwTwTwTwacacUSUSUSUSacacacacacacacacacacacacacacacaDacacacacacIXWlOHOHgmOHOHOHrUdKSRBlgtdKSRBlgtQHUNngCwacacUSUSUSacacaZaqaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcagacUSUSUSUSacacacacacacacacacacacacacacacacacCiklkl
+klklCiadaqacacaZTwTwTwTwTwTwTwTwTwTwacacacacadacacacacacTwCeJkiYJkUBTwmlmlJkJkjuTwCWlLIFWiIFLeVSTwaFacYGUSUSUSacaFacacacaFacaqacacacaDacacacacacacacacacIXWlOHOHOHOHOHOHcSYiOpVmCAYiOpVmCAkwvIdICwacaZUSUSUSaqacaZaZaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSacaFacacacacacacacaqacacaqacacacadCiklkl
+klklCiacaqaqacacTwTwzdrgMQrgvPPBTwTwTwTwTwTwTwTwTwTwTwTwTwBNJkKAJkLlTwmlPBJkJkVuTwLeJkJkcXJkJkefihaFacUSUSUSUSacacacacacaFacacacacacacacacacacacacaqacacMNJsQCqEOHOHdQOHilGieXiEosnUeXiEosnUxFOHMNacacUSUSUSacaqacaZaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSacaFacacacaFacacacacacacacaqbcacacCiklkl
+klklCiacacacacacTwTwOqsBsBsBJXPBSFTwTwTwTwTwTwTwTwTwTwTwTwuzJkEEJkjGTwPBPBJkJkJkTwpsJkJkJkJkJkfuqDaFacUSUSUSYGacacaqadacadacacacMNMNMNMNMNMNMNMNMNMNacacMNMNzZMNMNVzMNMNNNNNNNMNNNNNNNMNNNNNNNMNMNaZacUSUSUSacaqaDaZaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcaDacUSUSUSUSacaFacDqMBMBMBIIacacaFacacacacacacCiklkl
+klklCiacacacaqacTwzozoFQFQFQzozoaEWSQjuIsydVrPAoMHJmCjTwTwJkJkJkJkJkTwJkJkJkJkJkTwpsJkJkJkJkJkJkVTacacUSUSUSUSacacacacacaqacacacMNYpnaBZgLHHMNKtyzMNacaqacacaZacacUSacacacaZacaZaZaZacaZacacacacacacacUSUSUSacacacacaqacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSacacacMBMBVBMBMBMBMBDqacaqacacaqacCiklkl
+klklCiacacacaqacTwzousususususncWQWaWIRndBdVFMltQdjHIfTwTwTwTwmVTwTwTwTwTwHiTwTwTwpsJkJkJkJkJkJkmKacacUSUSUSUSacacacacacaqacacacTHArgLgLgLgLvjgLSNTHacacacaZaqacUSUSUSacacacaZacaZaZaZacaZaZacaZacacacUSUSUSacacacacacacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSaFaDacyxMBVBVBVBVBMBMBacacacadacadCiklkl
+klklgFacaqacacacTwTwWMhkOVcFusNbGEegOcgEQwqkJPbSCZUdbJgWmKJkJkJkJkJkJkJkJkJkJkJkTwkAJkJkJkJkJkJkGfacacUSYGUSUSaFacacacaqacacacacTHArYMSSUrRPMNgLgLMNacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacacUSUSUSUSacacacDqMBMBVBVBVBVBMBaqacacacadacCiklkl
+klklCiacacacacacTwTwWMDbpnRBlQNbbjSwsNLHZkTwTwTwmMTwTwTwSgJkJkJkJkJkJkJkJkJkJkJkTweIJkJkmbHlmKmKTwacacUSUSUSUSacacaqacadacacacacMNMNMNMNMNMNMNgLgLkFUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcaqaqUSUSUSUSacaFacacDqMBMBVBVBVBMBacacacacacacCiklkl
+klklCiacaqaqacacTwTwWMHTJvqSeaAyblDGDLdDEJTwnimfJqfkLbTwTwJkJkJkJkJkJkJkJkJkJkJkmKJkJkJkMTHlmKmKTwaqacUSUSUSUSacadacacacacacacacMNYdXLMNgLgLgLgLgLMNacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcaqacUSUSUSUSacacacacDqDqMBVBVBVBMBacacacacadacCiklkl
+klklCiacacacaqacTwzoususususATncPdyTYXPLcooEasLfFkYKryTwTwEIruruEIJkJkJkJkJkJkJkGfJkJkJkUmHlmKmKTwacacUSUSUSUSaFacacacacaqacaqacMNXLXLDUgLoFoFoFSNTHacacaqacacacUSUSUSacacacaqaDacacacaqacacacacacacacacaDacacacacacacacPcPcPcRFIjIjIjIjIjIjIjIjbPPcPcPcacaqUSUSUSUSacacacacaqacMBVBVBVBMBacacaFacacacCiklkl
+klklCiacadacacacTwzozoFQFQFQmjzonfzryCwMkbTwXASgCXpxSmTwTwMFAAAADwJkJkiqJkDcJkJkTwJkJkJkJkQvvmbZTwacacUSUSUSUSacacaqacacacacbcacMNlTXLMNYMuGvCvCUrMNacaZacacaqacacUSacacacacaqacacacacacaqacacacacaDacacacacacacacacacacPcPcPcPhLdqKLdLdLdLdqKLdsGPcPcPcacacUSUSUSUSacacaFacaFDqMBVBVBVBMBacacacadbcacCiklkl
+klklCiacacacacacTwTwOqyOyOyOfxPBvlTwTwTwTwTwTwTwTwTwTwTwTwbIAAAADwJkJkiqutTwOYlSTwWzJkJkJkJkJkJkTwaqacUSUSUSUSacacacadacacacacacMNMNMNMNMNTHTHTHMNMNacaclNlNananlNZzlNlNlNlNlNlNlNlNlNlNacacacacacacIEIEIEIEIEIEacbcacacPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcacacUSUSUSUSacacacacDqacMBVBVBMBMBaqacacacacacCiklkl
+klklCiacadacacacTwTwZRMscbMscvPBTwTwTwTwTwTwTwTwTwTwTwTwTwbIAAAADwJkDcJkutTwTwTwTwwJJkJkJkJkJkJkTwacaqUSUSUSUSacacacacacacacaqacacacacacaZacacacaqacacaclNLgPePeLgLgrvLglNGoGoOaGoOaGolNacacacaqacacIEEmROXLYdIEacaqacacPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcacaqUSUSUSUSacacacacacacMBVBVBMBDqacacacacadacCiklkl
+klklgFacacacacacTwTwTwTwTwTwTwTwTwTwacacacacacacacacacacTwTwTwTwTwTwTwTwTwTwacacTwsLJkJkJkJkkvzmTwacacUSUSUSUSacadacacacacacacacacaqacaZacaqacacacacacaqanEBOSOSLgLgLgLgdEGoGohNdEGoZQlNacaqacacacacIEXLXLXLXLIEacacacacPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcPcacacUSUSUSUSacacacacacMBMBVBVBMBDqacDqaqadacacCiklkl
+klklCiacacacagacTwTwTwTwTwTwTwTwTwTwacacacacacaqacacacacacacacacacacacacacacacacTwTwTwTwDfTwTwTwTwacacUSUSUSUSacsbsbsbpypypypypyacadacsbsbsbsbsbsbsbacacanEBOSUOLgLgyKLggxGoGoGoGoGowQlNzBzBzBIEIEIEIEIEIEeDIEIEacacaqacacacacacacacacacacacacacacacacacacacUSUSUSUSacacacadacMBVBVBVBMBDqacacswacaqacCiklkl
+klklgFacacacacacacacacacacacacacacacacacacacacacaqacacacacacaqacacacacaqacacacacacacacacUSacacacacacacUSUSUSUSacsbOigLgLgLgLOipyacaqacsbMvMvgLMvMvsbacaclNLgLgLgmeLIOSLgAtGoGoGoGoGoGojkzBzBzBzagLgLIEregLgLKLIEacaqacacaqacacacacaFacaFacacadacaFacaqacacacUSUSUSUSacagacacDqMBVBVBVBMBacDqacacacadacCiklkl
+klklCiacacacacacacacacacacacadacacaOacacacaqacacacacacacacacacacaqacacadacaDacacacacacacUSacacacacaqacUSUSUSUSacsbgLGWPBOhPBgLpyacaqacsbgLgLMvMvMvsbaqaclNnCLgLgLgLIOSLgqlGoGoGoGoGonNlNzBzBzBIEgLgLIEgLgLgLsUIEacacadacacaFacaFacacaFaFacaFaFaFacacacacaqacUSUSUSUSacacacacaqMBVBMBMBMBacDqaqacacacacCiklkl
+klklCiacacacacadacacacacacacacacacacacacacacadacacacacacacacacacacacacacacacacacacacacacUSacacacacacaqUSUSUSUSacgLgLGWGWPBPBgLsbacacacpyMvgLgLgLgLsbacacanEBOSOSLgLgOeLgAtGoGoGoGoGoiBlNacacacIEpEgLgLgLgLgLgLIEacacaqacacacacacacacacacacacacacacaFacaFacacUSUSUSUSacaqacacDqMBMBMBDqacacacacacaqadacCiklkl
+klklCiacacacacacaqacacacacacagacacacacacacTwTwTwTwTwTwTwTwTwTwTwTwaqacIEIEIEIEIEIEIEIEIEEiIEIEIEIEacacUSUSUSUSacgLgLgLgLOhDVgLsbacaqacsbMvMvgLgLgLsbacacanEBuOOSLgLgLgLgGoGoGodEdEGoGolNacacacIElOAYIEYkwxwxHHIEacacacacacacacadacTwTwTwTwTwTwTwTwTwTwTwTwacUSUSUSUSacDqacacacMBMBMBMBacacacacacadacacCiklkl
+klklgFacacacacacacacaqacacacacacacacacacacTwPtTmTmXCBudGDymlPBXCTwacacIEvJtjgLHHIEiTANgLgLgLoTZLIEacacUSUSUSUSacgLGWVLGWgLgLOisbacaqacsbgLgLgLgLgLsbacaqlNLgOeOeZxLgLgLglNGoUiGoGoGoGolNaqaqacIETHTHIEIETHTHIEIEacaFacacacacacadacTwrxrxPBPBnvYhPBYhYhYhTwacUSUSUSUSacacacacacacMBVBVBMBacbcacacacacacCiklkl
+klklCiadacacacacacacaqaqacacacacacacacacacTwPtrRrRXCBudGDyPBmlXCTwacacIEgLgLgLgLeYgLgLoFoFoFgLgLEiUSUSUSUSUSUSacsbGWGWGWgLgLOisbacacacsbMvgLMvMvMvsbacaclNlNlNlNlNlNlNlNlNlNlNlNGolNlNlNacacacacacacacacacacacaqacacacacacaFacacacTwwzGWnvPBPBYhLSYhYhYhTwacUSUSUSUSacacacacIbacMBVBVBMBDqacacacadaKacCiklkl
+klklCiacacacacacacacadacacaqacaqacacacacacTwYhrRYhYhBudGPBPBnvYhTwacacIEXugLgLgLIEgLgLdoMPMPgLgLIEacacUSUSUSUSacsbVLGWGWOigLgLsbacacacsbMvgLMvMvMvsbacacacacacacacacacaclNFtFtFtQOFtFtlNacacacacacacacacacacacacacacacacacaFacacacTwwzwzYhYhYhYhYhipYhrRTwbhUSUSUSUSacacaFacDqDqMBVBVBMBacacagacacacacCiklkl
+klklCiacacaqacacacacacacacacacacacacadacacTwPBYhPBnvTDdGYhPBipYhTwacaqIErFfzMOgLIEgLgLMPfHfHgLgLIEacacUSUSUSUSacsbsbsbsbsbsbsbsbacacacsbsbsbsbsbsbsbacacacacacaFacacacaclNFthmhmhmhmFtlNaqacacacacaqacaqacacacadacacacacadacacacacTwWKWKYhYhYhYhYhLSYhrRrRacUSUSUSUSacacacDqacDqMBVBVBMBDqacacacacacacCiklkl
+klklCiacacacacagacagacacacacacacaqacacacacTwYhPBPBPBBuoaLSYhYhPBTwacacIEBKgLgLgLIEXugLZBZBZBgLSNTHacacUSUSUSUSacacacacacacacacacadacacacacacacacacacacacacadacacacadacaclNFthmhmhmhmFtlNacacadacacacacacacacaqacacacacacacacaFacacTwdededededededeurdedeTwaFUSUSUSUSacacacacaFaFMBVBMBMBaqacDqacadadacCiklkl
+klklCiadadacacaqacacacacacaqacacadacacacacTwPBnvPBPBFUgijvYhYhYhTwacaqIEIEIEIEIEIEgLgLgLgLgLgLSNTHacacUSUSUSUSacacacacacacacacacacaqacacaqacaqaqacacacacacacacaFacacacaclNFthmhmhmhmFtlNacacaqacacacacaqacacacacacacacaqacacacacacTwrxrxYhYhYhYhLSLSYhrRrRacUSUSUSUSacacacaqaqacMBMBMBMBMBacacacadacacCiklkl
+klklCiadacacacacacacacacacaqacacacacacacacTwPBSWSWPBBudGYhPBPBYhTwacaqIEzcXLzcXLIEgLgLgLgLgLgLSNTHacacUSUSUSUSaclNlNlNlNlNlNacacacacacacacacacacacacacacacaFacacaFacacaclNFtJbYbMIwGFtlNacacacacacacacacacacacacacacacacaFacacacacTwsEYhYhPBSWYhLSSWYhrRTwacYGUSUSUSacacacacadacacMBMBMBMBMBMBMBMBMBacCiklkl
+klklCiadacacacacacacaqacacacacacacacacacacTwPBnvPBYhBudGYhYhYhYhTwacacIEhBXLXLXLgpgLiUgLiUgLgLgLIEacacUSUSUSUSacLTXvXvzqFIlNacUSUSUSUSUSUSUSUSacacadacaFaFacacacacacacaclNFtFtFtFtFtFtlNacacacacacacadacacacacacacacacacacacacacacTwwPrRYhPBnvPBLSSWYhYhTwaFYGUSUSUSacacacacacacacacMBMBMBVBVBVBVBMBacCiklkl
+klklCiacacagacacacacacacacacacacacacacacacTwYhYhYhrRBudGrRrRYhYhTwaqaqIERMXLRMXLIEnxwWYgTRLrrereIEacacUSUSUSUSacLTIdXvXvXvXvUSUSUSUSUSUSUSUSUSacacacacacaFacacaqacacacaclNlNlNlNlNlNlNlNacacacacaFacacaqacacacacacacacacacacacacacTwWKWKYhYhYhYhYhYhYhYhTwacUSUSUSUSacacacacacaqacacacaqMBMBMBMBCPCPacCiklkl
 klklCiacacacacacacacacaqacacacacacacacacacTwTwTwTwrRTwTwrRTwTwTwTwacacIEIEIEIEIEIEIEIEIEIEIEIEIEIEacacUSUSUSUSacLTXvXvJNXvlNacUSUSUSUSUSUSUSUSacacacacacacacaFacacacacacacacacacacacacadacacacacacacaqacacacacacadaqacacacadacacacTwTwTwTwTwTwTwTwTwTwTwTwacUSUSUSUSacacaFacacacacacIbacacaqacacacaFacCiklkl
 klklCiacacaqacacacacacacacaqacacaFacacacacacacacacIZacacUSacacacacaqacacacaqacaqaqacacacacacacacacacacUSUSUSUSaclNlNlNlNlNlNacacacacacacUSUSUSacacacadaFacacacacacacacacacacacacacacbkacacacacacacacacacacacacacacacacacacaFacacaFacacacacagacacacacacacacacUSUSUSUSacadacacacaFacaqacacacacacacadacacCiklkl
-klklCiacacacacacacacbmacacacacacadacacacacacacacUSUSUSUSUSUSacacacacaqacacacacacacacaqacacaDacacacacacUSUSUSUSacacacacacacacacacadacacacUSUSUSUSacacacacacacacacadaFacacaFaqadacacacacacacaFacacacadacacacadacacacacaFacacacacacacaFacacacacacacadacacacacacUSUSUSUSacacacacacacacadacacacaFacacacacacCiklkl
-klklCiacacaqacacacacacacacacacacacacacacacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSaclNlNlNlNlNlNacacacacacacUSUSUSUSUSacacadacacacacacacacacacacacadacacacacacacacacacaFacacacacacacacacacacacacacagacacacacacacacacacacacacacacUSUSUSUSacacagacaqacacacacacacaFacacadadacCiklkl
-klklgFacacacacacacacacacacacacaZacacaFaFacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacLTXvXvzqFIlNacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacaDacacacacaFacacaqacacacaFacacacCiklkl
-klklCiacadacadaqacacacacacacacacacacacacacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacLTIdXvXvXvXvUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacaFacaqacacaqacacacacacacadadacCiklkl
-klklCiacacacacacacacacacacagacacacacacacacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacLTXvXvXvXvlNacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacacacacacacagacaFacagacacaFacacCiklkl
+klklCiacacacacacacacbmacacacacacadacacacacacacacUSUSUSUSUSUSacacacacaqacacacacacacacaqacacaDacacacacacUSUSYGUSacacacacacacacacacadacacacUSUSUSUSacacacacacacacacadaFacacaFaqadacacacacacacaFacacacadacacacadacacacacaFacacacacacacaFacacacacacacadacacacacacUSUSUSUSacacacacacacacadacacacaFacacacacacCiklkl
+klklCiacacaqacacacacacacacacacacacacacacacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSaclNlNlNlNlNlNacacacacacacUSUSYGUSUSacacadacacacacacacacacacacacadacacacacacacacacacaFacacacacacacacacacacacacacagacacacacacacacacacacacacacacUSUSUSUSacacagacaqacacacacacacaFacacadadacCiklkl
+klklgFacacacacacacacacacacacacaZacacaFaFacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSYGYGYGUSUSUSUSUSUSUSUSUSYGUSUSUSUSUSacLTXvXvzqFIlNacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacaDacacacacaFacacaqacacacaFacacacCiklkl
+klklCiacadacadaqacacacacacacacacacacacacacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSYGYGYGUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacLTIdXvXvXvXvUSUSUSUSUSUSYGUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSYGUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacaFacaqacacaqacacacacacacadadacCiklkl
+klklCiacacacacacacacacacacagacacacacacacacacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacLTXvXvXvXvlNacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSYGYGUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacacacacacacagacaFacagacacaFacacCiklkl
 klklCiadacacacacacaZacacacacacaFacacacacacacacacacaFacacaFacUSUSUSacaFaFacacaFacacaFacacacaOacacacacacUSUSUSUSaclNlNlNlNlNlNacacacacacacUSUSUSUSUSacacacacacacacacacacacacacacacacacacagacacacacacacacacacacacacacacacacacacaFacacaFacacaFacacacacacacacacacagacacacacacaFacacacacacacacacacacacacboacCiklkl
 klklCiacacaqacacacagacacacacadacacagacaFacacacaFacacaFacacaFacUSacacacacacacaFacacacaqacacacacacacacacacUSUSUSacacacacacacacacacacacacacUSUSUSUSacacacacacacagacacacacacacacacacacacacacacacacacacacagaFacacacKwKwKwKwKwKwKwKwKwKwzTFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbFbOMacCiklkl
 klklCiacacaqacacacacacacaFacacacacacacacacacMNMNMNCwCwCwMNMNMNVzMNMNMNCwCwCwMNMNMNbrbrbrbrbrbrbraXaqacacUSUSUSaclNlNlNlNlNlNacadacacacacUSUSUSacacacacacacaFacacacaqacacacacaFacacacaFacacacacaFacacaFacaFacKwKwKwKwKwKwKwKwKwKwKwTzTwTwTwTwxUxUxUTwTwTwTwxUxUxUTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwhIacCiklkl
-klklCiacaqacadacacacacacacacaOacacacaqacacacMNknXMCsNYFVotMNhDfKDxMNOHTFTFTFOHUvMNacbtacbuacbwacaXacacacUSUSUSacLTXvXvzqFIlNacUSUSUSUSUSUSUSUSagacacacaqacacacacacacadacacacacacaFacacacacacacagacacacacacKwKwKwKwKwKwKwKwKwKwKwKwTzTwYFYFAgZtZtZtZttrAgZtZtZtZtZtZtZtoUPBPBPBPBPBDlPBPBPBPBPBPBTwhIacCiklkl
-klklCiadaqacacaZacacacacacacacacacacacacacacMNfKfKfKfKfKfKMNhDfKfKMNOHXVXVOHOHMzMNacaqaqacacacaqaXacacacUSUSUSacLTIdXvXvXvXvUSUSUSUSUSUSUSUSUSagacacadacacacacacacacacacacacKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwTzxUZtZtZtQtZtZtZtZtZtQtZtZtZtZtZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
-klklCiacacacacacacacacacacacacacacacaDacacacMNfKfKfKfKfKfKMNfKfKabMNCrXVXVkfOHMzMNacbwacbtacbuacaXacaqacUSUSUSacLTXvXvXvXvlNacUSUSUSUSUSUSUSUSacacagacacacacacaFacacacacaFacKwKwKwKwKwKwKwKwKwKwKwcjphphphphphphTUKwKwKwKwKwKwKwKwTzxUZtZtUFQtZtZtQyZtZtBYXpZtZtZtZtZtwYPBPBRhRhRhRhRhRhRhRhPBPBTwhIacCiklkl
-klklCiadacacacacacacacbyacacaDacacaqacacacacMNwBfKfKfKkRhDMNfKfKfKMNOHXVXVOHOHOHMNacacacacacacacaXacacacUSUSUSaclNlNlNlNlNlNacacacacacacacUSacacacacacacacacacacaFacacacacacKwKwKwKwKwKwKwKwKwKwKwsvZGZGZGZGZGZGwRKwKwKwKwKwKwKwKwTzxUBYQtQtQtZtZtZtZtZtbgQtQtQtZtZtZtwYPBPBRhjcjcjcjcjcjcRhPBGtTwhIacCiklkl
-klklCiacacaFacaFacacacbBacacacacacacacacaqacMNwBDxfKhDPjhDMNfKfKfKMNOHdQOHOHOHZwMNacbuacbwacbCacbDacacacUSUSUSacacacacacacacacagIEIENNNNIEVDIEIEIEIEacacacaFacacadacacacacaczTFbFbFbFbFbFbFbFbKwKwsvZGZGZGZGZGZGwRKwzTFbFbFbyJyJFbGUTwZtZtZtZtZtZtZtZtZtZtZtZtZtZtZtZtwYPBPBRhjcjcjcjcjcjcRhPBPBTwhIacCiklkl
-klklCiacacacacacacacacacacacacacacacacacacacMNMNMNLXMNMNMNMNfKfKfKMNMNMNMNVzMNMNMNacacacacacacacaXacacacUSUSUSacacacacacacacacacIEJQYeQZIEVmVmFaVmIEacacacacacaqaqacacacacaFTzTwTwTwTwTwTwTwTwhIKwsvZGZGZGZGZGZGwRKwTzTwTwTwbFqhTwTwTwZtZtZtZtZtsnNEsnZtZtZtZtZtZtZtZtwYPBPBRhjcjcjcjcjcjcRhPBPBTwhIacCiklkl
-klklCiacadacacacacacaDacacagacacacacacacacacMNNwfKfKfKfKfKfKfKfKfKNDPOMhAWOHOHMbMNacbCacbwaDbHacaXacbhacUSUSUSadacacacacacacacacIEVmVmVmzOVmCAVGOpIEadacacacbKbKbKacacacadacTzTwtgkQtgtgjQZtTwhIKwsvZGZGZGZGZGZGwRKwTzTwZtZtsnsnAgZtTwZtZtZtZtZtNEugsnZtZtZtZtZtZtZtZthzylylRhjcjcjcjcjcjcRhPBPBTwhIacCiklkl
-klklgFacacacacaZacacacaZacacacacacaqacacacacMNhDfKfKfKfKfKfQfKfKOHOHOHOHOHOHOHKzMNacaqacacacacacaXacacacUSUSUSacacaZacacacacacacIEIEIEIEIEVmCAVGOpIEacacacacbKbKbKacacacacacTzTwgoebtgZtZtZtIpKwKwsvZGZGZGZGZGZGwRKwKwbLsnsnsnNEsnsnsnsnsnsnsnsnsnsnsnsnsnZtZtZtZtZtZtZtZtZtjcjcjcjcjcjcjcRhPBPBTwhIacCiklkl
-klklCiacaZacacacacacaZaZacacacaZadacacacagacMNMNMNMNMNMNMNMNOHOHOHOHOHOHOHOHOHfJMNacbuacbwacbHacbMacacacUSUSUSacaZacacacacacacacNNakVmVmVmVmVmgXVmIEacacacacbKbKbKacacacacacTzTwgoZtZtZtZtZtkoKwKwsvZGZGZGZGZGZGwRKwKwbLsnsnsnsnsnsnWosnsnsnsnsnsnsnsnsnNENEZtZtZtZtZtZtZtZtjcjcjcjcjcjcjcRhPBPBTwhIaqCiklkl
-klklCiacacacacacacacacacacacacacacacacacacacMNsgYdXLXLXLXLDUOHOHOHOHOHOHOHOHOHOHURacacacacacacacaXacaZacUSUSUSacacacacacbNaZagacNNakVmVmVmVmVmVmVmIEacaqacacacacacacadacacacTzTwUkZtZtZtZtUkTwhIKwsvZGZGZGZGZGZGwRKwrtTwnyZtsnsnZtZtTwZtZtsnsnZtZtZtZtZtsnsnZtZtZtZtZtNkOUOURhjcjcjcjcjcjcRhPBPBTwhIacCiklkl
-klklCiadacacaFbmacacacacacacacacacacacacacacMNlTXLXLXLWcsgMNOHOHOHOHaNJaYjqbaNOHMNacbHacbuacbwacaXacacacUSUSUSacacacadacacacacacNNakVmVmIEIEVDIEIEIEacacagacacacacaFacacacacTzTwUkZtZtZtZtUkTwhIKwsvZGZGZGZGZGZGwRKwTzTwmoZtsnsnZtZtTwZtZtsnsnZtPijWZtZtsnsnZtZtZtZtZtwYPBPBRhjcjcjcjcjcjcRhPBPBTwhIaqCiklkl
-klklCiacacacacaZacaZacacacaZacacacacacacagacMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNbObTbTbTbTbTbOaXacacacUSUSUSacacbNacacacacacacIEIEVDIEIEUKVmVmJQIEacacacacacacacacacacacacTzTwUkZtUkUkZtUkTwhIKwsvZGZGZGZGZGZGwRKwTzTwFsZtsnsnZtZtxUZtZtsnsnZtPiiQZtZtsnsnZtafafZtZtwYPBPBRhjcjcjcjcjcjcRhPBGtTwhIacCiklkl
-klklCiadacaFacaZacaZacacaZacacaZacacacacacacacacacacacacacacacacacaFacacaFacaFacacacacacacacacacaDacaZacUSUSUSacacacacaqaZaqacacIEVmVmVmIEVmVmVmVmIEacagacacacaqacacacacacacTzTwUkZtUkUkZtUkTwyYFbeubpbpbpbpbpbpDhFbGUTwFsZtsnsngkgkxUZtZtsnsnZtPiiQZtZtsnsnZtafafZtZtwYPBPBRhjcjcjcjcjcjcRhPBPBTwhIaqCiklkl
-klklCiaFacacacaZacacaZacacaZacadacacacacacacacacacacacacacacacacacIEIEIEIEIEIEIEIEaFacacacaFacacacacacacUSUSUSacacacacacacacacacIEVmVmVmIEVmVmVmJQIEacacacacacacaDaqacacaFacTzTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwbFqhTwTwxUZtZtsnsnTPrGrGCYZtsnsnZtafafZtZtwYPBPBRhjcjcjcjcjcjcRhPBPBTwhIaqCiklkl
+klklCiacaqacadacacacacacacacaOacacacaqacacacMNknXMCsNYFVotMNhDfKDxMNOHTFTFTFOHUvMNacbtacbuacbwacaXacacacUSUSUSacLTXvXvzqFIlNacUSUSUSUSUSUSUSUSagacacacaqacacacacacacadacacacacacaFacacacacacacagacacacacacKwKwKwKwKwKwKwKwKwKwKwKwTzTwYFYFAgZtZtsnZvtrAgZtZtZtZtZtSoSooUPBPBPBPBPBDlPBPBPBPBPBPBTwhIacCiklkl
+klklCiadaqacacaZacacacacacacacacacacacacacacMNfKfKfKfKfKfKMNhDfKfKMNOHXVXVOHOHMzMNacaqaqacacacaqaXacacacUSUSUSacLTIdXvXvXvXvUSUSUSUSUSUSUSUSUSagacacadacacacacacacacacacacacKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwKwOJKwKwKwKwKwTzxUsnsnsnGqsnsnsnsnsnfDsnsnsnsnsnwkwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
+klklCiacacacacacacacacacacacacacacacaDacacacMNfKfKfKfKfKfKMNfKfKabMNCrXVXVkfOHMzMNacbwacbtacbuacaXacaqacUSUSUSacLTXvXvXvXvlNacUSUSUSUSUSUSUSUSacacagacacacacacaFacacacacaFacKwKwKwKwKwKwKwKwKwKwKwcjphphphphphphTUKwKwKwKwKwKwKwKwTzxUsnsnUFZYsnsnQyNEsnBYXpsnsnsnsnsnwYPBPBRhRhRhRhRhRhRhRhPBPBTwhIacCiklkl
+klklCiadacacacacacacacbyacacaDacacaqacacacacMNwBfKfKfKkRhDMNfKfKfKMNOHXVXVOHOHOHMNacacacacacacacaXacacacUSUSUSaclNlNlNlNlNlNacacacacacacacUSacacacacacacacacacacaFacacacacacKwKwKwKwKwKwKwKwKwKwKwsvZGZGZGZGZGZGwRKwKwKwKwKwKwKwKwTzxUGGwvYySPsnsnsnsnsnbgQtnFXxsnsnsnwYPBPBRhjcjcjcjcjcjcRhPBGtTwhIacCiklkl
+klklCiacacaFacaFacacacbBacacacacacacacacaqacMNwBDxfKhDPjhDMNfKfKfKMNOHdQOHOHOHZwMNacbuacbwacbCacbDacacacUSUSUSacacacacacacacacagIEIENNNNIEVDIEIEIEIEacacacaFacacadacacacacaczTFbFbFbFbFbFbFbFbKwKwsvZGZGZGZGZGZGwRKwzTFbFbFbyJyJFbGUTwZtZtZtZtZtsnsnsnZtZtZtZtZtZtZtZtwYPBPBRhjcjcjcjcjcjcRhPBPBTwhIacCiklkl
+klklCiacacacacacacacacacacacacacacacacacacacMNMNMNLXMNMNMNMNfKfKfKMNMNMNMNVzMNMNMNacacacacacacacaXacacacUSUSUSacacacacacacacacacIECIYeQZIEVmVmFaVmIEacacacacacaqaqacacacacaFTzTwTwTwTwTwTwTwTwhIKwsvZGZGZGZGZGZGwRKwTzTwTwTwbFqhTwTwTwZtZtZtZtZtsnNEsnZtZtZtZtZtZtZtZtwYPBPBRhjcjcjcjcjcjcRhPBPBTwhIacCiklkl
+klklCiacadacacacacacaDacacagacacacacacacacacMNNwfKfKfKfKfKfKfKfKfKNDPOMhAWOHOHMbMNacbCacbwaDbHacaXacbhacUSUSUSadacacacacacacacacIEVmVmVmzOVmCAVGOpIEadacacacbKbKbKacacacadacTzTwtgkQtgtgjQZtTwhIKwsvZGZGZGZGZGZGwRKwTzTwZtZtsnsnAgZtTworZtZtZtZtNEugsnZtZtZtZtZtZtZtZthzylylRhjcjcjcjcjcjcRhPBPBTwhIacCiklkl
+klklgFacacacacaZacacacaZacacacacacaqacacacacMNhDfKfKfKfKfKfQfKfKOHOHOHOHOHOHOHKzMNacaqacacacacacaXacacacUSUSUSacacaZacacacacacacIEIEIEIEIEVmCAXsOpIEacacacacbKbKbKacacacacacTzTwgoebtgZtZtZtIpKwKwsvZGZGZGZGZGZGwRKwKwbLsnsnsnNEsnsnsnsnsnsnBsBssnsnsnsnsnsnZtZtZtZtZtZtZtZtjcjcjcjcjcjcjcRhPBPBTwhIacCiklkl
+klklCiacaZacacacacacaZaZacacacaZadacacacagacMNMNMNMNMNMNMNMNOHOHOHOHOHOHOHOHOHfJMNacbuacbwacbHacbMacacacUSUSUSacaZacacacacacacacNNEOVmVmBAVmVmgXVmIEacacacacbKbKbKacacacacacTzTwgoZtZtZtZtZtkoKwKwsvZGZGZGZGZGZGwRKwKwbLsnsnsnsnsnsnWosnsnsnsnsnsnsnsnsnNENEZtZtZtZtZtZtZtZtjcjcjcjcjcjcjcRhPBPBTwhIaqCiklkl
+klklCiacacacacacacacacacacacacacacacacacacacMNsgYdXLXLXLXLDUOHOHOHOHOHOHOHOHOHOHURacacacacacacacaXacaZacUSUSUSacacacacacbNaZagacNNySVmVmVmVmVmVmVmIEacaqacacacacacacadacacacTzTwUkZtZtZtZtUkTwhIKwsvZGZGZGZGZGZGwRKwrtTwnyZtsnsnZtZtTwZtZtsnsnZtZtZtZtorBssnZtZtZtZtZtNkOUOURhjcjcjcjcjcjcRhPBPBTwhIacCiklkl
+klklCiadacacaFbmacacacacacacacacacacacacacacMNlTXLXLXLWcsgMNOHOHOHOHaNJaYjqbaNvxMNacbHacbuacbwacaXacacacUSUSUSacacacadacacacacacNNakVmVmIEIEVDIEIEIEacacagacacacacaFacacacacTzTwUkZtZtZtZtUkTwhIKwsvZGZGZGZGZGZGwRKwTzTwmoZtBsBsZtZtTwZtZtsnsnZtPijWZtZtsnsnZtZtZtZtZtwYPBPBRhjcjcjcjcjcjcRhPBPBTwhIaqCiklkl
+klklCiacacacacaZacaZacacacaZacacacacacacagacMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNMNbObTbTbTbTbTbOaXacacacUSYGUSacacbNacacacacacacIEIEVDIEIEUKVmBAJQIEacacacacacacacacacacacacTzTwUkZtUkUkZtUkTwhIKwsvZGZGZGZGZGZGwRKwTzTwFsZtBsBsZtZtxUZtZtsnsnZtPiiQZtZtsnsnZtafafZtZtwYPBPBRhjcjcjcjcjcjcRhPBGtTwhIacCiklkl
+klklCiadacaFacaZacaZacacaZacacaZacacacacacacacacacacacacacacacacacaFacacaFacaFacacacacacacacacacaDacaZacUSUSUSacacacacaqaZaqacacIEBAFaBAIEVmVmVmVmIEacagacacacaqacacacacacacTzTwUkZtUkUkZtUkTwyYFbeubpbpbpbpbpbpDhFbGUTwFsZtsnsngkgkxUZtZtsnsnZtPiiQZtZtsnsnZtafafZtZtwYPBPBRhjcjcjcjcjcjcRhPBPBTwhIaqCiklkl
+klklCiaFacacacaZacacaZacacaZacadacacacacacacacacacacacacacacacacacIEIEIEIEIEIEIEIEaFacacacaFacacacacacacUSUSUSacacacacacacacacacIEVmmEVmIEvsVmVmJQIEacacacacacacaDaqacacaFacTzTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwbFqhTwTwxUZtZtsnsnTPrGrGCYZtsnsnZtafafZtZtwYPBPBRhjcjcjcjcjcjcRhPBPBTwhIaqCiklkl
 klklCiacadacacacacacacacacacacacacacaZacacacacagacacacacaZacacacacIEOHOHdqdqOHOHIEacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacIEIEIEIEIEIEIEIEIEIEacaqacacadacacacacacaFacTzTwHFtAtAUwtAtAtAtAtAHFtAtAHFHFtNHFHFtAtAHFHFHFZtZtZtZtTwVjVjsnsnTPrGrGCYZtsnsnZtbUafZtZtwYPBPBRhRhRhRhRhRhRhRhPBPBTwhIaqCiklkl
-klklCiadacadacacacaZadacacacacacacacacacacacacacacacacacacacacagacIEOHOHdqdqOHOHIvacUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSUSacacacacacacacacacacacacacacacacacacaFacacacacacTzTwHFtAtAtAtAtAtAtAVJtAtAtAHFtAtAtAtAtAtAHFHFHFZtZtZtZtTwVjVjsnsnTPrGrGCYZtsnsnZtafafZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
-klklCiacaFacadacacacacacadacacadacacacacacaZacacacacacadacacacacacIEOHJhJhOHdqOHIEacacacacacacacacacacacUSUSUSaZacacacacUSUSacaqacacacaqacacacacacacacacaqacacacacacacacaFacTzTwHFtAtAtAtAtAtAtAVJtAHFHFHFtAtAtAtAtAtAHFHFHFZtZtZtZtTwTwTwBeIpTwTwTwTwTwBeIpTwTwTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
-klklCiCiCiCiCiCiCiCiCiCiCiCiCiCiCiacadacacacacacacacacacacacacaFacIEOHJhJhdqdqOHIEIEIEIEIEIEIEacaZacacacacUSacacacaZacacUSUSacacacacacadacaqacacacacacacacagacacacacacacadacTzTwZtZtZtIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpZtZtIpIpIpIpIpIpIpIpIpIpIpIpIpIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
-klklklklklklklklklklklklklklklklCiadacacacacacacacacacacacacacacacIEOHJhJhdqdqdqOHOHOHdqJhOHIEacacIEIEIEIEVzIEIEIEIEacacUSUSacacIEIEIEIEIEIEIEIEIEacacacacacacacacacacacacacTzTwZtZtZtIpNkOUOUOUOUOUOUOUOUOUOUOUOUOUOUOUOUOUiJIpZtZtIpNkOUOUOUOUOUOUOUOUOUOUiJIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
-klklklklklklklklklklklklklklklklCiacacacacacacadacaZacacacacacacacIEdqdqdqkzkzmJkzdqJhdqJhOHIEacaZIEOHOHOHOHOHZwZwIEaZacUSUSacacIEOHOHOHZYOHOHZwIEacacacacacacacacacacacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpIpZtZtwYPBPBPBPBPBPBPBPBPBPBPBGtTwhIaqCiklkl
-klklklklklklklklklklklklklklklklCiacadacacacacacacacacaFacaFacacacIEdqdqkzkzdqdqmJkzJhdqJhOHIEacacIEUTXVXVBMOHOHOHIEaZacUSUSacacIEnHXVOHNAOHOHLwIEacagacacaqaDacadacacacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpIpZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
-klklklklklklklklklklklklklklklklCiadacacacacacacacacacacacaKacacacIEOHOHdqdqdqdqOHdqwZOHOHOHIEacacIEeOXVXVBMOHOHjmIEacacUSUSacaDIEOHXVOHIEOHOHOHIEacacacacacacacacaqacacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
-klklklklklklklklklklklklklklklklCiacacacacaZacacacacacacacacacacaFIEIEIEIEIEIEIEIEIEIEIEIEIEIEacacIEOHOHOHOHOHOHOHIEacacUSUSacacOHOHOHOHIEIEIEIEIEacaqadacacacagacacacacagacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
-klklklklklklklklklklklklklklklklCiadadacacacacacacacacacacacacacacacacacacacacacacacacacacacacaZacIEIENAIEIEIENAIEIEacaZUSUSacacOHOHOHOHIEIEIEIEIEacacacacacacaqacacacacacaFTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
-klklklklklklklklklklklklklklklklCiacacacacacacaZacacadacacacacaFacaFacaFacacacacacagacacacacacacacIEOHOHOHIEOHOHOHIEacacUSUSacacIEOHOHOHIEOHOHZwIEacacacagacacacacacaFacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
-klklklZmZmZmZmZmZmZmklklklklklklCiadadacacacacacacacacaFacaZacacacacacacacacacacacacacacaZacacacacIEnHOHOHIEOHOHjmIEacacUSUSacacIEXVOHOHNAOHOHKBIEacacaqacacacacacacacacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
-klklklZmfYlxzLtkzfZmklklklklklklCiacacacacacadacacacacaFacacacacacacacacacacacacacaZacacadacacacacIEOHKBOHIEOHKBOHIEaZacUSUSacacIEXVcfXVIEOHdQOHIEacacacacacacacacaFacagacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpIpZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
-klklklZmXWYSuJRtFWZmklklklklklklCiacadacacacaFacacacacacacagacacacaFacadacacacacacacacacacacacacacIEIEIEIEIEIEIEIEIEacacUSUSacacIEIEIEIEIEIEIEIEIEacacacacacadacacacacacaFacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpIpZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
-klklklZmFWFWFWFWFWZmklklklklklklCiadacacacacacacacacacacacacacacacbhacacaZacacacacacaZacacacaZacacaXacacacacacacacacacacUSUSacagacacacacacacacacbVacacacacacacaqacacaFacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBGtTwhIacCiklkl
+klklCiadacadacacacaZadacacacacacacacacacacacacacacacacacacacacagacIEOHOHdqdqOHOHIvacUSUSUSUSYGYGUSUSUSUSUSUSUSUSUSUSYGUSUSUSacacacacacacacacacacacacacacacacacacaFacacacacacTzTwHFtAtAtAtAtAtAtAVJtAtAtAHFtAtAtAtAtAtAHFHFHFZtZtZtZtTwVjVjsnsnTPrGrGCYZtsnsnZtafafZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
+klklCiacaFacadacacacacacadacacadacacacacacaZacacacacacadacacacacacNNWlJhJhOHdqOHIEacacacacacacacacacacacUSUSUSaZacacacacUSUSacaqacacacaqacacacacacacacacaqacacacacacacacaFacTzTwHFtAtAtAtAtAtAtAVJtAHFHFHFtAtAuHtAtAtAHFHFHFZtZtZtZtTwTwTwBeIpTwTwTwTwTwBeIpTwTwTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
+klklCiCiCiCiCiCiCiCiCiCiCiCiCiCiCiacadacacacacacacacacacacacacaFacNNWlJhJhdqdqOHIEIEIEIEIEIEIEacaZacacacacUSacacacaZacacUSUSacacacacacadacaqacacacacacacacagacacacacacacadacTzTwZtZtZtIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpIpZtZtIpIpIpIpIpIpIpIpIpIpIpIpIpIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
+klklklklklklklklklklklklklklklklCiadacacacacacacacacacacacacacacacNNWlJhJhdqdqdqOHOHOHdqJhOHIEacacIEIEIEIEVzIEIEIEIEacacUSUSacacIENNNNNNIEIEIEIEIEacacacacacacacacacacacacacTzTwZtZtZtIpNkOUOUOUOUOUOUOUOUOUOUOUOUOUOUOUOUOUiJIpZtZtIpNkOUOUOUOUOUOUOUOUOUOUiJIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
+klklklklklklklklklklklklklklklklCiacacacacacacadacaZacacacacacacacIEdqdqdqkzkzmJkzdqJhdqJhOHIEacaZIEOHOHOHOHOHHyZwIEaZacUSUSacacIETFTFTFIEuTOHHyIEacacacacacacacacacacacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpIpZtZtwYPBPBPBPBPBPBPBPBPBPBPBGtTwhIaqCiklkl
+klklklklklklklklklklklklklklklklCiacadacacacacacacacacaFacaFacacacIEdqdqkzkzdqdqmJkzJhdqJhOHIEacacIEUTXVkkBMOHOHOHIEaZacUSUSacacIEUsVHBMNAOHOHLwIEacagacacaqaDacadacacacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpIpZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
+klklklklklklklklklklklklklklklklCiadacacacacacacacacacacacaKacacacIEOHOHdqdqdqdqOHdqwZOHOHOHIEacacIEeOXVIyBMOHOHjmIEacacUSUSacaDIEeODmBMIEOHOHOHIEacacacacacacacacaqacacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
+klklklklklklklklklklklklklklklklCiacacacacaZacacacacacacacacacacaFIEIEIEIEIEIEIEIEIEIEIEIEIEIEacacIEOHOHOHOHOHOHOHIEacacUSUSacacIvOHOHOHIEIEIEIEIEacaqadacacacagacacacacagacTzTwZtorZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBSWPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
+klklklklklklklklklklklklklklklklCiadadacacacacacacacacacacacacacacacacacacacacacacacacacacacacaZacIEIENAIEIEIENAIEIEacaZUSUSacacIvOHOHOHIEIEIEIEIEacacacacacacaqacacacacacaFTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBSWPBPBPBPBJrIpZtZtIpwYPBPBPBSWPBPBPBPBSWPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
+klklklklklklklklklklklklklklklklCiacacacacacacaZacacadacacacacaFacaFacaFacacacacacagacacacacacacacIEUvOHVxIEUvOHOHIEacacUSUSacacIEOHOHOHIEuTOHZwIEacacacagacacacacacaFacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBSWPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
+klklklZmZmZmZmZmZmZmklklklklklklCiadadacacacacacacacacaFacaZacacacacacacacacacacacacacacaZacacacacIEnHOHOHIEOHOHjmIEacacUSUSacacIEXVKuOHNAOHOHKBIEacacaqacacacacacacacacacacTzTwZtZtZtIpwYPBPBPBPBPBSWSWPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
+klklklZmfYlxzLtkzfZmklklklklklklCiacacacacacadacacacacaFacacacacacacacacacacacacacaZacacadacacacacIEOHTxHyIEOHxaHyIEaZacUSUSacacIELncfXVIEOHdQOHIEacacacacacacacacaFacagacacTzTwZtZtZtIpwYPBPBPBPBPBSWSWPBPBPBPBPBPBPBPBPBPBJrIpZtZtIpwYPBPBPBPBPBPBPBPBPBPBJrIpIpZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
+klklklZmXWYSuJRtFWZmklklklklklklCiacadacacacaFacacacacacacagacacacaFacadacacacacacacacacacacacacacIEIEIEIEIEIEIEIEIEacacUSUSacacIEIEIEIEIEIEIEIEIEacacacacacadacacacacacaFacTzTwZtZtZtIpwYPBPBSWPBPBPBPBPBPBPBPBPBPBPBPBPBSWhbGOororIpwYPBPBPBPBPBPBPBPBPBPBJrIpIpZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIaqCiklkl
+klklklZmFWFWFWFWFWZmklklklklklklCiadacacacacacacacacacacacacacacacbhacacaZacacacacacaZacacacaZacacaXacacacacacacacacacacUSUSacagacacacacacacacacbVacacacacacacaqacacaFacacacTzTwZtZtZtIpwYPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBPBSWhbGOororIpwYPBPBPBPBPBPBPBPBPBPBJrIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBGtTwhIacCiklkl
 klklklZmFWFWFWFWFWZmklklklklklklCiadadacaFacacacadaZacacacacaZacacacacacacacadacacacacacacacacacacaXacacacacacagacacaZacacacacacacacacacagacacacbVacaFaFacacagacacacacacacacTzTwZtZtZtIphzylylylylylylylylylylylylylylylylyllCIpZtZtIphzylylylylylylylylylyllCIpTwZtZtwYPBPBPBPBPBPBPBPBPBPBPBPBTwhIacCiklkl
 klklklZmFWFWFWFWFWZmklklklklklklCiacaFacacacacagacaZagacacacacacaZacacacacacacacacacacacacacacacacaXbWacbWacbWacbWacbWacacacacbWacbWacbWacbWacbWbVaKacacacacacacacacadacacacTzTwZtZtjnIpIpIpIpIpIpIpIpIponIpIpIpIpIpIpIponIpIpIpIpIpIpIpIpIponIpIpIpIpIpIpIpIpIpTwZtZtMJPBPBPBPBPBPBloPBPBPBPBPBTwhIacCiklkl
 klklklZmFWFWAqFWFWZmklklklklklklCiboadacacacacacacaZacacacacacacadacacacacacacagacacacacacacadacacaXacacacacacacacacacacacacaZacacacacacacacacacbVacacagacacacagaFacacagacacTzTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwTwhIacCiklkl

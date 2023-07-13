@@ -130,6 +130,16 @@
 			targetturf.ex_act(1)
 		for(var/atom/A in targetturf)
 			A.ex_act(3)
+		//BoS start. Add some effects, make hole in roof if droppod fall in house
+		var/turf/above_turf = GetAbove(targetturf)
+		while(above_turf)
+			explosion(above_turf, 1, 1, 2)
+			above_turf = GetAbove(above_turf)
+		explosion(targetturf, 0, 0, 3)
+		var/datum/effect/effect/system/smoke_spread/smoke = new /datum/effect/effect/system/smoke_spread()
+		smoke.set_up(7, 0, targetturf)
+		smoke.start()
+		//BoS end
 		charge.forceMove(targetturf)
 		//The disperser is infact a taxi
 		for(var/mob/living/L in charge)
