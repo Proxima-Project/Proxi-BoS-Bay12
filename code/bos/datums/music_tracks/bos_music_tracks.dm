@@ -185,11 +185,3 @@
 	license = /decl/license/grandfathered //ee
 	url = "https://youtu.be/oU6uUEwZ8FM"
 	volume = 30
-
-/decl/audio/track/thisworld
-	title = "This World Then Next"
-	author = "Rik Schaffer"
-	source = 'sound/music/bos/thisworld.ogg'
-	license = /decl/license/grandfathered //ee
-	url = "https://youtu.be/H0RJBvgynFw"
-	volume = 30

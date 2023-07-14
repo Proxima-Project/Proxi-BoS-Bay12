@@ -142,14 +142,9 @@
 
 //PLANETSIDE CASTELNAU//
 	#include "../away/cadaab/cadaab_castelnau.dm"
-//	#include "cadaab/castelnau-1-cadaab.dmm"
-//	#include "cadaab/castelnau-2-cadaab.dmm"
-//	#include "cadaab/castelnau-3-cadaab.dmm"
-
-//EVENT MAP
-#warn USING EVENT MAP
-	#include "mjolnir/areas.dm"
-	#include "mjolnir/mjolnir_surface.dmm"
+	#include "cadaab/castelnau-1-cadaab.dmm"
+	#include "cadaab/castelnau-2-cadaab.dmm"
+	#include "cadaab/castelnau-3-cadaab.dmm"
 
 //SPACE CASTELNAU///
 //	#include "castelnau-1.dmm"
