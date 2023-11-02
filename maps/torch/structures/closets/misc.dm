@@ -205,6 +205,7 @@
 			/obj/item/clothing/accessory/storage/holster/thigh = 3,
 			/obj/item/storage/box/ammo/solar/full = 1,
 			/obj/item/gun/energy/gun/small/secure/sec = 3,
+			/obj/item/cell/guncell/pistol/large = 3
 	)
 
 /obj/structure/closet/secure_closet/guncabinet/sidearm/combined

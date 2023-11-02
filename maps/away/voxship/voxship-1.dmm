@@ -17,12 +17,12 @@
 /area/voxship/ofd)
 "ab" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 4;
 	frequency = 1443;
 	icon_state = "map_injector";
 	id = "air_in";
 	injecting = 1;
-	use_power = 1;
-	dir = 4
+	use_power = 1
 	},
 /turf/simulated/floor/reinforced/nitrogen,
 /area/voxship/engineering)
@@ -157,8 +157,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
-	name = "gasrooms";
-	id_tag = "gasroom"
+	id_tag = "gasroom";
+	name = "gasrooms"
 	},
 /turf/simulated/floor/plating/vox,
 /area/voxship/engineering)
@@ -326,9 +326,9 @@
 /area/voxship/misslie)
 "dx" = (
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
+	dir = 4;
 	internal_pressure_bound = 35000;
-	internal_pressure_bound_default = 35000;
-	dir = 4
+	internal_pressure_bound_default = 35000
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/voxship/engineering)
@@ -361,8 +361,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
-	name = "gasrooms";
-	id_tag = "gasroom"
+	id_tag = "gasroom";
+	name = "gasrooms"
 	},
 /turf/simulated/floor/plating/vox,
 /area/voxship/engineering)
@@ -404,9 +404,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/machinery/button/blast_door{
-	pixel_x = -24;
 	id_tag = "gasroom";
-	name = "Gasroom"
+	name = "Gasroom";
+	pixel_x = -24
 	},
 /turf/simulated/floor/plating/vox,
 /area/voxship/engineering)
@@ -2166,12 +2166,12 @@
 	icon_state = "intact"
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 4;
 	frequency = 1443;
 	icon_state = "map_injector";
 	id = "air_in";
 	injecting = 1;
-	use_power = 1;
-	dir = 4
+	use_power = 1
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/voxship/engineering)
@@ -2580,6 +2580,15 @@
 	},
 /obj/structure/table/rack,
 /obj/machinery/light,
+/obj/item/cell/guncell/vox/overcharged,
+/obj/item/cell/guncell/vox/overcharged,
+/obj/item/cell/guncell/vox/overcharged,
+/obj/item/cell/guncell/vox/overcharged,
+/obj/item/cell/guncell/vox/overcharged,
+/obj/item/cell/guncell/vox/overcharged,
+/obj/item/cell/guncell/vox/overcharged,
+/obj/item/cell/guncell/vox/overcharged,
+/obj/item/cell/guncell/vox/overcharged,
 /turf/simulated/floor/reinforced/vox,
 /area/voxship/dock)
 "CE" = (
@@ -3553,6 +3562,14 @@
 "LP" = (
 /obj/machinery/light,
 /obj/structure/table/rack,
+/obj/item/cell/guncell/vox,
+/obj/item/cell/guncell/vox,
+/obj/item/cell/guncell/vox,
+/obj/item/cell/guncell/vox,
+/obj/item/cell/guncell/vox,
+/obj/item/cell/guncell/vox,
+/obj/item/cell/guncell/vox,
+/obj/item/cell/guncell/vox,
 /turf/simulated/floor/reinforced/vox,
 /area/voxship/dock)
 "LQ" = (
@@ -3656,8 +3673,8 @@
 /obj/structure/cable{
 	d1 = 16;
 	d2 = 0;
-	icon_state = "16-0";
-	dir = 1
+	dir = 1;
+	icon_state = "16-0"
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -3956,8 +3973,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
-	name = "gasrooms";
-	id_tag = "gasroom"
+	id_tag = "gasroom";
+	name = "gasrooms"
 	},
 /turf/simulated/floor/plating/vox,
 /area/voxship/engineering)
@@ -4018,8 +4035,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
-	name = "gasrooms";
-	id_tag = "gasroom"
+	id_tag = "gasroom";
+	name = "gasrooms"
 	},
 /turf/simulated/floor/plating/vox,
 /area/voxship/engineering)
@@ -4099,8 +4116,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
-	name = "gasrooms";
-	id_tag = "gasroom"
+	id_tag = "gasroom";
+	name = "gasrooms"
 	},
 /turf/simulated/floor/plating/vox,
 /area/voxship/engineering)
@@ -4354,8 +4371,8 @@
 /obj/machinery/button/blast_door{
 	dir = 1;
 	id_tag = "vox_ofd";
-	pixel_y = -20;
-	pixel_x = -23
+	pixel_x = -23;
+	pixel_y = -20
 	},
 /obj/structure/window/phoronreinforced{
 	dir = 1
@@ -4654,8 +4671,8 @@
 /obj/effect/wallframe_spawn/alien,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular{
-	name = "gasrooms";
-	id_tag = "gasroom"
+	id_tag = "gasroom";
+	name = "gasrooms"
 	},
 /turf/simulated/floor/plating/vox,
 /area/voxship/engineering)
